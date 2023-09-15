@@ -1,0 +1,16 @@
+
+[additional]
+	#Enable or disable Ultimate Furnaces Addon
+	enable_ultimatefurnaces = true
+
+[jei]
+	# Enable or disable the Catalysts in Jei for BetterFurnaces.
+	enable_jei_catalysts = true
+	# Enable or disable the JeiPlugin of BetterFurnaces.
+	enable_jei = false
+
+[check_updates]
+	# true = check for updates, false = don't check for updates.
+	# Default: true.
+	updates = true
+
