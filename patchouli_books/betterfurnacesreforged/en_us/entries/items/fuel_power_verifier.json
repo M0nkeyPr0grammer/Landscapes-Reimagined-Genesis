@@ -1,0 +1,12 @@
+{
+  "name": "Fuel Power Verifier",
+  "icon": "betterfurnacesreforged:fuel_verifier",
+  "category": "patchouli:items",
+  "pages": [
+  "The Fuel Power Verifier is used to check how many items a fuel source is able to smelt.",  
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:fuel_verifier"
+    }
+  ]
+}

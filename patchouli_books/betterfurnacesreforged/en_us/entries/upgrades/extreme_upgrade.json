@@ -1,0 +1,12 @@
+{
+  "name": "Extreme Upgrade",
+  "icon": "betterfurnacesreforged:extreme_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade upgrades the netherhot furnace tier to an extreme furnace tier.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_extreme"
+    }
+  ]
+}

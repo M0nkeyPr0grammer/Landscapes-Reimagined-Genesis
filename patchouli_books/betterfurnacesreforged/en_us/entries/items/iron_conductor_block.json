@@ -1,0 +1,12 @@
+{
+  "name": "Iron Conductor Block",
+  "icon": "betterfurnacesreforged:iron_conductor_block",
+  "category": "patchouli:items",
+  "pages": [
+  "The Iron Conductor Block is used as a crafting ingredient for $(l:upgrades)upgrades/$, $(l:furnaces)furnaces/$, and $(l:forges)forges/$.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:iron_conductor_block"
+    }
+  ]
+}

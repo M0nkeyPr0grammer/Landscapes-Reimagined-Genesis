@@ -1,0 +1,12 @@
+{
+  "name": "Platinum Upgrade",
+  "icon": "betterfurnacesreforged:platinum_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade upgrades the diamond furnace tier to a platinum furnace tier.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:platinum_upgrade"
+    }
+  ]
+}

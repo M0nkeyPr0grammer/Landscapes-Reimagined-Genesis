@@ -1,0 +1,13 @@
+{
+  "name": "Copper Forge",
+  "icon": "betterfurnacesreforged:copper_forge",
+  "category": "patchouli:forges",
+  "pages": [
+  "The Copper forge is 1.14x more faster than the vanilla furnace, with 2 additional smelting slots, below is the recipe for it. This forge can use any of these $(l:upgrades)upgrades/$, and requires the $(l:patchouli:furnaces/copper_furnace)copper furnace/$ to craft. Additionally it requires 1 $(l:patchouli:items/iron_conductor_block)iron conductor block/$ in its recipe",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:copper_forge"
+    }
+  ]
+}
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Ore Processing Upgrade",
+  "icon": "betterfurnacesreforged:ore_processing_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade doubles the amount that each smelted ore gives. Additionally uses a $(l:patchouli:items/iron_conductor_block)iron conductor block/$ in its recipe.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_ore"
+    }
+  ]
+}

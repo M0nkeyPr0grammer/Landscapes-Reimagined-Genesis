@@ -1,0 +1,12 @@
+{
+  "name": "XP Tank Upgrade",
+  "icon": "betterfurnacesreforged:xp_tank_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade turns the resulting xp from the furnace/ forge into a liquid xp in a created tank.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_xp"
+    }
+  ]
+}

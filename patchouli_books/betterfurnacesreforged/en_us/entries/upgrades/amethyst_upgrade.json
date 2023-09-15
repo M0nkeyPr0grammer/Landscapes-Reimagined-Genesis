@@ -1,0 +1,12 @@
+{
+  "name": "Amethyst Upgrade",
+  "icon": "betterfurnacesreforged:amethyst_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade upgrades the gold furnace tier to a amethyst furnace tier, using a $(l:patchouli:items/gold_conductor_block)gold conductor block/$ in its recipe",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:amethyst_upgrade"
+    }
+  ]
+}

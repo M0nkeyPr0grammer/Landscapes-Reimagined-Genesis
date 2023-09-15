@@ -1,0 +1,12 @@
+{
+  "name": "Piping Upgrade",
+  "icon": "betterfurnacesreforged:iron_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade changes the way hoppers and pipes interact with your furnace, the sides you specify are the side where they put stuff into / take stuff out of.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_piping"
+    }
+  ]
+}

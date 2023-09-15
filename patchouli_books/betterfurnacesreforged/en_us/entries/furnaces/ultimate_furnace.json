@@ -1,0 +1,12 @@
+{
+  "name": "Ultimate Furnace",
+  "icon": "betterfurnacesreforged:ultimate_furnace",
+  "category": "patchouli:furnaces",
+  "pages": [
+  "The Ultimate furnace is 200x more faster than the vanilla furnace, below is the recipe for it. This furnace can use any of these $(l:upgrades)upgrades/$, and requires the $(l:patchouli:furnaces/extreme_furnace)extreme furnace/$ to craft. Additionally it requires the $(l:patchouli:items/netherhot_conductor_block)netherhot/$, $(l:patchouli:items/iron_conductor_block)iron/$, and $(l:patchouli:items/gold_conductor_block)gold conductor blocks/$ in its recipe. Also with it being the heighest tier, it requires Netherite in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:ultimate_furnace"
+    }
+  ]
+}

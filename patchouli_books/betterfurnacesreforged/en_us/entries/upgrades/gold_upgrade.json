@@ -1,0 +1,12 @@
+{
+  "name": "Gold Upgrade",
+  "icon": "betterfurnacesreforged:gold_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade upgrades the iron furnace tier to a gold furnace tier, using a $(l:patchouli:items/gold_conductor_block)gold conductor block/$ in its recipe",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_gold"
+    }
+  ]
+}
