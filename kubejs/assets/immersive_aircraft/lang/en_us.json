@@ -1,0 +1,11 @@
+{
+  "item.immersive_aircraft.boiler": "Basic Engine",
+  "item.immersive_aircraft.engine": "Advanced Engine",
+  "item.immersive_aircraft.sail": "Large Sail",
+  "item.immersive_aircraft.propeller": "Large Propeller",
+  "item.immersive_aircraft.enhanced_propeller": "Brass Propeller",
+  "item.immersive_aircraft.eco_engine": "Hydraulic Engine",
+  "item.immersive_aircraft.nether_engine": "Combustion Engine",
+  "item.immersive_aircraft.steel_engine": "Iron Boiler",
+  "item.immersive_aircraft.hull_reinforcement": "Reinforced Hull"
+}
