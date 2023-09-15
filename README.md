@@ -1,1 +1,58 @@
 # Landscapes Reimagined
+![Better Villages, plains village with shaders](https://cdn.modrinth.com/data/MdznSbKA/images/b1ae18183a43f8fe4e0f05b4bc9494ece12bab7c.png)
+## Description
+Discover the meticulously curated **Landscapes Reimagined** Vanilla Plus modpack, a synergistic amalgamation of mods revolutionizing your Minecraft journey. Encounter breathtaking landscapes and intricate structures, amplified by our world generation and structure mods. Experience optimal gaming, courtesy of performance-boosting mods eliminating potential lags. We've tackled limited inventory space with innovative storage solutions, simplifying resource management. With the inclusion of the renowned Create mod and others offering vanilla-like block variations, diversity in your building projects is at your fingertips. Landscapes Reimagined retains the charm of Vanilla Minecraft, all while embracing a wealth of engaging features.
+
+Download Landscapes Reimagined today and dive into an elevated Minecraft adventure, striking a perfect balance between originality and innovation. The adventure awaits!
+#### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
+
+### Want to setup a server using our official server host, click the banner below!
+[![BisectHosting Code](https://www.bisecthosting.com/partners/custom-banners/233f873f-6ff2-47cd-8a01-1a90c45bdb01.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth)
+
+# Included Content
+## Mods
+### Modrinth
+- [Mod List provided on Discord](https://discord.gg/quenZthXgy) - Check here for more information
+### Curseforge
+- [Explorer's Compass](https://www.curseforge.com/minecraft/mc-mods/explorers-compass)
+- [Item Scroller](https://www.curseforge.com/minecraft/mc-mods/item-scroller)
+- [Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica)
+- [Lootr](https://www.curseforge.com/minecraft/mc-mods/lootr-fabric)
+- [MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib)
+- [Minihud](https://www.curseforge.com/minecraft/mc-mods/minihud)
+- [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
+- [Tweakeroo](https://www.curseforge.com/minecraft/mc-mods/tweakeroo)
+- [Create Deco Fabric](https://www.curseforge.com/minecraft/mc-mods/create-deco-fabric)
+- [Servux](https://www.curseforge.com/minecraft/mc-mods/servux)
+- [Create Chunkloading](https://www.curseforge.com/minecraft/mc-mods/create-chunkloading)
+- [Iris Flywheel Compact](https://www.curseforge.com/minecraft/mc-mods/iris-flywheel-compat)
+- [Dynamic View[Fabric]](https://www.curseforge.com/minecraft/mc-mods/dynamic-view-fabric)
+- [Bountiful](https://www.curseforge.com/minecraft/mc-mods/bountiful-fabric)
+- [Kambrik](https://www.curseforge.com/minecraft/mc-mods/kambrik)
+- [Stoneholm](https://www.curseforge.com/minecraft/mc-mods/stoneholm)
+## Datapacks, Resource Packs, and Shaders
+### Datapacks
+- [Remove Terralith Intro Message](https://modrinth.com/datapack/remove-terralith-intro-message)
+- [Create Structures](https://modrinth.com/datapack/create-structures)
+- [Repurposed Structures (Better Desert Temples Compat)](https://modrinth.com/datapack/repurposed-structures-better-desert-temples-compat)
+- [Repurposed Structures (Better Strongholds Compat)](https://modrinth.com/datapack/repurposed-structures-better-strongholds-compat)
+- [Repurposed Structures (Better Ocean Monuments Compat)](https://modrinth.com/datapack/repurposed-structures-better-ocean-monuments-compat)
+- [Repurposed Structures (Better Dungeons Compat)](https://modrinth.com/datapack/repurposed-structures-better-dungeons-compat)
+- [Repurposed Structures (Better Witch Huts Compat)](https://modrinth.com/datapack/repurposed-structures-better-witch-huts-compat)
+- [Repurposed Structures (Friends and Foes Compat)](https://modrinth.com/datapack/repurposed-structures-friends-and-foes-compat)
+- [Repurposed Structures (Bountiful Compat)](https://modrinth.com/datapack/repurposed-structures-bountiful-compat)
+- [Repurposed Structures (VillagerPlus Compat)](https://modrinth.com/datapack/repurposed-structures-villagerplus-compat)
+- [Repurposed Structures (Farmer's Delight Compat)](https://modrinth.com/datapack/repurposed-structures-farmers-delight-compat)
+### Resource Packs
+- [Landscapes Reimagined Dark Mode](https://modrinth.com/resourcepack/landscapes-reimagined-dark-mode) 
+- [Reinforced Barrels Retextured](https://modrinth.com/resourcepack/reinforced-barrels-retextured) *
+- [Reinforced Chests Retextured](https://modrinth.com/resourcepack/reinforced-chests-retextured) *
+- [Better Furnaces Reforged Retextured](https://modrinth.com/resourcepack/better-furnaces-reforge-retextured) *
+- [Incendium Optional Resourcepack](https://modrinth.com/resourcepack/incendium-optional-resourcepack)
+- [Tom's Create Storage](https://www.curseforge.com/minecraft/texture-packs/create-simple-storage) *
+- [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack) *
+- [LootrChestRetexture for Create!](https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create) *
+### Shaders
+- [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined)
+
+##### * *As of version 1.17 will be embedded into the pack via KubeJS*
