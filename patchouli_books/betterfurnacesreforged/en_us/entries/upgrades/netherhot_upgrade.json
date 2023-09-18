@@ -1,0 +1,12 @@
+{
+  "name": "Netherhot Upgrade",
+  "icon": "betterfurnacesreforged:netherhot_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade upgrades the diamond furnace tier to a netherhot furnace tier, using a $(l:patchouli:items/netherhot_conductor_block)netherhot conductor block/$ in its recipe",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_netherhot"
+    }
+  ]
+}

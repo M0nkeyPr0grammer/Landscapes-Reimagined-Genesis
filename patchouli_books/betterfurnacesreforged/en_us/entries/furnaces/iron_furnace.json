@@ -1,0 +1,13 @@
+{
+  "name": "Iron Furnace",
+  "icon": "betterfurnacesreforged:iron_furnace",
+  "category": "patchouli:furnaces",
+  "pages": [
+  "The Iron furnace is 1.33x more faster than the vanilla furnace, below is the recipe for it. This furnace can use any of these $(l:upgrades)upgrades/$, and requires the $(#0000FF)regular/$ or $(l:patchouli:furnaces/copper_furnace)copper furnace/$ to craft. Additionally it requires a $(l:patchouli:items/iron_conductor_block)iron conductor block/$ in one of its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:iron_furnace",
+	  "recipe2": "betterfurnacesreforged:iron_furnace"
+    }
+  ]
+}

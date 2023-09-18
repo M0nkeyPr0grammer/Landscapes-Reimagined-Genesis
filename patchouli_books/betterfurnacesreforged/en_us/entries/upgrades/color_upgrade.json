@@ -1,0 +1,12 @@
+{
+  "name": "Color Upgrade",
+  "icon": "betterfurnacesreforged:color_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade allows you to change the color of the furnace, using a $(l:patchouli:items/gold_conductor_block)gold conductor block/$ in its recipe.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:color_upgrade"
+    }
+  ]
+}

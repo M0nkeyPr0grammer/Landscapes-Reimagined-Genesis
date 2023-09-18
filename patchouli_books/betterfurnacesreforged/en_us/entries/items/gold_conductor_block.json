@@ -1,0 +1,12 @@
+{
+  "name": "Gold Conductor Block",
+  "icon": "betterfurnacesreforged:gold_conductor_block",
+  "category": "patchouli:items",
+  "pages": [
+  "The Gold Conductor Block is used as a crafting ingredient for $(l:upgrades)upgrades/$, $(l:furnaces)furnaces/$, and $(l:forges)forges/$.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:gold_conductor_block"
+    }
+  ]
+}

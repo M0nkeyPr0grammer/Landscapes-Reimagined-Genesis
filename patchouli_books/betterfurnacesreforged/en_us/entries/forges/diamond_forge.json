@@ -1,0 +1,12 @@
+{
+  "name": "Diamond Forge",
+  "icon": "betterfurnacesreforged:diamond_forge",
+  "category": "patchouli:forges",
+  "pages": [
+  "The Diamond forge is 4x more faster than the vanilla furnace, with 2 additional smelting slots, below is the recipe for it. This forge can use any of these $(l:upgrades)upgrades/$, and requires the $(l:patchouli:furnaces/diamond_furnace)diamond furnace/$ to craft. Additionally it requires 2 $(l:patchouli:items/gold_conductor_block)gold conductor blocks/$ in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:diamond_forge"
+    }
+  ]
+}

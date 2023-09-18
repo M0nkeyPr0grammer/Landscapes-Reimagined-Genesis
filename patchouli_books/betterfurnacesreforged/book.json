@@ -1,0 +1,9 @@
+{
+  "name": "BetterFurnaces",
+  "landing_text": "This guide is designed to provide comprehensive insights into the 'BetterFurnaces Reforged' mod. $(br2)/$$(br)/$created by M0nkeyPr0grammer",
+  "version": "0",
+  "creative_tab": "betterfurnacesreforged.main",
+  "show_progress": true,
+  "nameplate_color": "dddddd",
+  "model": "patchouli:book_brown"
+}

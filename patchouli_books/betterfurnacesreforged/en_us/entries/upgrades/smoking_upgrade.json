@@ -1,0 +1,12 @@
+{
+  "name": "Smoking Upgrade",
+  "icon": "betterfurnacesreforged:smoking_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade changes any furnace to a smoker. Additionally uses a $(l:patchouli:items/gold_conductor_block)gold conductor block/$ in its recipe.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_smoking"
+    }
+  ]
+}

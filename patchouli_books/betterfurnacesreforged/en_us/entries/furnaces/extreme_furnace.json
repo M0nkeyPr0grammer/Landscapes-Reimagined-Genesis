@@ -1,0 +1,12 @@
+{
+  "name": "Extreme Furnace",
+  "icon": "betterfurnacesreforged:extreme_furnace",
+  "category": "patchouli:furnaces",
+  "pages": [
+  "The Extreme furnace is 50x more faster than the vanilla furnace, below is the recipe for it. This furnace can use any of these $(l:upgrades)upgrades/$, and requires the $(l:patchouli:furnaces/netherhot_furnace)netherhot furnace/$ to craft. Additionally with it being a higher tier furnace it requires end crystals in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:extreme_furnace"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Copper Upgrade",
+  "icon": "betterfurnacesreforged:copper_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade upgrades the regular furnace tier to a copper furnace tier.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:copper_upgrade"
+    }
+  ]
+}

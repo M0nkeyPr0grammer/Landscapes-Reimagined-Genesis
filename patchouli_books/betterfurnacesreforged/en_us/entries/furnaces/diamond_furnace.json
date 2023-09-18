@@ -1,0 +1,13 @@
+{
+  "name": "Diamond Furnace",
+  "icon": "betterfurnacesreforged:diamond_furnace",
+  "category": "patchouli:furnaces",
+  "pages": [
+  "The Diamond furnace is 4x more faster than the vanilla furnace, below is the recipe for it. This furnace can use any of these $(l:upgrades)upgrades/$, and requires either the $(l:patchouli:furnaces/amethyst_furnace)amethyst/$ or $(l:patchouli:furnaces/gold_furnace)gold furnace/$ to craft.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:diamond_furnace",
+	  "recipe2": "betterfurnacesreforged:diamond_furnace"
+    }
+  ]
+}

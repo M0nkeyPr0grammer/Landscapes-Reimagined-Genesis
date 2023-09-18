@@ -1,0 +1,12 @@
+{
+  "name": "Advanced Ore Processing Upgrade",
+  "icon": "betterfurnacesreforged:advanced_ore_processing_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This Upgrade doubles infinitely the amount that each smelted ore gives. Additionally it uses a $(l:patchouli:upgrades/ore_processing_upgrade)ore processing upgrade/$ in its recipe.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_advore"
+    }
+  ]
+}

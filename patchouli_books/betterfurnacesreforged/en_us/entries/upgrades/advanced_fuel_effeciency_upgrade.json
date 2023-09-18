@@ -1,0 +1,12 @@
+{
+  "name": "Advanced Fuel Effficiency Upgrade",
+  "icon": "betterfurnacesreforged:advanced_fuel_efficiency_upgrade",
+  "category": "patchouli:upgrades",
+  "pages": [
+  "This doubles infinitely the fuel efficiency when smelting items. Additionally it uses a $(l:patchouli:upgrades/fuel_efficiency_upgrade)fuel efficiency upgrade/$ in its recipe.",
+  {
+      "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_advender"
+    }
+  ]
+}

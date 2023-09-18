@@ -1,0 +1,13 @@
+{
+  "name": "Netherhot Furnace",
+  "icon": "betterfurnacesreforged:netherhot_furnace",
+  "category": "patchouli:furnaces",
+  "pages": [
+  "The Netherhot furnace is 25x more faster than the vanilla furnace, below is the recipe for it. This furnace can use any of these $(l:upgrades)upgrades/$, and requires the $(l:patchouli:furnaces/platinum_furnace)platinum/$ or $(l:patchouli:furnaces/diamond_furnace)diamond furnace/$ to craft. Additionally it requires one or two $(l:patchouli:items/netherhot_conductor_block)netherhot conductor block/$ in its recipe.",
+    {
+      "type": "patchouli:crafting",
+	  "recipe": "ultimatefurnaces:netherhot_furnace",
+	  "recipe2": "betterfurnacesreforged:netherhot_furnace"
+    }
+  ]
+}
