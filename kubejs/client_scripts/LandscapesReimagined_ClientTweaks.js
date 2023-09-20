@@ -76,7 +76,8 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/delights", name: "Farmers and Expanded Delights", items: [
             InputItem.of('@expandeddelight'),
             InputItem.of('@farmersdelight'),
-            InputItem.of('@farmersknives')
+            InputItem.of('@farmersknives'),
+            InputItem.of('@ubesdelight'), // New Addition
         ] },
 
         { id: "kubejs:rei_groups/friendsandfoes", name: "Friends and Foes", items: [InputItem.of('@friendsandfoes')] },
@@ -110,6 +111,7 @@ REIEvents.groupEntries(event => {
                 'travelersbackpack:gold_tier_upgrade',
                 'travelersbackpack:diamond_tier_upgrade',
                 'travelersbackpack:netherite_tier_upgrade'] },
+        { id: "kubejs:rei_groups/backpacks", name: "Traveler's Backpacks", items: [InputItem.of('#trinkets:chest/back')] }, // New Addition
         { id: "kubejs:rei_groups/create", name: "Create and Addons", items: [
                 InputItem.of('@create'),
                 InputItem.of('@railways'),
@@ -118,9 +120,21 @@ REIEvents.groupEntries(event => {
                 InputItem.of('@sliceanddice'),
                 InputItem.of('@createutilities'),
                 InputItem.of('@createchunkloading'),
-                'create:chromatic_compound'
+                'create:chromatic_compound',
+                InputItem.of('@createoreexcavation') // New Addition
             ] },
-   
+        
+        // V2.0.0 New Mod Additions
+        { id: "kubejs:rei_groups/betternether", name: "Better Nether", items: [InputItem.of('@betternether')] },
+        { id: "kubejs:rei_groups/betterarch", name: "Better Archeology", items: [InputItem.of('@betterarcheology')] },
+        { id: "kubejs:rei_groups/betterend", name: "Better End", items: [InputItem.of('@betterend')] },
+        { id: "kubejs:rei_groups/creeperoverhaul", name: "Creeper Overhaul", items: [InputItem.of('@creeperoverhaul')] },
+        { id: "kubejs:rei_groups/fishofthieves", name: "Fish of Thieves", items: [InputItem.of('@fishofthieves')] },
+        { id: "kubejs:rei_groups/magnumtorch", name: "Magnmum Torches", items: [InputItem.of('@magnumtorch')] },
+        { id: "kubejs:rei_groups/regions", name: "Regions Unexplored", items: [InputItem.of('@regions_unexplored')] },
+        { id: "kubejs:rei_groups/waystones", name: "Waystones", items: [InputItem.of('@waystones')] },
+        { id: "kubejs:rei_groups/wunderreich", name: "Wunderreich", items: [InputItem.of('@wunderreich')] },
+        
     ];
 
     for (const group of groups) {
@@ -147,7 +161,8 @@ REIEvents.groupEntries(event => {
         'railways:brown_conductor_cap',
         'railways:green_conductor_cap',
         'railways:red_conductor_cap',
-        'railways:black_conductor_cap'
+        'railways:black_conductor_cap',
+        'wunderreich:whisperer'
     ];
 
     useNbt.forEach(id => {
@@ -229,6 +244,9 @@ function getID(id) {
     }
     else if (id == 'railways:black_conductor_cap') {
         return "Black Conductor Caps";         
-    } return id;
+    }
+    else if (id == 'wunderreich:whisperer') {
+    return "Whisperers";
+} return id;
 };
 
