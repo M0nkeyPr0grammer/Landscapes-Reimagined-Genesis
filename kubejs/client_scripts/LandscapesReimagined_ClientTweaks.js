@@ -45,7 +45,10 @@ REIEvents.hide('item', event => {
         'moonlight:placeable_item',
         Item.of('minecraft:white_banner', '{BlockEntityTag:{Patterns:[{Color:9,Pattern:"mr"},{Color:8,Pattern:"bs"},{Color:7,Pattern:"cs"},{Color:8,Pattern:"bo"},{Color:15,Pattern:"ms"},{Color:8,Pattern:"hh"},{Color:8,Pattern:"mc"},{Color:15,Pattern:"bo"}],id:"minecraft:banner"},HideFlags:32,display:{Name:\'{"color":"gold","translate":"block.minecraft.ominous_banner"}\'}}'),
         'farmersknives:ruby_knife',
-        'farmersknives:steel_knife_et'
+        'farmersknives:steel_knife_et',
+        'wunderreich:wunder_kiste',
+        'frozenlib:camera',
+        'frozenlib:loot_table_whacker'
     ];
 
     itemsToHide.forEach(item => event.hide(item));
