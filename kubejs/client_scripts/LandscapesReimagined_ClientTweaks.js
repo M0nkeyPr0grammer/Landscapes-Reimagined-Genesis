@@ -139,6 +139,7 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/wunderreich", name: "Wunderreich", items: [InputItem.of('@wunderreich')] },
         { id: "kubejs:rei_groups/wilderwild", name: "Wilder Wild", items: [InputItem.of('@wilderwild')] },
         { id: "kubejs:rei_groups/wildlife", name: "Wildlife", items: [InputItem.of('@wildlife')] },
+        { id: "kubejs:rei_groups/lieonlion", name: "More Chest and Crafting Tables", items: [InputItem.of('@lolmcv'), InputItem.of('@lolmct')] },
     ];
 
     for (const group of groups) {
