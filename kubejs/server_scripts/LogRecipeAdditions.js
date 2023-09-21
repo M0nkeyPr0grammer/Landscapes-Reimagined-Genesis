@@ -1,19 +1,39 @@
 // Log Recipe Additions
 ServerEvents.recipes(event => {
-	/*
+	
 	// Alternate Chest Recipes
 	var chest_types = [
-		['charm:oak_chest', 'minecraft:oak_log'],
-		['charm:acacia_chest', 'minecraft:acacia_log'],
-		['charm:birch_chest', 'minecraft:birch_log'],
-		['charm:spruce_chest', 'minecraft:spruce_log'], 
-		['charm:dark_oak_chest', 'minecraft:dark_oak_log'],
-		['charm:jungle_chest', 'minecraft:jungle_log'],
-		['charm:mangrove_chest', 'minecraft:mangrove_log'],
-		['charm:ebony_chest', 'charm:ebony_log'],
-		['charm:azalea_chest', 'charm:azalea_log'],
-		['charm:warped_chest', 'minecraft:warped_stem'],
-		['charm:crimson_chest', 'minecraft:crimson_stem']
+		['lolmcv:oak_chest', 'minecraft:oak_log'],
+		['lolmcv:acacia_chest', 'minecraft:acacia_log'],
+		['lolmcv:birch_chest', 'minecraft:birch_log'],
+		['lolmcv:spruce_chest', 'minecraft:spruce_log'],
+		['lolmcv:dark_oak_chest', 'minecraft:dark_oak_log'],
+		['lolmcv:jungle_chest', 'minecraft:jungle_log'],
+		['lolmcv:mangrove_chest', 'minecraft:mangrove_log'],
+		['lolmcv:bamboo_chest', 'minecraft:bamboo_block'],
+		['lolmcv:cherry_chest', 'minecraft:cherry_log'],
+		['lolmcv:warped_chest', 'minecraft:warped_stem'],
+		['betternether:warped_chest', 'minecraft:warped_stem'],
+		['lolmcv:crimson_chest', 'minecraft:crimson_stem'],
+		['betternether:crimson_chest', 'minecraft:crimson_stem'],
+		['betternether:stalagnate_chest', 'betternether:stalagnate_log'],
+		['betternether:willow_chest', 'betternether:willow_log'],
+		['betternether:wart_chest', 'betternether:wart_log'],
+		['betternether:rubeus_chest', 'betternether:rubeus_log'],
+		['betternether:mushroom_fir_chest', 'betternether:mushroom_fir_log'],
+		['betternether:nether_mushroom_chest', 'betternether:nether_mushroom_stem'],
+		['betternether:anchor_tree_chest', 'betternether:anchor_tree_log'],
+		['betternether:nether_sakura_chest', 'betternether:nether_sakura_log'],
+		['betterend:mossy_glowshroom_chest', 'betterend:mossy_glowshroom_log'],
+		['betterend:pythadendron_chest', 'betterend:pythadendron_log'],
+		['betterend:end_lotus_chest', 'betterend:end_lotus_log'],
+		['betterend:lacugrove_chest', 'betterend:lacugrove_log'],
+		['betterend:dragon_tree_chest', 'betterend:dragon_tree_log'],
+		['betterend:helix_tree_chest', 'betterend:helix_tree_log'],
+		['betterend:umbrella_tree_chest', 'betterend:umbrella_tree_log'],
+		['betterend:lucernia_chest', 'betterend:lucernia_log'],
+		['betterend:tenanea_chest', 'betterend:tenanea_log'],
+		['betterend:jellyshroom_chest', 'betterend:jellyshroom_log'],
 	]
 
 	chest_types.forEach(chest_type => {
@@ -29,7 +49,7 @@ ServerEvents.recipes(event => {
 			}
 		)
 	}); 
-	*/
+	
 	// Alternate Stick Recipe
 	event.shaped(
 		Item.of('minecraft:stick', 16),
