@@ -289,7 +289,9 @@ ServerEvents.recipes(event => {
 		['enchanted-vertical-slabs:vertical_jungle_slab', 'minecraft:jungle_log'],
 		['enchanted-vertical-slabs:vertical_mangrove_slab', 'minecraft:mangrove_log'],
 		['enchanted-vertical-slabs:vertical_warped_slab', 'minecraft:warped_stem'],
-		['enchanted-vertical-slabs:vertical_crimson_slab', 'minecraft:crimson_stem']
+		['enchanted-vertical-slabs:vertical_crimson_slab', 'minecraft:crimson_stem'],
+		['enchanted-vertical-slabs:vertical_bamboo_slab', 'minecraft:bamboo_block'],
+		['enchanted-vertical-slabs:vertical_cherry_slab', 'minecraft:cherry_log'],
 	]
 
 	vertslab_types.forEach(vertslab_type => {
