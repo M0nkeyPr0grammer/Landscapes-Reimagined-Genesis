@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
 
 	// Creates Tom's Simple Storage Guide
 	event.shapeless(
-		Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:Toms_Simple_Storage"}'),
+		Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:toms_simple_storage"}'),
 		[
 			'minecraft:book',
 			'minecraft:chest'

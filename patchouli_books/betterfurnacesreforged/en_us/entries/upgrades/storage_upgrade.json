@@ -5,6 +5,8 @@
   "pages": [
   "This Upgrade adds an additional storage slot for fuel, input, and output. $(bold)Currently missing crafting recipe /$",
   {
+    "type": "patchouli:text",
+        "text": "???"
       
     }
   ]
