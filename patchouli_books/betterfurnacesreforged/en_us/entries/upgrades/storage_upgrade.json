@@ -3,11 +3,10 @@
   "icon": "betterfurnacesreforged:storage_upgrade",
   "category": "patchouli:upgrades",
   "pages": [
-  "This Upgrade adds an additional storage slot for fuel, input, and output. $(bold)Currently missing crafting recipe /$",
+  "This Upgrade adds an additional storage slot for fuel, input, and output./$",
   {
-    "type": "patchouli:text",
-        "text": "???"
-      
+	  "type": "patchouli:crafting",
+	  "recipe": "betterfurnacesreforged:up_storage"
     }
   ]
 }
