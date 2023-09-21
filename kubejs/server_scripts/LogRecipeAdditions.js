@@ -115,6 +115,8 @@ ServerEvents.recipes(event => {
 		['betternether:willow_trapdoor', 'betternether:willow_log'],
 		['regions_unexplored:willow_trapdoor', 'regions_unexplored:willow_log'],
 		['regions_unexplored:yellow_bioshroom_trapdoor', 'regions_unexplored:yellow_bioshroom_stem'],
+		['regions_unexplored:baobab_trapdoor', 'regions_unexplored:baobab_log'],
+		['regions_unexplored:cypress_trapdoor', 'regions_unexplored:cypress_log'],
 	]
 
 	trapdoor_types.forEach(trapdoor_type => {
