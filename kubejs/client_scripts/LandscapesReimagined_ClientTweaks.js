@@ -70,6 +70,10 @@ REIEvents.hide('item', event => {
 
 REIEvents.add('item', event => {
     event.add('simplevillagers:trading_block')
+    event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"deeperdarker:wanderers_notebook"}'))
+    event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:betterfurnacesreforged"}'))
+    event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:toms_simple_storage"}'))
+    event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:immersive_aircraft"}'))
 })
 
 // Groups Items in REI
