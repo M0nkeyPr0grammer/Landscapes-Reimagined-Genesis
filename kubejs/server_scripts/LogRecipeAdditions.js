@@ -308,4 +308,79 @@ ServerEvents.recipes(event => {
 		)
 	});
 
+	// Alternate Stair Recipes
+	var stairs_types = [
+		['minecraft:oak_stairs', 'minecraft:oak_log'],
+		['minecraft:acacia_stairs', 'minecraft:acacia_log'],
+		['minecraft:birch_stairs', 'minecraft:birch_log'],
+		['minecraft:spruce_stairs', 'minecraft:spruce_log'],
+		['minecraft:dark_oak_stairs', 'minecraft:dark_oak_log'],
+		['minecraft:jungle_stairs', 'minecraft:jungle_log'],
+		['minecraft:mangrove_stairs', 'minecraft:mangrove_log'],
+		['minecraft:warped_stairs', 'minecraft:warped_stem'],
+		['minecraft:crimson_stairs', 'minecraft:crimson_stem'],
+		['deeperdarker:echo_stairs', 'deeperdarker:echo_log'],
+		['minecraft:bamboo_stairs', 'minecraft:bamboo_block'],
+		['minecraft:cherry_stairs', 'minecraft:cherry_log'],
+		['wilderwild:baobab_stairs', 'wilderwild:baobab_log'],
+		['wilderwild:cypress_stairs', 'wilderwild:cypress_log'],
+		['wilderwild:palm_stairs', 'wilderwild:palm_log'],
+		['betternether:anchor_tree_stairs', 'betternether:anchor_tree_log'],
+		['regions_unexplored:blackwood_stairs', 'regions_unexplored:blackwood_log'],
+		['regions_unexplored:blue_bioshroom_stairs', 'regions_unexplored:blue_bioshroom_stem'],
+		['regions_unexplored:brimwood_stairs', 'regions_unexplored:brimwood_log'],
+		['regions_unexplored:cobalt_stairs', 'regions_unexplored:cobalt_log'],
+		['regions_unexplored:dead_stairs', 'regions_unexplored:dead_log'],
+		['betterend:dragon_tree_stairs', 'betterend:dragon_tree_log'],
+		['betterend:end_lotus_stairs', 'betterend:end_lotus_log'],
+		['regions_unexplored:eucalyptus_stairs', 'regions_unexplored:eucalyptus_log'],
+		['regions_unexplored:green_bioshroom_stairs', 'regions_unexplored:green_bioshroom_stem'],
+		['betterend:helix_tree_stairs', 'betterend:helix_tree_log'],
+		['betterend:jellyshroom_stairs', 'betterend:jellyshroom_log'],
+		['regions_unexplored:joshua_stairs', 'regions_unexplored:joshua_log'],
+		['regions_unexplored:kapok_stairs', 'regions_unexplored:kapok_log'],
+		['betterend:lacugrove_stairs', 'betterend:lacugrove_log'],
+		['regions_unexplored:larch_stairs', 'regions_unexplored:larch_log'],
+		['betterend:lucernia_stairs', 'betterend:lucernia_log'],
+		['regions_unexplored:magnolia_stairs', 'regions_unexplored:magnolia_log'],
+		['regions_unexplored:maple_stairs', 'regions_unexplored:maple_log'],
+		['regions_unexplored:mauve_stairs', 'regions_unexplored:mauve_log'],
+		['betterend:mossy_glowshroom_stairs', 'betterend:mossy_glowshroom_log'],
+		['betternether:mushroom_fir_stairs', 'betternether:mushroom_fir_log'],
+		['betternether:nether_mushroom_stairs', 'betternether:nether_mushroom_stem'],
+		['betternether:nether_sakura_stairs', 'betternether:nether_sakura_log'],
+		['regions_unexplored:palm_stairs', 'regions_unexplored:palm_log'],
+		['regions_unexplored:pine_stairs', 'regions_unexplored:pine_log'],
+		['regions_unexplored:pink_bioshroom_stairs', 'regions_unexplored:pink_bioshroom_stem'],
+		['betterend:pythadendron_stairs', 'betterend:pythadendron_log'],
+		['regions_unexplored:redwood_stairs', 'regions_unexplored:redwood_log'],
+		['betterarcheology:rotten_stairs', 'betterarcheology:rotten_log'],
+		['betternether:rubeus_stairs', 'betternether:rubeus_log'],
+		['regions_unexplored:socotra_stairs', 'regions_unexplored:socotra_log'],
+		['betternether:stalagnate_stairs', 'betternether:stalagnate_log'],
+		['betterend:tenanea_stairs', 'betterend:tenanea_log'],
+		['betterend:umbrella_tree_stairs', 'betterend:umbrella_tree_log'],
+		['betternether:wart_stairs', 'betternether:wart_log'],
+		['betternether:willow_stairs', 'betternether:willow_log'],
+		['regions_unexplored:willow_stairs', 'regions_unexplored:willow_log'],
+		['regions_unexplored:yellow_bioshroom_stairs', 'regions_unexplored:yellow_bioshroom_stem'],
+		['regions_unexplored:baobab_stairs', 'regions_unexplored:baobab_log'],
+		['regions_unexplored:cypress_stairs', 'regions_unexplored:cypress_log'],
+		['regions_unexplored:alpha_stairs', 'regions_unexplored:alpha_log'],
+	]
+
+	stairs_types.forEach(stairs_type => {
+		event.shaped(
+			Item.of(stairs_type[0], 16),
+			[
+				'A  ',
+				'AA ',
+				'AAA'
+			],
+			{
+				A: stairs_type[1]
+			}
+		)
+	});
+
 });
