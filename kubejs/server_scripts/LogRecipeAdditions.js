@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
 	
 	// Alternate Chest Recipes
 	var chest_types = [
-		['lolmcv:oak_chest', 'minecraft:oak_log'],
+		['minecraft:chest', 'minecraft:oak_log'],
 		['lolmcv:acacia_chest', 'minecraft:acacia_log'],
 		['lolmcv:birch_chest', 'minecraft:birch_log'],
 		['lolmcv:spruce_chest', 'minecraft:spruce_log'],
