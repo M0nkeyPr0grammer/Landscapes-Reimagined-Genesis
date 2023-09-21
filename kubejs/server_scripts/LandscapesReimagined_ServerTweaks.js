@@ -3,9 +3,8 @@
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 ServerEvents.recipes(event => {
-	// Change recipes here
-	event.remove({ id: 'deeperdarker:echo_boat' }) // Removes Echo boat recipes
-	event.remove({ id: 'deeperdarker:echo_chest_boat' }) // Removes Echo chest boat recipes
+	// Remove recipes here
+	event.remove({ id: 'wunderreich:wunder_kiste' }) // Removes Wunder_Kistes
 
 	// Creates Deeper and Darker Patchouli Guide
 	event.shapeless(
