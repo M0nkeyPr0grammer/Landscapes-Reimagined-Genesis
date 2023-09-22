@@ -869,70 +869,439 @@ ServerEvents.recipes(event => {
 
 	// Better Nether Tools and Armor
 
-	// Ruby Helmet
+		// Nether Ruby Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/ruby_helmet');
 
-	// Ruby Chestplate
+		// Nether Ruby Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 4
+				}
+			]
 
-	// Ruby Leggings
+		}).id('kubejs:crushing/ruby_chestplate');
 
-	// Ruby Boots
+		// Nether Ruby Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/ruby_leggings');
 
-	// Ruby Sword
+		// Nether Ruby Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/ruby_boots');
 
-	// Ruby Pickaxe
+		// Nether Ruby Shovel
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_shovel').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_shovel');
 
-	// Ruby Axe
+		// Nether Ruby Pickaxe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_pickaxe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_pickaxe');
 
-	// Ruby Shovel
+		// Nether Ruby Axe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_axe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_axe');
 
-	// Ruby Hoe
+		// Nether Ruby Hoe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_hoe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_hoe');
+
+		// Nether Ruby Sword
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_sword').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_sword');
 
 
-	// Cincinnasite Helmet
+		// Cincinnasite Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_helmet');
 
-	// Cincinnasite Chestplate
+		// Cincinnasite Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 4
+				}
+			]
 
-	// Cincinnasite Leggings
+		}).id('kubejs:crushing/cincinnasite_chestplate');
 
-	// Cincinnasite Boots
+		// Cincinnasite Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_leggings');
 
-	// Cincinnasite Sword
+		// Cincinnasite Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_boots');
 
-	// Cincinnasite Pickaxe
+		// Cincinnasite Shovel
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_shovel').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_shovel');
 
-	// Cincinnasite Axe
+		// Cincinnasite Pickaxe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_pickaxe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_pickaxe');
 
-	// Cincinnasite Shovel
+		// Cincinnasite Axe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_axe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_axe');
 
-	// Cincinnasite Hoe
+		// Cincinnasite Hoe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_hoe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_hoe');
+
+		// Cincinnasite Sword
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_sword').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_sword');
 
 
 	// Better End Tools and Armor
 
-	// Thallasium Helmet
+		// Thallasium Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/thallasium_helmet');
 
-	// Thallasium Chestplate
+		// Thallasium Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 4
+				}
+			]
 
-	// Thallasium Leggings
+		}).id('kubejs:crushing/thallasium_chestplate');
 
-	// Thallasium Boots
+		// Thallasium Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/thallasium_leggings');
+
+		// Thallasium Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/thallasium_boots');
 
 
-	// Terminite Helmet
+		// Terminite Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/terminite_helmet');
 
-	// Terminite Chestplate
+		// Terminite Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 4
+				}
+			]
 
-	// Terminite Leggings
+		}).id('kubejs:crushing/terminite_chestplate');
 
-	// Terminite Boots
+		// Terminite Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/terminite_leggings');
+
+		// Terminite Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/terminite_boots');
 
 
-	// Iron Smith Hammer
+		// Iron Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:iron_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:iron_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/iron_hammer');
 
-	// Golden Smith Hammer
+		// Golden Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:golden_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:gold_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/golden_hammer');
 
-	// Diamond Smith Hammer
+		// Diamond Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:diamond_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:diamond',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/diamond_hammer');
 
-	// Netherite Smith Hammer
+		// Netherite Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:netherite_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:netherite_scrap',
+					count: 2
+				},
+				{
+					item: 'minecraft:diamond',
+					chance: 0.50,
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/netherite_hammer');
 
 })
