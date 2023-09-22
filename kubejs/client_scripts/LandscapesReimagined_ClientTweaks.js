@@ -62,7 +62,8 @@ REIEvents.hide('item', event => {
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"blue"}}'),
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"purple"}}'),
         'frozenlib:camera',
-        'frozenlib:loot_table_whacker'
+        'frozenlib:loot_table_whacker',
+        'seasonsextras:seasonal_compendium'
     ];
 
     itemsToHide.forEach(item => event.hide(item));

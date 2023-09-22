@@ -5,6 +5,9 @@ console.info('Hello, World! (You will see this line every time server resources 
 ServerEvents.recipes(event => {
 	// Remove recipes here
 	event.remove({ id: 'wunderreich:wunder_kiste' }) // Removes Wunder_Kistes
+	event.remove({ id: 'betterend:guidebook' }) // Removes guide book
+	event.remove({ id: 'betternether:betternether_book' }) // Removes guide book
+	event.remove({ id: 'seasonsextras:seasonal_compendium' }) // Removes Guide Book
 
 	// Creates Deeper and Darker Patchouli Guide
 	event.shapeless(
