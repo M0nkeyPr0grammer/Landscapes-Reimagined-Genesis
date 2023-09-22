@@ -45,6 +45,15 @@ ServerEvents.recipes(event => {
 		]
 	)
 
+	// Create a Quest Book Recipe
+	event.shapeless(
+		Item.of('heracles:quest_book'),
+		[
+			'minecraft:book',
+			'minecraft:emerald'
+		]
+	)
+
 	// Creates Simple Villagers Items
 	event.shaped(
 		Item.of('simplevillagers:trading_block', 1),
