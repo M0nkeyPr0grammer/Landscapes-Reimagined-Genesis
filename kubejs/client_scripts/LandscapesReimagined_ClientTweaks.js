@@ -83,8 +83,8 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/buildingblocks", name: "Building Blocks", items: [InputItem.of('%building_blocks')] },
         { id: "kubejs:rei_groups/coloredblocks", name: "Colored Blocks", items: [InputItem.of('%colored_blocks'), 'bedspreads:decorated_bed'] },
         { id: "kubejs:rei_groups/naturalblocks", name: "Natural Blocks", items: [InputItem.of('%natural_blocks')] },
-        { id: "kubejs:rei_groups/functionalblocks" , name: "Functional Blocks", items: [InputItem.of('%functional_blocks')] },
-        { id: "kubejs:rei_groups/redstoneblocks", name: "Redstone Blocks", items: [InputItem.of('%redstone_blocks')] },   
+        { id: "kubejs:rei_groups/functionalblocks", name: "Functional Blocks", items: [InputItem.of('%functional_blocks')] },
+        { id: "kubejs:rei_groups/redstoneblocks", name: "Redstone Blocks", items: [InputItem.of('%redstone_blocks')] },
         { id: "kubejs:rei_groups/toolsutilities", name: "Tools & Utilities", items: [InputItem.of('%tools_and_utilities'), 'minecraft:bundle'] },
         { id: "kubejs:rei_groups/combat", name: "Combat", items: [InputItem.of('%combat')] },
         { id: "kubejs:rei_groups/fooddrinks", name: "Food & Drinks", items: [InputItem.of('%food_and_drinks')] },
@@ -94,19 +94,23 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/chipped", name: "Chipped", items: [InputItem.of('@chipped')] },
         { id: "kubejs:rei_groups/deeperdarker", name: "Deeper and Darker", items: [InputItem.of('@deeperdarker'), 'farmersknives:warden_knife'] },
         { id: "kubeks:rei_grups/comforts", name: "Comforts", items: [InputItem.of('@comforts')] },
-        { id: "kubejs:rei_groups/delights", name: "Farmers and Expanded Delights", items: [
-            InputItem.of('@expandeddelight'),
-            InputItem.of('@farmersdelight'),
-            InputItem.of('@farmersknives'),
-            InputItem.of('@ubesdelight'), // New Addition
-        ] },
+        {
+            id: "kubejs:rei_groups/delights", name: "Farmers Delight and Addons", items: [
+                InputItem.of('@expandeddelight'),
+                InputItem.of('@farmersdelight'),
+                InputItem.of('@farmersknives'),
+                InputItem.of('@ubesdelight'), // New Addition
+            ]
+        },
 
         { id: "kubejs:rei_groups/friendsandfoes", name: "Friends and Foes", items: [InputItem.of('@friendsandfoes')] },
         { id: "kubejs:rei_groups/paintings", name: "Immersive Paintings", items: [InputItem.of('@immersive_paintings')] },
-        { id: "kubejs:rei_groups/reinforced", name: "Reinforced Barrels, Chests, and Shulker Boxes", items: [
-            InputItem.of('@reinfbarrel'),
-            InputItem.of('@reinfchest'),
-            InputItem.of('@reinfshulker')] },
+        {
+            id: "kubejs:rei_groups/reinforced", name: "Reinforced Barrels, Chests, and Shulker Boxes", items: [
+                InputItem.of('@reinfbarrel'),
+                InputItem.of('@reinfchest'),
+                InputItem.of('@reinfshulker')]
+        },
         { id: "kubejs:rei_groups/supplementaries", name: "Supplementaries", items: [InputItem.of('@supplementaries')] },
         { id: "kubejs:rei_groups/villagers", name: "Villagers Plus", items: [InputItem.of('@villagersplus')] },
         { id: "kubejs:rei_groups/deepslatecutting", name: "Deepslate Cutting", items: [InputItem.of('@deepslatecutting')] },
@@ -122,7 +126,8 @@ REIEvents.groupEntries(event => {
         { id: "kubjes:rei_groups/ores", name: "Universal Ores", items: [InputItem.of('@universal_ores')] },
         { id: "kubejs:rei_groups/simple_villagers", name: "Simple Villagers", items: [InputItem.of('@simplevillagers')] },
         { id: "kubjs:rei_groups/adorn", name: "Adorn", items: [InputItem.of('@adorn')] },
-        { id: "kubejs:rei_groups/bagitems", name: "Traveler's Backpack Items", items: [
+        {
+            id: "kubejs:rei_groups/bagitems", name: "Traveler's Backpack Items", items: [
                 '#travelersbackpack:sleeping_bags',
                 'travelersbackpack:backpack_tank',
                 'travelersbackpack:hose',
@@ -131,9 +136,10 @@ REIEvents.groupEntries(event => {
                 'travelersbackpack:iron_tier_upgrade',
                 'travelersbackpack:gold_tier_upgrade',
                 'travelersbackpack:diamond_tier_upgrade',
-                'travelersbackpack:netherite_tier_upgrade'] },
-        { id: "kubejs:rei_groups/backpacks", name: "Traveler's Backpacks", items: [InputItem.of('#trinkets:chest/back')] }, // New Addition
-        { id: "kubejs:rei_groups/create", name: "Create and Addons", items: [
+                'travelersbackpack:netherite_tier_upgrade']
+        },
+        {
+            id: "kubejs:rei_groups/create", name: "Create and Addons", items: [
                 InputItem.of('@create'),
                 InputItem.of('@railways'),
                 InputItem.of('@create_crystal_clear'),
@@ -143,8 +149,8 @@ REIEvents.groupEntries(event => {
                 InputItem.of('@createchunkloading'),
                 'create:chromatic_compound',
                 InputItem.of('@createoreexcavation') // New Addition
-            ] },
-        
+            ]
+        },
         // V2.0.0 New Mod Additions
         { id: "kubejs:rei_groups/betternether", name: "Better Nether", items: [InputItem.of('@betternether')] },
         { id: "kubejs:rei_groups/betterarch", name: "Better Archeology", items: [InputItem.of('@betterarcheology')] },
@@ -158,6 +164,9 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/wilderwild", name: "Wilder Wild", items: [InputItem.of('@wilderwild')] },
         { id: "kubejs:rei_groups/wildlife", name: "Wildlife", items: [InputItem.of('@wildlife')] },
         { id: "kubejs:rei_groups/lieonlion", name: "More Chest and Crafting Tables", items: [InputItem.of('@lolmcv'), InputItem.of('@lolmct')] },
+        { id: "kubejs:rei_groups/seasonsextras", name: "Fabric Seaons Extras", items: [InputItem.of('@seasonsextras')] },
+
+
     ];
 
     for (const group of groups) {
@@ -185,7 +194,7 @@ REIEvents.groupEntries(event => {
         'railways:green_conductor_cap',
         'railways:red_conductor_cap',
         'railways:black_conductor_cap',
-        'wunderreich:whisperer'
+        Item.of('wunderreich:whisperer', '{Damage:0}'), 
     ];
 
     useNbt.forEach(id => {
@@ -210,7 +219,7 @@ REIEvents.groupEntries(event => {
 function getID(id) {
     if (id == 'supplementaries:bamboo_spikes_tipped') {
         return "Tipped Bamboo Spikes";
-    } 
+    }
     else if (id == 'patchouli:guide_book') {
         return "Guide Books";
     }
@@ -221,7 +230,7 @@ function getID(id) {
         return "Suspicious Stew";
     }
     else if (id == 'railways:white_conductor_cap') {
-         return "White Conductor Caps";
+        return "White Conductor Caps";
     }
     else if (id == 'railways:orange_conductor_cap') {
         return "Orange Conductor Caps";
@@ -266,10 +275,11 @@ function getID(id) {
         return "Red Conductor Caps";
     }
     else if (id == 'railways:black_conductor_cap') {
-        return "Black Conductor Caps";         
+        return "Black Conductor Caps";
     }
-    else if (id == 'wunderreich:whisperer') {
-    return "Whisperers";
-} return id;
+    else if (id == '1 whisperer') {
+        return "Whisperers";            
+    }
+    return id;
 };
 
