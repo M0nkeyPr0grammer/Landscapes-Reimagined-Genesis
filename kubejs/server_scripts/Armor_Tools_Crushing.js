@@ -866,4 +866,73 @@ ServerEvents.recipes(event => {
 			A: 'minecraft:chain'
 		}
 	)
+
+	// Better Nether Tools and Armor
+
+	// Ruby Helmet
+
+	// Ruby Chestplate
+
+	// Ruby Leggings
+
+	// Ruby Boots
+
+	// Ruby Sword
+
+	// Ruby Pickaxe
+
+	// Ruby Axe
+
+	// Ruby Shovel
+
+	// Ruby Hoe
+
+
+	// Cincinnasite Helmet
+
+	// Cincinnasite Chestplate
+
+	// Cincinnasite Leggings
+
+	// Cincinnasite Boots
+
+	// Cincinnasite Sword
+
+	// Cincinnasite Pickaxe
+
+	// Cincinnasite Axe
+
+	// Cincinnasite Shovel
+
+	// Cincinnasite Hoe
+
+
+	// Better End Tools and Armor
+
+	// Thallasium Helmet
+
+	// Thallasium Chestplate
+
+	// Thallasium Leggings
+
+	// Thallasium Boots
+
+
+	// Terminite Helmet
+
+	// Terminite Chestplate
+
+	// Terminite Leggings
+
+	// Terminite Boots
+
+
+	// Iron Smith Hammer
+
+	// Golden Smith Hammer
+
+	// Diamond Smith Hammer
+
+	// Netherite Smith Hammer
+
 })
