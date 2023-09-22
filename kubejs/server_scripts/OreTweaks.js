@@ -646,9 +646,219 @@ ServerEvents.recipes(event => {
 
 	// Crushing Ore Tweaks for Better Nether Ore
 
+	// Cincinnasite Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'betternether:cincinnasite_ore' }
+		],
+		results: [
+			{ item: 'betternether:cincinnasite' },
+			{ item: 'betternether:cincinnasite', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'minecraft:netherrack', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/cincinnasite_ore');
+
+	// Nether Ruby Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'betternether:nether_ruby_ore' }
+		],
+		results: [
+			{ item: 'betternether:nether_ruby' },
+			{ item: 'betternether:nether_ruby', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'minecraft:netherrack', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/nether_ruby_ore');
+
+	// Nether Lapis Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'betternether:nether_lapis_ore' }
+		],
+		results: [
+			{ item: 'minecraft:lapis_lazuli', count: 10 },
+			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'minecraft:netherrack', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/nether_lapis_ore');
+
+	// Nether Redstone Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'betternether:nether_redstone_ore' }
+		],
+		results: [
+			{ item: 'minecraft:redstone', count: 6 },
+			{ item: 'minecraft:redstone', chance: 0.50 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'minecraft:netherrack', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/nether_redstone_ore');
+
 	// Crushing Ore Tweaks for Better End Ore
 
+	// Amber Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'betterend:amber_ore' }
+		],
+		results: [
+			{ item: 'betterend:raw_amber' },
+			{ item: 'betterend:raw_amber', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'minecraft:end_stone', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/amber_ore');
+
+	// Ender Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'betterend:ender_ore' }
+		],
+		results: [
+			{ item: 'betterend:ender_shard' },
+			{ item: 'betterend:ender_shard', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'minecraft:end_stone', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/ender_ore');
+
+	// Thallasium Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'betterend:thallasium_ore' }
+		],
+		results: [
+			{ item: 'betterend:thallasium_raw' },
+			{ item: 'betterend:thallasium_raw', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'minecraft:end_stone', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/thallasium_ore');
+
 	// Crushing Ore Tweaks for Deeper and Darker 1.20.1
+
+	// Gloomslate Coal Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_coal_ore' }
+		],
+		results: [
+			{ item: 'minecraft:coal' },
+			{ item: 'minecraft:coal', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_coal_ore');
+
+	// Gloomslate Copper Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_copper_ore' }
+		],
+		results: [
+			{ item: 'create:crushed_raw_copper', count: 5 },
+			{ item: 'create:crushed_raw_copper', chance: 0.25 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_copper_ore');
+
+	// Gloomslate Diamond Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_diamond_ore' }
+		],
+		results: [
+			{ item: 'minecraft:diamond' },
+			{ item: 'minecraft:diamond', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_diamond_ore');
+
+	// Gloomslate Emerald Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_emerald_ore' }
+		],
+		results: [
+			{ item: 'minecraft:emerald' },
+			{ item: 'minecraft:emerald', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_emerald_ore');
+
+	// Gloomslate Gold Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_gold_ore' }
+		],
+		results: [
+			{ item: 'create:crushed_raw_gold' },
+			{ item: 'create:crushed_raw_gold', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_gold_ore');
+
+	// Gloomslate Iron Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_iron_ore' }
+		],
+		results: [
+			{ item: 'create:crushed_raw_iron' },
+			{ item: 'create:crushed_raw_iron', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_iron_ore');
+
+	// Gloomslate Lapis Lazuli Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_lapis_ore' }
+		],
+		results: [
+			{ item: 'minecraft:lapis_lazuli', count: 10 },
+			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_lapis_ore');
+
+	// Gloomslate Redstone Ore
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'deeperdarker:gloomslate_redstone_ore' }
+		],
+		results: [
+			{ item: 'minecraft:coal' },
+			{ item: 'minecraft:coal', chance: 0.75 },
+			{ item: 'create:experience_nugget', chance: 0.75 },
+			{ item: 'deeperdarker:gloomslate', chance: 0.12 }
+		]
+	}).id('kubejs:crushing/gloomslate_redstone_ore');
 
 
 })
