@@ -1,4 +1,6 @@
 
+#Make sure config changes are duplicated on both Clients and the Server when running a dedicated Server,
+# as the config isnt synced between Clients and Server.
 #General Settings
 [general]
 	#Forge Energy conversion rate (in E/t at 256 RPM, value is the E/t generated and consumed is at 256rpm).

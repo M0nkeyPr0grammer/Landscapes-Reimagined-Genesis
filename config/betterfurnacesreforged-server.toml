@@ -1,0 +1,103 @@
+# The capacity of the recipe cache, higher values use more memory.
+# Default: 10
+#Range: 1 ~ 100
+recipe_cache = 10
+
+[copper_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 175(Only work with Ultimate Furnaces addon)
+	#Range: 2 ~ 72000
+	speed = 175
+
+[iron_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 150
+	#Range: 2 ~ 72000
+	speed = 150
+
+[steel_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 125(Only work with Ultimate Furnaces addon)
+	#Range: 2 ~ 72000
+	speed = 125
+
+[gold_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 100
+	#Range: 2 ~ 72000
+	speed = 100
+
+[amethyst_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 75(Only work with Ultimate Furnaces addon)
+	#Range: 2 ~ 72000
+	speed = 75
+
+[diamond_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 50
+	#Range: 2 ~ 72000
+	speed = 50
+
+[platinum_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 25(Only work with Ultimate Furnaces addon)
+	#Range: 2 ~ 72000
+	speed = 25
+
+[netherhot_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 8
+	#Range: 2 ~ 72000
+	speed = 8
+
+[extreme_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 4
+	#Range: 2 ~ 72000
+	speed = 4
+
+[ultimate_tier]
+	# Number of ticks to complete one smelting operation.
+	# 200 ticks is what a regular furnace takes.
+	# Default: 1 (Only work with Ultimate Furnaces addon)
+	#Range: 1 ~ 72000
+	speed = 1
+
+[furnace_xp_drop]
+	# This value indicates when the furnace or forge should 'overload' and spit out the xp stored. 
+	# Default: 10, Recipes
+	#Range: 1 ~ 500
+	value = 10
+	# This value indicates when the furnace or forge should 'overload' and spit out the xp stored. 
+	# Default: 100000, Single recipe uses
+	#Range: 1 ~ 1000000
+	value_two = 100000
+
+[check_ores]
+	#When true, upgrades of the Ore Processing type now use the registry name as a check instead of the "ore" tag present in the smelted item. 
+	# Default: false, Only Common(Block) Ores
+	common = false
+	#When true, upgrades of the Raw Ore Processing type now use the registry name as a check instead of the "raw_ore" tag present in the smelted item. 
+	# Default: false, Only Raw Ores
+	raw = false
+
+[upgrade]
+	# Value referring to the mod used for the xp fluid generated with the Xp Tank Upgrade. 
+	# 0 = Mob Grinding Utils(Default) 
+	# 1 = Industrial Foregoing 
+	# 2 = Cyclic 
+	# 3 = Reliquary 
+	# 4 = Kibe Utilities
+	#Range: 0 ~ 4
+	xp_fluid_type = 0
+

@@ -157,3 +157,4 @@
 "zombie_villager" : 0.1,
 "zombie_weaponsmith" : 0.1,
 "zombified_piglin" : 0.1,
+"sniffer" : 0.25,

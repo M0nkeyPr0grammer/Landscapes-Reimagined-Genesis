@@ -13,6 +13,7 @@ leavesCullingMode = "DEFAULT"
 leavesCullingAmount = 2
 includeMangroveRoots = true
 powderSnowCulling = true
+entityModelCulling = false
 useOnModdedBlocksByDefault = true
 
 [modCompatibility]

@@ -1,0 +1,18 @@
+{
+	"ancientHorn": {
+		"ancientHornCanSummonWarden": true,
+		"ancientHornLifespan": 300,
+		"ancientHornMobDamage": 22,
+		"ancientHornPlayerDamage": 15,
+		"ancientHornShattersGlass": false,
+		"ancientHornSizeMultiplier": 0.0,
+	},
+	"projectileLandingSounds": {
+		"snowballLandingSounds": true,
+		"eggLandingSounds": true,
+		"enderPearlLandingSounds": true,
+		"potionLandingSounds": true,
+	},
+	"projectileBreakParticles": true,
+	"restrictInstrumentSound": true,
+}

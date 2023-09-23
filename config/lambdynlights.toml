@@ -124,6 +124,28 @@ mode = "fancy"
 				painting = true
 				wither = true
 				zombie_horse = true
+				camel = true
+				block_display = true
+				chest_minecart = true
+				command_block_minecart = true
+				end_crystal = true
+				evoker_fangs = true
+				falling_block = true
+				giant = true
+				interaction = true
+				item_display = true
+				marker = true
+				mooshroom = true
+				mule = true
+				sniffer = true
+				snow_golem = true
+				snowball = true
+				spawner_minecart = true
+				tadpole = true
+				text_display = true
+				tnt = true
+				zoglin = true
+				fishing_bobber = true
 
 			[light_sources.settings.entities.farmersdelight]
 				rotten_tomato = true
@@ -194,6 +216,8 @@ mode = "fancy"
 				mauler = true
 				iceologer = true
 				wildfire = true
+				ice_chunk = true
+				tuff_golem = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
@@ -212,6 +236,12 @@ mode = "fancy"
 			[light_sources.settings.entities.create]
 				super_glue = true
 				stationary_contraption = true
+				contraption = true
+				gantry_contraption = true
+				carriage_contraption = true
+				crafting_blueprint = true
+				potato_projectile = true
+				seat = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				airship = true
@@ -219,4 +249,162 @@ mode = "fancy"
 				biplane = true
 				gyrodyne = true
 				quadrocopter = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				cave_creeper = true
+				snowy_creeper = true
+				hills_creeper = true
+				dripstone_creeper = true
+				desert_creeper = true
+				spruce_creeper = true
+				badlands_creeper = true
+				bamboo_creeper = true
+				jungle_creeper = true
+				savannah_creeper = true
+				mushroom_creeper = true
+				swamp_creeper = true
+				dark_oak_creeper = true
+				beach_creeper = true
+				ocean_creeper = true
+
+			[light_sources.settings.entities.wildlife]
+				horseshoecrab = true
+				sanddollar = true
+				starfish = true
+				hermitcrab = true
+				clam = true
+				seaurchin = true
+				lark = true
+				crab = true
+				sparrow = true
+				badger = true
+				ladybug = true
+				meadowlark = true
+				dragonfly = true
+				flycatcher = true
+				bluebird = true
+				oriole = true
+				sunflowerbeetle = true
+				ant = true
+				hamster = true
+				iguana = true
+				june_beetle = true
+				armadillo = true
+				spider = true
+				gecko = true
+				milk_snake = true
+				anteater = true
+				python = true
+				king_snake = true
+				alligator = true
+				glasswing_butterfly = true
+				chameleon = true
+				bluegill = true
+				goldfish = true
+				staghorn_beetle = true
+				snail = true
+				bettafish = true
+				koi = true
+				rainbow_trout = true
+				prawn = true
+				phoebe = true
+				rhino_beetle = true
+				spicebush_butterfly = true
+				goldfinch = true
+				ferret = true
+				hammerhead_shark = true
+				mantaray = true
+				stingray = true
+				jellyfish = true
+				glow_jellyfish = true
+				seahorse = true
+				anglerfish = true
+				catfish = true
+				shrimp = true
+				grass_snake = true
+				hedgehog = true
+				monkey = true
+				boar = true
+				deer = true
+				capybara = true
+				possum = true
+				cricket = true
+				porcupine = true
+				tiger_butterfly = true
+				robin = true
+				white_eye = true
+				monarch_butterfly = true
+				wren = true
+				stickbug = true
+				towhee = true
+
+			[light_sources.settings.entities.fishofthieves]
+				plentifin = true
+				ancientscale = true
+				pondie = true
+				splashtail = true
+				wildsplash = true
+				islehopper = true
+				devilfish = true
+				battlegill = true
+				wrecker = true
+				stormfish = true
+
+			[light_sources.settings.entities.wilderwild]
+				tumbleweed = true
+				firefly = true
+				ancient_horn_projectile = true
+				jellyfish = true
+				coconut = true
+				chest_bubbler = true
+				sculk_spreader = true
+
+			[light_sources.settings.entities.betternether]
+				firefly = true
+				hydrogen_jellyfish = true
+				naga = true
+				flying_pig = true
+				jungle_skeleton = true
+				skull = true
+				naga_projectile = true
+
+			[light_sources.settings.entities.bclib]
+				chair = true
+
+			[light_sources.settings.entities.betterarcheology]
+				bombentity = true
+
+			[light_sources.settings.entities.betterend]
+				dragonfly = true
+				end_slime = true
+				end_fish = true
+				shadow_walker = true
+				cubozoa = true
+				silk_moth = true
+
+			[light_sources.settings.entities.dawn]
+				flying_block = true
+				custom_tnt = true
+
+			[light_sources.settings.entities.immersive_paintings]
+				painting = true
+				glow_painting = true
+				graffiti = true
+				glow_graffiti = true
+
+			[light_sources.settings.entities.railways]
+				benchcart = true
+				jukeboxcart = true
+				conductor = true
+
+			[light_sources.settings.entities.regions_unexplored]
+				boat = true
+				chest_boat = true
+
+			[light_sources.settings.entities.terraform]
+				boat = true
+				chest_boat = true
+
+			[light_sources.settings.entities.universal_graves]
+				xp = true
 

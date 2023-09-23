@@ -1,4 +1,5 @@
 {
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "blocks": {
     "globe": {
       "random_world": true,
@@ -46,13 +47,29 @@
       ]
     },
     "wall_lantern": {
-      "fast_lanterns": false
+      "fast_lanterns": false,
+      "swing_physics": {
+        "frequency": 0.6,
+        "collision_considers_entity_hitbox": true,
+        "collision_inertia": 1.0,
+        "collision_force": 15.0,
+        "min_angle": 0.79999965,
+        "max_angle": 60.0,
+        "damping": 0.525
+      }
     },
-    "hanging_sign": {
+    "enhanced_hanging_sign": {
+      "enabled": true,
+      "swing_physics": {
+        "frequency": 0.6,
+        "collision_considers_entity_hitbox": true,
+        "collision_inertia": 1.0,
+        "collision_force": 15.0,
+        "min_angle": 0.79999965,
+        "max_angle": 60.0,
+        "damping": 0.525
+      },
       "fast_signs": false
-    },
-    "bamboo_spikes": {
-      "populate_creative_tab": true
     },
     "turn_table": {
       "turn_particles": true
@@ -67,8 +84,8 @@
   },
   "particles": {
     "turn_particle": {
-      "initial_color": "2a77ea",
-      "fade_color": "32befa"
+      "initial_color": "#002A77EA",
+      "fade_color": "#0032BEFA"
     }
   },
   "general": {
@@ -86,7 +103,7 @@
     "clock_right_click": true,
     "compass_right_click": false,
     "placeable_books_glint": false,
-    "placeable_books_colors": [
+    "placeable_books_random_colors": [
       "brown",
       "orange",
       "yellow",
@@ -99,14 +116,26 @@
     ],
     "banner_pattern_tooltip": true,
     "paintings_tooltip": true,
-    "mob_head_shaders": true
+    "sherds_tooltip": true,
+    "tooltip_image_size": 80,
+    "mob_head_shaders": true,
+    "send_chat_on_death": true,
+    "sign_text_color_multiplier": 1.2000000476837158
   },
   "items": {
     "slingshot": {
       "overlay": true,
       "stasis_block_outline": true,
-      "block_outline_color": "ffffff66",
+      "block_outline_color": "#FFFFFF66",
       "projectile_scale": 0.5
+    },
+    "altimeter": {
+      "click_action": true,
+      "extra_dimension_textures": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "texture_precision_multiplier": 1
     },
     "quiver": {
       "armor_render_offset": -1.0,
