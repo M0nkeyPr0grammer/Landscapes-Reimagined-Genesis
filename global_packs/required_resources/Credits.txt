@@ -1,24 +1,28 @@
 The Following Assets were provided by external authors
-1.) Create Immersive Aircrafts: assets/immersive_aircraft
+1.) Create Immersive Aircrafts: required_resources/Create+Immersive+Aircrafts+Resource+Pack+1.19.2+-+1.2 (1).zip
 	- Created by nicky__21
 	- https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack
 	
-2.) LootrChestRetexture for Create: assets/lootr
+2.) LootrChestRetexture for Create: required_resources/LootrChestRetexture_v1.1_1.19.zip
 	- Created by soldrk
 	- https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create
 	
-3.) Tom's Create Storage: assets/toms_storage
+3.) Tom's Create Storage: required_resources/Create+Simple+Storage+2.1.zip
 	- Created by EndRage
 	- https://www.curseforge.com/minecraft/texture-packs/create-simple-storage
 	
-4.) Reinforced Barrels Retextured: assets/reinfbarrel
+4.) Reinforced Barrels Retextured: required_resources/ReinforcedBarrels_Retextured.zip
 	- Created by Myself (M0nkeyPr0grammer)
 	- https://modrinth.com/resourcepack/reinforced-barrels-retextured
 	
-5.) Reinforced Chests Retextured: assets/reinfchest
+5.) Reinforced Chests Retextured: required_resources/ReinforcedChests_Retextured.zip
 	- Created by Myself (M0nkeyPr0grammer)
 	- https://modrinth.com/resourcepack/reinforced-chests-retextured
 	
-6.) Better Furnaces Reforged Retextured: assets/betterfurnacesreforged
+6.) Better Furnaces Reforged Retextured: required_resources/BetterFurnacesReforged_Retextured.zip
 	- Created by Myself (M0nkeyPr0grammer)
 	- https://modrinth.com/resourcepack/better-furnaces-reforge-retextured
+
+7.) MoreChestVariantsOveride: required_resources/MoreChestVariantsOveride.zip
+	- Created by Myself (M0nkeyPr0grammer)
+	- N/A 
