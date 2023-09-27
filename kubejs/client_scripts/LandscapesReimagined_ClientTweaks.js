@@ -166,12 +166,18 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/wildlife", name: "Wildlife", items: [InputItem.of('@wildlife')] },
         { id: "kubejs:rei_groups/lieonlion", name: "More Chest and Crafting Tables", items: [InputItem.of('@lolmcv'), InputItem.of('@lolmct')] },
         { id: "kubejs:rei_groups/seasonsextras", name: "Fabric Seaons Extras", items: [InputItem.of('@seasonsextras')] },
-
+        { id: "kubejs:rei_groups/banners", name: "Archeology Banners", items: [InputItem.of('@archaeologybanners')] },
+        { id: "kubejs:rei_groups/archplus", name: "Archeology Plus", items: [InputItem.of('@archeologyplus')] },
+        { id: "kubejs:rei_groups/moretrims", name: "More Armor Trims", items: [InputItem.of('@more_armor_trims')] },
+        { id: "kubejs:rei_groups/tooltrims", name: "Tool Trims", items: [InputItem.of('@more_armor_trims')] },
+        { id: "kubejs:rei_groups/discs", name: "Pure Discs", items: [InputItem.of('@purediscstrailstales')] },
 
     ];
 
     for (const group of groups) {
+
         event.groupItems(group.id, group.name, group.items);
+
     }
 
     // Groups items with NBT data
