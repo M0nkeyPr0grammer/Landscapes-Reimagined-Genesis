@@ -16,7 +16,6 @@ We are thrilled to announce the most monumental update since the inception of ou
 - [Fabric Seasons](https://modrinth.com/mod/fabric-seasons-delight-compat): Delight Compat: Farmer's Delight compatibility for Fabric Seasons 
 - [Better Archeology](https://modrinth.com/mod/better-archeology): Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!
 - [BetterTrims](https://modrinth.com/mod/bettertrims): Give the armour trims unique effects when worn
-- [Wilder Wild](https://modrinth.com/mod/wilder-wild): This mod aims to upgrade the Wild Update!
 - [Fish of Thieves](https://modrinth.com/mod/fish-of-thieves): A mod adds all the fish from Sea of Thieves, fish fer ye pirate!
 - [Regions Unexplored](https://modrinth.com/mod/regions-unexplored): Regions Unexplored is a biome mod that overhauls the overworld and nether in many ways. With 70+ new biomes to explore, there is a plethora of new things to find!
 - [Ube's Delight](https://modrinth.com/mod/ubes-delight): Ube’s Delight is an addon mod for Farmer's Delight that adds Filipino inspired crops and food.
@@ -60,6 +59,10 @@ We are thrilled to announce the most monumental update since the inception of ou
 - [Trims Expanded](https://modrinth.com/datapack/trims-expanded): Trims Expanded aims to expand the available materials used while making armour trims to allow you to go beyond what the vanilla game can offer in your armour sets!
 - [Pure Discs - Trails & Tales](https://modrinth.com/mod/pure-discs-trails-tales): Pure Discs - Trails & Tales adds five new songs that were added to the game with the 1.20 Trails and Tales update!
 - [Pocket Tools](https://modrinth.com/mod/pocket-tools): Tools you can fit in your pocket
+- [More Discs](https://modrinth.com/mod/more-music-discs): Adds more music discs
+- [Spelunkery](https://modrinth.com/mod/spelunkery): New landmarks, tool progression, and mining strategies to spice up your underground life.
+- [Terrestria](https://modrinth.com/mod/terrestria): Terrestria is a detailed and vibrant biomes mod for Minecraft running on the Fabric mod loader.
+- [Promenade](https://modrinth.com/mod/promenade): Fancy and simplistic biomes and structures!
 ## Updates
 - All Mods have updated from 1.19.2 > 1.20.1
 - Updated all resource packs from 1.19.2 > 1.20.1
