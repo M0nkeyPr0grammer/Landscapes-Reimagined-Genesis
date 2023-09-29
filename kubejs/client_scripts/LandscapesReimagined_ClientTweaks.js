@@ -46,6 +46,7 @@ REIEvents.hide('item', event => {
         Item.of('minecraft:white_banner', '{BlockEntityTag:{Patterns:[{Color:9,Pattern:"mr"},{Color:8,Pattern:"bs"},{Color:7,Pattern:"cs"},{Color:8,Pattern:"bo"},{Color:15,Pattern:"ms"},{Color:8,Pattern:"hh"},{Color:8,Pattern:"mc"},{Color:15,Pattern:"bo"}],id:"minecraft:banner"},HideFlags:32,display:{Name:\'{"color":"gold","translate":"block.minecraft.ominous_banner"}\'}}'),
         'farmersknives:ruby_knife',
         'farmersknives:steel_knife_et',
+        // Wunderreich Removals
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"cyan"}}'),
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"light_gray"}}'),
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"gray"}}'),
@@ -61,9 +62,32 @@ REIEvents.hide('item', event => {
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"brown"}}'),
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"blue"}}'),
         Item.of('wunderreich:wunder_kiste', '{BlockStateTag:{domain:"purple"}}'),
+
         'frozenlib:camera',
         'frozenlib:loot_table_whacker',
-        'seasonsextras:seasonal_compendium'
+        'seasonsextras:seasonal_compendium',
+
+        // Spelunkery Removals
+        'spelunkery:granite_lead_ore',
+        'spelunkery:andesite_lead_ore',
+        'spelunkery:diorite_lead_ore',
+        'spelunkery:tuff_lead_ore',
+        'spelunkery:granite_silver_ore',
+        'spelunkery:andesite_silver_ore',
+        'spelunkery:diorite_silver_ore',
+        'spelunkery:tuff_silver_ore',
+        'spelunkery:granite_jade_ore',
+        'spelunkery:andesite_jade_ore',
+        'spelunkery:diorite_jade_ore',
+        'spelunkery:tuff_jade_ore',
+        'spelunkery:jade_shard',
+        'spelunkery:raw_lead_nugget',
+        'spelunkery:raw_silver_nugget',
+        'spelunkery:rough_jade_shard',
+        'spelunkery:saltpeter',
+        'spelunkery:sulfur',
+        'spelunkery:sulfur_geyser'
+
     ];
 
     itemsToHide.forEach(item => event.hide(item));
@@ -162,7 +186,6 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/regions", name: "Regions Unexplored", items: [InputItem.of('@regions_unexplored')] },
         { id: "kubejs:rei_groups/waystones", name: "Waystones", items: [InputItem.of('@waystones')] },
         { id: "kubejs:rei_groups/wunderreich", name: "Wunderreich", items: [InputItem.of('@wunderreich')] },
-        { id: "kubejs:rei_groups/wilderwild", name: "Wilder Wild", items: [InputItem.of('@wilderwild')] },
         { id: "kubejs:rei_groups/wildlife", name: "Wildlife", items: [InputItem.of('@wildlife')] },
         { id: "kubejs:rei_groups/lieonlion", name: "More Chest and Crafting Tables", items: [InputItem.of('@lolmcv'), InputItem.of('@lolmct')] },
         { id: "kubejs:rei_groups/seasonsextras", name: "Fabric Seaons Extras", items: [InputItem.of('@seasonsextras')] },
@@ -171,6 +194,12 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/moretrims", name: "More Armor Trims", items: [InputItem.of('@more_armor_trims')] },
         { id: "kubejs:rei_groups/tooltrims", name: "Tool Trims", items: [InputItem.of('@more_armor_trims')] },
         { id: "kubejs:rei_groups/discs", name: "Pure Discs", items: [InputItem.of('@purediscstrailstales')] },
+        { id: "kubejs:rei_groups/morediscs", name: "More Discs", items: [InputItem.of('@morediscs')] },
+        { id: "kubejs:rei_groups/spelunkery", name: "Spelunkery", items: [InputItem.of('@spelunkery')] },
+        { id: "kubejs:rei_groups/terrestria", name: "Terrestria", items: [InputItem.of('@terrestria')] },
+        { id: "kubejs:rei_groups/promenade", name: "Promenade", items: [InputItem.of('@promenade')] },
+        { id: "kubejs:rei_groups/ptools", name: "Pocket Tools", items: [InputItem.of('@pockettools')] },
+        { id: "kubejs:rei_groups/backpacks", name: "Traveler's Backpacks", items: [InputItem.of('#trinkets:chest/back')] }
 
     ];
 
