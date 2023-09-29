@@ -192,7 +192,6 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/banners", name: "Archeology Banners", items: [InputItem.of('@archaeologybanners')] },
         { id: "kubejs:rei_groups/archplus", name: "Archeology Plus", items: [InputItem.of('@archeologyplus')] },
         { id: "kubejs:rei_groups/moretrims", name: "More Armor Trims", items: [InputItem.of('@more_armor_trims')] },
-        { id: "kubejs:rei_groups/tooltrims", name: "Tool Trims", items: [InputItem.of('@more_armor_trims')] },
         { id: "kubejs:rei_groups/discs", name: "Pure Discs", items: [InputItem.of('@purediscstrailstales')] },
         { id: "kubejs:rei_groups/morediscs", name: "More Discs", items: [InputItem.of('@morediscs')] },
         { id: "kubejs:rei_groups/spelunkery", name: "Spelunkery", items: [InputItem.of('@spelunkery')] },
