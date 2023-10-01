@@ -65,6 +65,7 @@ We are thrilled to announce the most monumental update since the inception of ou
 - [Promenade](https://modrinth.com/mod/promenade): Fancy and simplistic biomes and structures!
 - [Fabric Seasons: Terraformers Compat](https://modrinth.com/mod/fabric-seasons-terraformers-compat): Traverse and Terrestria compatibility for Fabric Seasons
 - [Portable Crafting](https://modrinth.com/mod/portable-crafting): Access the crafting table in your inventory, with a hotkey or tab.
+- [Create: Extended Cogwheels](https://modrinth.com/mod/extended-cogwheels): A small mod to add more cog types to create
 ## Updates
 - All Mods have updated from 1.19.2 > 1.20.1
 - Updated all resource packs from 1.19.2 > 1.20.1
