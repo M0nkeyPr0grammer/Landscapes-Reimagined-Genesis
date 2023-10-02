@@ -860,5 +860,16 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:crushing/gloomslate_redstone_ore');
 
+	// Creates Raw Redstone Crushing Recipe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'regions_unexplored:raw_redstone_block' }
+		],
+		results: [
+			{ item: 'minecraft:redstone', count: 4 },
+			{ item: 'minecraft:redstone', chance: 0.10 }
+		]
+	}).id('kubejs:crushing/raw_redstone');
 
 })
