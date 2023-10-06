@@ -97,6 +97,7 @@ We are thrilled to announce the most monumental update since the inception of ou
 - C2ME
 - Starlight
 - Sleepwarp
+- Better Furnaces Reforged
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.0.0
 ## KubeJS Tweaks
