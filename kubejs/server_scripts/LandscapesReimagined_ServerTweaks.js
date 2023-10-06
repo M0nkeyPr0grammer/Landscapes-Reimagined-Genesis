@@ -69,6 +69,28 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	// Creates Creative Tank Recipe
+	// Creative Tank
+	event.custom({
+		type: "create:mechanical_crafting",
+		pattern: [
+			'AAAAA',
+			'ABCBA',
+			'AD DA',
+			'ABEBA',
+			'AAAAA'
+		],
+		key: {
+			A: Ingredient.of('minecraft:dragon_breath').toJson(),
+			B: Ingredient.of('create:fluid_tank').toJson(),
+			C: Ingredient.of('create:hose_pulley').toJson(),
+			D: Ingredient.of('create:creative_blaze_cake').toJson(),
+			E: Ingredient.of('deeperdarker:heart_of_the_deep').toJson()
+		},
+		result: Ingredient.of('create:creative_fluid_tank').toJson(),
+		acceptMirrored: false
+	}).id('kubejs:create/creative_fluid_tank');
+
 	// Creates Creative Blaze Cake Recipe
 	// Creative Blaze Cake
 	event.custom({

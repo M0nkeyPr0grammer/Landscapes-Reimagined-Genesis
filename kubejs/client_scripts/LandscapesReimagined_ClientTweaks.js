@@ -7,7 +7,6 @@ console.info('Hello, World! (You will see this line every time client resources 
 REIEvents.hide('item', event => {
     const itemsToHide = [
         'create:creative_motor',
-        'create:creative_fluid_tank',
         'create:creative_crate',
         'create:handheld_worldshaper',
         'createaddition:creative_energy',
