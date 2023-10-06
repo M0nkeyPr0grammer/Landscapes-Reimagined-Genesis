@@ -94,6 +94,7 @@ We are thrilled to announce the most monumental update since the inception of ou
 - Camera Utils
 - C2ME
 - Starlight
+- Sleepwarp
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.0.0
 ## KubeJS Tweaks
