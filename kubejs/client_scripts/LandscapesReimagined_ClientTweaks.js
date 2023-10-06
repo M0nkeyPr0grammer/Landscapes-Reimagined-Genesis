@@ -114,7 +114,6 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/fooddrinks", name: "Food & Drinks", items: [InputItem.of('%food_and_drinks')] },
         { id: "kubejs:rei_groups/ingredients", name: "Ingredients", items: [InputItem.of('%ingredients')] },
         { id: "kubejs:rei_groups/spawneggs", name: "Spawn Eggs", items: [InputItem.of('%spawn_eggs'), 'minecraft:ender_dragon_spawn_egg', 'minecraft:wither_spawn_egg'] },
-        { id: "kubejs:rei_groups/betterfurnacesreforged", name: "BetterFurnaces Reforged Items", items: [InputItem.of('@betterfurnacesreforged')] },
         { id: "kubejs:rei_groups/chipped", name: "Chipped", items: [InputItem.of('@chipped')] },
         { id: "kubejs:rei_groups/deeperdarker", name: "Deeper and Darker", items: [InputItem.of('@deeperdarker'), 'farmersknives:warden_knife'] },
         { id: "kubeks:rei_grups/comforts", name: "Comforts", items: [InputItem.of('@comforts')] },
@@ -123,7 +122,8 @@ REIEvents.groupEntries(event => {
                 InputItem.of('@expandeddelight'),
                 InputItem.of('@farmersdelight'),
                 InputItem.of('@farmersknives'),
-                InputItem.of('@ubesdelight'), // New Addition
+                InputItem.of('@ubesdelight'),
+                InputItem.of('@delightfulcreators') // New Addition
             ]
         },
 
@@ -172,7 +172,9 @@ REIEvents.groupEntries(event => {
                 InputItem.of('@createutilities'),
                 InputItem.of('@createchunkloading'),
                 'create:chromatic_compound',
-                InputItem.of('@createoreexcavation') // New Addition
+                InputItem.of('@createoreexcavation'),
+                InputItem.of('@createfoundry'), // New Addition
+                InputItem.of('@extendedgears') // New Addition
             ]
         },
         // V2.0.0 New Mod Additions
@@ -197,7 +199,11 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/terrestria", name: "Terrestria", items: [InputItem.of('@terrestria')] },
         { id: "kubejs:rei_groups/promenade", name: "Promenade", items: [InputItem.of('@promenade')] },
         { id: "kubejs:rei_groups/ptools", name: "Pocket Tools", items: [InputItem.of('@pockettools')] },
-        { id: "kubejs:rei_groups/backpacks", name: "Traveler's Backpacks", items: [InputItem.of('#trinkets:chest/back')] }
+        { id: "kubejs:rei_groups/backpacks", name: "Traveler's Backpacks", items: [InputItem.of('#trinkets:chest/back')] },
+        { id: "kubejs:rei_groups/compasses", name: "Compasses", items: [
+                'explorerscompass:explorerscompass',
+                'naturescompass:naturescompass'
+            ] },
 
     ];
 
@@ -240,8 +246,56 @@ REIEvents.groupEntries(event => {
     // Groups Fluids in REI
     const fluidGroups = [
         { id: "kubejs:rei_groups/fluid_tagged_as_water", name: "Fluids", fluids: ['minecraft:water', 'minecraft:lava'] },
-        { id: "kubejs:rei_groups/create_fluids", name: "Create Fluids", fluids: ['create:honey', 'create:chocolate', 'milk:still_milk', 'createaddition:bioethanol', 'createaddition:seed_oil', 'sliceanddice:fertilizer', 'create_enchantment_industry:ink'] },
-        { id: "kubejs:rei_groups/travelers_fluids", name: "Travelers Backpack Fluids", fluids: ['travelersbackpack:potion_still', 'travelersbackpack:milk_still'] }
+        {
+            id: "kubejs:rei_groups/create_fluids", name: "Create Fluids", fluids: [
+                'create:honey',
+                'create:chocolate',
+                'milk:still_milk',
+                'createaddition:bioethanol',
+                'createaddition:seed_oil',
+                'sliceanddice:fertilizer',
+                'create_enchantment_industry:ink',
+                'createfoundry:molten_copper',
+                'createfoundry:molten_iron',
+                'createfoundry:molten_gold',
+                'createfoundry:molten_carbon',
+                'createfoundry:molten_diamond',
+                'createfoundry:molten_zinc',
+                'createfoundry:molten_brass',
+                'createfoundry:molten_emerald',
+                'createfoundry:molten_redstone',
+                'createfoundry:molten_lapis',
+                'createfoundry:molten_ancient_debris',
+                'createfoundry:molten_netherite',
+            ]
+        },
+        {
+            id: "kubejs:rei_groups/travelers_fluids", name: "Travelers Backpack Fluids", fluids: [
+                'travelersbackpack:potion_still', 'travelersbackpack:milk_still']
+        },
+        {
+            id: "kubejs:rei_groups/delightfulcreators_fluids", name: "Delightful Creators Fluids", fluids: [
+                'delightfulcreators:tomato_sauce',
+                'delightfulcreators:hot_cocoa',
+                'delightfulcreators:melon_juice',
+                'delightfulcreators:apple_cider',
+                'delightfulcreators:beetroot_soup',
+                'delightfulcreators:chicken_soup',
+                'delightfulcreators:noodle_soup',
+                'delightfulcreators:pumpkin_soup',
+                'delightfulcreators:vegetable_soup',
+                'delightfulcreators:fish_stew',
+                'delightfulcreators:beef_stew',
+                'delightfulcreators:rabbit_stew',
+                'delightfulcreators:mushroom_stew',
+                'delightfulcreators:glow_berry_custard',
+                'delightfulcreators:cooked_rice',
+                'delightfulcreators:bone_broth',
+                'delightfulcreators:baked_cod_stew',
+                'delightfulcreators:ratatouille',
+                'delightfulcreators:dog_food',
+            ]
+        }
     ];
 
     for (const group of fluidGroups) {
