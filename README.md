@@ -7,7 +7,7 @@ Download Landscapes Reimagined today and dive into an elevated Minecraft adventu
 #### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
 
 ### Want to setup a server using our official server host, click the banner below!
-[![BisectHosting Code](https://www.bisecthosting.com/partners/custom-banners/233f873f-6ff2-47cd-8a01-1a90c45bdb01.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth)
+[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/Dev-2.0.0/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth)
 
 # Included Content
 ## Mods
