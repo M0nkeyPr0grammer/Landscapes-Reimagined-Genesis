@@ -66,7 +66,7 @@ We are thrilled to announce the most monumental update since the inception of ou
 - [Fabric Seasons: Terraformers Compat](https://modrinth.com/mod/fabric-seasons-terraformers-compat): Traverse and Terrestria compatibility for Fabric Seasons
 - [Portable Crafting](https://modrinth.com/mod/portable-crafting): Access the crafting table in your inventory, with a hotkey or tab.
 - [Create: Extended Cogwheels](https://modrinth.com/mod/extended-cogwheels): A small mod to add more cog types to create
-- [Delightful Creators [Fabric]](https://modrinth.com/mod/delightful-creators-fabric): Making automation between Farmer's Delight and Create [**Maybe**]
+- [Delightful Creators [Fabric]](https://modrinth.com/mod/delightful-creators-fabric): Making automation between Farmer's Delight and Create
 - [Create Foundry](https://modrinth.com/mod/createfoundry): Use your Create skills and machines to create the ultimate ore processor! Ported from [Cuddle's Github link here]()
 ## Updates
 - All Mods have updated from 1.19.2 > 1.20.1
