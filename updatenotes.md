@@ -80,7 +80,6 @@ We are thrilled to announce the most monumental update since the inception of ou
 - Create Deco Fabric
 - Create Enchantment Industry Fabric
 - Create Goggles
-- Ponder for KubeJS
 - Create: Elitia Addon
 - REI Trades
 - REI Loottables
