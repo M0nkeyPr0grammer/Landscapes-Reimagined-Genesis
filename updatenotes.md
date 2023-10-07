@@ -87,7 +87,6 @@ We are thrilled to announce the most monumental update since the inception of ou
 - ForgetMeChunk
 - Cammie's Minecart Tweaks
 - Elytra Swap
-- Remove Terralith Intro Message
 - Let Me Play Iris
 - Smooth Boot
 - Moss Fix
