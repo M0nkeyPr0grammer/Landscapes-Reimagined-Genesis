@@ -120,4 +120,4 @@ We are thrilled to announce the most monumental update since the inception of ou
 - Changed out and added in new screenshots to match new content of the new update
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ### Want to setup a server using our official server host, click the banner below!
-[![BisectHosting Code](https://www.bisecthosting.com/partners/custom-banners/d8b949d4-6419-40ed-8b24-f8619d30985c.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth+chanelog)
+[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/Dev-2.0.0/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth+chanelog)
