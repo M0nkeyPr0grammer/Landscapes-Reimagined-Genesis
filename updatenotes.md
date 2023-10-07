@@ -74,7 +74,6 @@ We are thrilled to announce the most monumental update since the inception of ou
 - Updated all datapacks from 1.19.2 > 1.20.1
 ## Temporary Removals Until Updated to 1.20.1
 - Charm
-- Repurposed Structures - Better Desert Temples Compat
 - Stoneholm, Underground Villages (Fabric)
 - KubeJS Create
 - Create Deco Fabric
