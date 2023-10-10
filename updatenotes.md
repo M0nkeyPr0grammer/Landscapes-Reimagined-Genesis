@@ -113,7 +113,7 @@ We are thrilled to announce the most monumental update since the inception of ou
 ## Config Tweaks
 - Adjusted all mod configs to allow for a better playing experience, no more entity lag, stuttering when loading into a new world, and faster load and closing times
 ## New Questlines
-- Added in a brand new questing system to help players progress through the pack
+- Added in a brand new questing system to help players progress through the pack; quests created by Unheard Nightmare and rewards selected by M0nkeyPr0grammer. 
 ## Fancy Menu Tweaks
 - Changed out and added in new screenshots to match new content of the new update
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
