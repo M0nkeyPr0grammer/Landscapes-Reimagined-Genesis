@@ -11,6 +11,13 @@
     }
   },
   "rewards": {
+    "Give iron": {
+      "item": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "Level 2 upgrade xp": {
       "xptype": "POINTS",
       "amount": 10,

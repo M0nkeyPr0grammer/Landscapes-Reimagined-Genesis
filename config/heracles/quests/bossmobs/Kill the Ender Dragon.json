@@ -10,6 +10,13 @@
     }
   },
   "rewards": {
+    "Give Dragons Breath": {
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
     "Ender Dragon xp": {
       "xptype": "POINTS",
       "amount": 100,

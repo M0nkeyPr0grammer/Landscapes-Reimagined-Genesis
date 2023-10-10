@@ -21,6 +21,20 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Chorus fruit": {
+      "item": {
+        "id": "minecraft:chorus_fruit",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "Give End Stone": {
+      "item": {
+        "id": "minecraft:end_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

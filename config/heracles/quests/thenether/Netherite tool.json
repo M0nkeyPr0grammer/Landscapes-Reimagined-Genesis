@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "Netherite",
     "Netherite Ingot"
   ],
   "tasks": {
@@ -16,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give scraps": {
+      "item": {
+        "id": "minecraft:netherite_scrap",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

@@ -9,6 +9,13 @@
     }
   },
   "rewards": {
+    "Give Drawer": {
+      "item": {
+        "id": "extended_drawers:single_drawer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "Access Point xp": {
       "xptype": "POINTS",
       "amount": 10,

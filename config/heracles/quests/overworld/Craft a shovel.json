@@ -11,6 +11,13 @@
     }
   },
   "rewards": {
+    "Receive Oak Plank": {
+      "item": {
+        "id": "minecraft:oak_planks",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
     "Shovel xp": {
       "xptype": "POINTS",
       "amount": 10,

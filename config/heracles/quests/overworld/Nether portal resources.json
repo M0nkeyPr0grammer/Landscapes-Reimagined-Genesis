@@ -21,6 +21,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Obsidian": {
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 4
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

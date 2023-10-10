@@ -3,7 +3,20 @@
     "Find a nether fortress"
   ],
   "tasks": {},
-  "rewards": {},
+  "rewards": {
+    "Give Blaze Rob": {
+      "item": {
+        "id": "minecraft:blaze_rod",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "Give XP": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": "Collect a nether wart and a soul sand"

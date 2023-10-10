@@ -11,6 +11,13 @@
     }
   },
   "rewards": {
+    "Give shulker": {
+      "item": {
+        "id": "minecraft:shulker_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "Level 4 upgrade xp": {
       "xptype": "POINTS",
       "amount": 10,

@@ -9,6 +9,13 @@
     }
   },
   "rewards": {
+    "Give chest": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "Upgrade frame xp": {
       "xptype": "POINTS",
       "amount": 10,

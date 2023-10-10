@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Cobblestone": {
+      "item": {
+        "id": "minecraft:cobblestone",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -27,8 +34,8 @@
     "groups": {
       "Overworld": {
         "position": [
-          -100,
-          -20
+          -102,
+          -19
         ]
       }
     },

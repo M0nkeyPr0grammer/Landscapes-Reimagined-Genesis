@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Diamonds": {
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

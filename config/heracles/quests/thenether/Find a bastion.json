@@ -9,6 +9,13 @@
     }
   },
   "rewards": {
+    "Give gold": {
+      "item": {
+        "id": "minecraft:gold_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
     "Bastion XP": {
       "xptype": "POINTS",
       "amount": 10,

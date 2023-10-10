@@ -11,6 +11,13 @@
     }
   },
   "rewards": {
+    "Give Diamond": {
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "Level 3 upgrade xp": {
       "xptype": "POINTS",
       "amount": 10,

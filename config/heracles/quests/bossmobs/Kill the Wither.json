@@ -14,6 +14,13 @@
       "xptype": "POINTS",
       "amount": 100,
       "type": "heracles:xp"
+    },
+    "Give Wither Skull": {
+      "item": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

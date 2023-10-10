@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Fireworks": {
+      "item": {
+        "id": "minecraft:firework_rocket",
+        "count": 32
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -22,8 +29,7 @@
       "translate": "Find an elytra to start flying"
     },
     "description": [
-      "Find an elytra in a ship that is attached to the /9/End City/9/ to be able to take to the skies and speed up your travel time",
-      ""
+      "Find an elytra in a ship that is attached to the /9/End City/9/ to be able to take to the skies and speed up your travel time"
     ],
     "groups": {
       "The End": {
