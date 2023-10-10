@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "Enter the End"
+  ],
+  "tasks": {
+    "fruit": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:chorus_fruit"
+    },
+    "flower": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:chorus_flower"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Collect a chorus flower and fruit"
+    },
+    "description": [
+      "Collect a chorus fruit and chorus flower"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -300,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:chorus_fruit",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chorus flower"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

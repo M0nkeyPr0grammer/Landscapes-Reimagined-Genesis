@@ -1,0 +1,46 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "End": {
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_end",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "End xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Enter the End"
+    },
+    "description": [
+      "Enter the end"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -350,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:end_portal_frame",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enter the End"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

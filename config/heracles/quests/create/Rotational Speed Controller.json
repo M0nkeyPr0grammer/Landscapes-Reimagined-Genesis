@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Brass Casing"
+  ],
+  "tasks": {
+    "rsc": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:rotation_speed_controller"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Replaces the cog wheel method"
+    },
+    "description": [
+      "The mechanical speed controller is a easier way to speed up rotational speeds, you can right click it and set the speed you want it to spin at"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          200,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:rotation_speed_controller",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rotational Speed Controller"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}
