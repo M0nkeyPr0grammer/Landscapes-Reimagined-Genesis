@@ -10,7 +10,7 @@
 	// Sorting inv also sorts player inv
 	"sortPlayer": false,
 	// Method of sorting, NAME,CATEGORY,MOD
-	"sortType": "NAME",
+	"sortType": "MOD",
 	// Display Sort Button Tooltip
 	"displayTooltip": true,
 	// Sort Inventory key

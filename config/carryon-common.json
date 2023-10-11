@@ -159,7 +159,9 @@
       "securitycraft:*",
       "forgemultipartcbe:*",
       "integrateddynamics:cable",
-      "mekanismgenerators:wind_generator"
+      "mekanismgenerators:wind_generator",
+	  "travelersbackpack:*",
+	  "universal_graves:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -185,7 +187,9 @@
       "vehicle:*",
       "securitycraft:*",
       "taterzens:npc",
-      "easy_npc:*"
+      "easy_npc:*",
+	  "travelersbackpack:*",
+	  "universal_graves:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [

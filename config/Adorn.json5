@@ -1,4 +1,6 @@
 {
+	// How items will be grouped in Adorn's creative tab
+	"groupItems": "BY_MATERIAL",
 	// Client-side settings
 	"client": {
 		// If true, floating tooltips are shown above trading stations.

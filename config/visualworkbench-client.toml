@@ -2,4 +2,6 @@
 flat_rendering = false
 #Render the result of the crafting operation in addition to crafting table contents.
 render_result = true
+#Rotate crafting table contents so they always face the closest player.
+rotate_ingredients = true
 

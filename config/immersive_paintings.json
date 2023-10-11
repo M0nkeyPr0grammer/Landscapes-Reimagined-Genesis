@@ -15,5 +15,6 @@
   "minPaintingResolution": 8,
   "maxPaintingResolution": 256,
   "showOtherPlayersPaintings": true,
+  "uploadPermissionLevel": 0,
   "version": 1
 }

@@ -1,0 +1,34 @@
+{
+  "dependencies": [
+    "Enter the Otherside"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Deeper and Darker": {
+        "position": [
+          -250,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "deeperdarker:gloomy_sculk",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Overcast columns"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -200,17 +200,23 @@ ServerEvents.recipes(event => {
 
 	// Mechanical Crafter
 	// Crafting Terminal
-	event.recipes.create.mechanical_crafting(Item.of('toms_storage:ts.crafting_terminal'), [
-		' A ',
-		'BBB',
-		'BBB',
-		'BBB',
-		'EDC'
-	], {
-		A: 'toms_storage:ts.storage_terminal',
-		B: 'create:mechanical_crafter',
-		C: 'create:linked_controller',
-		D: 'create:precision_mechanism',
-		E: 'create:sturdy_sheet',
-	})
+	event.custom({
+		type: "create:mechanical_crafting",
+		pattern: [
+			' A ',
+			'BBB',
+			'BBB',
+			'BBB',
+			'EDC'
+		],
+		key: {
+			A: Ingredient.of('toms_storage:ts.storage_terminal').toJson(),
+			B: Ingredient.of('create:mechanical_crafter').toJson(),
+			C: Ingredient.of('create:linked_controller').toJson(),
+			D: Ingredient.of('create:precision_mechanism').toJson(),
+			E: Ingredient.of('create:sturdy_sheet').toJson()
+		},
+		result: Ingredient.of('toms_storage:ts.crafting_terminal').toJson(),
+		acceptMirrored: false
+	}).id('kubejs:toms_storage/crafting_terminal')
 })

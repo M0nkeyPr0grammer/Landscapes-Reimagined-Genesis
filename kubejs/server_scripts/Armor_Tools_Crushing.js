@@ -2,296 +2,819 @@
 
 ServerEvents.recipes(event => {
 
-	// Diamond Armor
-		// Diamond Helmet
-		event.recipes.create.crushing([
-			Item.of( '2x minecraft:diamond' ),
-		], 'minecraft:diamond_helmet')
+	// Diamond Helmet
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_helmet').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/diamond_helmet');
 
-		// Diamond Chestplate
-		event.recipes.create.crushing([
-			Item.of('4x minecraft:diamond' ),
-		], 'minecraft:diamond_chestplate')
+	// Diamond Chestplate
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_chestplate').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond',
+				count: 4
+			}
+		]
 
-		// Diamond Leggings
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:diamond' ),
-		], 'minecraft:diamond_leggings')
+	}).id('kubejs:crushing/diamond_chestplate');
 
-		// Diamond Boots
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:diamond' ),
-		], 'minecraft:diamond_boots')
+	// Diamond Leggings
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_leggings').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/diamond_leggings');
 
-	// Gold Armor
-		// Gold Helmet
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:gold_ingot'),
-		], 'minecraft:golden_helmet')
+	// Diamond Boots
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_boots').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond' ,
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/diamond_boots');
 
-		// Gold Chestplate
-		event.recipes.create.crushing([
-			Item.of('4x minecraft:gold_ingot'),
-		], 'minecraft:golden_chestplate')
 
-		// Gold Leggings
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:gold_ingot'),
-		], 'minecraft:golden_leggings')
+	// Gold Helmet
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_helmet').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/golden_helmet');
 
-		// Gold Boots
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:gold_ingot'),
-		], 'minecraft:golden_boots')
+	// Gold Chestplate
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_chestplate').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot',
+				count: 4
+			}
+		]
+	}).id('kubejs:crushing/golden_chestplate');
 
-	// Netherite Armor
-		// Netherite Helmet
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:netherite_scrap'),
-			Item.of('2x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_helmet')
+	// Gold Leggings
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_leggings').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/golden_leggings');
 
-		// Netherite Chestplate
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:netherite_scrap'),
-			Item.of('3x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_chestplate')
+	// Gold Boots
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_boots').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot' ,
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/golden_boots');
 
-		// Netherite Leggings
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:netherite_scrap'),
-			Item.of('3x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_leggings')
 
-		// Netherite Boots
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:netherite_scrap'),
-			Item.of('2x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_boots')
+	// Netherite Helmet
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_helmet').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 2
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/netherite_helmet');
 
-	// Leather Armor
-		// Leather Cap
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:leather'),
-		], 'minecraft:leather_helmet')
+	// Netherite Chestplate
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_chestplate').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 3
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/netherite_chestplate');
 
-		// Leather Tunic
-		event.recipes.create.crushing([
-			Item.of('6x minecraft:leather'),
-		], 'minecraft:leather_chestplate')
+	// Netherite Leggings
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_leggings').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 3
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/netherite_leggings');
 
-		// Leather Pants
-		event.recipes.create.crushing([
-			Item.of('5x minecraft:leather'),
-		], 'minecraft:leather_leggings')
+	// Netherite Boots
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_boots').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 2
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/netherite_boots');
 
-		// Leather Boots
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:leather'),
-		], 'minecraft:leather_boots')
 
-	// Chainmail Armor
-		// Chainmail Helmet
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:iron_nugget'),
-		], 'minecraft:chainmail_helmet')
+	// Leather Cap
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:leather_helmet').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:leather',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/leather_helmet');
 
-		// Chainmail Chestplate
-		event.recipes.create.crushing([
-			Item.of('6x minecraft:iron_nugget'),
-		], 'minecraft:chainmail_chestplate')
+	// Leather Tunic
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:leather_chestplate').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:leather',
+				count: 6
+			}
+		]
+	}).id('kubejs:crushing/leather_chestplate');
 
-		// Chainmail Leggings
-		event.recipes.create.crushing([
-			Item.of('5x minecraft:iron_nugget'),
-		], 'minecraft:chainmail_leggings')
+	// Leather Pants
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:leather_leggings').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:leather',
+				count: 5
+			}
+		]
+	}).id('kubejs:crushing/leather_leggings');
 
-		// Chainmail Boots
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:iron_nugget'),
-		], 'minecraft:chainmail_boots')
+	// Leather Boots
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:leather_boots').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:leather',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/leather_boots');
 
-	// Iron Armor
-		// Iron Helmet
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:iron_ingot'),
-		], 'minecraft:iron_helmet')
 
-		// Iron Chestplate
-		event.recipes.create.crushing([
-			Item.of('6x minecraft:iron_ingot'),
-		], 'minecraft:iron_chestplate')
+	// Chainmail Helmet
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:chainmail_helmet').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_nugget',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/chainmail_helmet');
 
-		// Iron Leggings
-		event.recipes.create.crushing([
-			Item.of('5x minecraft:iron_ingot'),
-		], 'minecraft:iron_leggings')
+	// Chainmail Chestplate
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:chainmail_chestplate').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_nugget',
+				count: 6
+			}
+		]
+	}).id('kubejs:crushing/chainmail_chestplate');
 
-		// Iron Boots
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:iron_ingot'),
-		], 'minecraft:iron_boots')
+	// Chainmail Leggings
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:chainmail_leggings').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_nugget' ,
+				count: 5
+			}
+		]
+	}).id('kubejs:crushing/chainmail_leggings');
 
-	// Netherite Tools
-		// Netherite Shovel
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:netherite_scrap'),
-			Item.of('6x elitia:diamond_fragment').withChance(.50),
-		], 'minecraft:netherite_shovel')
+	// Chainmail Boots
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:chainmail_boots').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_nugget',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/chainmail_boots');
 
-		// Netherite Pickaxe
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:netherite_scrap'),
-			Item.of('2x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_pickaxe')
 
-		// Netherite Axe
-		event.recipes.create.crushing([
-			Item.of('3x minecraft:netherite_scrap'),
-			Item.of('2x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_axe')
+	// Iron Helmet
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_helmet').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/iron_helmet');
 
-		// Netherite Hoe
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:netherite_scrap'),
-			Item.of('1x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_hoe')
+	// Iron Chestplate
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_chestplate').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot',
+				count: 6
+			}
+		]
+	}).id('kubejs:crushing/iron_chestplate');
 
-		// Netherite Sword
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:netherite_scrap'),
-			Item.of('1x minecraft:diamond').withChance(.50),
-		], 'minecraft:netherite_sword')
+	// Iron Leggings
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_leggings').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot',
+				count: 5
+			}
+		]
+	}).id('kubejs:crushing/iron_leggings');
 
-	// Gold Tools
-		// Golden Shovel
-		event.recipes.create.crushing([
-			Item.of('6x minecraft:gold_nugget'),
-		], 'minecraft:golden_shovel')
+	// Iron Boots
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_boots').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot',
+				count: 3
+			}
+		]
+	}).id('kubejs:crushing/iron_boots');
 
-		// Golden Pickaxe
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:gold_ingot'),
-		], 'minecraft:golden_pickaxe')
 
-		// Golden Axe
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:gold_ingot'),
-		], 'minecraft:golden_axe')
+	// Netherite Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_shovel').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 2
+			},
+			{
+				item: 'elitia:diamond_fragment',
+				chance: 0.50,
+				count: 6
+			}
+		]
+	}).id('kubejs:crushing/netherite_shovel');
 
-		// Golden Hoe
-		event.recipes.create.crushing([
-			Item.of('1x minecraft:gold_ingot'),
-		], 'minecraft:golden_hoe')
+	// Netherite Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_pickaxe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 3
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/netherite_pickaxe');
 
-		// Golden Sword
-		event.recipes.create.crushing([
-			Item.of('1x minecraft:gold_ingot'),
-		], 'minecraft:golden_sword')
+	// Netherite Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_axe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 3
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/netherite_axe');
 
-	// Diamond Tools
-		// Diamond Shovel
-		event.recipes.create.crushing([
-			Item.of('6x elitia:diamond_fragment'),
-		], 'minecraft:diamond_shovel')
+	// Netherite Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_hoe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 2
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/netherite_hoe');
 
-		// Diamond Pickaxe
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:diamond'),
-		], 'minecraft:diamond_pickaxe')
+	// Netherite Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:netherite_sword').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:netherite_scrap',
+				count: 2
+			},
+			{
+				item: 'minecraft:diamond',
+				chance: 0.50,
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/netherite_sword');
 
-		// Diamond Axe
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:diamond'),
-		], 'minecraft:diamond_axe')
 
-		// Diamond Hoe
-		event.recipes.create.crushing([
-			Item.of('1x minecraft:diamond'),
-		], 'minecraft:diamond_hoe')
+	// Golden Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_shovel').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_nugget',
+				count: 6
+			}
+		]
+	}).id('kubejs:crushing/golden_shovel');
 
-		// Diamond Sword
-		event.recipes.create.crushing([
-			Item.of('1x minecraft:diamond'),
-		], 'minecraft:diamond_sword')
+	// Golden Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_pickaxe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/golden_pickaxe');
 
-	// Iron Tools
-		// Iron Shovel
-		event.recipes.create.crushing([
-			Item.of('6x minecraft:iron_nugget'),
-		], 'minecraft:iron_shovel')
+	// Golden Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_axe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/golden_axe');
 
-		// Iron Pickaxe
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:iron_ingot'),
-		], 'minecraft:iron_pickaxe')
+	// Golden Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_hoe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/golden_hoe');
 
-		// Iron Axe
-		event.recipes.create.crushing([
-			Item.of('2x minecraft:iron_ingot'),
-		], 'minecraft:iron_axe')
+	// Golden Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:golden_sword').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:gold_ingot',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/golden_sword');
 
-		// Iron Hoe
-		event.recipes.create.crushing([
-			Item.of('1x minecraft:iron_ingot'),
-		], 'minecraft:iron_hoe')
 
-		// Iron Sword
-		event.recipes.create.crushing([
-			Item.of('1x minecraft:iron_ingot'),
-		], 'minecraft:iron_sword')
+	// Diamond Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_shovel').toJson()
+		],
+		results: [
+			{
+				item: 'elitia:diamond_fragment',
+				count: 6
+			}
+		]
+	}).id('kubejs:crushing/diamond_shovel');
 
-	// Stone Tools
-		// Stone Shovel
-		event.recipes.create.crushing([
-			Item.of('1x #c:cobblestone'),
-		], 'minecraft:stone_shovel')
+	// Diamond Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_pickaxe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/diamond_pickaxe');
 
-		// Stone Pickaxe
-		event.recipes.create.crushing([
-			Item.of('2x #c:cobblestone'),
-		], 'minecraft:stone_pickaxe')
+	// Diamond Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_axe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/diamond_axe');
 
-		// Stone Axe
-		event.recipes.create.crushing([
-			Item.of('2x #c:cobblestone'),
-		], 'minecraft:stone_axe')
+	// Diamond Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_hoe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/diamond_hoe');
 
-		// Stone Hoe
-		event.recipes.create.crushing([
-			Item.of('1x #c:cobblestone'),
-		], 'minecraft:stone_hoe')
+	// Diamond Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:diamond_sword').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:diamond',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/diamond_sword');
 
-		// Stone Sword
-		event.recipes.create.crushing([
-			Item.of('1x #c:cobblestone'),
-		], 'minecraft:stone_sword')
 
-	// Wooden Tools
-		// Wooden Shovel
-		event.recipes.create.crushing([
-			Item.of('1x #minecraft:planks'),
-		], 'minecraft:wooden_shovel')
+	// Iron Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_shovel').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_nugget',
+				count: 6
+			}
+		]
+	}).id('kubejs:crushing/iron_shovel');
 
-		// Wooden Pickaxe
-		event.recipes.create.crushing([
-			Item.of('2x #minecraft:planks'),
-		], 'minecraft:wooden_pickaxe')
+	// Iron Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_pickaxe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/iron_pickaxe');
 
-		// Wooden Axe
-		event.recipes.create.crushing([
-			Item.of('2x #minecraft:planks'),
-		], 'minecraft:wooden_axe')
+	// Iron Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_axe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/iron_axe');
 
-		// Wooden Hoe
-		event.recipes.create.crushing([
-			Item.of('1x #minecraft:planks'),
-		], 'minecraft:wooden_hoe')
+	// Iron Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_hoe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/iron_hoe');
 
-		// Wooden Sword
-		event.recipes.create.crushing([
-			Item.of('1x #minecraft:planks'),
-		], 'minecraft:wooden_sword')
+	// Iron Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:iron_sword').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:iron_ingot' ,
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/iron_sword');
+
+
+	// Stone Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:stone_shovel').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:cobblestone',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/stone_shovel');
+
+	// Stone Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:stone_pickaxe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:cobblestone',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/stone_pickaxe');
+
+	// Stone Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:stone_axe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:cobblestone',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/stone_axe');
+
+	// Stone Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:stone_hoe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:cobblestone',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/stone_hoe');
+
+	// Stone Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:stone_sword').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:cobblestone',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/stone_sword');
+
+
+	// Wooden Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:wooden_shovel').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:oak_planks',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/wooden_shovel');
+
+	// Wooden Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:wooden_pickaxe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:oak_planks',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/wooden_pickaxe');
+
+	// Wooden Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:wooden_axe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:oak_planks',
+				count: 2
+			}
+		]
+	}).id('kubejs:crushing/wooden_axe');
+
+	// Wooden Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:wooden_hoe').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:oak_planks',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/wooden_hoe');
+
+	// Wooden Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('minecraft:wooden_sword').toJson()
+		],
+		results: [
+			{
+				item: 'minecraft:oak_planks',
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/wooden_sword');
+
 
 	// Chainmail Armor Recipe
 	// Chainmail Helmet
@@ -343,4 +866,442 @@ ServerEvents.recipes(event => {
 			A: 'minecraft:chain'
 		}
 	)
+
+	// Better Nether Tools and Armor
+
+		// Nether Ruby Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/ruby_helmet');
+
+		// Nether Ruby Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 4
+				}
+			]
+
+		}).id('kubejs:crushing/ruby_chestplate');
+
+		// Nether Ruby Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/ruby_leggings');
+
+		// Nether Ruby Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/ruby_boots');
+
+		// Nether Ruby Shovel
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_shovel').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_shovel');
+
+		// Nether Ruby Pickaxe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_pickaxe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_pickaxe');
+
+		// Nether Ruby Axe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_axe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_axe');
+
+		// Nether Ruby Hoe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_hoe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_hoe');
+
+		// Nether Ruby Sword
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:nether_ruby_sword').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:nether_ruby',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/nether_ruby_sword');
+
+
+		// Cincinnasite Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_helmet');
+
+		// Cincinnasite Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 4
+				}
+			]
+
+		}).id('kubejs:crushing/cincinnasite_chestplate');
+
+		// Cincinnasite Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_leggings');
+
+		// Cincinnasite Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_boots');
+
+		// Cincinnasite Shovel
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_shovel').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_shovel');
+
+		// Cincinnasite Pickaxe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_pickaxe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_pickaxe');
+
+		// Cincinnasite Axe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_axe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_axe');
+
+		// Cincinnasite Hoe
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_hoe').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_hoe');
+
+		// Cincinnasite Sword
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betternether:cincinnasite_sword').toJson()
+			],
+			results: [
+				{
+					item: 'betternether:cincinnasite_ingot',
+					count: 1
+				}
+			]
+		}).id('kubejs:crushing/cincinnasite_sword');
+
+
+	// Better End Tools and Armor
+
+		// Thallasium Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/thallasium_helmet');
+
+		// Thallasium Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 4
+				}
+			]
+
+		}).id('kubejs:crushing/thallasium_chestplate');
+
+		// Thallasium Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/thallasium_leggings');
+
+		// Thallasium Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:thallasium_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:thallasium_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/thallasium_boots');
+
+
+		// Terminite Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_helmet').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/terminite_helmet');
+
+		// Terminite Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_chestplate').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 4
+				}
+			]
+
+		}).id('kubejs:crushing/terminite_chestplate');
+
+		// Terminite Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_leggings').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 3
+				}
+			]
+		}).id('kubejs:crushing/terminite_leggings');
+
+		// Terminite Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:terminite_boots').toJson()
+			],
+			results: [
+				{
+					item: 'betterend:terminite_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/terminite_boots');
+
+
+		// Iron Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:iron_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:iron_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/iron_hammer');
+
+		// Golden Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:golden_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:gold_ingot',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/golden_hammer');
+
+		// Diamond Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:diamond_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:diamond',
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/diamond_hammer');
+
+		// Netherite Smith Hammer
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('betterend:netherite_hammer').toJson()
+			],
+			results: [
+				{
+					item: 'minecraft:netherite_scrap',
+					count: 2
+				},
+				{
+					item: 'minecraft:diamond',
+					chance: 0.50,
+					count: 2
+				}
+			]
+		}).id('kubejs:crushing/netherite_hammer');
+
 })

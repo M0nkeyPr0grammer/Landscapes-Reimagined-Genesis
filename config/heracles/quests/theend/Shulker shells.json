@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "End city"
+  ],
+  "tasks": {
+    "Shells": {
+      "type": "heracles:item",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "Give Shulker Box": {
+      "item": {
+        "id": "minecraft:shulker_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Collect 2 shulker shells to make a shulker"
+    },
+    "description": [
+      "Kill shulkers to collect 2 shulkker shells to start making shulkers to carry items"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -250,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:shulker_shell",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Shulker shells"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

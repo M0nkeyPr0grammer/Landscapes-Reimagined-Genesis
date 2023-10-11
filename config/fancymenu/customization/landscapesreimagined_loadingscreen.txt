@@ -69,13 +69,13 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 2.0
-  source = v1.19
+  source = v2.0.0
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = -59
-  width = 54
+  x = -65
+  width = 60
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 91b8efac-8028-4ab0-bbb7-494e381213581694109740609
   y = -25

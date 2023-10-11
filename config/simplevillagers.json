@@ -6,7 +6,7 @@
   "// How many ticks must pass between each breeding cycle. Defaults to 5 minutes.": "",
   "breeding_timer": 6000,
   "// Age of new baby villagers. Default is 20 minutes to grow up (like in vanilla).": "",
-  "baby_age": -24000,
+  "born_baby_age": -24000,
   "// How much should age be increased by each tick in *incubator* block. Vanilla would be 1.": "",
   "baby_age_increase": 2,
   "// Settings for zombie villager converter (curing).": "",

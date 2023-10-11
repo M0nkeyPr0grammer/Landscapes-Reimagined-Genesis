@@ -17,6 +17,7 @@
   "onlyPlayerCanDestroyAircraft": true,
   "burnFuelInCreative": false,
   "acceptVanillaFuel": true,
+  "useCustomKeybindSystem": true,
   "crashDamage": 2.0,
   "preventKillThroughCrash": true,
   "fuelList": {

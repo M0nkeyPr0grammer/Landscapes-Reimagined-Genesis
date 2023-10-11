@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Kill Warden": {
+      "entity": {
+        "type": "minecraft:warden"
+      },
+      "amount": 1,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "Warden xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "Give Carcus": {
+      "item": {
+        "id": "deeperdarker:warden_carapace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Kill a warden"
+    },
+    "description": [
+      "Kill the Warden"
+    ],
+    "groups": {
+      "Boss Mobs": {
+        "position": [
+          -200,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": "deeperdarker:warden_carapace",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kill the Warden"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

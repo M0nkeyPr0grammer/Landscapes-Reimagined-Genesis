@@ -246,33 +246,47 @@ ServerEvents.recipes(event => {
     // Mechanical Crafter Recipes
 
         // Biplane
-    event.recipes.create.mechanical_crafting(Item.of('immersive_aircraft:biplane'), [
-        '   D ',
-        'D  D ',
-        'AAEBC',
-        'D  D ',
-        '   D '
-    ], {
-        A: 'immersive_aircraft:hull',
-        B: 'cimmersive_aircraft:engine',
-        C: 'immersive_aircraft:propeller',
-        D: 'immersive_aircraft:sail',
-        E: '#create:seats',
-    })
+    // Biplane
+    event.custom({
+        type: "create:mechanical_crafting",
+        pattern: [
+            '   D ',
+            'D  D ',
+            'AAEBC',
+            'D  D ',
+            '   D '
+        ],
+        key: {
+            A: Ingredient.of('immersive_aircraft:hull').toJson(),
+            B: Ingredient.of('immersive_aircraft:engine').toJson(),
+            C: Ingredient.of('immersive_aircraft:propeller').toJson(),
+            D: Ingredient.of('immersive_aircraft:sail').toJson(),
+            E: Ingredient.of('#create:seats').toJson()
+        },
+        result: Ingredient.of('immersive_aircraft:biplane').toJson(),
+        acceptMirrored: false
+    }).id('kubejs:immersive_aircraft/biplane');
 
-        // Airship
-    event.recipes.create.mechanical_crafting(Item.of('immersive_aircraft:airship'), [
-        'DDDDD',
-        ' E E ',
-        ' AFBC',
-        ' AAA '
-    ], {
-        A: 'immersive_aircraft:hull',
-        B: 'immersive_aircraft:engine',
-        C: 'create:propeller',
-        D: 'immersive_aircraft:sail',
-        E: 'minecraft:string',
-        F: '#create:seats',
-    })
+    // Airship
+    event.custom({
+        type: "create:mechanical_crafting",
+        pattern: [
+            'DDDDD',
+            ' E E ',
+            ' AFBC',
+            ' AAA '
+        ],
+        key: {
+            A: Ingredient.of('immersive_aircraft:hull').toJson(),
+            B: Ingredient.of('immersive_aircraft:engine').toJson(),
+            C: Ingredient.of('create:propeller').toJson(),
+            D: Ingredient.of('immersive_aircraft:sail').toJson(),
+            E: Ingredient.of('minecraft:string').toJson(),
+            F: Ingredient.of('#create:seats').toJson()
+        },
+        result: Ingredient.of('immersive_aircraft:airship').toJson(),
+        acceptMirrored: false
+    }).id('kubejs:immersive_aircraft/airship');
+
 
 })

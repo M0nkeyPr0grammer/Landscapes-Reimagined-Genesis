@@ -14,7 +14,16 @@ ServerEvents.recipes((event) => {
                 Ingredient.of(`#${tag}`)
                     .getStacks()
                     .forEach((item) => {
-                        event.recipes.create.cutting(item.id, `#${tag}`).processingTime(50); // Adjust processingTime as needed
+                        event.custom({
+                            type: "create:cutting",
+                            ingredients: [
+                                Ingredient.of(`#${tag}`).toJson()
+                            ],
+                            results: [
+                                Ingredient.of(item.id).toJson()
+                            ],
+                            processingTime: 50 // Adjust processingTime as needed
+                        });
                     });
             });
         });

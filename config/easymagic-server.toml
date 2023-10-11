@@ -21,4 +21,10 @@ dedicated_reroll_catalyst = false
 #Requires the re-rolling option to be enabled.
 #Range: > 0
 reroll_experience_points_cost = 5
+#Do chiseled bookshelves provide enchanting power to an enchanting table, one for every three contained books.
+#NONE: Vanilla behavior, no power is provided.
+#FACING: The bookshelf must face the enchanting table to provide any power.
+#ALL: Chiseled bookshelves provide enchanting power regardless of where they are facing.
+#Allowed Values: NONE, FACING, ALL
+chiseled_bookshelf_enchanting_power = "FACING"
 
