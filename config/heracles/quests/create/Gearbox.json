@@ -17,6 +17,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Gears": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 4
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

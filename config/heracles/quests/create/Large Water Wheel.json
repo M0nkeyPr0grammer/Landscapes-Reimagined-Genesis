@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "give large water wheel": {
+      "item": {
+        "id": "create:large_water_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

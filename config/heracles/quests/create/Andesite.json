@@ -13,6 +13,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Andesite": {
+      "item": {
+        "id": "minecraft:andesite",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

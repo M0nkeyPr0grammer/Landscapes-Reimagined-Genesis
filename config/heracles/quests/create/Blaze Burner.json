@@ -21,6 +21,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Blaze Burner": {
+      "item": {
+        "id": "create:empty_blaze_burner",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

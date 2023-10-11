@@ -21,6 +21,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give casing": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

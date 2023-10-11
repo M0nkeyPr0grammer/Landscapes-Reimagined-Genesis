@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Rose Quartz": {
+      "item": {
+        "id": "create:rose_quartz",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

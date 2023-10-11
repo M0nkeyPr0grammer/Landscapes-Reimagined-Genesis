@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Copper": {
+      "item": {
+        "id": "minecraft:copper_block",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

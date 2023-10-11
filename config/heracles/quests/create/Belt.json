@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Belt": {
+      "item": {
+        "id": "create:belt_connector",
+        "count": 4
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

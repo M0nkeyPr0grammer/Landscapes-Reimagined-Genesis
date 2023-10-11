@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Brass": {
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

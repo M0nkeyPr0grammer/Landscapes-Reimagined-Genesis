@@ -15,6 +15,20 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Crushed Ore": {
+      "item": {
+        "id": "create:crushed_raw_zinc",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "Give Ore": {
+      "item": {
+        "id": "create:crushed_raw_iron",
+        "count": 16
+      },
+      "type": "heracles:item"
     }
   },
   "display": {

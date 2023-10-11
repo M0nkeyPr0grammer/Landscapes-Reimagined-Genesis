@@ -15,6 +15,13 @@
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
+    },
+    "Give Casing": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
