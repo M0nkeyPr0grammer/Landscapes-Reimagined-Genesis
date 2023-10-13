@@ -217,4 +217,23 @@ ServerEvents.recipes(event => {
         ]
     }).id('kubejs:compacting/molten_netherite');
 
+    // Create Molten Diamond Compacting Recipe
+    event.custom({
+        type: "create:compacting",
+        ingredients: [
+            {
+                fluid: 'createfoundry:molten_carbon',
+                nbt: {},
+                amount: 8100
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_diamond',
+                amount: 8100
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:compacting/molten_diamond_carbon');
+
 })
