@@ -39,6 +39,6 @@ This update primarily centers around optimizing Create Foundry to ensure its com
 - Vein Mining: Adjusted client options to require key press to active vein mine instead of it being always active
 - Hereacles: Fixed Explore Nether Fortress quest to require Yung's Better Nether Fortress instead of vanilla Fortress
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
-## Want to Read More about what was changed check out this [Github Merge]()
+## Want to Read More about what was changed check out this [Github Merge](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined/commit/0824357d366722f0cc1d2aadc8905a21f0757b2e)
 ### Want to setup a server using our official server host, click the banner below!
 [![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth+chanelog)
