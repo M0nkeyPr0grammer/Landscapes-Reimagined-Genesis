@@ -872,17 +872,4 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:crushing/raw_redstone');
 
-	// Creates Mixing Recipe for Molten Netherite
-	event.custom({
-		type: "create:mixing",
-		ingredients: [
-			{ fluid: 'createfoundry:molten_ancient_debris', amount: 8100 },
-			{ fluid: 'createfoundry:molten_gold', amount: 8100 }
-		],
-		results: [
-			{ fluid: 'createfoundry:molten_netherite', amount: 8100 }
-		],
-		heatRequirement: 'superheated'
-	}).id('kubejs:mixing/molten_netherite');
-
 })

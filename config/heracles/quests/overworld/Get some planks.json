@@ -7,7 +7,7 @@
       "type": "heracles:item",
       "amount": 4,
       "collection": "AUTOMATIC",
-      "item": "#c:planks"
+      "item": "#minecraft:planks"
     }
   },
   "rewards": {
