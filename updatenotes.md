@@ -27,6 +27,7 @@ This update primarily centers around optimizing Create Foundry to ensure its com
 - Simply Voice Chat: v2.4.26 > v2.4.27
 - More Discs: v31 > v32
 - Create Foundry: v1.2.1a > v1.2.1b
+- Landscapes Reimagined Dark Mode: v2.0.2 > v2.1.0
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.1.0
 ## KubeJS Tweaks
