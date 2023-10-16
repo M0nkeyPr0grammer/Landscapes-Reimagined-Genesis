@@ -8,6 +8,8 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'betterend:guidebook' }) // Removes guide book
 	event.remove({ id: 'betternether:betternether_book' }) // Removes guide book
 	event.remove({ id: 'seasonsextras:seasonal_compendium' }) // Removes Guide Book
+	event.remove({ id: 'chipped:benches/mechanist_workbench'}) // Removes Recipe, fixed below
+
 
 	// Creates Deeper and Darker Patchouli Guide
 	event.shapeless(
@@ -15,15 +17,6 @@ ServerEvents.recipes(event => {
 		[
 			'minecraft:book',
 			'minecraft:sculk'
-		]
-	)
-
-	// Creates Better Furnaces Reforged Patchouli Guide
-	event.shapeless(
-		Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:betterfurnacesreforged"}'),
-		[
-			'minecraft:book',
-			'minecraft:furnace'
 		]
 	)
 
@@ -69,8 +62,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Creates Creative Tank Recipe
-	// Creative Tank
+	// Create Creative Tank
 	event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
@@ -91,8 +83,7 @@ ServerEvents.recipes(event => {
 		acceptMirrored: false
 	}).id('kubejs:create/creative_fluid_tank');
 
-	// Creates Creative Blaze Cake Recipe
-	// Creative Blaze Cake
+	// Create Creative Blaze Cake
 	event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
@@ -110,8 +101,7 @@ ServerEvents.recipes(event => {
 		acceptMirrored: false
 	}).id('kubejs:create/creative_blaze_cake');
 
-	// Chromatic Compound
-	// Chromatic Compound
+	// Create Chromatic Compound
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -125,11 +115,22 @@ ServerEvents.recipes(event => {
 		conditions: ["superheated"]
 	}).id('kubejs:create/chromatic_compound');
 
-
+	// Fixes Chipped Tinkering Table Recipe
+	event.shaped(
+		Item.of('chipped:tinkering_table', 1),
+		[
+			'A  ',
+			'BCC',
+			'DED'
+		],
+		{
+			A: 'minecraft:redstone_torch',
+			B: 'minecraft:piston',
+			C: '#minecraft:wooden_slabs',
+			D: '#c:stripped_logs',
+			E: 'minecraft:tnt'
+		}
+	)
 
 })
 
-	ServerEvents.tags('item', event => {
-		// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-		// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-	})
