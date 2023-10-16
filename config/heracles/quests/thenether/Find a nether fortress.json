@@ -4,7 +4,7 @@
   ],
   "tasks": {
     "Enter a Nether Fortress": {
-      "structures": "#minecraft:fortress",
+      "structures": "#betterfortresses:better_fortresses",
       "type": "heracles:structure"
     }
   },
