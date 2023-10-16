@@ -177,13 +177,11 @@ REIEvents.groupEntries(event => {
                 InputItem.of('@extendedgears') // New Addition
             ]
         },
-        // V2.0.0 New Mod Additions
         { id: "kubejs:rei_groups/betternether", name: "Better Nether", items: [InputItem.of('@betternether')] },
         { id: "kubejs:rei_groups/betterarch", name: "Better Archeology", items: [InputItem.of('@betterarcheology')] },
         { id: "kubejs:rei_groups/betterend", name: "Better End", items: [InputItem.of('@betterend')] },
         { id: "kubejs:rei_groups/creeperoverhaul", name: "Creeper Overhaul", items: [InputItem.of('@creeperoverhaul')] },
         { id: "kubejs:rei_groups/fishofthieves", name: "Fish of Thieves", items: [InputItem.of('@fishofthieves')] },
-        { id: "kubejs:rei_groups/magnumtorch", name: "Magnmum Torches", items: [InputItem.of('@magnumtorch')] },
         { id: "kubejs:rei_groups/regions", name: "Regions Unexplored", items: [InputItem.of('@regions_unexplored')] },
         { id: "kubejs:rei_groups/waystones", name: "Waystones", items: [InputItem.of('@waystones')] },
         { id: "kubejs:rei_groups/wunderreich", name: "Wunderreich", items: [InputItem.of('@wunderreich')] },
@@ -200,11 +198,25 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/promenade", name: "Promenade", items: [InputItem.of('@promenade')] },
         { id: "kubejs:rei_groups/ptools", name: "Pocket Tools", items: [InputItem.of('@pockettools')] },
         { id: "kubejs:rei_groups/backpacks", name: "Traveler's Backpacks", items: [InputItem.of('#trinkets:chest/back')] },
-        { id: "kubejs:rei_groups/compasses", name: "Compasses", items: [
+        {
+            id: "kubejs:rei_groups/compasses", name: "Compasses", items: [
                 'explorerscompass:explorerscompass',
                 'naturescompass:naturescompass'
-            ] },
-
+            ]
+        },
+        // v2.1 Additions
+        { id: "kubejs:rei_groups/netherite", name: "Advanced Netherite", items: [InputItem.of('@advancednetherite')] },
+        { id: "kubejs:rei_groups/fandiscs", name: "Fan Made Discs", items: [InputItem.of('@all_the_fan_made_discs')] },
+        { id: "kubejs:rei_groups/pots", name: "Botany Pots", items: [InputItem.of('@botanypots')] },
+        { id: "kubejs:rei_groups/enderman", name: "Enderman Overhaul", items: [InputItem.of('@endermanoverhaul')] },
+        {
+            id: "kubejs:rei_groups/fuzs", name: "Fuzs Mods", items: [
+                'echochest:echo_chest',
+                'netherchested:nether_chest',
+                'barteringstation:bartering_station',
+                'tradingpost:trading_post',
+                InputItem.of('@magnumtorch')
+        ] }
     ];
 
     for (const group of groups) {
@@ -234,7 +246,7 @@ REIEvents.groupEntries(event => {
         'railways:green_conductor_cap',
         'railways:red_conductor_cap',
         'railways:black_conductor_cap',
-        Item.of('wunderreich:whisperer', '{Damage:0}'), 
+        Item.of('wunderreich:whisperer', '{Damage:0}')
     ];
 
     useNbt.forEach(id => {
@@ -246,8 +258,7 @@ REIEvents.groupEntries(event => {
     // Groups Fluids in REI
     const fluidGroups = [
         { id: "kubejs:rei_groups/fluid_tagged_as_water", name: "Fluids", fluids: ['minecraft:water', 'minecraft:lava'] },
-        {
-            id: "kubejs:rei_groups/create_fluids", name: "Create Fluids", fluids: [
+        { id: "kubejs:rei_groups/create_fluids", name: "Create Fluids", fluids: [
                 'create:honey',
                 'create:chocolate',
                 'milk:still_milk',
@@ -267,14 +278,11 @@ REIEvents.groupEntries(event => {
                 'createfoundry:molten_lapis',
                 'createfoundry:molten_ancient_debris',
                 'createfoundry:molten_netherite',
-            ]
-        },
-        {
-            id: "kubejs:rei_groups/travelers_fluids", name: "Travelers Backpack Fluids", fluids: [
+            ] },
+        { id: "kubejs:rei_groups/travelers_fluids", name: "Travelers Backpack Fluids", fluids: [
                 'travelersbackpack:potion_still', 'travelersbackpack:milk_still']
         },
-        {
-            id: "kubejs:rei_groups/delightfulcreators_fluids", name: "Delightful Creators Fluids", fluids: [
+        { id: "kubejs:rei_groups/delightfulcreators_fluids", name: "Delightful Creators Fluids", fluids: [
                 'delightfulcreators:tomato_sauce',
                 'delightfulcreators:hot_cocoa',
                 'delightfulcreators:melon_juice',
@@ -294,8 +302,7 @@ REIEvents.groupEntries(event => {
                 'delightfulcreators:baked_cod_stew',
                 'delightfulcreators:ratatouille',
                 'delightfulcreators:dog_food',
-            ]
-        }
+        ] }
     ];
 
     for (const group of fluidGroups) {
@@ -366,7 +373,7 @@ function getID(id) {
         return "Black Conductor Caps";
     }
     else if (id == '1 whisperer') {
-        return "Whisperers";            
+        return "Whisperers";            // New Change
     }
     return id;
 };
