@@ -6,7 +6,6 @@
 - [Create Goggles](https://modrinth.com/mod/create-goggles):  Adds Goggle Helmets and Armored Backtanks for Create Mod
 - [Repurposed Structures - Yung's Better Nether Fortress Compat](https://modrinth.com/datapack/repurposed-structures-yungs-better-nether-fortress-compat): Add a giant Jungle Fortress into the world based on Yung's Better Nether Fortress mod! 
 - [Repurposed Structures - Better Jungle Temples Compat](https://modrinth.com/datapack/repurposed-structures-better-jungle-temples): Change RS Temples to be in Better Jungle Temple's style
-- [Create Track Map](https://modrinth.com/mod/create-track-map): A web-based track map of your world's Create train system, complete with signals, stations, and trains moving in real time.
 ## Updates
 - AudioPlayer: v1.8.2 > v1.8.3
 - Comforts: v6.3.3 > v6.3.4
