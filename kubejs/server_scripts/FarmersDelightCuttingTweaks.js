@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
     });
 
     // Better Nether and End Bark Compatibility
-    var more_modded_bark = [
+    var modded_bark = [
         'betternether:stalagnate_bark',
         'betternether:willow_bark',
         'betternether:wart_bark',
@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
         'betterend:jellyshroom_bark'
     ];
 
-    more_modded_bark.forEach(bark => {
+    modded_bark.forEach(bark => {
         event.custom({
             type: "farmersdelight:cutting",
             ingredients: [
