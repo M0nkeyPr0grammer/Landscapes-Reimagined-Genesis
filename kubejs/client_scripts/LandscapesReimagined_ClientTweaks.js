@@ -173,8 +173,9 @@ REIEvents.groupEntries(event => {
                 InputItem.of('@createchunkloading'),
                 'create:chromatic_compound',
                 InputItem.of('@createoreexcavation'),
-                InputItem.of('@createfoundry'), // New Addition
-                InputItem.of('@extendedgears') // New Addition
+                InputItem.of('@createfoundry'), 
+                InputItem.of('@extendedgears'),
+                InputItem.of('@creategoggles')
             ]
         },
         { id: "kubejs:rei_groups/betternether", name: "Better Nether", items: [InputItem.of('@betternether')] },
