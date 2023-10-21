@@ -5,9 +5,9 @@ ServerEvents.recipes(event => {
     // Vanilla, Terrestria, Deeper and Darker, Promenade, and Regions Unexplored Compatibility
     var modded_logs = [
         // Vanilla Logs
-        'minecraft:cherry_log',
-        'minecraft:cherry_wood',
-        'minecraft:bamboo_block',
+        'minecraft:cherry_log', 
+        'minecraft:cherry_wood', 
+        'minecraft:bamboo_block', 
         // Terrestria Wood and Logs
         'terrestria:redwood_log',
         'terrestria:redwood_wood',
