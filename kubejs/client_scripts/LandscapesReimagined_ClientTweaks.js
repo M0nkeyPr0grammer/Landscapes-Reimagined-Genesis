@@ -173,7 +173,7 @@ REIEvents.groupEntries(event => {
                 InputItem.of('@createchunkloading'),
                 'create:chromatic_compound',
                 InputItem.of('@createoreexcavation'),
-                InputItem.of('@createfoundry'), 
+                InputItem.of('@createfoundry'),
                 InputItem.of('@extendedgears'),
                 InputItem.of('@creategoggles')
             ]
@@ -217,7 +217,8 @@ REIEvents.groupEntries(event => {
                 'barteringstation:bartering_station',
                 'tradingpost:trading_post',
                 InputItem.of('@magnumtorch')
-        ] }
+            ]
+        },
     ];
 
     for (const group of groups) {
@@ -247,7 +248,12 @@ REIEvents.groupEntries(event => {
         'railways:green_conductor_cap',
         'railways:red_conductor_cap',
         'railways:black_conductor_cap',
-        Item.of('wunderreich:whisperer', '{Damage:0}')
+        Item.of('wunderreich:whisperer', '{Damage:0}'),
+        Item.of('enderchests:ender_chest', '{owner:"all"}'),
+        Item.of('enderchests:ender_bag', '{owner:"all"}'),
+        Item.of('enderchests:ender_pouch', '{owner:"all"}'),
+        Item.of('endertanks:ender_tank', '{owner:"all"}'),
+        Item.of('endertanks:ender_bucket', '{owner:"all"}'),
     ];
 
     useNbt.forEach(id => {
@@ -372,6 +378,21 @@ function getID(id) {
     }
     else if (id == 'railways:black_conductor_cap') {
         return "Black Conductor Caps";
+    }
+    else if (id == '1 ender_chest') {
+        return "Ender Chests";
+    }
+    else if (id == '1 ender_bag') {
+        return "Ender Bags";
+    }
+    else if (id == '1 ender_tank') {
+        return "Ender Tanks";
+    }
+    else if (id == '1 ender_bucket') {
+        return "Ender Buckets";
+    }
+    else if (id == '1 ender_pouch') {
+        return "Ender Pouches";
     }
     else if (id == '1 whisperer') {
         return "Whisperers";            // New Change
