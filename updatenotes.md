@@ -36,6 +36,7 @@
 - kubejs\serverscripts\FarmersDelightCuttingTweaks: Added in all Logs and Wood to Farmers Delight Cutting
 - kubejs\serverscripts\ModdedLog_SawingAdditions: Added in Modded Log/Wood Create Cutting Recipes
 - kubejs\serverscripts\OreTweaks: Added in Processing Times for all recipes
+- kubejs\serverscripts\Flower_CrushingMillingTweaks: Added in modded flower crushing and milling recipes
 ## Config Tweaks
 - Will Tweak later
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
