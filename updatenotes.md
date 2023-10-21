@@ -1,6 +1,6 @@
-# Modpack Patch Notes: Version 2.1.0 [Create Foundry Adjustments]
-**Release Date**: Coming Soon, 2023
-	Info will be added closer to release date, whenever that will be.
+# Modpack Patch Notes: Version 2.2.0 [Create Compatibility]
+**Release Date**: October, 21, 2023
+	The latest update emphasizes enhanced compatibility with modded content, particularly with machinery from the "Create" mod. Additionally, this release incorporates updates to existing mods, introduces two new structure datapack add-ons, and reinstates the "Create" goggles feature from v1.19.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## New Additions
 - [Create Goggles](https://modrinth.com/mod/create-goggles):  Adds Goggle Helmets and Armored Backtanks for Create Mod
@@ -37,8 +37,6 @@
 - kubejs\serverscripts\ModdedLog_SawingAdditions: Added in Modded Log/Wood Create Cutting Recipes
 - kubejs\serverscripts\OreTweaks: Added in Processing Times for all recipes
 - kubejs\serverscripts\Flower_CrushingMillingTweaks: Added in modded flower crushing and milling recipes
-## Config Tweaks
-- Will Tweak later
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ## Want to Read More about what was changed check out this [Github Merge]()
 ### Want to setup a server using our official server host, click the banner below!
