@@ -7,6 +7,9 @@ The latest update emphasizes enhanced compatibility with modded content, particu
 - [Create Goggles](https://modrinth.com/mod/create-goggles):  Adds Goggle Helmets and Armored Backtanks for Create Mod
 - [Repurposed Structures - Yung's Better Nether Fortress Compat](https://modrinth.com/datapack/repurposed-structures-yungs-better-nether-fortress-compat): Add a giant Jungle Fortress into the world based on Yung's Better Nether Fortress mod! 
 - [Repurposed Structures - Better Jungle Temples Compat](https://modrinth.com/datapack/repurposed-structures-better-jungle-temples): Change RS Temples to be in Better Jungle Temple's style
+- [EnderChests](https://modrinth.com/mod/enderchests): Adds linked Chests and Bags that share inventory. Can be Public, Personal, or Team, each with their own set of storage available. Works across dimensions.
+- [EnderTanks](https://modrinth.com/mod/endertanks): Adds linked Tanks and Buckets that share inventory. Can be Public, Personal, or Team, each with their own set of storage available. Works across dimensions.
+- [ShetiPhianCore](https://modrinth.com/mod/shetiphiancore): Required for ShetiPhians Mods
 ## Updates
 - AudioPlayer: v1.8.2 > v1.8.3
 - Comforts: v6.3.3 > v6.3.4
