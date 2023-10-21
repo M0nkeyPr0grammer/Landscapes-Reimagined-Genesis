@@ -25,6 +25,7 @@ The latest update emphasizes enhanced compatibility with modded content, particu
 - Bookshelf: v20.0.5 > v20.1.6
 - Argonauts: v1.0.4 > v1.0.5
 - Deeper and Darker: v1.2.0 > v1.2.1
+- Friend and Foes: v1.9.7 > v1.9.8
 - Landscapes Reimagined Dark Mode: v2.0.2 > v2.2.0
 ## Temp Removals
 - Simple Copper Pipes: Makes create filters unusable, will readd when bug is fixed
