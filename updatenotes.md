@@ -45,6 +45,6 @@ The latest update emphasizes enhanced compatibility with modded content, particu
 - kubejs\serverscripts\LandscapesReimagined_ServerTweaks: Fix Diamond Grit Sandpaper recipe
 - kubejs\clientscripts\LandscapesReimagined_ClientTweaks: Added in new groups
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
-## Want to Read More about what was changed check out this [Github Merge]()
+## Want to Read More about what was changed check out this [Github Merge](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined/commit/f1639d568cc7ae52b94dea5b64e0e8cd0de026bb)
 ### Want to setup a server using our official server host, click the banner below!
 [![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth+chanelog)
