@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'betterend:guidebook' }) // Removes guide book
 	event.remove({ id: 'betternether:betternether_book' }) // Removes guide book
 	event.remove({ id: 'seasonsextras:seasonal_compendium' }) // Removes Guide Book
-	event.remove({ id: 'chipped:benches/mechanist_workbench'}) // Removes Recipe, fixed below
+	event.remove({ id: 'chipped:benches/mechanist_workbench' }) // Removes Recipe, fixed below
+	event.remove({ id: 'createaddition:crafting/diamond_grit_sandpaper' }) // Removes Broken Recipe
 
 
 	// Creates Deeper and Darker Patchouli Guide
@@ -44,6 +45,15 @@ ServerEvents.recipes(event => {
 		[
 			'minecraft:book',
 			'minecraft:emerald'
+		]
+	)
+
+	// Diamond Grit Sandpaper
+	event.shapeless(
+		Item.of('createaddition:diamond_grit_sandpaper'),
+		[
+			'minecraft:paper',
+			'createaddition:diamond_grit'
 		]
 	)
 

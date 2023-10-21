@@ -28,6 +28,6 @@
     "create:carriage_contraption"
   ],
   "disableF3": false,
-  "skipEntityCulling": false,
+  "skipEntityCulling": true,
   "skipBlockEntityCulling": false
 }

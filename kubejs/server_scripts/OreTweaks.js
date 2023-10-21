@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_coal_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:coal' },
 			{ item: 'minecraft:coal', chance: 0.75 },
@@ -26,6 +27,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_coal_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:coal' },
 			{ item: 'minecraft:coal', chance: 0.75 },
@@ -40,6 +42,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_coal_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:coal' },
 			{ item: 'minecraft:coal', chance: 0.75 },
@@ -54,6 +57,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_coal_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:coal' },
 			{ item: 'minecraft:coal', chance: 0.75 },
@@ -68,6 +72,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_coal_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:coal' },
 			{ item: 'minecraft:coal', chance: 0.75 },
@@ -85,6 +90,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_iron_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_iron' },
 			{ item: 'create:crushed_raw_iron', chance: 0.75 },
@@ -99,6 +105,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_iron_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_iron' },
 			{ item: 'create:crushed_raw_iron', chance: 0.75 },
@@ -113,6 +120,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_iron_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_iron' },
 			{ item: 'create:crushed_raw_iron', chance: 0.75 },
@@ -127,6 +135,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_iron_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_iron' },
 			{ item: 'create:crushed_raw_iron', chance: 0.75 },
@@ -141,6 +150,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_iron_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_iron' },
 			{ item: 'create:crushed_raw_iron', chance: 0.75 },
@@ -158,6 +168,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_copper_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_copper', count: 5 },
 			{ item: 'create:crushed_raw_copper', chance: 0.25 },
@@ -172,6 +183,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_copper_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_copper', count: 5 },
 			{ item: 'create:crushed_raw_copper', chance: 0.25 },
@@ -186,6 +198,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_copper_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_copper', count: 5 },
 			{ item: 'create:crushed_raw_copper', chance: 0.25 },
@@ -200,6 +213,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_copper_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_copper', count: 5 },
 			{ item: 'create:crushed_raw_copper', chance: 0.25 },
@@ -214,6 +228,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_copper_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_copper', count: 5 },
 			{ item: 'create:crushed_raw_copper', chance: 0.25 },
@@ -231,6 +246,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_gold' },
 			{ item: 'create:crushed_raw_gold', chance: 0.75 },
@@ -245,6 +261,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_gold' },
 			{ item: 'create:crushed_raw_gold', chance: 0.75 },
@@ -259,6 +276,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_gold' },
 			{ item: 'create:crushed_raw_gold', chance: 0.75 },
@@ -273,6 +291,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_gold' },
 			{ item: 'create:crushed_raw_gold', chance: 0.75 },
@@ -287,6 +306,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_gold' },
 			{ item: 'create:crushed_raw_gold', chance: 0.75 },
@@ -301,6 +321,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:blackstone_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:gold_nugget', count: 18 },
 			{ item: 'create:experience_nugget', chance: 0.75 },
@@ -314,6 +335,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:basalt_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:gold_nugget', count: 18 },
 			{ item: 'create:experience_nugget', chance: 0.75 },
@@ -330,6 +352,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_redstone_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:redstone', count: 6 },
 			{ item: 'minecraft:redstone', chance: 0.50 },
@@ -344,6 +367,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_redstone_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:redstone', count: 6 },
 			{ item: 'minecraft:redstone', chance: 0.50 },
@@ -358,6 +382,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_redstone_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:redstone', count: 6 },
 			{ item: 'minecraft:redstone', chance: 0.50 },
@@ -372,6 +397,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_redstone_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:redstone', count: 6 },
 			{ item: 'minecraft:redstone', chance: 0.50 },
@@ -386,6 +412,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_redstone_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:redstone', count: 6 },
 			{ item: 'minecraft:redstone', chance: 0.50 },
@@ -403,6 +430,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_emerald_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:emerald' },
 			{ item: 'minecraft:emerald', chance: 0.75 },
@@ -417,6 +445,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_emerald_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:emerald' },
 			{ item: 'minecraft:emerald', chance: 0.75 },
@@ -431,6 +460,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_emerald_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:emerald' },
 			{ item: 'minecraft:emerald', chance: 0.75 },
@@ -445,6 +475,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_emerald_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:emerald' },
 			{ item: 'minecraft:emerald', chance: 0.75 },
@@ -459,6 +490,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_emerald_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:emerald' },
 			{ item: 'minecraft:emerald', chance: 0.75 },
@@ -476,6 +508,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_lapis_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:lapis_lazuli', count: 10 },
 			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
@@ -490,6 +523,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_lapis_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:lapis_lazuli', count: 10 },
 			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
@@ -504,6 +538,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_lapis_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:lapis_lazuli', count: 10 },
 			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
@@ -518,6 +553,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_lapis_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:lapis_lazuli', count: 10 },
 			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
@@ -532,6 +568,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_lapis_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:lapis_lazuli', count: 10 },
 			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
@@ -549,6 +586,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:granite_diamond_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:diamond' },
 			{ item: 'minecraft:diamond', chance: 0.75 },
@@ -563,6 +601,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:diorite_diamond_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:diamond' },
 			{ item: 'minecraft:diamond', chance: 0.75 },
@@ -577,6 +616,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:andesite_diamond_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:diamond' },
 			{ item: 'minecraft:diamond', chance: 0.75 },
@@ -591,6 +631,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:tuff_diamond_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:diamond' },
 			{ item: 'minecraft:diamond', chance: 0.75 },
@@ -605,6 +646,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:calcite_diamond_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:diamond' },
 			{ item: 'minecraft:diamond', chance: 0.75 },
@@ -622,6 +664,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:blackstone_quartz_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:quartz', count: 2 },
 			{ item: 'minecraft:quartz', chance: 0.25 },
@@ -636,6 +679,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'universal_ores:basalt_quartz_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:quartz', count: 2 },
 			{ item: 'minecraft:quartz', chance: 0.25 },
@@ -652,6 +696,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'betternether:cincinnasite_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'betternether:cincinnasite' },
 			{ item: 'betternether:cincinnasite', chance: 0.75 },
@@ -666,6 +711,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'betternether:nether_ruby_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'betternether:nether_ruby' },
 			{ item: 'betternether:nether_ruby', chance: 0.75 },
@@ -680,6 +726,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'betternether:nether_lapis_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:lapis_lazuli', count: 10 },
 			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
@@ -694,6 +741,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'betternether:nether_redstone_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:redstone', count: 6 },
 			{ item: 'minecraft:redstone', chance: 0.50 },
@@ -710,6 +758,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'betterend:amber_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'betterend:raw_amber' },
 			{ item: 'betterend:raw_amber', chance: 0.75 },
@@ -724,6 +773,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'betterend:ender_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'betterend:ender_shard' },
 			{ item: 'betterend:ender_shard', chance: 0.75 },
@@ -738,6 +788,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'betterend:thallasium_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'betterend:thallasium_raw' },
 			{ item: 'betterend:thallasium_raw', chance: 0.75 },
@@ -754,6 +805,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_coal_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:coal' },
 			{ item: 'minecraft:coal', chance: 0.75 },
@@ -768,6 +820,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_copper_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_copper', count: 5 },
 			{ item: 'create:crushed_raw_copper', chance: 0.25 },
@@ -782,6 +835,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_diamond_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:diamond' },
 			{ item: 'minecraft:diamond', chance: 0.75 },
@@ -796,6 +850,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_emerald_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:emerald' },
 			{ item: 'minecraft:emerald', chance: 0.75 },
@@ -810,6 +865,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_gold_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_gold' },
 			{ item: 'create:crushed_raw_gold', chance: 0.75 },
@@ -824,6 +880,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_iron_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'create:crushed_raw_iron' },
 			{ item: 'create:crushed_raw_iron', chance: 0.75 },
@@ -838,6 +895,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_lapis_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:lapis_lazuli', count: 10 },
 			{ item: 'minecraft:lapis_lazuli', chance: 0.50 },
@@ -852,6 +910,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'deeperdarker:gloomslate_redstone_ore' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:coal' },
 			{ item: 'minecraft:coal', chance: 0.75 },
@@ -866,6 +925,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{ item: 'regions_unexplored:raw_redstone_block' }
 		],
+		processingTime: 400,
 		results: [
 			{ item: 'minecraft:redstone', count: 4 },
 			{ item: 'minecraft:redstone', chance: 0.10 }

@@ -19,6 +19,7 @@ ServerEvents.recipes((event) => {
                             ingredients: [
                                 Ingredient.of(`#${tag}`).toJson()
                             ],
+                            processingTime: 50,
                             results: [
                                 Ingredient.of(item.id).toJson()
                             ],

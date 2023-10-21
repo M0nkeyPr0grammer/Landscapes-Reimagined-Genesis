@@ -1333,4 +1333,97 @@ ServerEvents.recipes(event => {
         ],
         heatRequirement: 'superheated'
     }).id('kubejs:mixing/molten_netherite');
+
+    // Molten Brass
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            { fluid: 'createfoundry:molten_zinc', amount: 81000 },
+            { fluid: 'createfoundry:molten_copper', amount: 81000 }
+        ],
+        results: [
+            { fluid: 'createfoundry:molten_brass', amount: 81000 }
+        ],
+        heatRequirement: 'superheated'
+    }).id('kubejs:mixing/molten_brass');
+
+    // Crushed Ore to Moltem Ore
+        // Crushed Iron Ore
+        event.custom({
+            type: "create:mixing",
+            ingredients: [
+                {
+                    item: 'create:crushed_raw_iron',
+                    nbt: {},
+                    amount: 1
+                }
+            ],
+            results: [
+                {
+                    fluid: 'createfoundry:molten_iron',
+                    amount: 16200
+                }
+            ],
+            heatRequirement: "superheated"
+        }).id('kubejs:mixing/crushed_iron');
+
+
+        // Crushed Gold Ore
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create:crushed_raw_gold',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_gold',
+                amount: 16200
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/crushed_gold');
+
+
+        // Crushed Copper Ore
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create:crushed_raw_copper',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_copper',
+                amount: 16200
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/crushed_copper');
+
+
+        // Crushed Zinc Ore
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'create:crushed_raw_zinc',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_zinc',
+                amount: 16200
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/crushed_zinc');
 })
