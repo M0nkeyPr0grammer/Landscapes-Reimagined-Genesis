@@ -22,10 +22,17 @@
 - Roughly Enought Professions: v2.0.1 > v2.0.2
 - Rhino: v2001.2.2-build.6 > v2001.2.2-build.11
 - Landscapes Reimagined Dark Mode: v2.0.2 > v2.2.0
+## Temp Removals
+- Simple Copper Pipes: Makes create filters unusable, will readd when bug is fixed
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.2.0
 ## KubeJS Tweaks
-- Will Tweak later
+- kubejs\serverscripts\Armor_Tools_Crushing: Added in Processing Times for all recipes
+- kubejs\serverscripts\ChippedCreateTweaks: Added in Processing Times for all recipes
+- kubejs\serverscripts\CreateFoundry: Added in New Molten Ore mixing recipes, for brass and create crushed ores
+- kubejs\serverscripts\FarmersDelightCuttingTweaks: Added in all Logs and Wood to Farmers Delight Cutting
+- kubejs\serverscripts\ModdedLog_SawingAdditions: Added in Modded Log/Wood Create Cutting Recipes
+- kubejs\serverscripts\OreTweaks: Added in Processing Times for all recipes
 ## Config Tweaks
 - Will Tweak later
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
