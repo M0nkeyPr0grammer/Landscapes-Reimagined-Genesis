@@ -1,6 +1,7 @@
 # Modpack Patch Notes: Version 2.2.0 [Create Compatibility]
 **Release Date**: October, 21, 2023
-	The latest update emphasizes enhanced compatibility with modded content, particularly with machinery from the "Create" mod. Additionally, this release incorporates updates to existing mods, introduces two new structure datapack add-ons, and reinstates the "Create" goggles feature from v1.19.
+
+The latest update emphasizes enhanced compatibility with modded content, particularly with machinery from the "Create" mod. Additionally, this release incorporates updates to existing mods, introduces two new structure datapack add-ons, and reinstates the "Create" goggles feature from v1.19.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## New Additions
 - [Create Goggles](https://modrinth.com/mod/create-goggles):  Adds Goggle Helmets and Armored Backtanks for Create Mod
