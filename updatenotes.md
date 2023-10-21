@@ -37,6 +37,7 @@
 - kubejs\serverscripts\ModdedLog_SawingAdditions: Added in Modded Log/Wood Create Cutting Recipes
 - kubejs\serverscripts\OreTweaks: Added in Processing Times for all recipes
 - kubejs\serverscripts\Flower_CrushingMillingTweaks: Added in modded flower crushing and milling recipes
+- kubejs\serverscripts\LandscapesReimagined_ServerTweaks: Fix Diamond Grit Sandpaper recipe
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ## Want to Read More about what was changed check out this [Github Merge]()
 ### Want to setup a server using our official server host, click the banner below!
