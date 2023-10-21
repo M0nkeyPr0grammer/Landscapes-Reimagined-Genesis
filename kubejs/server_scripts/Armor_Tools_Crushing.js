@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_helmet').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond',
@@ -22,6 +23,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_chestplate').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond',
@@ -37,6 +39,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_leggings').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond',
@@ -51,6 +54,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_boots').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond' ,
@@ -66,6 +70,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_helmet').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot',
@@ -80,6 +85,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_chestplate').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot',
@@ -94,6 +100,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_leggings').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot',
@@ -108,6 +115,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_boots').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot' ,
@@ -123,6 +131,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_helmet').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -142,6 +151,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_chestplate').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -161,6 +171,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_leggings').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -180,6 +191,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_boots').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -200,6 +212,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:leather_helmet').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:leather',
@@ -214,6 +227,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:leather_chestplate').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:leather',
@@ -228,6 +242,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:leather_leggings').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:leather',
@@ -242,6 +257,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:leather_boots').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:leather',
@@ -257,6 +273,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:chainmail_helmet').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_nugget',
@@ -271,6 +288,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:chainmail_chestplate').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_nugget',
@@ -285,6 +303,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:chainmail_leggings').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_nugget' ,
@@ -299,6 +318,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:chainmail_boots').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_nugget',
@@ -314,6 +334,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_helmet').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot',
@@ -328,6 +349,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_chestplate').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot',
@@ -342,6 +364,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_leggings').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot',
@@ -356,6 +379,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_boots').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot',
@@ -371,6 +395,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_shovel').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -390,6 +415,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_pickaxe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -409,6 +435,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_axe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -428,6 +455,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_hoe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -447,6 +475,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:netherite_sword').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:netherite_scrap',
@@ -467,6 +496,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_shovel').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_nugget',
@@ -481,6 +511,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_pickaxe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot',
@@ -495,6 +526,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_axe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot',
@@ -509,6 +541,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_hoe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot',
@@ -523,6 +556,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:golden_sword').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:gold_ingot',
@@ -538,6 +572,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_shovel').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'elitia:diamond_fragment',
@@ -552,6 +587,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_pickaxe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond',
@@ -566,6 +602,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_axe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond',
@@ -580,6 +617,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_hoe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond',
@@ -594,6 +632,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:diamond_sword').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:diamond',
@@ -609,6 +648,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_shovel').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_nugget',
@@ -623,6 +663,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_pickaxe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot',
@@ -637,6 +678,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_axe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot',
@@ -651,6 +693,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_hoe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot',
@@ -665,6 +708,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:iron_sword').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:iron_ingot' ,
@@ -680,6 +724,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:stone_shovel').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:cobblestone',
@@ -694,6 +739,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:stone_pickaxe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:cobblestone',
@@ -708,6 +754,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:stone_axe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:cobblestone',
@@ -722,6 +769,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:stone_hoe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:cobblestone',
@@ -736,6 +784,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:stone_sword').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:cobblestone',
@@ -751,6 +800,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:wooden_shovel').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:oak_planks',
@@ -765,6 +815,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:wooden_pickaxe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:oak_planks',
@@ -779,6 +830,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:wooden_axe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:oak_planks',
@@ -793,6 +845,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:wooden_hoe').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:oak_planks',
@@ -807,6 +860,7 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			Ingredient.of('minecraft:wooden_sword').toJson()
 		],
+		processingTime: 200,
 		results: [
 			{
 				item: 'minecraft:oak_planks',
@@ -875,6 +929,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_helmet').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -889,6 +944,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_chestplate').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -904,6 +960,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_leggings').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -918,6 +975,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_boots').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -932,6 +990,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_shovel').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -946,6 +1005,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_pickaxe').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -960,6 +1020,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_axe').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -974,6 +1035,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_hoe').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -988,6 +1050,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:nether_ruby_sword').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:nether_ruby',
@@ -1003,6 +1066,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_helmet').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1017,6 +1081,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_chestplate').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1032,6 +1097,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_leggings').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1046,6 +1112,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_boots').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1060,6 +1127,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_shovel').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1074,6 +1142,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_pickaxe').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1088,6 +1157,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_axe').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1102,6 +1172,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_hoe').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1116,6 +1187,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betternether:cincinnasite_sword').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betternether:cincinnasite_ingot',
@@ -1133,6 +1205,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:thallasium_helmet').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:thallasium_ingot',
@@ -1147,6 +1220,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:thallasium_chestplate').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:thallasium_ingot',
@@ -1162,6 +1236,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:thallasium_leggings').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:thallasium_ingot',
@@ -1176,6 +1251,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:thallasium_boots').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:thallasium_ingot',
@@ -1191,6 +1267,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:terminite_helmet').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:terminite_ingot',
@@ -1205,6 +1282,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:terminite_chestplate').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:terminite_ingot',
@@ -1220,6 +1298,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:terminite_leggings').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:terminite_ingot',
@@ -1234,6 +1313,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:terminite_boots').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'betterend:terminite_ingot',
@@ -1249,6 +1329,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:iron_hammer').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'minecraft:iron_ingot',
@@ -1263,6 +1344,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:golden_hammer').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'minecraft:gold_ingot',
@@ -1277,6 +1359,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:diamond_hammer').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'minecraft:diamond',
@@ -1291,6 +1374,7 @@ ServerEvents.recipes(event => {
 			ingredients: [
 				Ingredient.of('betterend:netherite_hammer').toJson()
 			],
+			processingTime: 200,
 			results: [
 				{
 					item: 'minecraft:netherite_scrap',

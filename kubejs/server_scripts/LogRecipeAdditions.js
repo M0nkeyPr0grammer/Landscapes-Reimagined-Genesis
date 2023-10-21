@@ -1,4 +1,4 @@
-// Log Recipe Additions
+ // Log Recipe Additions
 ServerEvents.recipes(event => {
 	
 	// Alternate Chest Recipes
@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 		['minecraft:chest', 'minecraft:oak_log'],
 		['lolmcv:acacia_chest', 'minecraft:acacia_log'],
 		['lolmcv:birch_chest', 'minecraft:birch_log'],
-		['lolmcv:spruce_chest', 'minecraft:spruce_log'],
+		['lolmcv:spruce_chest', 'minecraft:spruce_log'], 
 		['lolmcv:dark_oak_chest', 'minecraft:dark_oak_log'],
 		['lolmcv:jungle_chest', 'minecraft:jungle_log'],
 		['lolmcv:mangrove_chest', 'minecraft:mangrove_log'],
@@ -452,5 +452,4 @@ ServerEvents.recipes(event => {
 			}
 		)
 	});
-
 });
