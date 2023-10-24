@@ -21,7 +21,7 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - Xaero's Minimap: v23.8.3 > v23.8.4
 - Xaero's World Mpa: v1.35.0 > v1.36.0
 ## Quest Updates
-- 
+- Fixed all incomplete/ broken quests
 ## Quest Additions
 - 
 ## Drippy Screen Tweaks
