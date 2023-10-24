@@ -8,7 +8,18 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - [Ender Dragon Fight Remastered](https://modrinth.com/datapack/edf-remastered): An up in difficulty for Minecraft's final boss. With more health and more attacks, the fight finally feels like the final confrontation.
 - [BE Style Wither](https://modrinth.com/mod/be-style-wither): Brings the behavior of Wither closer to Bedrock Edition
 ## Updates
-- 
+- Ambient Sounds: v5.2.22 > v5.2.24
+- BetterTrims: v2.0.1 > v2.0.3
+- CreativeCore: v2.11.5 > v2.11.7
+- Fabric API: v0.90.0 > v0.90.4
+- Ferritcore: v6.0.0 > v6.0.1
+- Polymer: v0.5.16 > v0.5.18
+- Polymorph: v0.49.0 > v0.49.1
+- Resourceful Lib: v2.1.11 > v2.1.13
+- REI: v12.0.665 > v12.0.672
+- Supplementaries: v2.6.14 > v2.6.16
+- Xaero's Minimap: v23.8.3 > v23.8.4
+- Xaero's World Mpa: v1.35.0 > v1.36.0
 ## Quest updates
 - 
 ## Drippy Screen Tweaks
