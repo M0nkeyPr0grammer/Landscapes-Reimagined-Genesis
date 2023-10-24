@@ -4,7 +4,7 @@
   ],
   "tasks": {
     "stronghold": {
-      "structures": "minecraft:stronghold",
+      "structures": "#betterstrongholds:better_strongholds",
       "type": "heracles:structure"
     }
   },

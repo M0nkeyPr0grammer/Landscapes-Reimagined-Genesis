@@ -2,13 +2,26 @@
   "dependencies": [
     "Enter the Otherside"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "overcast": {
+      "biomes": "deeperdarker:overcast_columns",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Visit Oveercast Columns"
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [
