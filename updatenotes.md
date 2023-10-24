@@ -20,12 +20,14 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - Supplementaries: v2.6.14 > v2.6.16
 - Xaero's Minimap: v23.8.3 > v23.8.4
 - Xaero's World Mpa: v1.35.0 > v1.36.0
-## Quest updates
+## Quest Updates
+- 
+## Quest Additions
 - 
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.3.0
 ## KubeJS Tweaks
-- 
+- kubejs\client_scripts\LandscapesReimagined_ClientTweaks: Hid Creative only items
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ## Want to Read More about what was changed check out this [Github Merge](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined/commit/f1639d568cc7ae52b94dea5b64e0e8cd0de026bb)
 ### Want to setup a server using our official server host, click the banner below!
