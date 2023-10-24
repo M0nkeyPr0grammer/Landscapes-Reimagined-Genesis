@@ -85,8 +85,28 @@ REIEvents.hide('item', event => {
         'spelunkery:rough_jade_shard',
         'spelunkery:saltpeter',
         'spelunkery:sulfur',
-        'spelunkery:sulfur_geyser'
+        'spelunkery:sulfur_geyser',
 
+        // New Item Removals
+        Item.of('minecraft:light', '{BlockStateTag:{level:"14"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"13"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"12"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"11"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"10"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"9"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"8"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"7"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"6"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"5"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"4"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"3"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"2"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"1"}}'),
+        Item.of('minecraft:light', '{BlockStateTag:{level:"0"}}'),
+        Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:earth"}}'),
+        Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:wind"}}'),
+        Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:water"}}'),
+        Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:fire"}}')
     ];
 
     itemsToHide.forEach(item => event.hide(item));
