@@ -4,10 +4,9 @@
 In the forthcoming update, we will be addressing all quest-related concerns, introducing new quests, and enhancing the challenge levels of the Wither and Ender Dragon. Additionally, this update will encompass refinements to the existing mods and requisite adjustments to the KubeJS code to ensure seamless integration with the Create Mod.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## New Additions
-- [YetAnotherConfigLib](https://modrinth.com/mod/yacl): A builder-based configuration library for Minecraft.
 - [Command Config Lib](https://modrinth.com/mod/command-config): Command-based config library for clients and servers
 - [Ender Dragon Fight Remastered](https://modrinth.com/datapack/edf-remastered): An up in difficulty for Minecraft's final boss. With more health and more attacks, the fight finally feels like the final confrontation.
-- [Brings the behavior of Wither closer to Bedrock Edition](https://modrinth.com/mod/be-style-wither): Brings the behavior of Wither closer to Bedrock Edition
+- [BE Style Wither](https://modrinth.com/mod/be-style-wither): Brings the behavior of Wither closer to Bedrock Edition
 ## Updates
 - 
 ## Quest updates
