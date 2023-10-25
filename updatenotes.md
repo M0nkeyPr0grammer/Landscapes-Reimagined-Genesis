@@ -36,6 +36,9 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - kubejs\server_scrips\LandscapesReimagined_ServerTweaks: Removed 2 Create Foundry recipes, fixed in another script
 - kubejs\server_scripts\CreateFoundryTweaks: Fixed Create Foundry Ore to Molten Recipes for Redstone and Lapis
 - kubejs\server_scrips\OreTweaks: Added in crushing recipes for Salt Bucket and Aurora Crystals
+## Config Tweaks
+- Completionist Index: Moved Index to Pause Menu
+- Patchouli Button: Moved to Completionist Index previous spot
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ## Want to Read More about what was changed check out this [Github Merge](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined/commit/f1639d568cc7ae52b94dea5b64e0e8cd0de026bb)
 ### Want to setup a server using our official server host, click the banner below!
