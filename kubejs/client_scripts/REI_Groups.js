@@ -40,8 +40,6 @@ REIEvents.groupEntries(event => {
         { id: "kubejs:rei_groups/deepslatecutting", name: "Deepslate Cutting", items: [InputItem.of('@deepslatecutting')] },
         { id: "kubejs:rei_groups/drawers", name: "Extended Drawers", items: [InputItem.of('@extended_drawers')] },
         { id: "kubejs:rei_groups/guides", name: "Patchouli Guides", items: [InputItem.of('@patchouli')] },
-        { id: "kubejs:rei_groups/angling", name: "Angling", items: [InputItem.of('@angling')] },
-        { id: "kubejs:rei_groups/pipes", name: "Simple Copper Pipes", items: [InputItem.of('@lunade')] },
         { id: "kubejs:rei_groups/aircrafts", name: "Immersive Aircrafts", items: [InputItem.of('@immersive_aircraft')] },
         { id: "kubejs:rei_groups/slabs", name: "Enchanted Vertical Slabs", items: [InputItem.of('@enchanted-vertical-slabs')] },
         { id: "kubejs:rei_groups/storage", name: "Tom's Simple Storage", items: [InputItem.of('@toms_storage')] },
