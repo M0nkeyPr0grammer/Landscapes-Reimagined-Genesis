@@ -721,5 +721,484 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:crushing/netherite_hammer');
 
+	// Netherite Iron Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_iron_shovel').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'minecraft:netherite_ingot',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_shovel',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_iron_shovel');
+
+	// Netherite Iron Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_iron_pickaxe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'minecraft:netherite_ingot',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_pickaxe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_iron_pickaxe');
+
+	// Netherite Iron Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_iron_axe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'minecraft:netherite_ingot',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_axe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_iron_axe');
+
+	// Netherite Iron Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_iron_hoe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'minecraft:netherite_ingot',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_hoe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_iron_hoe');
+
+	// Netherite Iron Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_iron_sword').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'minecraft:netherite_ingot',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_sword',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_iron_sword');
+
+	// Netherite Gold Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_gold_shovel').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_gold_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_iron_shovel',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_gold_shovel');
+
+	// Netherite Gold Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_gold_pickaxe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_gold_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_iron_pickaxe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_gold_pickaxe');
+
+	// Netherite Gold Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_gold_axe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_gold_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_iron_axe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_gold_axe');
+
+	// Netherite Gold Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_gold_hoe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_gold_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_iron_hoe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_gold_hoe');
+
+	// Netherite Gold Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_gold_sword').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_gold_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_iron_sword',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_gold_sword');
+
+	// Netherite Emerald Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_emerald_shovel').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_emerald_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_gold_shovel',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_emerald_shovel');
+
+	// Netherite Emerald Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_emerald_pickaxe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_emerald_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_gold_pickaxe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_emerald_pickaxe');
+
+	// Netherite Emerald Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_emerald_axe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_emerald_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_gold_axe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_emerald_axe');
+
+	// Netherite Emerald Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_emerald_hoe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_emerald_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_gold_hoe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_emerald_hoe');
+
+	// Netherite Emerald Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_emerald_sword').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_emerald_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_gold_sword',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_emerald_sword');
+
+	// Netherite Diamond Shovel
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_diamond_shovel').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_diamond_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_emerald_shovel',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_diamond_shovel');
+
+	// Netherite Diamond Pickaxe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_diamond_pickaxe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_diamond_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_emerald_pickaxe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_diamond_pickaxe');
+
+	// Netherite Diamond Axe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_diamond_axe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_diamond_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_emerald_axe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_diamond_axe');
+
+	// Netherite Diamond Hoe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_diamond_hoe').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_diamond_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_emerald_hoe',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_diamond_hoe');
+
+	// Netherite Diamond Sword
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			Ingredient.of('advancednetherite:netherite_diamond_sword').toJson()
+		],
+		processingTime: 200,
+		results: [
+			{
+				item: 'advancednetherite:netherite_diamond_ingot',
+				count: 1
+			},
+			{
+				item: 'advancednetherite:netherite_emerald_sword',
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
+			}
+		]
+	}).id('kubejs:crushing/netherite_diamond_sword');
 
 })
