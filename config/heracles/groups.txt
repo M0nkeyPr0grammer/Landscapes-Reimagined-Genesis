@@ -6,3 +6,5 @@ Deeper and Darker
 Boss Mobs
 Better Storage
 Create
+Create Foundry
+Chipped Tables

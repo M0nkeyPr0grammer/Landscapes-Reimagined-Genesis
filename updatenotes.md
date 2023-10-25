@@ -25,7 +25,10 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 ## Quest Updates
 - Fixed all incomplete/ broken quests
 ## Quest Additions
-- 
+- A few new Create quests
+- Create Foundry Chapter
+- Chipped Tables Chapter
+- Creative Create Items Chapter
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.3.0
 ## KubeJS Tweaks

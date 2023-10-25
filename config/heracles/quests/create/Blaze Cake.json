@@ -1,20 +1,13 @@
 {
   "dependencies": [
-    "Blaze Cake Base",
-    "Mixer and Basin"
+    "Blaze Cake Base"
   ],
   "tasks": {
-    "blaze b": {
+    "Blaze Cake": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:blaze_burner"
-    },
-    "empt blaze b": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "create:empty_blaze_burner"
+      "item": "create:blaze_cake"
     }
   },
   "rewards": {
@@ -23,9 +16,9 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "Give Blaze Burner": {
+    "Blaze Cake": {
       "item": {
-        "id": "create:empty_blaze_burner",
+        "id": "create:blaze_cake",
         "count": 1
       },
       "type": "heracles:item"
@@ -33,26 +26,34 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Used to heat a basin below a mixer"
+      "translate": "This blaze cake will allow super heating of the mixer"
     },
     "description": [
-      ""
+      "Now that you have your first blaze cake base",
+      "its time to create your first blaze cake.",
+      "",
+      "Using a spout and a depot, fill your cake base",
+      "with 333 mb of lava thus creating the blaze cake.",
+      "",
+      "This cake will allow you to super heat a mixer allowing",
+      "access to more create recipes and also take you into Create ",
+      "Foundry."
     ],
     "groups": {
       "Create": {
         "position": [
           50,
-          50
+          150
         ]
       }
     },
     "icon": {
-      "item": "create:empty_blaze_burner",
+      "item": "create:blaze_cake",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Blaze Burner"
+      "translate": "Blaze Cake"
     }
   },
   "settings": {

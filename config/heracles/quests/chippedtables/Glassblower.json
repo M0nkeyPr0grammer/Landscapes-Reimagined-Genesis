@@ -1,14 +1,15 @@
 {
   "dependencies": [],
   "tasks": {
-    "Break a log": {
-      "block": "#minecraft:completes_find_tree_tutorial",
-      "state": {},
-      "type": "heracles:block_interaction"
+    "glassblower": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "chipped:glassblower"
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
@@ -16,28 +17,27 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                                  /b/Welcome to Landscapes Reimagined/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "This table allows you to alter all kinds",
+      "of glass block textures."
     ],
     "groups": {
-      "Main": {
+      "Chipped Tables": {
         "position": [
-          -28,
-          -129
+          -40,
+          -50
         ]
       }
     },
     "icon": {
-      "item": "minecraft:map",
+      "item": "chipped:glassblower",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Glassblower"
     }
   },
   "settings": {

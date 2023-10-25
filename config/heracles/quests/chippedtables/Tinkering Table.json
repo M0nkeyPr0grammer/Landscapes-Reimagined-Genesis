@@ -1,14 +1,15 @@
 {
   "dependencies": [],
   "tasks": {
-    "Break a log": {
-      "block": "#minecraft:completes_find_tree_tutorial",
-      "state": {},
-      "type": "heracles:block_interaction"
+    "tinkering": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "chipped:tinkering_table"
     }
   },
   "rewards": {
-    "10xp starter": {
+    "xp": {
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
@@ -16,28 +17,27 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Welcome to Landscapes Reimagined"
+      "text": ""
     },
     "description": [
-      "                                  /b/Welcome to Landscapes Reimagined/b/",
-      " ",
-      "The questbook is here to help you throughout your journey through the modpack"
+      "This table allows you to alter all kinds",
+      "of redstone type block textures."
     ],
     "groups": {
-      "Main": {
+      "Chipped Tables": {
         "position": [
-          -28,
-          -129
+          0,
+          10
         ]
       }
     },
     "icon": {
-      "item": "minecraft:map",
+      "item": "chipped:tinkering_table",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Introduction"
+      "translate": "Tinkering Table"
     }
   },
   "settings": {

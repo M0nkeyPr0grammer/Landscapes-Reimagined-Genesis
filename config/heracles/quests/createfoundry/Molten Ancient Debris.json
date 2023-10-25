@@ -1,20 +1,13 @@
 {
   "dependencies": [
-    "Blaze Cake Base",
-    "Mixer and Basin"
+    "Molten Gold"
   ],
   "tasks": {
-    "blaze b": {
+    "ancient debris": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:blaze_burner"
-    },
-    "empt blaze b": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "create:empty_blaze_burner"
+      "item": "createfoundry:molten_ancient_debris_bucket"
     }
   },
   "rewards": {
@@ -23,9 +16,9 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "Give Blaze Burner": {
+    "debris": {
       "item": {
-        "id": "create:empty_blaze_burner",
+        "id": "minecraft:ancient_debris",
         "count": 1
       },
       "type": "heracles:item"
@@ -33,26 +26,30 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Used to heat a basin below a mixer"
+      "text": ""
     },
     "description": [
-      ""
+      "In order to get a bucket of molten ancient debris, you need to mix",
+      "ancient debris in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block ancient debris",
+      "or netherite, when mixed with gold."
     ],
     "groups": {
-      "Create": {
+      "Create Foundry": {
         "position": [
-          50,
-          50
+          20,
+          -10
         ]
       }
     },
     "icon": {
-      "item": "create:empty_blaze_burner",
+      "item": "createfoundry:molten_ancient_debris_bucket",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Blaze Burner"
+      "translate": "Molten Ancient Debris"
     }
   },
   "settings": {

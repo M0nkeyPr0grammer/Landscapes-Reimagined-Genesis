@@ -1,20 +1,13 @@
 {
   "dependencies": [
-    "Blaze Cake Base",
-    "Mixer and Basin"
+    "Molten Ancient Debris"
   ],
   "tasks": {
-    "blaze b": {
+    "netherite": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:blaze_burner"
-    },
-    "empt blaze b": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "create:empty_blaze_burner"
+      "item": "createfoundry:molten_netherite_bucket"
     }
   },
   "rewards": {
@@ -23,9 +16,9 @@
       "amount": 10,
       "type": "heracles:xp"
     },
-    "Give Blaze Burner": {
+    "netherite": {
       "item": {
-        "id": "create:empty_blaze_burner",
+        "id": "minecraft:netherite_block",
         "count": 1
       },
       "type": "heracles:item"
@@ -33,26 +26,30 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Used to heat a basin below a mixer"
+      "text": ""
     },
     "description": [
-      ""
+      "In order to get a bucket of molten netherite, you need to mix molten",
+      "gold and molten ancient debris in a mixer while super heated.",
+      "",
+      "This bucket can be converted into one block of netherite and",
+      "one netherite ingot."
     ],
     "groups": {
-      "Create": {
+      "Create Foundry": {
         "position": [
-          50,
-          50
+          20,
+          30
         ]
       }
     },
     "icon": {
-      "item": "create:empty_blaze_burner",
+      "item": "createfoundry:molten_netherite_bucket",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Blaze Burner"
+      "translate": "Molten Netherite"
     }
   },
   "settings": {
