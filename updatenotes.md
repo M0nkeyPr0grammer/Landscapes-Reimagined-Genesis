@@ -7,7 +7,6 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - [Command Config Lib](https://modrinth.com/mod/command-config): Command-based config library for clients and servers
 - [Ender Dragon Fight Remastered](https://modrinth.com/datapack/edf-remastered): An up in difficulty for Minecraft's final boss. With more health and more attacks, the fight finally feels like the final confrontation.
 - [BE Style Wither](https://modrinth.com/mod/be-style-wither): Brings the behavior of Wither closer to Bedrock Edition
-- [NBTtooltips](https://modrinth.com/mod/nbttooltips): A simple fabric Minecraft mod which adds a feature that allows you to see the custom NBT data of an item when you hover over it and press the by you defined key (default left alt).
 ## Updates
 - Ambient Sounds: v5.2.22 > v5.2.24
 - BetterTrims: v2.0.1 > v2.0.3
