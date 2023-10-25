@@ -41,6 +41,7 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - kubejs\server_scripts\Armor_Tools_Crushing: Separated into two scripts Armor_Crushing_Recipes and Tool_Crushing_Recipes
 - kubejs\server_scripts\Armor_Crushing_Recipes: Added Advanced Netherite Armor Crushing recipes
 - kubejs\server_scrips\Tool_Crushing_Recipes: Added Advanced Netherite Tool Crushing recipes
+- kubejs\server_scrips\Mod_RecipeFixes: Fixed broken recipes
 ## Config Tweaks
 - Completionist Index: Moved Index to Pause Menu
 - Patchouli Button: Moved to Completionist Index previous spot
