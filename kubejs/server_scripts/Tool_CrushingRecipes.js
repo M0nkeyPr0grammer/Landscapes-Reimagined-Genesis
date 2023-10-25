@@ -14,9 +14,14 @@ ServerEvents.recipes(event => {
 				count: 2
 			},
 			{
-				item: 'elitia:diamond_fragment',
+				item: 'minecraft:diamond',
 				chance: 0.50,
-				count: 6
+				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_shovel');
@@ -37,6 +42,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 2
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_pickaxe');
@@ -57,6 +67,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 2
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_axe');
@@ -77,6 +92,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_hoe');
@@ -97,6 +117,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 1
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_sword');
@@ -187,8 +212,8 @@ ServerEvents.recipes(event => {
 		processingTime: 200,
 		results: [
 			{
-				item: 'elitia:diamond_fragment',
-				count: 6
+				item: 'minecraft:diamond',
+				count: 1
 			}
 		]
 	}).id('kubejs:crushing/diamond_shovel');
