@@ -39,6 +39,9 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - kubejs\server_scrips\OreTweaks: Added in crushing recipes for Salt Bucket and Aurora Crystals
 - kubejs\client_scripts\LandscapesReimagined_ClientTweaks: Renamed REI_Groups, and moved some code to REI_RemovalsandAdditions
 - kubejs\client_scripts\REI_RemovalsandAdditions: Pulled code from old LandscapesReimagined_ClientTweaks
+- kubejs\server_scripts\Armor_Tools_Crushing: Separated into two scripts Armor_Crushing_Recipes and Tool_Crushing_Recipes
+- kubejs\server_scripts\Armor_Crushing_Recipes: Added Advanced Netherite Armor Crushing recipes
+- kubejs\server_scrips\Tool_Crushing_Recipes: Added Advanced Netherite Tool Crushing recipes
 ## Config Tweaks
 - Completionist Index: Moved Index to Pause Menu
 - Patchouli Button: Moved to Completionist Index previous spot
