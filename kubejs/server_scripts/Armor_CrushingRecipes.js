@@ -141,6 +141,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 2
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_helmet');
@@ -161,6 +166,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 3
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_chestplate');
@@ -181,6 +191,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 3
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_leggings');
@@ -201,6 +216,11 @@ ServerEvents.recipes(event => {
 				item: 'minecraft:diamond',
 				chance: 0.50,
 				count: 2
+			},
+			{
+				item: 'minecraft:netherite_upgrade_smithing_template',
+				count: 1,
+				chance: 0.1
 			}
 		]
 	}).id('kubejs:crushing/netherite_boots');
@@ -687,5 +707,393 @@ ServerEvents.recipes(event => {
 				}
 			]
 		}).id('kubejs:crushing/terminite_boots');
+
+		// Netherite Iron Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_iron_helmet').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_iron_ingot',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_helmet',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_iron_helmet');
+
+		// Netherite Iron Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_iron_chestplate').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_iron_ingot',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_chestplate',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+
+		}).id('kubejs:crushing/netherite_iron_chestplate');
+
+		// Netherite Iron Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_iron_leggings').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_iron_ingot',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_leggings',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_iron_leggings');
+
+		// Netherite Iron Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_iron_boots').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_iron_ingot',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_boots',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_iron_boots');
+
+		// Netherite Gold Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_gold_helmet').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_gold_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_iron_helmet',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_gold_helmet');
+
+		// Netherite Gold Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_gold_chestplate').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_gold_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_iron_chestplate',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+
+		}).id('kubejs:crushing/netherite_gold_chestplate');
+
+		// Netherite Gold Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_gold_leggings').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_gold_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_iron_leggings',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_gold_leggings');
+
+		// Netherite Gold Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_gold_boots').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_gold_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_iron_boots',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_gold_boots');
+
+		// Netherite Emerald Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_emerald_helmet').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_emerald_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_gold_helmet',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_emerald_helmet');
+
+		// Netherite Emerald Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_emerald_chestplate').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_emerald_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_gold_chestplate',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+
+		}).id('kubejs:crushing/netherite_emerald_chestplate');
+
+		// Netherite Emerald Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_emerald_leggings').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_emerald_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_gold_leggings',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_emerald_leggings');
+
+		// Netherite Emerald Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_emerald_boots').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_emerald_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_gold_boots',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_emerald_boots');
+
+		// Netherite Diamond Helmet
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_diamond_helmet').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_diamond_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_emerald_helmet',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_diamond_helmet');
+
+		// Netherite Diamond Chestplate
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_diamond_chestplate').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_diamond_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_emerald_chestplate',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+
+		}).id('kubejs:crushing/netherite_diamond_chestplate');
+
+		// Netherite Diamond Leggings
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_diamond_leggings').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_diamond_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_emerald_leggings',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_diamond_leggings');
+
+		// Netherite Diamond Boots
+		event.custom({
+			type: "create:crushing",
+			ingredients: [
+				Ingredient.of('advancednetherite:netherite_diamond_boots').toJson()
+			],
+			processingTime: 200,
+			results: [
+				{
+					item: 'advancednetherite:netherite_diamond_ingot',
+					count: 1
+				},
+				{
+					item: 'advancednetherite:netherite_emerald_boots',
+					count: 1
+				},
+				{
+					item: 'minecraft:netherite_upgrade_smithing_template',
+					count: 1,
+					chance: 0.1
+				}
+			]
+		}).id('kubejs:crushing/netherite_diamond_boots');
 
 })
