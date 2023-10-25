@@ -80,13 +80,13 @@ ServerEvents.recipes(event => {
 		pattern: [
 			'AAAAA',
 			'ABCBA',
-			'AD DA',
-			'ABEBA',
+			'ADEDA',
+			'ABDBA',
 			'AAAAA'
 		],
 		key: {
 			A: Ingredient.of('minecraft:dragon_breath').toJson(),
-			B: Ingredient.of('create:fluid_tank').toJson(),
+			B: Ingredient.of('createutilities:void_tank').toJson(),
 			C: Ingredient.of('create:hose_pulley').toJson(),
 			D: Ingredient.of('create:creative_blaze_cake').toJson(),
 			E: Ingredient.of('deeperdarker:heart_of_the_deep').toJson()
@@ -99,15 +99,19 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
-			'ADA',
-			'CBC',
-			'ACA'
+			' ABA ',
+			'ACDCA',
+			'BDEDB',
+			'ACFCA',
+			' ABA '
 		],
 		key: {
-			A: Ingredient.of('create:refined_radiance').toJson(),
-			B: Ingredient.of('create:blaze_cake').toJson(),
-			C: Ingredient.of('minecraft:nether_star').toJson(),
-			D: Ingredient.of('minecraft:dragon_head').toJson()
+			A: Ingredient.of('advancednetherite:netherite_diamond_ingot').toJson(),
+			B: Ingredient.of('create:refined_radiance').toJson(),
+			C: Ingredient.of('minecraft:dragon_head').toJson(),
+			D: Ingredient.of('minecraft:nether_star').toJson(),
+			E: Ingredient.of('create:blaze_cake').toJson(),
+			F: Ingredient.of('deeperdarker:warden_carapace').toJson(),
 		},
 		result: Ingredient.of('create:creative_blaze_cake').toJson(),
 		acceptMirrored: false
