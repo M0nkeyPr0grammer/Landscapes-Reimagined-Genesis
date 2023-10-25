@@ -17,9 +17,11 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - Polymorph: v0.49.0 > v0.49.1
 - Resourceful Lib: v2.1.11 > v2.1.13
 - REI: v12.0.665 > v12.0.672
-- Supplementaries: v2.6.14 > v2.6.16
+- Supplementaries: v2.6.14 > v2.6.17
 - Xaero's Minimap: v23.8.3 > v23.8.4
-- Xaero's World Mpa: v1.35.0 > v1.36.0
+- Xaero's World Map: v1.35.0 > v1.36.0
+- KubeJS: v2001.6.3-build.73 > v2001.6.3-build.77
+- MoreArmorTrims: v1.1.1 > v1.1.2
 ## Quest Updates
 - Fixed all incomplete/ broken quests
 ## Quest Additions
