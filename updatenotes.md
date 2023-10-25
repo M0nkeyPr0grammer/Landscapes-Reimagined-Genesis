@@ -1,5 +1,5 @@
 # Modpack Patch Notes: Version 2.3.0 [Quest Overhaul]
-**Release Date**: Coming Soon, 2023
+**Release Date**: November 1st, 2023
 
 In the forthcoming update, we will be addressing all quest-related concerns, introducing new quests, and enhancing the challenge levels of the Wither and Ender Dragon. Additionally, this update will encompass refinements to the existing mods and requisite adjustments to the KubeJS code to ensure seamless integration with the Create Mod.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
