@@ -16,7 +16,6 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - Polymer: v0.5.16 > v0.5.18
 - Polymorph: v0.49.0 > v0.49.1
 - Resourceful Lib: v2.1.11 > v2.1.13
-- REI: v12.0.665 > v12.0.672
 - Supplementaries: v2.6.14 > v2.6.17
 - Xaero's Minimap: v23.8.3 > v23.8.4
 - Xaero's World Map: v1.35.0 > v1.36.0
