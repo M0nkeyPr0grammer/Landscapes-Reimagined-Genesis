@@ -1,0 +1,34 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -180,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "createoreexcavation:vein_finder",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create Ore Excavation"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

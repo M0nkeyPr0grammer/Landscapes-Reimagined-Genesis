@@ -6,6 +6,7 @@ Deeper and Darker
 Boss Mobs
 Better Storage
 Create
+Create Addons
 Create Foundry
 Chipped Tables
 Creative Items

@@ -1,51 +1,57 @@
 {
   "dependencies": [
-    "Elevator Pulley"
+    "Brass Casing",
+    "Sturdy Sheet"
   ],
   "tasks": {
-    "contrap control": {
+    "Train Casing": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:contraption_controls"
+      "item": "create:railway_casing"
     }
   },
   "rewards": {
+    "Train Casing": {
+      "item": {
+        "id": "create:railway_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
-    },
-    "Give Alloy": {
-      "item": {
-        "id": "create:andesite_alloy",
-        "count": 4
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Part of the elevator"
+      "text": ""
     },
     "description": [
-      "The contraption control is used as the interface of the elevator for the player to look at and scroll up or down on the mouse to select the level"
+      "To craft a train casing you right click a brass casing with",
+      "a sturdy sheet.",
+      "",
+      "This train casing will be used in both the creation",
+      "of your first train and also for other parts",
+      "of the train"
     ],
     "groups": {
       "Create": {
         "position": [
-          170,
-          149
+          200,
+          -40
         ]
       }
     },
     "icon": {
-      "item": "create:contraption_controls",
+      "item": "create:railway_casing",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Contraption Controls"
+      "translate": "Train Casing"
     }
   },
   "settings": {

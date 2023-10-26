@@ -1,0 +1,34 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -240,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "delightfulcreators:hot_cocoa_bucket",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Delightful Creators"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

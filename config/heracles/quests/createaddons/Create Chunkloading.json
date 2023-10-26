@@ -1,0 +1,34 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -60,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "createchunkloading:chunk_loader",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create Chunkloading"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

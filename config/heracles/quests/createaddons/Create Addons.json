@@ -1,44 +1,43 @@
 {
   "dependencies": [
-    "Brass"
+    "Andesite Casing"
   ],
   "tasks": {
-    "brass funnel": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "create:brass_funnel"
+    "casing": {
+      "block": "#create:casing",
+      "state": {},
+      "type": "heracles:block_interaction"
     }
   },
   "rewards": {
     "xp": {
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "An upgraded funnel"
+      "translate": "Here you will see all the create addons used in this pack!"
     },
     "description": [
-      "The brass funnel is an upgraded andesite funnel, lets you add item filters and moves up to a stack at a time"
+      ""
     ],
     "groups": {
-      "Create": {
+      "Create Addons": {
         "position": [
-          100,
-          100
+          0,
+          -120
         ]
       }
     },
     "icon": {
-      "item": "create:brass_funnel",
+      "item": "create:schematic",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Brass Funnel"
+      "translate": "Create Addons"
     }
   },
   "settings": {

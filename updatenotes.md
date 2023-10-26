@@ -27,7 +27,8 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 ## Quest Updates
 - Fixed all incomplete/ broken quests
 ## Quest Additions
-- Create Chapter: Added Blaze Cake creation steps, setting up your first train, maybe more
+- Create Chapter: Added Blaze Cake creation steps, and setting up your first train
+- Create Addons: Added in a brief overview of all the create addons
 - Create Foundry Chapter: Added all molten ores and steps on how to make them
 - Chipped Tables Chapter: Added in all Chipped workbenches to help players with decoration lead
 - Creative Create Items Chapter: Added in steps on how to make the two current Creative items, more items will come in the future

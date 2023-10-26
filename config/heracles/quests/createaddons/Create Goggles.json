@@ -1,0 +1,34 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -120,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:goggles",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Create Goggles"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}
