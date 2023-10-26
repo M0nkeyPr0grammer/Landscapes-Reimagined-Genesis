@@ -12,6 +12,8 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createaddition:crafting/diamond_grit_sandpaper' }) // Removes Broken Recipe
 	event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' })
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
+	event.remove({ id: 'simplevillagers:iron_farm_block' })
+	event.remove({ id: 'simplevillagers:trading_block' })
 
 	// Creates Deeper and Darker Patchouli Guide
 	event.shapeless(
@@ -56,21 +58,6 @@ ServerEvents.recipes(event => {
 			'minecraft:paper',
 			'createaddition:diamond_grit'
 		]
-	)
-
-	// Creates Simple Villagers Items
-	event.shaped(
-		Item.of('simplevillagers:trading_block', 1),
-		[
-			'AAA',
-			'A A',
-			'BCB'
-		],
-		{
-			A: '#c:glass_panes',
-			B: 'minecraft:iron_ingot',
-			C: '#minecraft:planks'
-		}
 	)
 
 	// Create Creative Tank

@@ -103,7 +103,9 @@ REIEvents.hide('item', event => {
         Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:earth"}}'),
         Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:wind"}}'),
         Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:water"}}'),
-        Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:fire"}}')
+        Item.of('minecraft:painting', '{EntityTag:{variant:"minecraft:fire"}}'),
+        'simplevillagers:trading_block',
+        Item.of('simplevillagers:iron_farm_block')
     ];
 
     itemsToHide.forEach(item => event.hide(item));
@@ -111,7 +113,6 @@ REIEvents.hide('item', event => {
 
 // Adding of Items for REI
 REIEvents.add('item', event => {
-    event.add('simplevillagers:trading_block')
     event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"deeperdarker:wanderers_notebook"}'))
     event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:betterfurnacesreforged"}'))
     event.add(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:toms_simple_storage"}'))
