@@ -22,13 +22,15 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - Xaero's World Map: v1.35.0 > v1.36.0
 - KubeJS: v2001.6.3-build.73 > v2001.6.3-build.77
 - MoreArmorTrims: v1.1.1 > v1.1.2
+- Repurposed Structures: v7.1.9 > v7.1.10
+- PuzzlesLib: v8.0.24 > v8.1.0
 ## Quest Updates
 - Fixed all incomplete/ broken quests
 ## Quest Additions
-- A few new Create quests
-- Create Foundry Chapter
-- Chipped Tables Chapter
-- Creative Create Items Chapter
+- Create Chapter: Added Blaze Cake creation steps, setting up your first train, maybe more
+- Create Foundry Chapter: Added all molten ores and steps on how to make them
+- Chipped Tables Chapter: Added in all Chipped workbenches to help players with decoration lead
+- Creative Create Items Chapter: Added in steps on how to make the two current Creative items, more items will come in the future
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.3.0
 ## KubeJS Tweaks
