@@ -7,6 +7,17 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - [Command Config Lib](https://modrinth.com/mod/command-config): Command-based config library for clients and servers
 - [Ender Dragon Fight Remastered](https://modrinth.com/datapack/edf-remastered): An up in difficulty for Minecraft's final boss. With more health and more attacks, the fight finally feels like the final confrontation.
 - [BE Style Wither](https://modrinth.com/mod/be-style-wither): Brings the behavior of Wither closer to Bedrock Edition
+- [EMI](https://modrinth.com/mod/emi): A featureful and accessible item and recipe viewer
+- [EMI Trades](https://modrinth.com/mod/emitrades): Villager trading for EMI.
+- [EMI Loot](https://modrinth.com/mod/emi-loot): A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer.
+- [EMIffect](https://modrinth.com/mod/emiffect): EMI addon that appends status effects in EMI and provides information about each status effect.
+- [EMI Addon: Extra Mod Integrations](https://modrinth.com/mod/extra-mod-integrations): EMI addon adding support for as many mods as possible
+- [Just Enough Items](https://modrinth.com/mod/jei): JEI - View Items and Recipes 
+- [Just Enough Resources (JER)](https://modrinth.com/mod/just-enough-resources-jer): JEI integration that adds info on mobs, world gen, villagers and many more!
+- [Just Enough Professions (JEP)](https://modrinth.com/mod/just-enough-professions-jep): A JEI addon that adds profession workstations
+- [Just Enough Effect Descriptions (JEED)](https://modrinth.com/mod/just-enough-effect-descriptions-jeed): JEI plugin that displays information on all status effects
+- [Just Enough Breeding (JEBr)](https://modrinth.com/mod/justenoughbreeding): JEI plugin that displays breeding information
+- [Just Enough Sculk Sensor](https://www.curseforge.com/minecraft/mc-mods/just-enough-sculk-sensor): This mod add a new category in JEI to display the differents vibrations frequencies.
 ## Mod Adjustments
 - [Reinforced Barrels adjusted by M0nkeyPr0grammer](https://github.com/M0nkeyPr0grammer/reinforced-barrels): Upgraded Netherite barrel to 144 slots, rather than 108 slots
 - [Reinforced Chests adjusted by M0nkeyPr0grammer](https://github.com/M0nkeyPr0grammer/reinforced-chests): Upgraded Netherite chest to 144 slots and 288 double variant slots, rather than 108 slots and 216
