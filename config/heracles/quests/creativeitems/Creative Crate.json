@@ -1,0 +1,32 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Coming later..."
+    },
+    "description": [],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          0,
+          15
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:creative_crate",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creative Crate"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Coming Later..."
+    },
+    "description": [],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          -100,
+          15
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:handheld_worldshaper",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creative Worldshaper"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

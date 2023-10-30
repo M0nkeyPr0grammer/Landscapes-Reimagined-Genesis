@@ -62,7 +62,8 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - Create Addons: Added in a brief overview of all the create addons
 - Create Foundry Chapter: Added all molten ores and steps on how to make them
 - Chipped Tables Chapter: Added in all Chipped workbenches to help players with decoration lead
-- Creative Create Items Chapter: Added in steps on how to make the two current Creative items, more items will come in the future
+- Create Addons Chapter: Added in simple quests to help show off the Create Addons items
+- Creative Create Items Chapter: Added in steps on how to make the two current Creative items, and added placeholders for future items.
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.3.0
 ## KubeJS Tweaks
