@@ -18,6 +18,7 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - [Just Enough Effect Descriptions (JEED)](https://modrinth.com/mod/just-enough-effect-descriptions-jeed): JEI plugin that displays information on all status effects
 - [Just Enough Breeding (JEBr)](https://modrinth.com/mod/justenoughbreeding): JEI plugin that displays breeding information
 - [Just Enough Sculk Sensor](https://www.curseforge.com/minecraft/mc-mods/just-enough-sculk-sensor): This mod add a new category in JEI to display the differents vibrations frequencies.
+- [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs): A typing generator mod to generate KubeJS typings. Enabling Intellisense for your KubeJS environments!
 ## Mod Adjustments
 - [Reinforced Barrels adjusted by M0nkeyPr0grammer](https://github.com/M0nkeyPr0grammer/reinforced-barrels): Upgraded Netherite barrel to 144 slots, rather than 108 slots
 - [Reinforced Chests adjusted by M0nkeyPr0grammer](https://github.com/M0nkeyPr0grammer/reinforced-chests): Upgraded Netherite chest to 144 slots and 288 double variant slots, rather than 108 slots and 216
