@@ -25,24 +25,36 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - [Reinforced Shulkerboxes adjusted by M0nkeyPr0grammer](https://github.com/M0nkeyPr0grammer/reinforced-shulker-boxes): Upgraded Netherite shulkerbox to 144 slots, rather than 108 slots
 ## Removals
 - RoughlyEnoughItems: Frequent bugginess affecting the overall player experience
-- RoughlyEnoughProfession: Removed RoughlyEnoughItems(REI)
-- CreateFabric&REIBugFix: Removed RoughlyEnoughItems(REI)
+- RoughlyEnoughProfession: Removed RoughlyEnoughItems (REI)
+- CreateFabric&REIBugFix: Removed RoughlyEnoughItems (REI)
 ## Updates
 - Ambient Sounds: v5.2.22 > v5.2.24
-- BetterTrims: v2.0.1 > v2.0.3
+- Better Statistics: v3.4 > v3.5
+- BetterTrims: v2.0.1 > v2.0.4
+- Collective: v6.66 > v6.72
 - CreativeCore: v2.11.5 > v2.11.7
+- Eating Animation: v1.9.4 > v1.9.5
+- ETF: v4.5.1 > v4.6
+- Extreme Sound Muffler: v3.39 > v3.40
 - Fabric API: v0.90.0 > v0.90.4
 - Ferritcore: v6.0.0 > v6.0.1
+- Geckolib: v4.2.2 > v4.2.4
+- Incendium: v5.3.2 > v5.3.3
+- KubeJS: v2001.6.3-build.73 > v2001.6.3-build.80
+- Modern Fix: v5.8.1 > v5.9.0
+- Moonlight: v2.8.51 > v2.8.53
+- MoreArmorTrims: v1.1.1 > v1.1.2
+- MoreChestVariants: v1.4.1 > v1.5.0
 - Polymer: v0.5.16 > v0.5.18
 - Polymorph: v0.49.0 > v0.49.1
+- PuzzlesLib: v8.0.24 > v8.1.5
+- Repurposed Structures: v7.1.9 > v7.1.11
 - Resourceful Lib: v2.1.11 > v2.1.13
-- Supplementaries: v2.6.14 > v2.6.17
+- Server Core: v1.3.7 > v1.3.9
+- Supplementaries: v2.6.14 > v2.6.18
+- Terralith: v2.4.7 > v2.4.8
 - Xaero's Minimap: v23.8.3 > v23.8.4
 - Xaero's World Map: v1.35.0 > v1.36.0
-- KubeJS: v2001.6.3-build.73 > v2001.6.3-build.77
-- MoreArmorTrims: v1.1.1 > v1.1.2
-- Repurposed Structures: v7.1.9 > v7.1.10
-- PuzzlesLib: v8.0.24 > v8.1.0
 ## Quest Updates
 - Fixed all incomplete/ broken quests
 ## Quest Additions
