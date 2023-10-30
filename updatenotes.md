@@ -1,5 +1,5 @@
 # Modpack Patch Notes: Version 2.3.0 [Quest Overhaul]
-**Release Date**: November 1st, 2023
+**Release Date**: October 30th, 2023
 
 In the forthcoming update, we will be addressing all quest-related concerns, introducing new quests, and enhancing the challenge levels of the Wither and Ender Dragon. Additionally, this update will encompass refinements to the existing mods and requisite adjustments to the KubeJS code to ensure seamless integration with the Create Mod. One other major change in this update is the removal of REI and switch to EMI/JEI.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
@@ -82,6 +82,6 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - Completionist Index: Moved Index to Pause Menu
 - Patchouli Button: Moved to Completionist Index previous spot
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
-## Want to Read More about what was changed check out this [Github Merge](https://github.com/M0nkeyPr0grammer/Landscapes-Reimagined/commit/f1639d568cc7ae52b94dea5b64e0e8cd0de026bb)
+## Want to Read More about what was changed check out this [Github Merge]()
 ### Want to setup a server using our official server host, click the banner below!
 [![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth+chanelog)
