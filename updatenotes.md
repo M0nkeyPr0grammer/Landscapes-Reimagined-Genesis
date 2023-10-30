@@ -1,7 +1,7 @@
 # Modpack Patch Notes: Version 2.3.0 [Quest Overhaul]
 **Release Date**: November 1st, 2023
 
-In the forthcoming update, we will be addressing all quest-related concerns, introducing new quests, and enhancing the challenge levels of the Wither and Ender Dragon. Additionally, this update will encompass refinements to the existing mods and requisite adjustments to the KubeJS code to ensure seamless integration with the Create Mod.
+In the forthcoming update, we will be addressing all quest-related concerns, introducing new quests, and enhancing the challenge levels of the Wither and Ender Dragon. Additionally, this update will encompass refinements to the existing mods and requisite adjustments to the KubeJS code to ensure seamless integration with the Create Mod. One other major change in this update is the removal of REI and switch to EMI/JEI.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## New Additions
 - [Command Config Lib](https://modrinth.com/mod/command-config): Command-based config library for clients and servers
@@ -58,6 +58,7 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 ## Quest Updates
 - Fixed all incomplete/ broken quests
 ## Quest Additions
+- Better Storage: Added in Ender Tank and Chest items.
 - Create Chapter: Added Blaze Cake creation steps, and setting up your first train
 - Create Addons: Added in a brief overview of all the create addons
 - Create Foundry Chapter: Added all molten ores and steps on how to make them
