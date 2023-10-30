@@ -1,51 +1,52 @@
 {
   "dependencies": [
-    "Diamond barrel"
+    "Ender Pouch"
   ],
   "tasks": {
-    "netherite barrel": {
+    "ender bag": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "reinfbarrel:netherite_barrel"
+      "item": "enderchests:ender_bag"
     }
   },
   "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
-    },
-    "Give scraps": {
-      "item": {
-        "id": "minecraft:netherite_scrap",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The final barrel upgrade"
+      "text": ""
     },
     "description": [
-      "Has 144 slots, fire and blast proof"
+      "Bags link to chests and thus are used to store or access items remotely.\r",
+      "Shift+Right-click on a chest with a bag to link them."
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -150,
-          -120
+          -250,
+          30
         ]
       }
     },
     "icon": {
-      "item": "reinfbarrel:netherite_barrel",
+      "item": "enderchests:ender_bag",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite barrel"
+      "translate": "Ender Bag"
     }
   },
   "settings": {

@@ -1,51 +1,50 @@
 {
-  "dependencies": [
-    "Diamond barrel"
-  ],
+  "dependencies": [],
   "tasks": {
-    "netherite barrel": {
+    "ender bucket": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "reinfbarrel:netherite_barrel"
+      "item": "endertanks:ender_bucket"
     }
   },
   "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
-    },
-    "Give scraps": {
-      "item": {
-        "id": "minecraft:netherite_scrap",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The final barrel upgrade"
+      "text": ""
     },
     "description": [
-      "Has 144 slots, fire and blast proof"
+      "Buckets link to tanks and thus are used to store or place liquid remotely.\r",
+      "Shift+Right-Click on a tank with a bucket to link them."
     ],
     "groups": {
       "Better Storage": {
         "position": [
           -150,
-          -120
+          30
         ]
       }
     },
     "icon": {
-      "item": "reinfbarrel:netherite_barrel",
+      "item": "endertanks:ender_bucket",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite barrel"
+      "translate": "Ender Bucket"
     }
   },
   "settings": {

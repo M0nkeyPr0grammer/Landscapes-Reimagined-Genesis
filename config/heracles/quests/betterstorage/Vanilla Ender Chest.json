@@ -1,51 +1,50 @@
 {
-  "dependencies": [
-    "Diamond barrel"
-  ],
+  "dependencies": [],
   "tasks": {
-    "netherite barrel": {
+    "Ender Chest": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "reinfbarrel:netherite_barrel"
+      "item": "minecraft:ender_chest"
     }
   },
   "rewards": {
+    "eye": {
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "xptype": "POINTS",
       "amount": 10,
       "type": "heracles:xp"
-    },
-    "Give scraps": {
-      "item": {
-        "id": "minecraft:netherite_scrap",
-        "count": 2
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "The final barrel upgrade"
+      "text": ""
     },
     "description": [
-      "Has 144 slots, fire and blast proof"
+      "The standard vanilla chest, note we have better ender chests",
+      "in pack, so make sure to switch to one of those soon!"
     ],
     "groups": {
       "Better Storage": {
         "position": [
-          -150,
-          -120
+          -350,
+          30
         ]
       }
     },
     "icon": {
-      "item": "reinfbarrel:netherite_barrel",
+      "item": "minecraft:ender_chest",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Netherite barrel"
+      "translate": "Vanilla Ender Chest"
     }
   },
   "settings": {
