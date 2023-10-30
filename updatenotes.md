@@ -25,6 +25,7 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 ## Removals
 - RoughlyEnoughItems: Frequent bugginess affecting the overall player experience
 - RoughlyEnoughProfession: Removed RoughlyEnoughItems(REI)
+- CreateFabric&REIBugFix: Removed RoughlyEnoughItems(REI)
 ## Updates
 - Ambient Sounds: v5.2.22 > v5.2.24
 - BetterTrims: v2.0.1 > v2.0.3
