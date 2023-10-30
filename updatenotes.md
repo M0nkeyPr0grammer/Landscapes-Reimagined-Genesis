@@ -63,8 +63,7 @@ In the forthcoming update, we will be addressing all quest-related concerns, int
 - kubejs\server_scripts\Armor_Crushing_Recipes: Added Advanced Netherite Armor Crushing recipes
 - kubejs\server_scrips\Tool_Crushing_Recipes: Added Advanced Netherite Tool Crushing recipes
 - kubejs\server_scrips\Mod_RecipeFixes: Fixed broken recipes
-- kubejs\client_scripts\JEI_Integration_Subtypes: Converted REI Groups to JEI subtypes
-- kubejs\client_scripts\JEI_Integration_AdditionsandRemovals: Converted REI Removals and Additions to JEI
+- kubejs\assets\emi: Hides specific items
 ## Config Tweaks
 - Completionist Index: Moved Index to Pause Menu
 - Patchouli Button: Moved to Completionist Index previous spot
