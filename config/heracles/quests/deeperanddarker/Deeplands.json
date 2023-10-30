@@ -2,13 +2,26 @@
   "dependencies": [
     "Enter the Otherside"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "Deeplands": {
+      "biomes": "deeperdarker:deeplands",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Visit Deeplands"
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [

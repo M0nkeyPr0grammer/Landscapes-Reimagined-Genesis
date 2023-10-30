@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "mason": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "chipped:mason_table"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This table allows you to alter all kinds",
+      "of stone type block textures."
+    ],
+    "groups": {
+      "Chipped Tables": {
+        "position": [
+          60,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "chipped:mason_table",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mason Table"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Coming Later..."
+    },
+    "description": [],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          -50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": "extended_drawers:creative_upgrade",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creative Drawer Upgrade"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

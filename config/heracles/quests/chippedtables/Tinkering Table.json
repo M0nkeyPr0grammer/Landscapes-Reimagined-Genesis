@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "tinkering": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "chipped:tinkering_table"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This table allows you to alter all kinds",
+      "of redstone type block textures."
+    ],
+    "groups": {
+      "Chipped Tables": {
+        "position": [
+          0,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": "chipped:tinkering_table",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tinkering Table"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

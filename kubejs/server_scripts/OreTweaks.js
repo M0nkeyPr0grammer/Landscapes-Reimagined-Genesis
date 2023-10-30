@@ -932,4 +932,47 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:crushing/raw_redstone');
 
+	// Salt Bucket to Salt
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{
+				item: "spelunkery:salt_bucket",
+				count: 1
+			}
+		],
+		results: [
+			{
+				item: "spelunkery:salt",
+				count: 8
+			},
+			{
+				item: "minecraft:bucket",
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/salt');
+
+	// Aurora Crysal Shard
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{
+				item: "betterend:aurora_crystal",
+				count: 1
+			}
+		],
+		results: [
+			{
+				item: "betterend:crystal_shards",
+				count: 4
+			},
+			{
+				item: "betterend:crystal_shards",
+				chance: .20,
+				count: 1
+			}
+		]
+	}).id('kubejs:crushing/aurora_shard');
+
 })

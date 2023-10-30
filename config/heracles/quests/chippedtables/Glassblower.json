@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "glassblower": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "chipped:glassblower"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This table allows you to alter all kinds",
+      "of glass block textures."
+    ],
+    "groups": {
+      "Chipped Tables": {
+        "position": [
+          -40,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "chipped:glassblower",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glassblower"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

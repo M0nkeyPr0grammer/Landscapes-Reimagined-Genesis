@@ -1,0 +1,32 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Coming Later..."
+    },
+    "description": [],
+    "groups": {
+      "Creative Items": {
+        "position": [
+          -35,
+          15
+        ]
+      }
+    },
+    "icon": {
+      "item": "createaddition:creative_energy",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creative Generator"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

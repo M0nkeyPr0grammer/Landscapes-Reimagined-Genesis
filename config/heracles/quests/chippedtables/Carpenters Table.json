@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "carpenter": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "chipped:carpenters_table"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This table allows you to alter all kinds",
+      "of wooden block textures."
+    ],
+    "groups": {
+      "Chipped Tables": {
+        "position": [
+          20,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "chipped:carpenters_table",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Carpenters Table"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

@@ -1407,7 +1407,6 @@ ServerEvents.recipes(event => {
         heatRequirement: "superheated"
     }).id('kubejs:mixing/crushed_copper');
 
-
         // Crushed Zinc Ore
     event.custom({
         type: "create:mixing",
@@ -1426,4 +1425,55 @@ ServerEvents.recipes(event => {
         ],
         heatRequirement: "superheated"
     }).id('kubejs:mixing/crushed_zinc');
+
+    // Redstone Ore Fix
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: "minecraft:redstone_ores"
+            }
+        ],
+        results: [
+            {
+                fluid: "createfoundry:molten_redstone",
+                amount: 81000
+            },
+            {
+                item: "minecraft:redstone",
+                count: 5
+            },
+            {
+                fluid: "minecraft:lava",
+                amount: 4050
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/redstone_ores')
+
+    // Lapis Ore Fix
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                tag: "minecraft:lapis_ores"
+            }
+        ],
+        results: [
+            {
+                fluid: "createfoundry:molten_lapis",
+                amount: 81000
+            },
+            {
+                item: "minecraft:lapis_lazuli",
+                count: 5
+            },
+            {
+                fluid: "minecraft:lava",
+                amount: 4050
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/lapis_ores')
+
 })

@@ -34,8 +34,8 @@
     "groups": {
       "Create": {
         "position": [
-          100,
-          0
+          50,
+          -1
         ]
       }
     },

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "botanist": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "chipped:botanist_workbench"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This table allows you to alter all kinds",
+      "of nature block textures."
+    ],
+    "groups": {
+      "Chipped Tables": {
+        "position": [
+          -100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": "beautify:botanist_workbench",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Botanist Workbench"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

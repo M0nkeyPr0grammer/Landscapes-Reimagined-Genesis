@@ -2,13 +2,26 @@
   "dependencies": [
     "Enter the Otherside"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "echoing forest": {
+      "biomes": "deeperdarker:echoing_forest",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Visit Echoing Forest"
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Deeper and Darker": {
         "position": [

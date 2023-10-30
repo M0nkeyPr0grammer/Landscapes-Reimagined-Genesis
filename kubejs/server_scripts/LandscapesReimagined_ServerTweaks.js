@@ -10,7 +10,10 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'seasonsextras:seasonal_compendium' }) // Removes Guide Book
 	event.remove({ id: 'chipped:benches/mechanist_workbench' }) // Removes Recipe, fixed below
 	event.remove({ id: 'createaddition:crafting/diamond_grit_sandpaper' }) // Removes Broken Recipe
-
+	event.remove({ id: 'createfoundry:mixing/melting/ore/redstone_from_ore' })
+	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
+	event.remove({ id: 'simplevillagers:iron_farm_block' })
+	event.remove({ id: 'simplevillagers:trading_block' })
 
 	// Creates Deeper and Darker Patchouli Guide
 	event.shapeless(
@@ -57,34 +60,19 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	// Creates Simple Villagers Items
-	event.shaped(
-		Item.of('simplevillagers:trading_block', 1),
-		[
-			'AAA',
-			'A A',
-			'BCB'
-		],
-		{
-			A: '#c:glass_panes',
-			B: 'minecraft:iron_ingot',
-			C: '#minecraft:planks'
-		}
-	)
-
 	// Create Creative Tank
 	event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
 			'AAAAA',
 			'ABCBA',
-			'AD DA',
-			'ABEBA',
+			'ADEDA',
+			'ABDBA',
 			'AAAAA'
 		],
 		key: {
 			A: Ingredient.of('minecraft:dragon_breath').toJson(),
-			B: Ingredient.of('create:fluid_tank').toJson(),
+			B: Ingredient.of('createutilities:void_tank').toJson(),
 			C: Ingredient.of('create:hose_pulley').toJson(),
 			D: Ingredient.of('create:creative_blaze_cake').toJson(),
 			E: Ingredient.of('deeperdarker:heart_of_the_deep').toJson()
@@ -97,15 +85,19 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "create:mechanical_crafting",
 		pattern: [
-			'ADA',
-			'CBC',
-			'ACA'
+			' ABA ',
+			'ACDCA',
+			'BDEDB',
+			'ACFCA',
+			' ABA '
 		],
 		key: {
-			A: Ingredient.of('create:refined_radiance').toJson(),
-			B: Ingredient.of('create:blaze_cake').toJson(),
-			C: Ingredient.of('minecraft:nether_star').toJson(),
-			D: Ingredient.of('minecraft:dragon_head').toJson()
+			A: Ingredient.of('advancednetherite:netherite_diamond_ingot').toJson(),
+			B: Ingredient.of('create:refined_radiance').toJson(),
+			C: Ingredient.of('minecraft:dragon_head').toJson(),
+			D: Ingredient.of('minecraft:nether_star').toJson(),
+			E: Ingredient.of('create:blaze_cake').toJson(),
+			F: Ingredient.of('deeperdarker:warden_carapace').toJson(),
 		},
 		result: Ingredient.of('create:creative_blaze_cake').toJson(),
 		acceptMirrored: false

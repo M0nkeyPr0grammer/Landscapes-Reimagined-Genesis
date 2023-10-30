@@ -2,7 +2,7 @@
   "dependencies": [],
   "tasks": {
     "Break a log": {
-      "block": "#minecraft:logs",
+      "block": "#minecraft:completes_find_tree_tutorial",
       "state": {},
       "type": "heracles:block_interaction"
     }
