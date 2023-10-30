@@ -18,10 +18,10 @@
       }
     },
     "icon": {
-      "item": "createaddition:biomass",
+      "item": "createaddition:biomass_pellet",
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
       "translate": "Create Crafts & Additions"
     }

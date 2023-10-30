@@ -18,10 +18,10 @@
       }
     },
     "icon": {
-      "item": "createoreexcavation:vein_finder",
+      "item": "minecraft:raw_iron",
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
       "translate": "Create Ore Excavation"
     }

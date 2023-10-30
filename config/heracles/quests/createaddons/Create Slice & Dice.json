@@ -18,10 +18,10 @@
       }
     },
     "icon": {
-      "item": "sliceanddice:slicer",
+      "item": "farmersdelight:iron_knife",
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
       "translate": "Create Slice & Dice"
     }

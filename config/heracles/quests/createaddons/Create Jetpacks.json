@@ -2,13 +2,37 @@
   "dependencies": [
     "Create Addons"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "jetpack": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create_jetpack:jetpack"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "cog wheel": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This jetpack will allow close to creative flight, ",
+      "just remember to fill the jetpack with air, via rotation,",
+      "or it won't work."
+    ],
     "groups": {
       "Create Addons": {
         "position": [

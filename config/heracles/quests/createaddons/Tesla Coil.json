@@ -1,13 +1,25 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Rolling Mill"
   ],
   "tasks": {
-    "chunk loader": {
+    "tesla coil": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createchunkloading:chunk_loader"
+      "item": "createaddition:tesla_coil"
+    },
+    "copper spool": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:copper_spool"
+    },
+    "capacitor": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "createaddition:capacitor"
     }
   },
   "rewards": {
@@ -22,25 +34,25 @@
       "text": ""
     },
     "description": [
-      "This chunk loader will allow you to ",
-      "load a chunk, as long as there is rotating create",
-      "components nearbye."
+      "Can be used to charge items,",
+      "which is not used in this pack right now, and",
+      "when powered by redstone shocks neaby players and mobs."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -60,
-          -35
+          -21,
+          108
         ]
       }
     },
     "icon": {
-      "item": "createchunkloading:chunk_loader",
+      "item": "createaddition:tesla_coil",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Chunkloading"
+      "translate": "Tesla Coil"
     }
   },
   "settings": {

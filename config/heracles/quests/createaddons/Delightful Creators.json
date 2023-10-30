@@ -21,7 +21,7 @@
       "item": "delightfulcreators:hot_cocoa_bucket",
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
       "translate": "Delightful Creators"
     }

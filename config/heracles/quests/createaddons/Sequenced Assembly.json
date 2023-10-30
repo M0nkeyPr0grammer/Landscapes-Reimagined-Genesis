@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "Delightful Creators"
+  ],
+  "tasks": {
+    "pie part": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "delightfulcreators:incomplete_apple_pie"
+    },
+    "pie": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "farmersdelight:apple_pie"
+    },
+    "crust": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "pie": {
+      "item": {
+        "id": "farmersdelight:apple_pie_slice",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "With the addition of the Delightful Creators mod",
+      "you can automate the creation of Farmer's Delight",
+      "items through the process of sequenced assembly.",
+      "",
+      "To help you understand how to do this, you need to",
+      "create 3 tasks shown in the next tab.",
+      "~",
+      "Steps on how to complete:",
+      "- Create Pie Crust",
+      "- Place Apple, wheat flour, then sugar via the deployer",
+      "- Repeat the above step to complete the pie"
+    ],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -280,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "delightfulcreators:incomplete_apple_pie",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "F.D. Sequenced Assembly"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

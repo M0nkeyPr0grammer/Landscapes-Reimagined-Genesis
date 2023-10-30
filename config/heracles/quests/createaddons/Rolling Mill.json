@@ -1,20 +1,27 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Create Crafts & Additions"
   ],
   "tasks": {
-    "chunk loader": {
+    "Rolling Mill": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createchunkloading:chunk_loader"
+      "item": "createaddition:rolling_mill"
     }
   },
   "rewards": {
     "xp": {
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "type": "heracles:xp"
+    },
+    "straw": {
+      "item": {
+        "id": "createaddition:straw",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -22,25 +29,24 @@
       "text": ""
     },
     "description": [
-      "This chunk loader will allow you to ",
-      "load a chunk, as long as there is rotating create",
-      "components nearbye."
+      "The rolling mill is used to create many",
+      "Create Crafts & Addition items."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -60,
-          -35
+          14,
+          5
         ]
       }
     },
     "icon": {
-      "item": "createchunkloading:chunk_loader",
+      "item": "createaddition:rolling_mill",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Chunkloading"
+      "translate": "Rolling Mill"
     }
   },
   "settings": {

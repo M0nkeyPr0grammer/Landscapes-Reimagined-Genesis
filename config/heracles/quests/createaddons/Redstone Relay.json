@@ -1,20 +1,27 @@
 {
   "dependencies": [
-    "Create Addons"
+    "Rolling Mill"
   ],
   "tasks": {
-    "chunk loader": {
+    "redstone relay": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createchunkloading:chunk_loader"
+      "item": "createaddition:redstone_relay"
     }
   },
   "rewards": {
     "xp": {
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
       "type": "heracles:xp"
+    },
+    "electron tube": {
+      "item": {
+        "id": "create:electron_tube",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -22,25 +29,23 @@
       "text": ""
     },
     "description": [
-      "This chunk loader will allow you to ",
-      "load a chunk, as long as there is rotating create",
-      "components nearbye."
+      "The redstone relay controls energy flow with Redstone."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -60,
-          -35
+          -41,
+          77
         ]
       }
     },
     "icon": {
-      "item": "createchunkloading:chunk_loader",
+      "item": "createaddition:redstone_relay",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Create Chunkloading"
+      "translate": "Redstone Relay"
     }
   },
   "settings": {
