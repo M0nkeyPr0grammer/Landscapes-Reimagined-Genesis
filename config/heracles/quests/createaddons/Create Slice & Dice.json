@@ -2,13 +2,22 @@
   "dependencies": [
     "Create Addons"
   ],
-  "tasks": {},
+  "tasks": {
+    "knife": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#farmersdelight:tools/knives"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Create Addons": {
         "position": [
