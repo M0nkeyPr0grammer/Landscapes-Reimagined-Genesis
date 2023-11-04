@@ -15,6 +15,14 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'simplevillagers:iron_farm_block' })
 	event.remove({ id: 'simplevillagers:trading_block' })
 
+	// Any Dirt to Vanilla Dirt
+	event.shapeless(
+		Item.of('minecraft:dirt'),
+		[
+			'#minecraft:dirt'
+		]
+	)
+
 	// Creates Deeper and Darker Patchouli Guide
 	event.shapeless(
 		Item.of('patchouli:guide_book', '{"patchouli:book":"deeperdarker:wanderers_notebook"}'),
