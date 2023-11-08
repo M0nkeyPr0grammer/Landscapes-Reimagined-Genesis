@@ -4,10 +4,11 @@
 This minor update includes a simple fix that will include a shapeless recipe to convert modded dirt to vanilla dirt, since some modded dirt cannot plant crops. It will also include any general mod updates.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
+## New Additions
+
 ## Updates
 - Argonauts: v1.0.5 > v1.0.6
 - Collective: v6.80 > v6.82
-- Cristel Lib: v1.1.3 > v1.1.5
 - EMI: v1.0.23 > v1.0.24
 - EnderChests: v1.1 > v1.2
 - EnderTanks: v1.1 > v1.2
