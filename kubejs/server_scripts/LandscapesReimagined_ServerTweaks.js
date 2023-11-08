@@ -81,6 +81,29 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:nether_wart', chance: 0.10 }]
 	}).id('kubejs:crushing/nether_wart_block');
 
+	// Create Creative Motor
+	event.custom({
+		type: "create:mechanical_crafting",
+		pattern: [
+			'AAAAAA',
+			'BCCCCB',
+			'EFGGFE',
+			'BDDDDB',
+			'AAAAAA'
+		],
+		key: {
+			A: Ingredient.of('minecraft:dragon_breath').toJson(),
+			B: Ingredient.of('minecraft:nether_star').toJson(),
+			C: Ingredient.of('createaddition:electric_motor').toJson(),
+			D: Ingredient.of('createutilities:void_motor').toJson(),
+			E: Ingredient.of('advancednetherite:netherite_diamond_block').toJson(),
+			F: Ingredient.of('deeperdarker:heart_of_the_deep').toJson(),
+			G: Ingredient.of('create:creative_fluid_tank').toJson()
+		},
+		result: Ingredient.of('create:creative_motor').toJson(),
+		acceptMirrored: false
+	}).id('kubejs:create/creative_motor');
+
 	// Create Creative Tank
 	event.custom({
 		type: "create:mechanical_crafting",
