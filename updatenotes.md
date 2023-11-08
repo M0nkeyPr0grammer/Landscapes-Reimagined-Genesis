@@ -5,7 +5,9 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
 ## New Additions
-
+- [Create: Diesel Generators (Fabric)](https://modrinth.com/mod/create-diesel-generators-fabric): A mod that adds Diesel Generators to the create mod.
+- [Create: SandPaper Overhaul](https://modrinth.com/mod/create-sandpaper-overhaul): A addon to the amazing Create Mod that adds more variations of sandpapers and a polishing wheel.
+- [Create: Diesel Generators (Fabric)](https://modrinth.com/datapack/ctov-create-structures): Compatibility datapack between ChoiceTheorem's overhauled village and Create:Structures mod
 ## Updates
 - Argonauts: v1.0.5 > v1.0.6
 - Collective: v6.80 > v6.82
