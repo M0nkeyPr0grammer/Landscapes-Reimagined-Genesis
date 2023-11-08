@@ -26,6 +26,8 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 ## KubeJS Tweaks
 - server_scrips/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe
 - server_scrips/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
+## Config Tweaks
+- Supplementaries: Blacklisted Beatify from Lantern Tweaks
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.4.0
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
