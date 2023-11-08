@@ -10,7 +10,7 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - [Create: Diesel Generators (Fabric)](https://modrinth.com/datapack/ctov-create-structures): Compatibility datapack between ChoiceTheorem's overhauled village and Create:Structures mod
 ## Updates
 - Argonauts: v1.0.5 > v1.0.6
-- Collective: v6.80 > v6.82
+- Collective: v6.80 > v7.3
 - EMI: v1.0.23 > v1.0.24
 - EnderChests: v1.1 > v1.2
 - EnderTanks: v1.1 > v1.2
@@ -23,6 +23,8 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - ShetiPhianCore: v1.1 > v1.2
 - Supplementaries: v2.6.19 > v2.6.20
 - Utility Belt: v1.3.5 > v1.3.6
+- Resourceful Lib: v2.1.13 > v2.1.16
+- Terrestria: v6.0.11 > v6.0.12
 ## KubeJS Tweaks
 - server_scrips/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe
 - server_scrips/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
