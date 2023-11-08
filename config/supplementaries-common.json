@@ -4,6 +4,7 @@
     "speaker_block": {
       "enabled": true,
       "narrator_enabled": true,
+      "max_text": 32,
       "range": 64
     },
     "bellows": {
@@ -146,7 +147,8 @@
     },
     "planter": {
       "enabled": true,
-      "broken_by_sapling": true
+      "broken_by_sapling": true,
+      "rich_soil_planter": true
     },
     "notice_board": {
       "enabled": true,
@@ -290,6 +292,9 @@
     "shulker_helmet": {
       "enabled": true
     },
+    "golden_apple_disenchant": {
+      "enabled": true
+    },
     "dye_blocks": {
       "enabled": true
     },
@@ -322,7 +327,8 @@
         "extlights",
         "betterendforge",
         "tconstruct",
-        "enigmaticlegacy"
+        "enigmaticlegacy",
+        "beautify"
       ],
       "falling_lanterns": "ON"
     },
@@ -350,6 +356,7 @@
     "map_tweaks": {
       "random_adventurer_maps": true,
       "block_map_markers": true,
+      "death_marker": "WITH_COMPASS",
       "tinted_blocks_on_maps": true
     },
     "ceiling_banners": {
