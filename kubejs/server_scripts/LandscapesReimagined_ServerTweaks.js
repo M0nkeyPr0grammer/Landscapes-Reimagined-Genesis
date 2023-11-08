@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
 	event.remove({ id: 'simplevillagers:iron_farm_block' })
 	event.remove({ id: 'simplevillagers:trading_block' })
+	event.remove({ id: 'create:crushing/nether_wart_block'})
 
 	// Any Dirt to Vanilla Dirt
 	event.shapeless(
@@ -67,6 +68,18 @@ ServerEvents.recipes(event => {
 			'createaddition:diamond_grit'
 		]
 	)
+
+	// New Nether Wart Block Crushing Recipe
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'minecraft:nether_wart_block' }
+		],
+		processingTime: 400,
+		results: [
+			{ item: 'minecraft:nether_wart', count: 2 },
+			{ item: 'minecraft:nether_wart', chance: 0.10 }]
+	}).id('kubejs:crushing/nether_wart_block');
 
 	// Create Creative Tank
 	event.custom({
