@@ -24,7 +24,8 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - Supplementaries: v2.6.19 > v2.6.20
 - Utility Belt: v1.3.5 > v1.3.6
 ## KubeJS Tweaks
-- 
+- server_scrips/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe
+- server_scrips/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.4.0
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
