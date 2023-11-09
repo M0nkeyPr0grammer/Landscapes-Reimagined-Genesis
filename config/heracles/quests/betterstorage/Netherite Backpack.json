@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Diamond Backpack"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,18 +12,18 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -350,
+          -150,
           80
         ]
       }
     },
     "icon": {
-      "item": "travelersbackpack:standard",
+      "item": "travelersbackpack:netherite",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Standard Traveler Backpack"
+      "translate": "Netherite Traveler Backpack"
     }
   },
   "settings": {

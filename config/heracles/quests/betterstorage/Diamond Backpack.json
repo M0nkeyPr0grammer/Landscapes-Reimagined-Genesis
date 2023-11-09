@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Gold Backpack"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,18 +12,18 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -350,
+          -200,
           80
         ]
       }
     },
     "icon": {
-      "item": "travelersbackpack:standard",
+      "item": "travelersbackpack:diamond",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Standard Traveler Backpack"
+      "translate": "Diamond Traveler Backpack"
     }
   },
   "settings": {

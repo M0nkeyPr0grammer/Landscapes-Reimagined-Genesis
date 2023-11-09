@@ -10,18 +10,18 @@
     "groups": {
       "Better Storage": {
         "position": [
-          -350,
+          -100,
           80
         ]
       }
     },
     "icon": {
-      "item": "travelersbackpack:standard",
+      "item": "travelersbackpack:wither",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Standard Traveler Backpack"
+      "translate": "Wither Traveler Backpack"
     }
   },
   "settings": {

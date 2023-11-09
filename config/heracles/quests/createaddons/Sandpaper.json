@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Sandpaper Overhaul"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -8,20 +10,20 @@
     },
     "description": [],
     "groups": {
-      "Better Storage": {
+      "Create Addons": {
         "position": [
-          -350,
-          80
+          340,
+          5
         ]
       }
     },
     "icon": {
-      "item": "travelersbackpack:standard",
+      "item": "create_so:iron_sandpaper",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Standard Traveler Backpack"
+      "translate": "Sandpaper"
     }
   },
   "settings": {

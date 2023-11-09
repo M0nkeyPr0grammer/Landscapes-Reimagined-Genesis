@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Diesal Generators"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -8,20 +10,20 @@
     },
     "description": [],
     "groups": {
-      "Better Storage": {
+      "Create Addons": {
         "position": [
-          -350,
-          80
+          -310,
+          5
         ]
       }
     },
     "icon": {
-      "item": "travelersbackpack:standard",
+      "item": "createdieselgenerators:biodiesel_bucket",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Standard Traveler Backpack"
+      "translate": "Fuel Sources"
     }
   },
   "settings": {
