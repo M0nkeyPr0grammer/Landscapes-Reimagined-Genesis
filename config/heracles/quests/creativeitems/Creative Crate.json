@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Creative Generator"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -10,13 +12,16 @@
     "groups": {
       "Creative Items": {
         "position": [
-          0,
-          15
+          -200,
+          -50
         ]
       }
     },
     "icon": {
-      "item": "create:creative_crate",
+      "item": {
+        "id": "create:creative_crate",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -25,8 +30,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
