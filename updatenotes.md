@@ -27,6 +27,9 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - Utility Belt: v1.3.5 > v1.3.6
 - Resourceful Lib: v2.1.13 > v2.1.16
 - Terrestria: v6.0.11 > v6.0.12
+- Cristel Lib: v1.1.3 > v1.1.5
+- Just Mob Heads: v7.3 > v7.4
+- Just Player Heads: v3.1 > v3.2
 ## KubeJS Tweaks
 - server_scripts/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe and added in creative motor recipe.
 - server_scripts/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
