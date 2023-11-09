@@ -19,7 +19,7 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - Jade Addons: v5.2.2 > v5.2.3
 - ModernFix: v5.9.0 > v5.9.2
 - Moog's Voyager Structures: v4.1 > v4.1.1
-- Moonlight: v2.8.56 > v2.8.57
+- Moonlight: v2.8.56 > v2.8.59
 - Puzzles Lib: v8.1.5 > v8.1.8
 - Rhino: v2001.2.2-build.11 > v2001.2.2-build.13
 - ShetiPhianCore: v1.1 > v1.2
@@ -30,6 +30,10 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - Cristel Lib: v1.1.3 > v1.1.5
 - Just Mob Heads: v7.3 > v7.4
 - Just Player Heads: v3.1 > v3.2
+- Chat Heads: v0.10.22 > v0.10.23
+- Heracles: v1.0.5 > v1.1.0
+- More Crafting Tables: v1.0.0 > v1.1.0
+- Peek: v1.1.10 > v1.1.11
 ## KubeJS Tweaks
 - server_scripts/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe and added in creative motor recipe.
 - server_scripts/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
