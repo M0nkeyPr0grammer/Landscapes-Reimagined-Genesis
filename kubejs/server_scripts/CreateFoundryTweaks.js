@@ -1476,4 +1476,61 @@ ServerEvents.recipes(event => {
         heatRequirement: "superheated"
     }).id('kubejs:mixing/lapis_ores')
 
+    // Raw Emerald Ore
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'createoreexcavation:raw_emerald',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_emerald',
+                amount: 16200
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/raw_emerald');
+    
+    // Raw Diamond Ore
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'createoreexcavation:raw_diamond',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_diamond',
+                amount: 16200
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/raw_diamond');
+    
+    // Raw Redstone Ore
+    event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: 'createoreexcavation:raw_redstone',
+                nbt: {},
+                amount: 1
+            }
+        ],
+        results: [
+            {
+                fluid: 'createfoundry:molten_redstone',
+                amount: 16200
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/raw_redstone');
+
 })

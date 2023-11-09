@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'createfoundry:mixing/melting/ore/lapis_from_ore' })
 	event.remove({ id: 'simplevillagers:iron_farm_block' })
 	event.remove({ id: 'simplevillagers:trading_block' })
+	event.remove({ id: 'create:crushing/nether_wart_block'})
 
 	// Any Dirt to Vanilla Dirt
 	event.shapeless(
@@ -68,48 +69,17 @@ ServerEvents.recipes(event => {
 		]
 	)
 
-	// Create Creative Tank
+	// New Nether Wart Block Crushing Recipe
 	event.custom({
-		type: "create:mechanical_crafting",
-		pattern: [
-			'AAAAA',
-			'ABCBA',
-			'ADEDA',
-			'ABDBA',
-			'AAAAA'
+		type: "create:crushing",
+		ingredients: [
+			{ item: 'minecraft:nether_wart_block' }
 		],
-		key: {
-			A: Ingredient.of('minecraft:dragon_breath').toJson(),
-			B: Ingredient.of('createutilities:void_tank').toJson(),
-			C: Ingredient.of('create:hose_pulley').toJson(),
-			D: Ingredient.of('create:creative_blaze_cake').toJson(),
-			E: Ingredient.of('deeperdarker:heart_of_the_deep').toJson()
-		},
-		result: Ingredient.of('create:creative_fluid_tank').toJson(),
-		acceptMirrored: false
-	}).id('kubejs:create/creative_fluid_tank');
-
-	// Create Creative Blaze Cake
-	event.custom({
-		type: "create:mechanical_crafting",
-		pattern: [
-			' ABA ',
-			'ACDCA',
-			'BDEDB',
-			'ACFCA',
-			' ABA '
-		],
-		key: {
-			A: Ingredient.of('advancednetherite:netherite_diamond_ingot').toJson(),
-			B: Ingredient.of('create:refined_radiance').toJson(),
-			C: Ingredient.of('minecraft:dragon_head').toJson(),
-			D: Ingredient.of('minecraft:nether_star').toJson(),
-			E: Ingredient.of('create:blaze_cake').toJson(),
-			F: Ingredient.of('deeperdarker:warden_carapace').toJson(),
-		},
-		result: Ingredient.of('create:creative_blaze_cake').toJson(),
-		acceptMirrored: false
-	}).id('kubejs:create/creative_blaze_cake');
+		processingTime: 400,
+		results: [
+			{ item: 'minecraft:nether_wart', count: 2 },
+			{ item: 'minecraft:nether_wart', chance: 0.10 }]
+	}).id('kubejs:crushing/nether_wart_block');
 
 	// Create Chromatic Compound
 	event.custom({

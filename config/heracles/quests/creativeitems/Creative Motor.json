@@ -1,22 +1,42 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Creative Fluid Tank"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Coming Later..."
+      "translate": " "
     },
-    "description": [],
+    "description": [
+      "The Creative Motor will provide SU of 16384.0x its RPM",
+      "to a connected system.",
+      "",
+      "The RPM of the Creative Motor can be changed by using",
+      "the Value Settings Screen, accessible on the sides.",
+      "",
+      "This is crafted with these items using a Mechanical Crafter Setup",
+      "- 12 Dragons Breathe",
+      "- 4 Nether Stars",
+      "- 4 Electic Motors",
+      "- 4 Void Motors",
+      "- 2 Diamond Netherite Ingot Blocks",
+      "- 2 Warden Hearts",
+      "- 2 Creative Tanks"
+    ],
     "groups": {
       "Creative Items": {
         "position": [
-          -65,
-          15
+          -100,
+          -50
         ]
       }
     },
     "icon": {
-      "item": "create:creative_motor",
+      "item": {
+        "id": "create:creative_motor",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -25,8 +45,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

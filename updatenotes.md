@@ -1,25 +1,57 @@
-# Modpack Patch Notes: Version 2.3.2 (Regions Unexplored Soil Fix)
-**Release Date**: November 4th, 2023
+# Modpack Patch Notes: Version 2.4.0
+**Release Date**: November 9th, 2023
 
-This minor update includes a simple fix that will include a shapeless recipe to convert modded dirt to vanilla dirt, since some modded dirt cannot plant crops. It will also include any general mod updates.
+This update includes the addition of 2 new Create Addons, with the inclusion of 2 new creative item recipes, and all the quests related to those. It will also include any general mod updates released since the last pack update.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
-## Fabric Loader Update:
-- 0.14.23 > 0.14.24
+## New Additions
+- [Create: Diesel Generators (Fabric)](https://modrinth.com/mod/create-diesel-generators-fabric): A mod that adds Diesel Generators to the create mod.
+- [Create: SandPaper Overhaul](https://modrinth.com/mod/create-sandpaper-overhaul): A addon to the amazing Create Mod that adds more variations of sandpapers and a polishing wheel.
+- [CTOV - Create: Structures](https://modrinth.com/datapack/ctov-create-structures): Compatibility datapack between ChoiceTheorem's overhauled village and Create:Structures mod
+- [LootJS: KubeJS Addon](https://modrinth.com/mod/lootjs): A Minecraft mod for packdevs to easily modify the loot system with KubeJS.
+- [Quad](https://modrinth.com/mod/quad): This replaces some vanilla recipes to add more mod compact
+- Dragon Drops Custom Datapack: A simple datapack made by me to adjust dragon drop loot pool to only be a dragon head.
 ## Updates
-- Collective: v6.72 > v6.80
-- Deeper and Darker: v1.2.2 > v1.2.3
-- Entity Texture Features: v4.6 > v4.6.1
-- Fabric API: v0.90.4 > v0.90.7
-- Fabric Language Kotlin: v1.10.12 > v1.10.13
-- Moonlight: v2.8.53 > v2.8.56
-- Peek: v1.1.9 > v1.1.10
-- Simple Voice Chat: v2.4.27 > v2.4.28
-- Traveler's Backpack: v9.1.6 > v9.1.8
+- Argonauts: v1.0.5 > v1.0.6
+- Collective: v6.80 > v7.3
+- EMI: v1.0.23 > v1.0.24
+- EnderChests: v1.1 > v1.2
+- EnderTanks: v1.1 > v1.2
+- Jade Addons: v5.2.2 > v5.2.3
+- ModernFix: v5.9.0 > v5.9.2
+- Moog's Voyager Structures: v4.1 > v4.1.1
+- Moonlight: v2.8.56 > v2.8.59
+- Puzzles Lib: v8.1.5 > v8.1.8
+- Rhino: v2001.2.2-build.11 > v2001.2.2-build.13
+- ShetiPhianCore: v1.1 > v1.2
+- Supplementaries: v2.6.19 > v2.6.20
+- Utility Belt: v1.3.5 > v1.3.6
+- Resourceful Lib: v2.1.13 > v2.1.16
+- Terrestria: v6.0.11 > v6.0.12
+- Cristel Lib: v1.1.3 > v1.1.5
+- Just Mob Heads: v7.3 > v7.4
+- Just Player Heads: v3.1 > v3.2
+- Chat Heads: v0.10.22 > v0.10.23
+- Heracles: v1.0.5 > v1.1.0
+- More Crafting Tables: v1.0.0 > v1.1.0
+- Peek: v1.1.10 > v1.1.11
 ## KubeJS Tweaks
-- kubejs\server_scripts\LandscapesReimagined_ServerTweaks.js: Added in shapeless recipe for modded dirt to vanilla dirt
+- server_scripts/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe
+- server_scripts/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
+- server_scripts/PolishingTweaks: Added in New Polishing Wheel Recipes
+- server_scrips/CreativeItems: Separated Creative Items and created creative motor and drawer upgrade
+## Quest Updates
+- Creative Items Chapter: Added Descriptions for Creative items
+- Create Addons Chapter: Fixed Slice and Dice starter quest
+## Quest Additions
+- Creative Items Chapter: Added in Creative Motor Quest
+- Creative Items Chapter: Added in Creative Drawer Upgrade Quest
+- Better Storage Chapter: Added in Travelers Backpack Section
+- Create Addons Chapter: Added in Quest Lines for Create SandPaper Overhaul and Create Diesel Generators
+## Config Tweaks
+- Supplementaries: Blacklisted Beatify from Lantern Tweaks
 ## Drippy Screen Tweaks
-- Updated Version ID to v2.3.2
+- Updated Version ID to v2.4.0
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ### Want to setup a server using our official server host, click the banner below!
 [![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth+chanelog)

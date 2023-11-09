@@ -1,22 +1,27 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Creative Motor"
+  ],
   "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Coming Later..."
+      "translate": "Coming v2.6.0"
     },
     "description": [],
     "groups": {
       "Creative Items": {
         "position": [
-          -35,
-          15
+          -150,
+          -50
         ]
       }
     },
     "icon": {
-      "item": "createaddition:creative_energy",
+      "item": {
+        "id": "createaddition:creative_energy",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -25,8 +30,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
