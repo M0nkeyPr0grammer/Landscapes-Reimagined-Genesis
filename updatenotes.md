@@ -1,7 +1,7 @@
 # Modpack Patch Notes: Version 2.4.0
-**Release Date**: November ?th, 2023
+**Release Date**: November 9th, 2023
 
-This minor update includes a simple fix that will include a shapeless recipe to convert modded dirt to vanilla dirt, since some modded dirt cannot plant crops. It will also include any general mod updates.
+This update includes the addition of 2 new Create Addons, with the inclusion of 2 new creative item recipes, and all the quests related to those. It will also include any general mod updates released since the last pack update.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
 ## New Additions
@@ -42,6 +42,7 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - server_scrips/CreativeItems: Separated Creative Items and created creative motor and drawer upgrade
 ## Quest Updates
 - Creative Items Chapter: Added Descriptions for Creative items
+- Create Addons Chapter: Fixed Slice and Dice starter quest
 ## Quest Additions
 - Creative Items Chapter: Added in Creative Motor Quest
 - Creative Items Chapter: Added in Creative Drawer Upgrade Quest
