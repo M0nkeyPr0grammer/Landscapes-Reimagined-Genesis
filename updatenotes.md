@@ -36,9 +36,10 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - More Crafting Tables: v1.0.0 > v1.1.0
 - Peek: v1.1.10 > v1.1.11
 ## KubeJS Tweaks
-- server_scripts/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe and added in creative motor recipe.
+- server_scripts/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe
 - server_scripts/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
 - server_scripts/PolishingTweaks: Added in New Polishing Wheel Recipes
+- server_scrips/CreativeItems: Separated Creative Items and created creative motor and drawer upgrade
 ## Quest Updates
 - Creative Items Chapter: Added Descriptions for Creative items
 ## Quest Additions
