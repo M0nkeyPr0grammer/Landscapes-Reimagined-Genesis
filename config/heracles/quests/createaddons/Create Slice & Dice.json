@@ -5,9 +5,23 @@
   "tasks": {
     "knife": {
       "type": "heracles:item",
+      "item": "farmersdelight:iron_knife",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "#farmersdelight:tools/knives"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:iron_knife",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
@@ -27,7 +41,13 @@
       }
     },
     "icon": {
-      "item": "farmersdelight:iron_knife",
+      "item": {
+        "id": "farmersdelight:iron_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
@@ -36,8 +56,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

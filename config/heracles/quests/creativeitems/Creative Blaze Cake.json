@@ -8,18 +8,42 @@
   "tasks": {
     "Creative Blaze Cake": {
       "type": "heracles:item",
+      "item": "create:creative_blaze_cake",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:creative_blaze_cake"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "LEVEL",
       "amount": 50,
+      "title": "",
       "type": "heracles:xp"
     },
     "netherite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:netherite_block",
         "count": 1
@@ -38,7 +62,7 @@
       "This is crafted using these items in a Mechanical Crafter Setup",
       "- 6 Diamond Netherite Ingots ",
       "- 4 Dragon Heads",
-      "- 4 Refined Radiance, which is chromatic compound thrown in a beacon beam ",
+      "- 4 Refined Radiance, which is chromatic compound thrown into a beacon beam ",
       "- 3 Nether Stars",
       "- 1 Blaze Cake"
     ],
@@ -51,7 +75,10 @@
       }
     },
     "icon": {
-      "item": "create:creative_blaze_cake",
+      "item": {
+        "id": "create:creative_blaze_cake",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -60,8 +87,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

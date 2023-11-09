@@ -2,13 +2,93 @@
   "dependencies": [
     "Sandpaper Overhaul"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "crushed iron paper": {
+      "type": "heracles:item",
+      "item": "create_so:iron_sandpaper",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_so:iron_sandpaper",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    },
+    "crushed diamond paper": {
+      "type": "heracles:item",
+      "item": "create_so:diamond_sandpaper",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_so:diamond_sandpaper",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "sturdy paper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_so:obsidian_sandpaper",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_so:obsidian_sandpaper",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "This create addon comes with three new sand paper variants.",
+      "This quests takes you through creating two of those",
+      "then I will provide you with the final one."
+    ],
     "groups": {
       "Create Addons": {
         "position": [
@@ -18,7 +98,13 @@
       }
     },
     "icon": {
-      "item": "create_so:iron_sandpaper",
+      "item": {
+        "id": "create_so:iron_sandpaper",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -27,8 +113,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
