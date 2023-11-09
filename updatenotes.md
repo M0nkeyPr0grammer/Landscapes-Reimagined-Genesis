@@ -7,7 +7,7 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 ## New Additions
 - [Create: Diesel Generators (Fabric)](https://modrinth.com/mod/create-diesel-generators-fabric): A mod that adds Diesel Generators to the create mod.
 - [Create: SandPaper Overhaul](https://modrinth.com/mod/create-sandpaper-overhaul): A addon to the amazing Create Mod that adds more variations of sandpapers and a polishing wheel.
-- [Create: Diesel Generators (Fabric)](https://modrinth.com/datapack/ctov-create-structures): Compatibility datapack between ChoiceTheorem's overhauled village and Create:Structures mod
+- [CTOV - Create: Structures](https://modrinth.com/datapack/ctov-create-structures): Compatibility datapack between ChoiceTheorem's overhauled village and Create:Structures mod
 - [LootJS: KubeJS Addon](https://modrinth.com/mod/lootjs): A Minecraft mod for packdevs to easily modify the loot system with KubeJS.
 - Dragon Drops Custom Datapack: A simple datapack made by me to adjust dragon drop loot pool to only be a dragon head.
 ## Updates
