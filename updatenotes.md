@@ -9,6 +9,7 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - [Create: SandPaper Overhaul](https://modrinth.com/mod/create-sandpaper-overhaul): A addon to the amazing Create Mod that adds more variations of sandpapers and a polishing wheel.
 - [CTOV - Create: Structures](https://modrinth.com/datapack/ctov-create-structures): Compatibility datapack between ChoiceTheorem's overhauled village and Create:Structures mod
 - [LootJS: KubeJS Addon](https://modrinth.com/mod/lootjs): A Minecraft mod for packdevs to easily modify the loot system with KubeJS.
+- [Quad](https://modrinth.com/mod/quad): This replaces some vanilla recipes to add more mod compact
 - Dragon Drops Custom Datapack: A simple datapack made by me to adjust dragon drop loot pool to only be a dragon head.
 ## Updates
 - Argonauts: v1.0.5 > v1.0.6
