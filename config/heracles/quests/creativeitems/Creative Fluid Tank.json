@@ -29,12 +29,25 @@
       "text": ""
     },
     "description": [
-      ""
+      "Clicking the Creative Fluid Tank with a Potion, Water Bucket,",
+      "Lava Bucket, Milk Bucket, Honey Bucket, Chocolate Bucket",
+      "or Builder's Tea will fill the block with that fluid.",
+      "[This also applies to any other modded fluid.]",
+      "Extracting fluid via a Mechanical Pump will make the tank act",
+      "like an infinite source.",
+      "",
+      "This is crafted with these items using a Mechanical Crafter Setup",
+      "- 16 Dragons Breathe",
+      "- 4 Void Tanks",
+      "- 3 Creative Blaze Cakes",
+      "- 1 Hose Pulley",
+      "- 1 Warden Heart",
+      " "
     ],
     "groups": {
       "Creative Items": {
         "position": [
-          -100,
+          -50,
           -50
         ]
       }

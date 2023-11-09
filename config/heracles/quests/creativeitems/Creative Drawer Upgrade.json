@@ -4,14 +4,14 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Coming Later..."
+      "translate": "Coming v2.10.0"
     },
     "description": [],
     "groups": {
       "Creative Items": {
         "position": [
-          -50,
-          50
+          -30,
+          15
         ]
       }
     },

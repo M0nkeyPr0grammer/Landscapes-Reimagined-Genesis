@@ -9,6 +9,7 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - [Create: SandPaper Overhaul](https://modrinth.com/mod/create-sandpaper-overhaul): A addon to the amazing Create Mod that adds more variations of sandpapers and a polishing wheel.
 - [Create: Diesel Generators (Fabric)](https://modrinth.com/datapack/ctov-create-structures): Compatibility datapack between ChoiceTheorem's overhauled village and Create:Structures mod
 - [LootJS: KubeJS Addon](https://modrinth.com/mod/lootjs): A Minecraft mod for packdevs to easily modify the loot system with KubeJS.
+- Dragon Drops Custom Datapack: A simple datapack made by me to adjust dragon drop loot pool to only be a dragon head.
 ## Updates
 - Argonauts: v1.0.5 > v1.0.6
 - Collective: v6.80 > v7.3
@@ -27,8 +28,13 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - Resourceful Lib: v2.1.13 > v2.1.16
 - Terrestria: v6.0.11 > v6.0.12
 ## KubeJS Tweaks
-- server_scrips/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe
-- server_scrips/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
+- server_scripts/LandscapesReimagined_ServerTweaks: Adjusted Netherwart Block Crushing Recipe and added in creative motor recipe.
+- server_scripts/CreateFoundryTweaks: Added in Create Ore Excavation Raw Ore mixing recipes
+- server_scripts/PolishingTweaks: Added in New Polishing Wheel Recipes
+## Quest Updates
+- Creative Items Chapter: Added Descriptions for Creative items
+## Quest Additions
+- Creative Items Chapter: Added in Creative Motor Quest
 ## Config Tweaks
 - Supplementaries: Blacklisted Beatify from Lantern Tweaks
 ## Drippy Screen Tweaks
