@@ -1,0 +1,34 @@
+{
+  "dependencies": [
+    "Create Addons"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Create Addons": {
+        "position": [
+          -330,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": "createdieselgenerators:diesel_engine",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Diesal Generators"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

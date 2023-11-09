@@ -35,6 +35,8 @@ This minor update includes a simple fix that will include a shapeless recipe to 
 - Creative Items Chapter: Added Descriptions for Creative items
 ## Quest Additions
 - Creative Items Chapter: Added in Creative Motor Quest
+- Better Storage Chapter: Added in Travelers Backpack Section
+- Create Addons Chapter: Added in Quest Lines for Create SandPaper Overhaul and Create Diesel Generators
 ## Config Tweaks
 - Supplementaries: Blacklisted Beatify from Lantern Tweaks
 ## Drippy Screen Tweaks
