@@ -1,7 +1,7 @@
 # Modpack Patch Notes: Version 2.4.1 [Broken Recipe Fixes]
 **Release Date**: November 9th, 2023
 
-This minor release is fixing many broken recipes.
+This minor release is fixing many broken recipes, and includes any general mod updates.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 
 ## Updates
