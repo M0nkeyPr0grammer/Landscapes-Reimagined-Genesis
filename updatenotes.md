@@ -1,19 +1,17 @@
-# Modpack Patch Notes: Version 2.4.1 [Broken Recipe Fixes]
-**Release Date**: November 9th, 2023
+# Modpack Patch Notes: Version 2.5.0 (Ad Astra Addition)
+**Release Date**: November ?th, 2023
 
-This minor release is fixing many broken recipes, and includes any general mod updates.
+This upcoming update represents a significant release, primarily centered around the integration of the renowned space exploration mod, Ad Astra. This update will encompass not only general updates to existing mods but also substantial recipe modifications and adjustments. These changes are meticulously planned to ensure that Ad Astra seamlessly integrates into the pack, maintaining a cohesive and balanced experience. Further details will be provided in the near future.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
-
+## Additions
+- 
 ## Updates
-- Immediatelt Fast: v1.2.6 > v1.2.7
-- Extreme Sound Muffler: v3.40 > v3.41
-- CreativeCore: v2.11.7 > v2.11.9
-- AmbientsSounds: v5.2.24 > v5.3.0
+- 
 ## KubeJS Tweaks
-- server_scripts/Mod_RecipeFixes: Fixed Multiple Broken Recipes
+- 
 
 ## Drippy Screen Tweaks
-- Updated Version ID to v2.4.1
+- Updated Version ID to v2.5.0
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ### Want to setup a server using our official server host, click the banner below!
 [![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth+chanelog)
