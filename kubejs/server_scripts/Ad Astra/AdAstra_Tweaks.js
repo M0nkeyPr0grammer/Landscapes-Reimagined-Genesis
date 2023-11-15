@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
+    event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'}) // Removes Old Steel Blasting Recipe
 
         // Creates new Steel Ingot recipe
         event.custom({

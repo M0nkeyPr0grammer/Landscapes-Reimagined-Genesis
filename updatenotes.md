@@ -26,6 +26,7 @@ This upcoming update represents a significant release, primarily centered around
 - Supplementaries: v2.6.20 > v2.6.28
 ## KubeJS Tweaks
 - server_scrips\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
+- server_scrips: Organized Files into Folders
 
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.5.0
