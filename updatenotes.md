@@ -27,6 +27,10 @@ This upcoming update represents a significant release, primarily centered around
 ## KubeJS Tweaks
 - server_scrips\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
 - server_scrips: Organized Files into Folders
+## Quest Additions
+-
+## Quest Tweaks
+- Creative Items Chapter: Added Missing Tasks and Rewards for Creative Motor
 
 ## Drippy Screen Tweaks
 - Updated Version ID to v2.5.0

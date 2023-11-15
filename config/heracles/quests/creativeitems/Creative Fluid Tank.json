@@ -5,18 +5,42 @@
   "tasks": {
     "creative tank": {
       "type": "heracles:item",
+      "item": "create:creative_fluid_tank",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:creative_fluid_tank"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "LEVEL",
       "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     },
     "creative blaze cake": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:creative_blaze_cake",
         "count": 1
@@ -53,7 +77,10 @@
       }
     },
     "icon": {
-      "item": "create:creative_fluid_tank",
+      "item": {
+        "id": "create:creative_fluid_tank",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -62,8 +89,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
