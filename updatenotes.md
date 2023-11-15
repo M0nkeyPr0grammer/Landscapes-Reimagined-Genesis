@@ -28,7 +28,7 @@ This upcoming update represents a significant release, primarily centered around
 - server_scrips\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
 - server_scrips: Organized Files into Folders
 ## Quest Additions
--
+- Ad Astra Chapter: Created Quests to take you through the progression of Ad Astra
 ## Quest Tweaks
 - Creative Items Chapter: Added Missing Tasks and Rewards for Creative Motor
 
