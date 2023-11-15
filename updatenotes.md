@@ -6,7 +6,21 @@ This upcoming update represents a significant release, primarily centered around
 ## Additions
 - 
 ## Updates
-- 
+- Better Statistics Screen: v3.5 > v3.5.1
+- Better F3: v7.0.1 > v7.0.2
+- CTOV: v3.3.5a > v3.3.6
+- Collective: v7.3 > v7.7
+- Create Ore Exacavation: v1.4.0 > v1.4.1
+- Eltrya Trims: v1.4.1 > v1.4.3
+- Extended Drawers: v2.0.7 > v2.0.8
+- Heracles: v1.1.0 > v1.1.4
+- Just Enough Breeding: v1.0.9 > v1.0.10
+- Just Enough Effects Descriptions: v2.1.5 > v2.1.6
+- Modern Fix: v5.9.2 > v5.9.3
+- Moonlight: v2.8.59 > v2.8.62
+- More Armor Trims: v1.1.2 > v1.1.3
+- More Crafting Tables: v1.0.0 > v1.1.0
+- Supplementaries: v2.6.20 > v2.6.28
 ## KubeJS Tweaks
 - 
 
