@@ -4,7 +4,9 @@
 This upcoming update represents a significant release, primarily centered around the integration of the renowned space exploration mod, Ad Astra. This update will encompass not only general updates to existing mods but also substantial recipe modifications and adjustments. These changes are meticulously planned to ensure that Ad Astra seamlessly integrates into the pack, maintaining a cohesive and balanced experience. Further details will be provided in the near future.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## Additions
-- 
+- [Ad Astra](https://modrinth.com/mod/ad-astra): Ad Astra! (translation: "To the Stars!") is a space mod for Fabric and Forge with a focus on technology, travel and exploration.
+- [Create Air Fabric](https://modrinth.com/mod/create-air-fabric): Addon for Create that add compatibility with Thin Air, Ad Astra
+- [Ad-Astra: Giselle Addon](https://modrinth.com/mod/ad-astra-giselle-addon): Add things be more convenience, compatibility for Ad Astra!
 ## Updates
 - Better Statistics Screen: v3.5 > v3.5.1
 - Better F3: v7.0.1 > v7.0.2
