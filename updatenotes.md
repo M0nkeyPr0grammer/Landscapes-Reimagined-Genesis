@@ -7,6 +7,7 @@ This upcoming update represents a significant release, primarily centered around
 - [Ad Astra](https://modrinth.com/mod/ad-astra): Ad Astra! (translation: "To the Stars!") is a space mod for Fabric and Forge with a focus on technology, travel and exploration.
 - [Create Air Fabric](https://modrinth.com/mod/create-air-fabric): Addon for Create that add compatibility with Thin Air, Ad Astra
 - [Ad-Astra: Giselle Addon](https://modrinth.com/mod/ad-astra-giselle-addon): Add things be more convenience, compatibility for Ad Astra!
+- [Botarium](https://modrinth.com/mod/botarium): A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things
 ## Updates
 - Better Statistics Screen: v3.5 > v3.5.1
 - Better F3: v7.0.1 > v7.0.2
