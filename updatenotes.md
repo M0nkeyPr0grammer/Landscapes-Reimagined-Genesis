@@ -2,6 +2,7 @@
 **Release Date**: November 17th, 2023
 
 This upcoming update represents a significant release, primarily centered around the integration of the renowned space exploration mod, Ad Astra. This update will encompass not only general updates to existing mods but also substantial recipe modifications and adjustments. These changes are meticulously planned to ensure that Ad Astra seamlessly integrates into the pack, maintaining a cohesive and balanced experience. Further details will be provided in the near future.
+
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## Additions
 - [Ad Astra](https://modrinth.com/mod/ad-astra): Ad Astra! (translation: "To the Stars!") is a space mod for Fabric and Forge with a focus on technology, travel and exploration.
