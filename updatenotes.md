@@ -30,10 +30,11 @@ This upcoming update represents a significant release, primarily centered around
 ## KubeJS Tweaks
 - server_scripts\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
 - server_scripts\Ad Astra\AdAstraOre_CreateCompat: Creates new ore crushing recipes
-- server_scripts\Ad Astra\AdAstraOre_CreateFoundryCompat: Creates new molten ore mixing recipes
+- server_scripts\Ad Astra\AdAstraOre_CreateFoundryCompat: Creates new molten ore mixing and compacting recipes
 - startup_scripts\Ad Astra\AdAstra_Additions: Creates new fluids and crushed ore
 - assets\kubejs: Addition of New crushed ores, and updating names of new fluids when in a bucket
-- server_scrips: Organized Files into Folders
+- assets\sdrp: Addition of New Dimensions 
+- server_scripts: Organized Files into Folders
 ## Quest Additions
 - Ad Astra Chapter: Created Quests to take you through the progression of Ad Astra
 ## Quest Tweaks
