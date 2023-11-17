@@ -31,6 +31,7 @@ This upcoming update represents a significant release, primarily centered around
 - server_scripts\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
 - server_scripts\Ad Astra\AdAstraOre_CreateCompat: Creates new ore crushing recipes
 - server_scripts\Ad Astra\AdAstraOre_CreateFoundryCompat: Creates new molten ore mixing and compacting recipes
+- server_scripts\Landscapes Reimagined\LandscapesReimagined_ServerScripts: Creates new Dragons Breath draining recipe, and Dragon Head mixing recipe.
 - startup_scripts\Ad Astra\AdAstra_Additions: Creates new fluids and crushed ore
 - startup_scripts\Landscapes Reimagined\CustomFluids: Created Custom Liquid Dragon's Breath
 - assets\kubejs: Addition of New crushed ores, and updating names of new fluids when in a bucket

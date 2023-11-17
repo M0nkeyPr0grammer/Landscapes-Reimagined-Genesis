@@ -112,5 +112,46 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	// New Dragon's Breath Recipe
+	event.custom({
+		type: 'create:emptying',
+		ingredients: [
+			{
+				item: 'minecraft:dragon_breath',
+				count: 1
+			}
+		],
+		results: [
+			{
+				item: 'minecraft:glass_bottle'
+			},
+			{
+				fluid: 'kubejs:liquid_dragons_breath',
+				amount: 8100
+			}
+		],
+	}).id('kubejs:emptying/dragons_breath')
+
+	// New Dragon Head Recipe
+	event.custom({
+        type: "create:mixing",
+        ingredients: [
+            {
+                item: "minecraft:wither_skeleton_skull",
+				count: 1
+            },
+			{
+				fluid: "kubejs:liquid_dragons_breath",
+				amount: 72900
+			}
+        ],
+        results: [
+            {
+                item: "minecraft:dragon_head",
+				count: 1
+            }
+        ],
+        heatRequirement: "superheated"
+    }).id('kubejs:mixing/dragon_head')
 })
 
