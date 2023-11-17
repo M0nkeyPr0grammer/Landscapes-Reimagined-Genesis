@@ -6,8 +6,7 @@ StartupEvents.registry('fluid', event => {
         .color(0xc41a39)
         .displayName('Calorite')
         .bucketColor(0xc41a39)
-        .stillTexture('minecraft:block/lava_still')
-        .flowingTexture('minecraft:block/lava_flow')
+        .thickTexture(0xc41a39)
         .viscosity(6000) // Similar to lava
         .temperature(1300) // Similar to lava
         .bucketItem; // Specify the bucket item here
@@ -16,8 +15,7 @@ StartupEvents.registry('fluid', event => {
         .color(0x73515E)
         .displayName('Ostrum')
         .bucketColor(0x73515E)
-        .stillTexture('minecraft:block/lava_still')
-        .flowingTexture('minecraft:block/lava_flow')
+        .thickTexture(0x73515E)
         .viscosity(6000) // Similar to lava
         .temperature(1300) // Similar to lava
         .bucketItem; // Specify the bucket item here
@@ -26,8 +24,7 @@ StartupEvents.registry('fluid', event => {
         .color(0xec8742)
         .displayName('Desh')
         .bucketColor(0xec8742)
-        .stillTexture('minecraft:block/lava_still')
-        .flowingTexture('minecraft:block/lava_flow')
+        .thickTexture(0xec8742)
         .viscosity(6000) // Similar to lava
         .temperature(1300) // Similar to lava
         .bucketItem; // Specify the bucket item here
