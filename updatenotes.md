@@ -32,6 +32,7 @@ This upcoming update represents a significant release, primarily centered around
 - server_scripts\Ad Astra\AdAstraOre_CreateCompat: Creates new ore crushing recipes
 - server_scripts\Ad Astra\AdAstraOre_CreateFoundryCompat: Creates new molten ore mixing and compacting recipes
 - startup_scripts\Ad Astra\AdAstra_Additions: Creates new fluids and crushed ore
+- startup_scripts\Landscapes Reimagined\CustomFluids: Created Custom Liquid Dragon's Breath
 - assets\kubejs: Addition of New crushed ores, and updating names of new fluids when in a bucket
 - assets\sdrp: Addition of New Dimensions 
 - server_scripts: Organized Files into Folders
