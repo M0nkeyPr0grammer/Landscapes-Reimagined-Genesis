@@ -16,6 +16,7 @@ This upcoming update represents a significant release, primarily centered around
 - Create Ore Exacavation: v1.4.0 > v1.4.1
 - Eltrya Trims: v1.4.1 > v1.4.3
 - Extended Drawers: v2.0.7 > v2.0.8
+- Fabric Language Kotlin: v1.10.13 > v1.10.14
 - Heracles: v1.1.0 > v1.1.4
 - Just Enough Breeding: v1.0.9 > v1.0.10
 - Just Enough Effects Descriptions: v2.1.5 > v2.1.6
@@ -23,7 +24,7 @@ This upcoming update represents a significant release, primarily centered around
 - Moonlight: v2.8.59 > v2.8.62
 - More Armor Trims: v1.1.2 > v1.1.3
 - More Crafting Tables: v1.0.0 > v1.1.0
-- Supplementaries: v2.6.20 > v2.6.28
+- Supplementaries: v2.6.20 > v2.6.29
 ## KubeJS Tweaks
 - server_scrips\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
 - server_scrips: Organized Files into Folders
