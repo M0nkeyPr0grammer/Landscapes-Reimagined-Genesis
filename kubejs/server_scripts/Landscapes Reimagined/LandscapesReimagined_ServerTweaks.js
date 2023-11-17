@@ -142,7 +142,7 @@ ServerEvents.recipes(event => {
             },
 			{
 				fluid: "kubejs:liquid_dragons_breath",
-				amount: 72900
+				amount: 81000
 			}
         ],
         results: [
