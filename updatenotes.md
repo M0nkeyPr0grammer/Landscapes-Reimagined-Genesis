@@ -26,7 +26,9 @@ This upcoming update represents a significant release, primarily centered around
 - More Crafting Tables: v1.0.0 > v1.1.0
 - Supplementaries: v2.6.20 > v2.6.29
 ## KubeJS Tweaks
-- server_scrips\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
+- server_scripts\Ad Astra\AdAstra_Tweaks: Adjusts recipes of Ad Astra, so that it flows more with the pack
+- startup_scripts\Ad Astra\AdAstra_Additions: Creates new fluids and crushed ore
+- assets\kubejs: Addition of New crushed ores, and updating names of new fluids when in a bucket
 - server_scrips: Organized Files into Folders
 ## Quest Additions
 - Ad Astra Chapter: Created Quests to take you through the progression of Ad Astra
