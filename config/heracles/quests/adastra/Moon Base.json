@@ -1,21 +1,19 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Moon"
   ],
   "tasks": {
-    "dragons breath": {
-      "type": "heracles:item",
-      "item": "minecraft:dragon_breath",
-      "amount": 9,
-      "collection": "AUTOMATIC",
+    "Village": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "structures": "ad_astra:lunarian_village",
+      "type": "heracles:structure"
     }
   },
   "rewards": {
@@ -31,21 +29,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "dragons breath": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -53,29 +36,28 @@
       "text": ""
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "This structure is full of Lunarian Villages,",
+      "which will allow you to trade for special",
+      "Ad Astra items."
     ],
     "groups": {
-      "The End": {
+      "Ad Astra": {
         "position": [
-          -300,
-          -95
+          0,
+          -30
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:dragon_breath",
+        "id": "ad_astra:iron_sliding_door",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "translate": "Moon Village"
     }
   },
   "settings": {

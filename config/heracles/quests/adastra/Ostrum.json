@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Mecury"
   ],
   "tasks": {
-    "dragons breath": {
+    "ostrum": {
       "type": "heracles:item",
-      "item": "minecraft:dragon_breath",
-      "amount": 9,
+      "item": "ad_astra:ostrum_ingot",
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
+          "id": "ad_astra:ostrum_ingot",
           "count": 1
         },
         "type": "heracles:item"
@@ -32,18 +32,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "dragons breath": {
+    "ostrum": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
+          "id": "ad_astra:mars_ostrum_ore",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
+        "id": "ad_astra:mars_ostrum_ore",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,29 +53,26 @@
       "text": ""
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "This ore will allow you to craft a new space suit and a new rocket."
     ],
     "groups": {
-      "The End": {
+      "Ad Astra": {
         "position": [
-          -300,
-          -95
+          60,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:dragon_breath",
+        "id": "ad_astra:ostrum_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "translate": "Ostrum"
     }
   },
   "settings": {

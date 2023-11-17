@@ -1,21 +1,21 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Tier 2 Rocket"
   ],
   "tasks": {
-    "dragons breath": {
-      "type": "heracles:item",
-      "item": "minecraft:dragon_breath",
-      "amount": 9,
-      "collection": "AUTOMATIC",
+    "mars": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
+          "id": "minecraft:air",
+          "count": 0
         },
         "type": "heracles:item"
-      }
+      },
+      "advancements": [
+        "ad_astra:mars"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
@@ -31,21 +31,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "dragons breath": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -53,29 +38,26 @@
       "text": ""
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "This planet can be dangerous, but allow access to Ostrum."
     ],
     "groups": {
-      "The End": {
+      "Ad Astra": {
         "position": [
-          -300,
-          -95
+          60,
+          30
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:dragon_breath",
+        "id": "ad_astra:mars_globe",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "translate": "Mars"
     }
   },
   "settings": {

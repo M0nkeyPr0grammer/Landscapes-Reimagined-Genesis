@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Tier 3 Rocket"
   ],
   "tasks": {
-    "dragons breath": {
+    "calorite": {
       "type": "heracles:item",
-      "item": "minecraft:dragon_breath",
-      "amount": 9,
+      "item": "ad_astra:calorite_ingot",
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
+          "id": "ad_astra:calorite_ingot",
           "count": 1
         },
         "type": "heracles:item"
@@ -19,6 +19,21 @@
     }
   },
   "rewards": {
+    "calorite": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "ad_astra:venus_calorite_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "ad_astra:venus_calorite_ore",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
     "xp": {
       "icon": {
         "item": {
@@ -31,21 +46,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "dragons breath": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -53,29 +53,27 @@
       "text": ""
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "This new ore will allow you to craft a jet suit and the tier",
+      "4 rocket."
     ],
     "groups": {
-      "The End": {
+      "Ad Astra": {
         "position": [
-          -300,
-          -95
+          150,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:dragon_breath",
+        "id": "ad_astra:calorite_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "translate": "Calorite"
     }
   },
   "settings": {

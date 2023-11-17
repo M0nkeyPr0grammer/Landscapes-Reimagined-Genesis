@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Desh"
   ],
   "tasks": {
-    "dragons breath": {
+    "tier 2": {
       "type": "heracles:item",
-      "item": "minecraft:dragon_breath",
-      "amount": 9,
+      "item": "ad_astra:tier_2_rocket",
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
+          "id": "ad_astra:tier_2_rocket",
           "count": 1
         },
         "type": "heracles:item"
@@ -31,21 +31,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "dragons breath": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -53,29 +38,26 @@
       "text": ""
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "Crafting this rocket will allow you to travel to Mars."
     ],
     "groups": {
-      "The End": {
+      "Ad Astra": {
         "position": [
-          -300,
-          -95
+          30,
+          30
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:dragon_breath",
+        "id": "ad_astra:tier_2_rocket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "translate": "Tier 2 Rocket"
     }
   },
   "settings": {

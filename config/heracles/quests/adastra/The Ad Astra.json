@@ -3,15 +3,15 @@
     "Enter the End"
   ],
   "tasks": {
-    "dragons breath": {
+    "steel": {
       "type": "heracles:item",
-      "item": "minecraft:dragon_breath",
-      "amount": 9,
+      "item": "ad_astra:steel_ingot",
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
+          "id": "ad_astra:steel_ingot",
           "count": 1
         },
         "type": "heracles:item"
@@ -31,21 +31,6 @@
       "amount": 100,
       "title": "",
       "type": "heracles:xp"
-    },
-    "dragons breath": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:dragon_breath",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
-      },
-      "type": "heracles:item"
     }
   },
   "display": {
@@ -53,29 +38,32 @@
       "text": ""
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "Welcome to Ad Astra, a mod all about Exploring Space",
+      "and beyond. Through the use of space ships you will",
+      "be able to visit the moon and other planents.",
+      "",
+      "To start, you will need to gather steel.",
+      "To craft steel you super heat iron and thallasium",
+      "in a mixer."
     ],
     "groups": {
-      "The End": {
+      "Ad Astra": {
         "position": [
-          -300,
-          -95
+          -150,
+          0
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:dragon_breath",
+        "id": "ad_astra:earth_globe",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "translate": "Ad Astra"
     }
   },
   "settings": {

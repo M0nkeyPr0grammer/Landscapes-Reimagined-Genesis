@@ -1,17 +1,17 @@
 {
   "dependencies": [
-    "Enter the End"
+    "Moon"
   ],
   "tasks": {
-    "dragons breath": {
+    "desh": {
       "type": "heracles:item",
-      "item": "minecraft:dragon_breath",
-      "amount": 9,
+      "item": "ad_astra:desh_ingot",
+      "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
+          "id": "ad_astra:desh_ingot",
           "count": 1
         },
         "type": "heracles:item"
@@ -32,18 +32,18 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "dragons breath": {
+    "desh": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:dragon_breath",
+          "id": "ad_astra:moon_desh_ore",
           "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:dragon_breath",
-        "count": 9
+        "id": "ad_astra:moon_desh_ore",
+        "count": 3
       },
       "type": "heracles:item"
     }
@@ -53,29 +53,26 @@
       "text": ""
     },
     "description": [
-      "Gathering Dragon's Breath",
-      "will help you with future Creative",
-      "items, and crafting of a Dragon Head",
-      ""
+      "Gather some desh, to help construct your next rocket."
     ],
     "groups": {
-      "The End": {
+      "Ad Astra": {
         "position": [
-          -300,
-          -95
+          0,
+          30
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:dragon_breath",
+        "id": "ad_astra:desh_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Dragon's Breath"
+      "translate": "Desh"
     }
   },
   "settings": {
