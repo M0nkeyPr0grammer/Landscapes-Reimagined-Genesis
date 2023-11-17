@@ -39,6 +39,7 @@ This upcoming update represents a significant release, primarily centered around
 - server_scripts: Organized Files into Folders
 ## Quest Additions
 - Ad Astra Chapter: Created Quests to take you through the progression of Ad Astra
+- The End Chapter: Added in two new quests to help aid for Creative Item crafting
 ## Quest Tweaks
 - Creative Items Chapter: Added Missing Tasks and Rewards for Creative Motor
 

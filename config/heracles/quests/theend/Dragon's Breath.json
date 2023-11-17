@@ -1,18 +1,16 @@
 {
-  "dependencies": [
-    "End city"
-  ],
+  "dependencies": [],
   "tasks": {
-    "Shells": {
+    "dragons breath": {
       "type": "heracles:item",
-      "item": "minecraft:shulker_shell",
-      "amount": 2,
+      "item": "minecraft:dragon_breath",
+      "amount": 9,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:dragon_breath",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -28,51 +26,54 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     },
-    "Give Shulker Box": {
+    "dragons breath": {
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "minecraft:dragon_breath",
+          "count": 1
         },
         "type": "heracles:item"
       },
       "item": {
-        "id": "minecraft:shulker_box",
-        "count": 1
+        "id": "minecraft:dragon_breath",
+        "count": 9
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Collect 2 shulker shells to make a shulker"
+      "text": ""
     },
     "description": [
-      "Kill shulkers to collect 2 shulkker shells to start making shulkers to carry items"
+      "Gathering Dragon's Breath",
+      "will help you with future Creative",
+      "items, and crafting of a Dragon Head",
+      ""
     ],
     "groups": {
       "The End": {
         "position": [
-          -250,
-          10
+          -300,
+          -95
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:shulker_shell",
+        "id": "minecraft:dragon_breath",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Shulker shells"
+      "translate": "Dragon's Breath"
     }
   },
   "settings": {
