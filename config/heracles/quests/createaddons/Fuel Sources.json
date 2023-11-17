@@ -17,15 +17,15 @@
         "type": "heracles:item"
       }
     },
-    "fuel 1": {
+    "seed oil": {
       "type": "heracles:item",
-      "item": "createdieselgenerators:plant_oil_bucket",
+      "item": "createaddition:seed_oil_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "createdieselgenerators:plant_oil_bucket",
+          "id": "createaddition:seed_oil_bucket",
           "count": 1
         },
         "type": "heracles:item"

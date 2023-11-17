@@ -6,9 +6,11 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Coming v2.6.0"
+      "translate": "Coming v3.0.0"
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Creative Items": {
         "position": [

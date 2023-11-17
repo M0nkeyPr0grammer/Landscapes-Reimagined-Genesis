@@ -2,20 +2,44 @@
   "dependencies": [],
   "tasks": {
     "Kill Warden": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "entity": {
         "type": "minecraft:warden"
       },
       "amount": 1,
+      "title": "",
       "type": "heracles:kill_entity"
     }
   },
   "rewards": {
     "Warden xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     },
     "Give Carcus": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "deeperdarker:warden_carapace",
         "count": 1
@@ -39,7 +63,10 @@
       }
     },
     "icon": {
-      "item": "deeperdarker:warden_carapace",
+      "item": {
+        "id": "deeperdarker:warden_carapace",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -48,8 +75,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

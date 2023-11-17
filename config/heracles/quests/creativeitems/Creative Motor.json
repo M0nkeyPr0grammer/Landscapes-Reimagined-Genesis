@@ -2,8 +2,52 @@
   "dependencies": [
     "Creative Fluid Tank"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "motor": {
+      "type": "heracles:item",
+      "item": "create:creative_motor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_motor",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 150,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "tank": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create:creative_fluid_tank",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:creative_fluid_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": " "
