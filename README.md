@@ -7,7 +7,7 @@ Download **Landscapes Reimagined: Genesis** today and dive into an elevated Mine
 #### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
 
 ### Want to setup a server using our official server host, click the banner below!
-[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_reimagined.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth)
+[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/v3.0.0-(Genesis)/BH_Landscape_Reimagined_Updated.png)](https://bisecthosting.com/landscapes_reimagined?r=modrinth)
 
 # Included Content
 ## Mods
