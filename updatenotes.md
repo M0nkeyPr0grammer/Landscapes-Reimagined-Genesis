@@ -21,4 +21,4 @@ This update is mainly focused on updated a few things on Fancy Menu to match my 
 - Updated Version ID to v2.5.1
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ### Want to setup a server using our official server host, click the banner below!
-[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined_Updated.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=modrinth+chanelog)
+[![BisectHosting Code](https://raw.githubusercontent.com/M0nkeyPr0grammer/Landscapes-Reimagined/main/BH_Landscape_Reimagined.png)](https://bisecthosting.com/M0nkeyPr0grammer?r=modrinth+chanelog)
