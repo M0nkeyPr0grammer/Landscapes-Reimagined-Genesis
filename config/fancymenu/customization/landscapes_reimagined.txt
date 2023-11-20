@@ -276,7 +276,7 @@ customization {
 customization {
   orientation = mid-left
   restartbackgroundanimations = true
-  buttonaction = openlink;https://www.bisecthosting.com/landscapes_reimagined%btnaction_splitter_fm%
+  buttonaction = openlink;https://bisecthosting.com/M0nkeyPr0grammer?r=fancymenu%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/renth.png
   label = 
   loopbackgroundanimations = true
