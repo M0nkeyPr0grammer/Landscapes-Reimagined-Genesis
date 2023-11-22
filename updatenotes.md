@@ -6,8 +6,10 @@ This update is focused on adding in the final content for the modpack for a whil
 ## Updates
 - AmbientSounds: v5.3.4 > v5.3.5
 - Patchouli: v81 > v82
-## Fancy Menu Tweaks
-- Updated Rent a Server Link, to use new promo code
+## KubeJS Tweaks:
+- assets/kubejs: Added New Crushed Ore for 2 Better End Ores
+- startup_scripts/Better End/BetterEnd_Additions: Created 2 New Molten Ores and Crushed Ores for Better End
+- startup_scripts/Ad Astra/AdAstra_Additions: Created Molten Steel
 ## Drippy Screen Tweaks
 - Updated Version ID to v3.0.0
 - Updated to New Genesis Logo
