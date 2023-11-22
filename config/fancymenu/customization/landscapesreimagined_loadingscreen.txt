@@ -96,12 +96,12 @@ customization {
 
 customization {
   path = config/drippyloadingscreen/genesislogo.png
-  orientation = top-left
-  x = 219
+  orientation = mid-centered
+  x = -229
   width = 460
   action = addtexture
   actionid = 420d15ab-a90d-408f-b836-d133ca8ab5541700673802218
-  y = 104
+  y = -136
   height = 250
 }
 
