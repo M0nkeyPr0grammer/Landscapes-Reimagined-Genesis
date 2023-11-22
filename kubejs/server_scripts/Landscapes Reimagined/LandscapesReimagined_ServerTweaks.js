@@ -132,6 +132,27 @@ ServerEvents.recipes(event => {
 		],
 	}).id('kubejs:emptying/dragons_breath')
 
+	// Liquid to Bottle Recipe
+	event.custom({
+		type: 'create:filling',
+		ingredients: [
+			{
+				fluid: 'kubejs:liquid_dragons_breath',
+				amount: 8100
+			},
+			{
+				item: 'minecraft:glass_bottle',
+				count: 1
+			}
+		],
+		results: [
+			{
+				item: 'minecraft:dragon_breath',
+				count: 1
+			}
+		]
+	}).id('kubejs:filling/dragons_breath')
+
 	// New Dragon Head Recipe
 	event.custom({
         type: "create:mixing",
