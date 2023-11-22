@@ -69,7 +69,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 2.0
-  source = v2.5.1
+  source = v3.0.0
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -92,5 +92,16 @@ customization {
   actionid = af3c6045-9353-483d-aa50-4b7ab896232a1694194610940
   y = -129
   height = 186
+}
+
+customization {
+  path = config/drippyloadingscreen/genesislogo.png
+  orientation = top-left
+  x = 219
+  width = 460
+  action = addtexture
+  actionid = 420d15ab-a90d-408f-b836-d133ca8ab5541700673802218
+  y = 104
+  height = 250
 }
 
