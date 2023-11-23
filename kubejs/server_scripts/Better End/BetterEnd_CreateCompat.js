@@ -39,8 +39,6 @@ ServerEvents.recipes(event => {
 
     // Creates Blasting Recipes
 
-    // Creates Blasting Recipes
-
     // Thallasium Ore
     event.custom({
         type: "minecraft:blasting",

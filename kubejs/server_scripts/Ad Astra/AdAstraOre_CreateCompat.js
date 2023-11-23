@@ -286,4 +286,45 @@ event.remove({ id: 'create:crushing/moon_desh_ore'})
                     ]
                 }).id('kubejs:crushing/deepslate_desh_ore');
 
+            // Creates Blasting Recipes
+
+            // Desh Ore
+            event.custom({
+                type: "minecraft:blasting",
+                ingredient: [ // Changed 'ingredients' to 'ingredient'
+                    { item: 'kubejs:crushed_desh_ore' }
+                ],
+                cookingTime: 100,
+                experience: 0.1,
+                result: { // Ensure 'result' is a single object, not an array
+                    item: 'ad_astra:desh_ingot'
+                }
+            })
+
+            // Ostrum Ore
+            event.custom({
+                type: "minecraft:blasting",
+                ingredient: [ // Changed 'ingredients' to 'ingredient'
+                    { item: 'kubejs:crushed_ostrum_ore' }
+                ],
+                cookingTime: 100,
+                experience: 0.1,
+                result: { // Ensure 'result' is a single object, not an array
+                    item: 'ad_astra:ostrum_ingot'
+                }
+            })
+            
+            // Calorite Ore
+            event.custom({
+                type: "minecraft:blasting",
+                ingredient: [ // Changed 'ingredients' to 'ingredient'
+                    { item: 'kubejs:crushed_calorite_ore' }
+                ],
+                cookingTime: 100,
+                experience: 0.1,
+                result: { // Ensure 'result' is a single object, not an array
+                    item: 'ad_astra:calorite_ingot'
+                }
+            })
+
 })
