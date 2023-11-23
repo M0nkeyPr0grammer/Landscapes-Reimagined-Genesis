@@ -762,21 +762,6 @@ ServerEvents.recipes(event => {
 
 	// Crushing Ore Tweaks for Better End Ore
 
-	// Amber Ore
-	event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ item: 'betterend:amber_ore' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'betterend:raw_amber' },
-			{ item: 'betterend:raw_amber', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:end_stone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/amber_ore');
-
 	// Ender Ore
 	event.custom({
 		type: "create:crushing",
@@ -792,20 +777,6 @@ ServerEvents.recipes(event => {
 		]
 	}).id('kubejs:crushing/ender_ore');
 
-	// Thallasium Ore
-	event.custom({
-		type: "create:crushing",
-		ingredients: [
-			{ item: 'betterend:thallasium_ore' }
-		],
-		processingTime: 400,
-		results: [
-			{ item: 'betterend:thallasium_raw' },
-			{ item: 'betterend:thallasium_raw', chance: 0.75 },
-			{ item: 'create:experience_nugget', chance: 0.75 },
-			{ item: 'minecraft:end_stone', chance: 0.12 }
-		]
-	}).id('kubejs:crushing/thallasium_ore');
 
 	// Crushing Ore Tweaks for Deeper and Darker 1.20.1
 

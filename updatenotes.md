@@ -10,7 +10,8 @@ This update is focused on adding in the final content for the modpack for a whil
 - assets/kubejs: Added New Crushed Ore for 2 Better End Ores
 - startup_scripts/Better End/BetterEnd_Additions: Created 2 New Molten Ores and Crushed Ores for Better End
 - startup_scripts/Ad Astra/AdAstra_Additions: Created Molten Steel
-- server_scripts/Crushing/OreTweaks: Removed Old Deeper and Darker Gloomslate Ore crushing recipes
+- server_scripts/Crushing/OreTweaks: Removed Old Deeper and Darker Gloomslate Ore crushing recipes, and removed old recipes for Amber and Thallasium Ore
+- server_scrips/BetterEnd/BetterEnd_CreateCompat: Creates new crushing and blasting recipes using new custom crushed ore
 ## Drippy Screen Tweaks
 - Updated Version ID to v3.0.0
 - Updated to New Genesis Logo
