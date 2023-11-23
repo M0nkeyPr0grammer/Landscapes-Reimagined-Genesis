@@ -13,6 +13,7 @@ This update is focused on adding in the final content for the modpack for a whil
 - server_scripts/Crushing/OreTweaks: Removed Old Deeper and Darker Gloomslate Ore crushing recipes, and removed old recipes for Amber and Thallasium Ore
 - server_scrips/BetterEnd/BetterEnd_CreateCompat: Creates new crushing and blasting recipes using new custom crushed ore
 - server_scrips/Ad Astra/AdAstra_CreateCompat: Add missing blasting recipes for custom crushed ore
+- server_scrips/BetterEnd/BetterEnd_CreateFoundryCompat: Adds new Molten steel recipe, and mixing/compacting recipes for Molten Amber and Thallasium
 ## Drippy Screen Tweaks
 - Updated Version ID to v3.0.0
 - Updated to New Genesis Logo
