@@ -5,7 +5,7 @@ This update is focused on adding in the final content for the modpack for a whil
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## Updates
 - AmbientSounds: v5.3.4 > v5.3.5
-- Patchouli: v81 > v82
+- Patchouli: v81 > v83
 ## KubeJS Tweaks:
 - assets/kubejs: Added New Crushed Ore for 2 Better End Ores
 - startup_scripts/Better End/BetterEnd_Additions: Created 2 New Molten Ores and Crushed Ores for Better End
