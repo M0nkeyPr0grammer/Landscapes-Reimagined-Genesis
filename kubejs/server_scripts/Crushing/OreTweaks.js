@@ -4,6 +4,16 @@
 
 ServerEvents.recipes(event => {
 
+	// Removes Old Recipes
+	event.remove({ id: 'create:crushing/gloomslate_coal_ore'})
+	event.remove({ id: 'create:crushing/gloomslate_iron_ore'})
+	event.remove({ id: 'create:crushing/gloomslate_copper_ore'})
+	event.remove({ id: 'create:crushing/gloomslate_gold_ore'})
+	event.remove({ id: 'create:crushing/gloomslate_redstone_ore'})
+	event.remove({ id: 'create:crushing/gloomslate_emerald_ore'})
+	event.remove({ id: 'create:crushing/gloomslate_lapis_ore'})
+	event.remove({ id: 'create:crushing/gloomslate_diamond_ore'})
+
 	// Creates Universal Coal Ore Crushing Recipes
 
 	// Granite Ore
