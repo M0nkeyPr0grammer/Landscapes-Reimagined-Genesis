@@ -6,8 +6,12 @@ This update is focused on adding in the final content for the modpack for a whil
 ## New Additions
 - [Simple Copper Pipes](https://modrinth.com/mod/simple-copper-pipes): Adds vanilla-friendly copper pipes to Minecraft!
 - [Create: Bells & Whistles](https://modrinth.com/mod/bellsandwhistles): Additions and adornments for the modern Create engineer. 
+- [Rechiseled](https://modrinth.com/mod/rechiseled): Rechiseled allows you to chisel blocks into various decorative blocks with connected textures!
+- [Rechiseled: Create](https://modrinth.com/mod/rechiseled-create): Rechiseled: Create adds new decorative variants of blocks in Create!
+- [SuperMartijn642's Core Lib](https://modrinth.com/mod/supermartijn642s-core-lib): SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!
+- [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib): Config Lib makes dealing with config files just a bit easier.
+- [Fusion: Connected Textures](https://modrinth.com/mod/fusion-connected-textures): Fusion allows resource packs to use additional texture and model types such as connected textures!
 ## Updates
-- Ad Astra: v1.15.4 > v1.15.5
 - AmbientSounds: v5.3.4 > v5.3.5
 - Enderman Overhaul: v1.0.1 > v1.0.3
 - Fabric Langauge Kotlin: v1.10.14 > v1.10.15
@@ -19,9 +23,12 @@ This update is focused on adding in the final content for the modpack for a whil
 - startup_scripts/Better End/BetterEnd_Additions: Created 2 New Molten Ores and Crushed Ores for Better End
 - startup_scripts/Ad Astra/AdAstra_Additions: Created Molten Steel
 - server_scripts/Crushing/OreTweaks: Removed Old Deeper and Darker Gloomslate Ore crushing recipes, and removed old recipes for Amber and Thallasium Ore
-- server_scrips/BetterEnd/BetterEnd_CreateCompat: Creates new crushing and blasting recipes using new custom crushed ore
-- server_scrips/Ad Astra/AdAstra_CreateCompat: Add missing blasting recipes for custom crushed ore
-- server_scrips/BetterEnd/BetterEnd_CreateFoundryCompat: Adds new Molten steel recipe, and mixing/compacting recipes for Molten Amber and Thallasium
+- server_scripts/BetterEnd/BetterEnd_CreateCompat: Creates new crushing and blasting recipes using new custom crushed ore
+- server_scripts/Ad Astra/AdAstra_CreateCompat: Add missing blasting recipes for custom crushed ore
+- server_scripts/BetterEnd/BetterEnd_CreateFoundryCompat: Adds new Molten steel recipe, and mixing/compacting recipes for Molten Amber and Thallasium
+- server_scripts/Create/CreativeItems: Added in remaining creative items
+## Quest Tweaks
+- Creative Item Chapter: Added in Quests for New Creative Items
 ## Drippy Screen Tweaks
 - Updated Version ID to v3.0.0
 - Updated to New Genesis Logo
