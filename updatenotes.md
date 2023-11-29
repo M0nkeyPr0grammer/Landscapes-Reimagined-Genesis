@@ -12,11 +12,26 @@ This update is focused on adding in the final content for the modpack for a whil
 - [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib): Config Lib makes dealing with config files just a bit easier.
 - [Fusion: Connected Textures](https://modrinth.com/mod/fusion-connected-textures): Fusion allows resource packs to use additional texture and model types such as connected textures!
 ## Updates
+- AudioPlayer: v1.8.3 > v1.8.4
 - AmbientSounds: v5.3.4 > v5.3.5
+- Beautify: v1.0.0 > v1.1.0
+- Collective: v7.7 > v7.9
+- Elytra Trims: v1.4.3 > v1.4.4
+- EMI Trades: v1.2.0 > v1.2.1
+- EMI Effect: v1.1.1 > v1.1.2
+- Enchantment Descriptions: v17.0.8 > v17.0.9
 - Enderman Overhaul: v1.0.1 > v1.0.3
+- Fabric API: v0.90.7 > v0.91.0
 - Fabric Langauge Kotlin: v1.10.14 > v1.10.15
+- Friends & Foes: v1.9.8 > v1.9.9
+- Heracles: v1.1.4 > v1.1.5
 - Moonlight: v2.8.65 > v2.8.66
+- More Crafting Tables: v1.1.0 > v1.1.1
 - Patchouli: v81 > v83
+- Resourceful Lib: v2.1.16 > v2.1.18
+- Simple Voice Chat: v2.4.28 > v2.4.29
+- Xaero's Minimap: v23.8.4 > v23.9.1
+- Xaero's World Map: v1.36.0 > v1.37.1
 
 ## KubeJS Tweaks:
 - assets/kubejs: Added New Crushed Ore for 2 Better End Ores
