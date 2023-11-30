@@ -34,7 +34,8 @@ This update is focused on adding in the final content for the modpack for a whil
 - Supplementaries: v2.6.30 > v2.6.34
 - Xaero's Minimap: v23.8.4 > v23.9.1
 - Xaero's World Map: v1.36.0 > v1.37.1
-
+## Removals
+- Landscapes Reimagined Darkmode: This resourcepack is outdated and broken, will be readded in the future when updated
 ## KubeJS Tweaks:
 - assets/kubejs: Added New Crushed Ore for 2 Better End Ores, and custom trophy item/block
 - startup_scripts/Better End/BetterEnd_Additions: Created 2 New Molten Ores and Crushed Ores for Better End
@@ -47,6 +48,7 @@ This update is focused on adding in the final content for the modpack for a whil
 - server_scripts/Create/CreativeItems: Added in remaining creative items
 ## Quest Tweaks
 - Creative Item Chapter: Added in Quests for New Creative Items, and pack completion quest
+- Create Addons Chapter: Added in Quests for Enchantment Industry and Rechiseled
 ## Drippy Screen Tweaks
 - Updated Version ID to v3.0.0
 - Updated to New Genesis Logo
