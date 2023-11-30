@@ -4,15 +4,16 @@
 This update is focused on adding in the final content for the modpack for a while, remaining updates will just include general mod updates as the development for the sequel will be starting.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## New Additions
-- [Simple Copper Pipes](https://modrinth.com/mod/simple-copper-pipes): Adds vanilla-friendly copper pipes to Minecraft!
 - [Create: Bells & Whistles](https://modrinth.com/mod/bellsandwhistles): Additions and adornments for the modern Create engineer. 
+- [Create Enchantment Industry Fabric](https://modrinth.com/mod/create-enchantment-industry-fabric): Automatic Enchanting, with Create
+- [Fusion: Connected Textures](https://modrinth.com/mod/fusion-connected-textures): Fusion allows resource packs to use additional texture and model types such as connected textures!
 - [Rechiseled](https://modrinth.com/mod/rechiseled): Rechiseled allows you to chisel blocks into various decorative blocks with connected textures!
 - [Rechiseled: Create](https://modrinth.com/mod/rechiseled-create): Rechiseled: Create adds new decorative variants of blocks in Create!
+- [Simple Copper Pipes](https://modrinth.com/mod/simple-copper-pipes): Adds vanilla-friendly copper pipes to Minecraft!
 - [SuperMartijn642's Core Lib](https://modrinth.com/mod/supermartijn642s-core-lib): SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!
 - [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib): Config Lib makes dealing with config files just a bit easier.
-- [Fusion: Connected Textures](https://modrinth.com/mod/fusion-connected-textures): Fusion allows resource packs to use additional texture and model types such as connected textures!
 ## Updates
-- AudioPlayer: v1.8.3 > v1.8.4
+- AudioPlayer: v1.8.3 > v1.8.5
 - AmbientSounds: v5.3.4 > v5.3.5
 - Beautify: v1.0.0 > v1.1.0
 - Collective: v7.7 > v7.9
@@ -30,6 +31,7 @@ This update is focused on adding in the final content for the modpack for a whil
 - Patchouli: v81 > v83
 - Resourceful Lib: v2.1.16 > v2.1.18
 - Simple Voice Chat: v2.4.28 > v2.4.29
+- Supplementaries: v2.6.30 > v2.6.34
 - Xaero's Minimap: v23.8.4 > v23.9.1
 - Xaero's World Map: v1.36.0 > v1.37.1
 
