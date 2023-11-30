@@ -32,21 +32,6 @@
       "title": "",
       "type": "heracles:xp"
     },
-    "trophy": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:armor_stand",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "item": {
-        "id": "minecraft:armor_stand",
-        "count": 1
-      },
-      "type": "heracles:item"
-    },
     "crate": {
       "title": "",
       "icon": {

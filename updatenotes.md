@@ -1,5 +1,5 @@
 # Modpack Patch Notes: Version 3.0.0 (Project Genesis)
-**Release Date**: December 1st, 2023
+**Release Date**: November 30th, 2023
 
 This update is focused on adding in the final content for the modpack for a while, remaining updates will just include general mod updates as the development for the sequel will be starting.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
@@ -34,16 +34,17 @@ This update is focused on adding in the final content for the modpack for a whil
 - Xaero's World Map: v1.36.0 > v1.37.1
 
 ## KubeJS Tweaks:
-- assets/kubejs: Added New Crushed Ore for 2 Better End Ores
+- assets/kubejs: Added New Crushed Ore for 2 Better End Ores, and custom trophy item/block
 - startup_scripts/Better End/BetterEnd_Additions: Created 2 New Molten Ores and Crushed Ores for Better End
 - startup_scripts/Ad Astra/AdAstra_Additions: Created Molten Steel
+- startup_scripts/Landscapes Reimagined/CustomItems: Created block properties for custom trophy
 - server_scripts/Crushing/OreTweaks: Removed Old Deeper and Darker Gloomslate Ore crushing recipes, and removed old recipes for Amber and Thallasium Ore
 - server_scripts/BetterEnd/BetterEnd_CreateCompat: Creates new crushing and blasting recipes using new custom crushed ore
 - server_scripts/Ad Astra/AdAstra_CreateCompat: Add missing blasting recipes for custom crushed ore
 - server_scripts/BetterEnd/BetterEnd_CreateFoundryCompat: Adds new Molten steel recipe, and mixing/compacting recipes for Molten Amber and Thallasium
 - server_scripts/Create/CreativeItems: Added in remaining creative items
 ## Quest Tweaks
-- Creative Item Chapter: Added in Quests for New Creative Items
+- Creative Item Chapter: Added in Quests for New Creative Items, and pack completion quest
 ## Drippy Screen Tweaks
 - Updated Version ID to v3.0.0
 - Updated to New Genesis Logo
