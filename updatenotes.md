@@ -29,6 +29,7 @@ This update is focused on adding in the final content for the modpack for a whil
 - Moonlight: v2.8.65 > v2.8.66
 - More Crafting Tables: v1.1.0 > v1.1.1
 - Patchouli: v81 > v83
+- Quad: v1.0.1 > v1.0.2
 - Resourceful Lib: v2.1.16 > v2.1.18
 - Simple Voice Chat: v2.4.28 > v2.4.29
 - Supplementaries: v2.6.30 > v2.6.34
