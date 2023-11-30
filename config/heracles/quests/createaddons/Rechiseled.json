@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Create Addons"
+  ],
   "tasks": {
-    "botanist": {
+    "chisel": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "rechiseled:chisel",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "rechiseled:chisel",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -26,7 +28,7 @@
         "type": "heracles:item"
       },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 100,
       "title": "",
       "type": "heracles:xp"
     }
@@ -36,27 +38,28 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "Rechiseled allows you to chisel blocks into various decorative blocks with connected textures! ",
+      "",
+      "With the addition of Rechiseled: Create it also adds new decorative variants of blocks in Create!"
     ],
     "groups": {
-      "Chipped Tables": {
+      "Create Addons": {
         "position": [
-          -100,
-          -55
+          -473,
+          -39
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "rechiseled:chisel",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Rechiseled"
     }
   },
   "settings": {

@@ -5,30 +5,70 @@
   "tasks": {
     "pie part": {
       "type": "heracles:item",
+      "item": "delightfulcreators:incomplete_apple_pie",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "delightfulcreators:incomplete_apple_pie"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "pie": {
       "type": "heracles:item",
+      "item": "farmersdelight:apple_pie",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "farmersdelight:apple_pie"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     },
     "crust": {
       "type": "heracles:item",
+      "item": "farmersdelight:pie_crust",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "farmersdelight:pie_crust"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "pie": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "farmersdelight:apple_pie_slice",
         "count": 16
@@ -62,7 +102,10 @@
       }
     },
     "icon": {
-      "item": "delightfulcreators:incomplete_apple_pie",
+      "item": {
+        "id": "delightfulcreators:incomplete_apple_pie",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -71,8 +114,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

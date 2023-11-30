@@ -1,16 +1,18 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Enchanting Guide"
+  ],
   "tasks": {
-    "botanist": {
+    "disenchanter": {
       "type": "heracles:item",
-      "item": "chipped:botanist_workbench",
+      "item": "create_enchantment_industry:disenchanter",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
       "icon": {
         "item": {
-          "id": "minecraft:air",
-          "count": 0
+          "id": "create_enchantment_industry:disenchanter",
+          "count": 1
         },
         "type": "heracles:item"
       }
@@ -29,6 +31,21 @@
       "amount": 10,
       "title": "",
       "type": "heracles:xp"
+    },
+    "bottle": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "create_enchantment_industry:hyper_experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create_enchantment_industry:hyper_experience_bottle",
+        "count": 3
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -36,27 +53,26 @@
       "text": ""
     },
     "description": [
-      "This table allows you to alter all kinds",
-      "of nature block textures."
+      "This new disenchanter block allows you to remove enchantments from items in exchange for liquid experience."
     ],
     "groups": {
-      "Chipped Tables": {
+      "Create Addons": {
         "position": [
-          -100,
-          -55
+          -400,
+          45
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "create_enchantment_industry:disenchanter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Botanist Workbench"
+      "translate": "Disenchanter"
     }
   },
   "settings": {
