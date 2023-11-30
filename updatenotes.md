@@ -2,6 +2,7 @@
 **Release Date**: November 30th, 2023
 
 This update is focused on adding in the final content for the modpack for a while, remaining updates will just include general mod updates as the development for the sequel will be starting.
+This update includes new mod additions, creation of remaining creative items and the addition of a special trophy item when completing the pack.
 ### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ## New Additions
 - [Create: Bells & Whistles](https://modrinth.com/mod/bellsandwhistles): Additions and adornments for the modern Create engineer. 
