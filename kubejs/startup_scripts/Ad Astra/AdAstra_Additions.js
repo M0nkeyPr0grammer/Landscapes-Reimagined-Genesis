@@ -21,10 +21,19 @@ StartupEvents.registry('fluid', event => {
         .bucketItem; // Specify the bucket item here
 
     event.create('kubejs:molten_desh')
-        .color(0xec8742)
+        .color(0xb05a3c)
         .displayName('Desh')
-        .bucketColor(0xec8742)
-        .thickTexture(0xec8742)
+        .bucketColor(0xb05a3c)
+        .thickTexture(0xb05a3c)
+        .viscosity(6000) // Similar to lava
+        .temperature(1300) // Similar to lava
+        .bucketItem; // Specify the bucket item here
+        
+    event.create('kubejs:molten_steel')
+        .color(0x757276)
+        .displayName('Molten Steel')
+        .bucketColor(0x757276)
+        .thickTexture(0x757276)
         .viscosity(6000) // Similar to lava
         .temperature(1300) // Similar to lava
         .bucketItem; // Specify the bucket item here

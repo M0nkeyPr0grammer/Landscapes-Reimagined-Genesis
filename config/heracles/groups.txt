@@ -9,6 +9,5 @@ Better Storage
 Create
 Create Addons
 Create Foundry
-Chipped Tables
 Creative Items
-
+Chipped Tables

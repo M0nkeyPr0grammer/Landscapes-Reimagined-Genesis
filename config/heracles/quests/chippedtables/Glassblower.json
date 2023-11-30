@@ -3,15 +3,31 @@
   "tasks": {
     "glassblower": {
       "type": "heracles:item",
+      "item": "chipped:glassblower",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "chipped:glassblower"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -32,7 +48,10 @@
       }
     },
     "icon": {
-      "item": "chipped:glassblower",
+      "item": {
+        "id": "chipped:glassblower",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -41,8 +60,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
