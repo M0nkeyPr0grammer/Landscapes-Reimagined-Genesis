@@ -1,7 +1,7 @@
 # Landscapes Reimagined Genesis
 ![Better Villages, plains village with shaders](https://cdn.modrinth.com/data/MdznSbKA/images/b1ae18183a43f8fe4e0f05b4bc9494ece12bab7c.png)
 ## Description
-Experience the origin of an epic journey with **Landscapes Reimagined Genesis**, the precursor to the acclaimed [**Landscapes Reimagined Forge Frontier**](https://modrinth.com/modpack/landscapes-reimagined-genesis). This Create/Vanilla Plus style modpack, meticulously crafted, offers vast landscapes and detailed structures. Emphasizing advanced world generation, it enriches your Minecraft experience while staying true to the Vanilla essence. Genesis sets the stage for innovative gameplay and intuitive questing, seamlessly leading into the expanded universe of Forge Frontier.
+Experience the origin of an epic journey with **Landscapes Reimagined Genesis**, the precursor to the acclaimed [**Landscapes Reimagined Forge Frontier**](https://modrinth.com/project/landscapes-reimagined-forge-frontier). This Create/Vanilla Plus style modpack, meticulously crafted, offers vast landscapes and detailed structures. Emphasizing advanced world generation, it enriches your Minecraft experience while staying true to the Vanilla essence. Genesis sets the stage for innovative gameplay and intuitive questing, seamlessly leading into the expanded universe of Forge Frontier.
 
 Download **Landscapes Reimagined Genesis** today and dive into an elevated Minecraft adventure, striking a perfect balance between originality and innovation. The adventure awaits!
 #### **Interested in joining our Patreon. Check out our benefits [here](https://discord.com/servers/landscapes-reimagined-1097668922737696919), then join our [Discord](https://discord.gg/quenZthXgy)**
