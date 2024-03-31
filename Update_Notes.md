@@ -1,7 +1,8 @@
-# Modpack Patch Notes: Version 3.1.0 (2024)
-**Release Date** (TBD)
+# Modpack Patch Notes: Version 3.1.0 [Pack Revival]
+**Release Date**: March 31st, 2024
 
-This Update is (My)Voidmaster01's first time working with Modpack Development and I hope i can live up to your expectations, In this update I update any mods that have updated since December (the previous update) and add any quests and recipes that will fit into the pack that M0nkeyPr0grammer has made in [Landscapes Reimagined Forge Frontier](https://modrinth.com/modpack/landscapes-reimagined-forge-frontier) as well as adding a few mods that have been created since the previous update hoping for a bit more fun to be added! 
+This release signifies the initial foray of Voidmaster01 into the realm of modpack development, aiming to uphold and exceed the expectations set by our community. In this iteration, we've updated all mods to their latest iterations since our last update in December. We've also incorporated new quests and recipes to seamlessly integrate with the [Landscapes Reimagined Forge Frontier](https://modrinth.com/modpack/landscapes-reimagined-forge-frontier) by M0nkeyPr0grammer, enriching the pack with new mods that enhance the enjoyment and depth of the game.
+
 
 ## Updated Fabric Loader
 Fabric loader 0.14.24 > 0.15.7
