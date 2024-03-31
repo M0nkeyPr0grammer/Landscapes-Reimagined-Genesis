@@ -218,6 +218,7 @@ mode = "fancy"
 				wildfire = true
 				ice_chunk = true
 				tuff_golem = true
+				rascal = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
@@ -407,4 +408,31 @@ mode = "fancy"
 
 			[light_sources.settings.entities.universal_graves]
 				xp = true
+
+			[light_sources.settings.entities.promenade]
+				duck = true
+				lush_creeper = true
+				capybara = true
+				sunken_skeleton = true
+
+			[light_sources.settings.entities.endermanoverhaul]
+				cave_enderman = true
+				badlands_enderman = true
+				desert_enderman = true
+				ocean_enderman = true
+				mushroom_fields_enderman = true
+				dark_oak_enderman = true
+				end_enderman = true
+				snowy_enderman = true
+				flower_fields_enderman = true
+
+			[light_sources.settings.entities.ad_astra]
+				tier_1_rocket = true
+				lander = true
+				corrupted_lunarian = true
+				star_crawler = true
+				ice_spit = true
+				lunarian = true
+				tier_4_rocket = true
+				glacian_ram = true
 

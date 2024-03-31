@@ -24,19 +24,33 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "This mod enables a variety of features to create better compatibility between mostly Farmer's Delight and Create. While it is designed to work with Farmer's Delight, it does work without it and also adds some compatibility features for other mods."
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          180,
-          -35
+          -180,
+          -60
         ]
       }
     },
@@ -50,14 +64,14 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Create Slice & Dice"
     }
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

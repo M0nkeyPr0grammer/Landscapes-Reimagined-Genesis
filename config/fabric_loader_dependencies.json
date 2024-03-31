@@ -1,10 +1,4 @@
 {
   "version": 1,
-  "overrides": {
-    "sodium": {
-      "+depends": {
-        "indium": "*"
-      }
-    }
-  }
+  "overrides": {}
 }

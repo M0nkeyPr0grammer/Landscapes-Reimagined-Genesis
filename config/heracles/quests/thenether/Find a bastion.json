@@ -4,12 +4,28 @@
   ],
   "tasks": {
     "Enter a bastion": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "minecraft:bastion_remnant",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "Give gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:gold_block",
         "count": 2
@@ -17,8 +33,16 @@
       "type": "heracles:item"
     },
     "Bastion XP": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -32,13 +56,16 @@
     "groups": {
       "The Nether": {
         "position": [
-          -300,
-          -55
+          -20,
+          -100
         ]
       }
     },
     "icon": {
-      "item": "minecraft:polished_blackstone",
+      "item": {
+        "id": "minecraft:polished_blackstone",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -47,8 +74,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

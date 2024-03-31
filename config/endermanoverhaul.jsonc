@@ -1,4 +1,7 @@
 {
+    "allowPickingUpBlocks": true,
+    "friendlyEndermanTeleport": true,
+    "friendlyEndermanDespawn": true,
     "allowSpawning": true,
     "spawnBadlandsEnderman": true,
     "spawnCaveEnderman": true,
@@ -11,11 +14,16 @@
     "spawnIceSpikesEnderman": true,
     "spawnMushroomFieldsEnderman": true,
     "spawnNetherWastesEnderman": true,
-    "spawnOceanEnderman": true,
+    "spawnCoralEnderman": true,
     "spawnSavannaEnderman": true,
     "spawnSnowyEnderman": true,
     "spawnSoulsandValleyEnderman": true,
     "spawnSwampEnderman": true,
     "spawnWarpedForestEnderman": true,
-    "spawnWindsweptHillsEnderman": true
+    "spawnWindsweptHillsEnderman": true,
+    /*
+     * The chance that an End Enderman will teleport you when it hits you
+     * Type: Float
+     */
+    "endEndermanTeleportChance": 0.5
 }

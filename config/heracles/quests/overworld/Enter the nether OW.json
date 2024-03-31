@@ -4,21 +4,37 @@
   ],
   "tasks": {
     "Enter the Nether overworld": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "from": "minecraft:overworld",
       "to": "minecraft:the_nether",
+      "title": "",
       "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
     "Nether OW": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Enter the Nether"
+      "text": ""
     },
     "description": [
       "Enter the Nether"
@@ -26,23 +42,31 @@
     "groups": {
       "Overworld": {
         "position": [
-          200,
+          60,
           -20
         ]
       }
     },
     "icon": {
-      "item": "minecraft:flint_and_steel",
+      "item": {
+        "id": "minecraft:flint_and_steel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Enter the nether"
+      "translate": "Enter the Nether"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

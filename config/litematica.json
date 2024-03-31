@@ -67,7 +67,7 @@
     "customSchematicBaseDirectory": "C:\\Users\\Michael Morris\\AppData\\Roaming\\PrismLauncher\\instances\\Landscapes Reimagined 2.0 (Dev)\\.minecraft\\schematics",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
-    "toolItem": "minecraft:stick"
+    "toolItem": "minecraft:arrow"
   },
   "Hotkeys": {
     "addSelectionBox": {
@@ -101,10 +101,10 @@
       "keys": "M,PAGE_DOWN"
     },
     "layerNext": {
-      "keys": "PAGE_UP"
+      "keys": "KP_DIVIDE"
     },
     "layerPrevious": {
-      "keys": "PAGE_DOWN"
+      "keys": "KP_MULTIPLY"
     },
     "layerSetHere": {
       "keys": ""

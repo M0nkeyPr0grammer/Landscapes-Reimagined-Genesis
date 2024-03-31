@@ -4,4 +4,3 @@ blacklist = ["minecraft:*_spawn_egg", "minecraft:bedrock", "minecraft:budding_am
 #Choose which screens to add the Completionist's Index button to.
 #Allowed Values: PAUSE_MENU, INVENTORY_MENU, BOTH
 index_button_screen = "PAUSE_MENU"
-

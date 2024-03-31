@@ -6,4 +6,3 @@ disableDatafixer = false
 #Register integration tracks for mods that are not present
 #[@cui:RequiresReload:both]
 registerMissingTracks = false
-

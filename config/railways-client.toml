@@ -1,4 +1,3 @@
-
 #.
 #Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!
 [client]
@@ -6,23 +5,39 @@
 	#Use a scanline shader when spying through a conductor
 	useConductorSpyShader = true
 	#.
-	#Show extended debug info in coupler goggle overlay
-	showExtendedCouplerDebug = false
-	#.
-	#Skip clientside train derailing. This prevents stuttering when a train places tracks, but trains will not appear derailed when they crash
-	skipClientDerailing = false
-	#.
-	#Vertical offset for track overlays
-	#Range: -256.0 ~ 256.0
-	trackOverlayOffset = 0.0
+	#Disable the optifine warning screen [DANGER]: Using optifine With Steam 'n' Rails may cause issues and you will not get any support for optifine related issues.
+	disableOptifineNag = false
 	#.
 	#Whether to actually apply the dev cape (ignored for non-devs)
 	#This setting may require a relog to take effect
 	useDevCape = true
 	#.
-	#Disable the optifine warning screen [DANGER]: Using optifine With Steam 'n' Rails may cause issues and you will not get any support for optifine related issues.
-	disableOptifineNag = false
+	#Show extended debug info in coupler goggle overlay
+	showExtendedCouplerDebug = false
+	#.
+	#Vertical offset for track overlays
+	#Range: -256.0 ~ 256.0
+	trackOverlayOffset = 0.0
+	#.
+	#Skip clientside train derailing. This prevents stuttering when a train places tracks, but trains will not appear derailed when they crash
+	skipClientDerailing = false
 
+	#.
+	#Smoke Settings
+	[client.smoke]
+		#.
+		#Smoke emission rate on contraptions
+		#Range: 0.0 ~ 10.0
+		smokePercentage = 0.75
+		#.
+		#[in Ticks]
+		#Lifetime of smoke particles emitted by contraptions
+		#Range: 20 ~ 1000
+		smokeLifetime = 500
+		#.
+		#Smoke texture quality
+		#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
+		smokeQuality = "HIGH"
 	#.
 	#Journeymap Settings
 	[client.journeymap]
@@ -36,21 +51,3 @@
 		#Journeymap train overlay old marker removal check time
 		#Range: 10 ~ 1200
 		removeObsoleteRate = 200
-
-	#.
-	#Smoke Settings
-	[client.smoke]
-		#.
-		#[in Ticks]
-		#Lifetime of smoke particles emitted by contraptions
-		#Range: 20 ~ 1000
-		smokeLifetime = 500
-		#.
-		#Smoke emission rate on contraptions
-		#Range: 0.0 ~ 10.0
-		smokePercentage = 0.75
-		#.
-		#Smoke texture quality
-		#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
-		smokeQuality = "HIGH"
-

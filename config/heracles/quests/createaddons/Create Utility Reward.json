@@ -1,35 +1,52 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Void Casing",
+    "Void Motor",
+    "Battery",
+    "Void Chest",
+    "Void Tank",
+    "Void Plate"
+  ],
   "tasks": {
-    "Void motor": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "createutilities:void_motor"
-    },
-    "void chest": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "createutilities:void_chest"
-    },
-    "void tank": {
-      "type": "heracles:item",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "createutilities:void_tank"
+    "casing": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": "createutilities:void_casing",
+      "title": "",
+      "type": "heracles:item_interaction"
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     },
     "void steel ingot": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "createutilities:void_steel_ingot",
-        "count": 6
+        "count": 10
       },
       "type": "heracles:item"
     }
@@ -44,23 +61,28 @@
     "groups": {
       "Create Addons": {
         "position": [
-          280,
-          -35
+          100,
+          260
         ]
       }
     },
     "icon": {
-      "item": "minecraft:writable_book",
+      "item": {
+        "id": "minecraft:writable_book",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Create Utility Reward"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

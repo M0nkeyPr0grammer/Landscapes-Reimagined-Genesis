@@ -1,12 +1,12 @@
 {
 	// How items will be grouped in Adorn's creative tab
-	"groupItems": "BY_MATERIAL",
+	"groupItems": "BY_SHAPE",
 	// Client-side settings
 	"client": {
 		// If true, floating tooltips are shown above trading stations.
 		"showTradingStationTooltips": true,
 		// If true, Adorn items will also be shown in matching vanilla item tabs.
-		"showItemsInStandardGroups": false,
+		"showItemsInStandardGroups": true,
 		// The fluid unit to show fluid amounts in. Options: [litres, droplets]
 		"displayedFluidUnit": "litres"
 	},

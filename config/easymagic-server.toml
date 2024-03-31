@@ -27,4 +27,3 @@ reroll_experience_points_cost = 5
 #ALL: Chiseled bookshelves provide enchanting power regardless of where they are facing.
 #Allowed Values: NONE, FACING, ALL
 chiseled_bookshelf_enchanting_power = "FACING"
-

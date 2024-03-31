@@ -2,15 +2,31 @@
   "dependencies": [],
   "tasks": {
     "Enter the nether": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "from": "minecraft:overworld",
       "to": "minecraft:the_nether",
+      "title": "",
       "type": "heracles:changed_dimension"
     }
   },
   "rewards": {
     "Nether xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -24,23 +40,28 @@
     "groups": {
       "The Nether": {
         "position": [
-          -350,
-          -20
+          -70,
+          -100
         ]
       }
     },
     "icon": {
-      "item": "minecraft:flint_and_steel",
+      "item": {
+        "id": "minecraft:netherrack",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
       "translate": "Enter the Nether"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

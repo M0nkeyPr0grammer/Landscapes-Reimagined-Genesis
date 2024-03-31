@@ -32,8 +32,10 @@
     "blockUpgradeRemovalsWithOverflow": true,
     "allowRecursion": false,
     "drawersDropContentsOnBreak": false,
+    "dropDrawersInCreative": true,
     "insertAllTime": 10,
     "frontBreakingBehaviour": "mine",
-    "sideBreakingBehaviour": "break"
+    "sideBreakingBehaviour": "break",
+    "cachingMode": "simple"
   }
 }

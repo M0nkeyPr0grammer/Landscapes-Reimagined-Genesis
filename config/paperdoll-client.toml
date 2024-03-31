@@ -24,4 +24,3 @@ display_time = 15
 offset_x = 0
 #Shift paper doll downwards when it would otherwise overlap with potion icons while showing in the top screen right corner.
 potion_shift = true
-

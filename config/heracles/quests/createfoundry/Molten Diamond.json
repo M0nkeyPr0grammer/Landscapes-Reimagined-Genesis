@@ -1,22 +1,47 @@
 {
   "dependencies": [
-    "Molten Carbon"
+    "Molten Carbon",
+    "Create Foundry"
   ],
   "tasks": {
     "diamond": {
       "type": "heracles:item",
+      "item": "createfoundry:molten_diamond_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_diamond_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "diamond": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:diamond_block",
         "count": 1
@@ -38,13 +63,16 @@
     "groups": {
       "Create Foundry": {
         "position": [
-          180,
-          -10
+          -20,
+          -51
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_diamond_bucket",
+      "item": {
+        "id": "createfoundry:molten_diamond_bucket",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -53,8 +81,10 @@
     }
   },
   "settings": {
-    "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": true,
+    "hidden": "LOCKED"
   }
 }

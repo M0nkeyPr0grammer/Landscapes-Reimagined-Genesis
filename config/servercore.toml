@@ -1,4 +1,3 @@
-
 # Lets you enable / disable certain features and modify them.
 [features]
 	# (Default = false) Stops the server from loading spawn chunks.
@@ -16,7 +15,6 @@
 	# (Default = 0.5) Decides the radius in blocks that items / xp will merge at.
 	item_merge_radius = 0.5
 	xp_merge_radius = 0.5
-
 # Modifies mobcaps, no-chunk-tick, simulation and view-distance depending on the MSPT.
 [dynamic]
 	# (Default = false) Enables this feature.
@@ -48,7 +46,6 @@
 	# The order in which the settings will be decreased when the server is overloaded.
 	# Removing a setting from the list will disable it.
 	setting_order = ["chunk_tick_distance", "mobcap_multiplier", "simulation_distance", "view_distance"]
-
 # Stops animals / villagers from breeding if there are too many of the same type nearby.
 [breeding_cap]
 	# (Default = false) Enables this feature.
@@ -59,7 +56,6 @@
 	# (Default = [Villager: 64, Animals: 64]) The range it will check for entities of the same type.
 	villager_range = 64
 	animal_range = 64
-
 # Allows you to toggle specific optimizations that don't have full vanilla parity.
 # These settings will only take effect after server restarts.
 [optimizations]
@@ -73,7 +69,6 @@
 	# (Default = false) Can significantly reduce time spent on mobspawning, but isn't as accurate as vanilla on biome borders.
 	# This may cause mobs from another biome to spawn a few blocks across a biome border (this does not affect structure spawning!).
 	fast_biome_lookups = true
-
 # Allows you to disable specific commands and modify the way some of them are formatted.
 [commands]
 	# Enables / disables the /servercore status command.
@@ -99,7 +94,6 @@
 	stats_page_content = "<green>${index}. <dark_aqua>${name}</dark_aqua> ${count}</green>"
 	# The footer for the /statistics (block) entities command.
 	stats_page_footer = "<dark_aqua>${line} <green>${prev_page}</green> Page <aqua>${page}</aqua> of <aqua>${page_count}</aqua> <green>${next_page}</green> ${line}"
-
 # Ticks entities less often when they are further away from players.
 [activation_range]
 	# (Default = false) Enables this feature.
@@ -160,4 +154,3 @@
 	# Activation range settings for miscellaneous entities.
 	misc_activation_range = 16
 	misc_tick_interval = 20
-

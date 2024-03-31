@@ -4,4 +4,3 @@ flat_rendering = false
 render_result = true
 #Rotate crafting table contents so they always face the closest player.
 rotate_ingredients = true
-

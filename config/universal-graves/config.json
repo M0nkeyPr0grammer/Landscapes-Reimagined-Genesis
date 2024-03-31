@@ -36,6 +36,7 @@
     "max_shift_tries": 5,
     "max_shift_distance": 40,
     "generate_on_top_of_fluids": true,
+    "generate_on_ground": false,
     "create_gravestone_after_emptying": false,
     "restore_replaced_block_after_player_breaking": true,
     "cancel_creation_for_damage_types": {},

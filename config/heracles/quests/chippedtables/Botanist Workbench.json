@@ -42,14 +42,14 @@
     "groups": {
       "Chipped Tables": {
         "position": [
-          -100,
-          -55
+          -90,
+          -50
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "beautify:botanist_workbench",
+        "id": "chipped:botanist_workbench",
         "count": 1
       },
       "type": "heracles:item"

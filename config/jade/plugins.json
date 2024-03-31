@@ -1,4 +1,7 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -55,10 +58,19 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "reputation": {
-    "iron_golem": true,
-    "villager_snitch": true,
-    "villager_reputation": true
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -80,6 +92,7 @@
     "placard": true
   },
   "beautify": {
+    "lamp_jar.glowstone_dust": true,
     "hanging_pot.pot_flower": true
   },
   "waystones": {

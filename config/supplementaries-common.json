@@ -22,12 +22,14 @@
     },
     "enderman_head": {
       "enabled": true,
+      "drop_head": true,
       "ticks_to_increase_power": 15,
       "work_from_any_side": false
     },
     "turn_table": {
       "enabled": true,
-      "rotate_entities": true
+      "rotate_entities": true,
+      "shuffle_containers": true
     },
     "pulley_block": {
       "enabled": true,
@@ -58,7 +60,8 @@
       "enabled": true,
       "block_side_attachment": true,
       "slide_on_fall": true,
-      "rope_override": "supplementaries:rope"
+      "rope_override": "supplementaries:rope",
+      "horizontal_ropes": true
     },
     "jar": {
       "enabled": true,
@@ -98,24 +101,26 @@
     },
     "urn": {
       "enabled": true,
-      "critter_spawn_chance": 0.009999999776482582,
-      "cave_urns": true
+      "critter_spawn_chance": 0.009999999776482582
     },
     "soap": {
       "enabled": true,
       "clean_blacklist": [
         "minecraft:glazed_terracotta"
-      ]
+      ],
+      "special_blocks": {
+        "quark:dirty_glass": "minecraft:glass",
+        "minecraft:sticky_piston": "minecraft:piston",
+        "quark:dirty_glass_pane": "minecraft:glass_pane",
+        "#alexscaves:cave_paintings": "alexscaves:smooth_limestone"
+      }
     },
     "present": {
       "enabled": true,
       "trapped_present": true
     },
     "flax": {
-      "enabled": true,
-      "wild_flax": true,
-      "wandering_trader_trades": 2,
-      "farmer_trades": 1
+      "enabled": true
     },
     "fodder": true,
     "hourglass": true
@@ -162,8 +167,7 @@
     "ash": {
       "enabled": true,
       "ash_from_fire": true,
-      "rain_wash_ash": true,
-      "basalt_ash": true
+      "rain_wash_ash": true
     },
     "flag": {
       "enabled": true,
@@ -176,13 +180,11 @@
     },
     "globe": {
       "enabled": true,
-      "sepia_globe": true,
-      "wandering_trader_trades": 2
+      "sepia_globe": true
     },
     "sign_post": {
       "enabled": true,
       "way_sign": {
-        "enabled": true,
         "show_distance_text": true
       }
     },
@@ -191,8 +193,11 @@
       "wattle_and_daub": true
     },
     "ash_bricks": {
+      "enabled": true
+    },
+    "hat_stand": {
       "enabled": true,
-      "mason_trades": true
+      "unrestricted": false
     },
     "lapis_bricks": true,
     "deepslate_lamp": true,
@@ -271,11 +276,11 @@
       "allow_splash_potions": false,
       "allow_bombs": false,
       "allow_fire_charges": false,
-      "allow_snowballs": false
+      "allow_snowballs": false,
+      "allow_enderpearls": false
     },
     "antique_ink": {
-      "enabled": true,
-      "cartographer_trades": true
+      "enabled": true
     },
     "candy": true,
     "stasis": true,
@@ -295,9 +300,6 @@
     "golden_apple_disenchant": {
       "enabled": true
     },
-    "dye_blocks": {
-      "enabled": true
-    },
     "traders_open_doors": {
       "enabled": true
     },
@@ -305,36 +307,8 @@
       "axe_strip": true,
       "shoot_ender_pearls": true
     },
-    "cake_tweaks": {
-      "double_cake": true,
-      "directional_cake": true
-    },
-    "mob_head_tweaks": {
-      "skull_piles": true,
-      "skull_candles": true,
-      "multiple_candles": true
-    },
-    "hanging_flower_pots": {
-      "enabled": true
-    },
     "throwable_bricks": {
       "enabled": true
-    },
-    "lantern_tweaks": {
-      "enabled": true,
-      "high_priority": true,
-      "mod_blacklist": [
-        "extlights",
-        "betterendforge",
-        "tconstruct",
-        "enigmaticlegacy",
-        "beautify"
-      ],
-      "falling_lanterns": "ON"
-    },
-    "bells_tweaks": {
-      "chain_ringing": true,
-      "chain_length": 16
     },
     "placeable_sticks": {
       "sticks": true,
@@ -355,14 +329,13 @@
     },
     "map_tweaks": {
       "random_adventurer_maps": true,
+      "random_adventurer_maps_select_random_structure": true,
       "block_map_markers": true,
       "death_marker": "WITH_COMPASS",
       "tinted_blocks_on_maps": true
     },
-    "ceiling_banners": {
-      "enabled": true
-    },
     "placeable_books": {
+      "written_books": true,
       "enabled": true,
       "book_power": 1.0,
       "enchanted_book_power": 1.334,
@@ -379,6 +352,9 @@
     },
     "bad_luck_tweaks": {
       "lightning_unluck": true
+    },
+    "item_lore": {
+      "enabled": true
     }
   }
 }

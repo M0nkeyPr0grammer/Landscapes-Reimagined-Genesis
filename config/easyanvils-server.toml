@@ -1,4 +1,3 @@
-
 [miscellaneous]
 	#Solely renaming items in an anvil will never cause the anvil to break.
 	risk_free_anvil_renaming = true
@@ -12,7 +11,6 @@
 	#The naming field in anvils and the name tag gui will support formatting codes for setting custom text colors and styles.
 	#Check out the Minecraft Wiki for all available formatting codes and their usage: https://minecraft.fandom.com/wiki/Formatting_codes#Usage
 	renaming_supports_formatting = true
-
 #Most default value represents vanilla behavior.
 [costs]
 	#Multiplier for each level of a common enchantment being applied.
@@ -43,7 +41,6 @@
 	#Set to '40' enchantment levels in vanilla.
 	#Range: > -1
 	too_expensive_limit = -1
-
 [prior_work_penalty]
 	#Prevents the prior work penalty from increasing when the item has only been renamed or repaired.
 	penalty_free_renames_and_repairs = true
@@ -61,4 +58,3 @@
 	#DISABLED: Penalty stays at 0 and does not increase.
 	#Allowed Values: DISABLED, VANILLA, FIXED
 	prior_work_penalty = "FIXED"
-

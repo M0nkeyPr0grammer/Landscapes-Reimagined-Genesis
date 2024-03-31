@@ -5,39 +5,66 @@
   "tasks": {
     "goggles": {
       "type": "heracles:item",
+      "item": "create:goggles",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "create:goggles"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "Adds Helmets with Create Mod Goggle Function and Vanilla Armorstats. If you want to wear a full netherite armor but want also see the goggle stats or use your Backtank, this is the mod or you!"
     ],
     "groups": {
       "Create Addons": {
         "position": [
-          -120,
-          -35
+          -20,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "create:goggles",
+      "item": {
+        "id": "create:goggles",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "Create Goggles"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,17 +1,33 @@
 {
   "dependencies": [
-    "Molten Iron"
+    "Create Foundry"
   ],
   "tasks": {
     "gold": {
       "type": "heracles:item",
+      "item": "createfoundry:molten_gold_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_gold_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "gold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:gold_block",
         "count": 1
@@ -19,8 +35,16 @@
       "type": "heracles:item"
     },
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -38,13 +62,16 @@
     "groups": {
       "Create Foundry": {
         "position": [
-          20,
-          -50
+          -20,
+          -23
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_gold_bucket",
+      "item": {
+        "id": "createfoundry:molten_gold_bucket",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -53,8 +80,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

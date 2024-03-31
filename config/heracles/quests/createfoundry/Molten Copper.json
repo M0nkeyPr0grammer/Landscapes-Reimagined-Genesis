@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Molten Zinc"
+    "Create Foundry"
   ],
   "tasks": {
     "Copper": {
       "type": "heracles:item",
+      "item": "createfoundry:molten_copper_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_copper_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "Copper": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:copper_block",
         "count": 1
@@ -38,13 +62,16 @@
     "groups": {
       "Create Foundry": {
         "position": [
-          -60,
-          -50
+          -62,
+          -22
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_copper_bucket",
+      "item": {
+        "id": "createfoundry:molten_copper_bucket",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -53,8 +80,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }
