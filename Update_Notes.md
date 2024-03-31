@@ -187,6 +187,11 @@ Fabric loader 0.14.24 > 0.15.7
 - Added Advanced Netherite Quests
 - Added More Overworld Quests
 
+## Resource Updates
+- Create Immersive Aircrafts 1.2 > 2.0
+- Added Sparkles 1.0.5
+- Added Sparkles Alpha Island Addon 1.0.1
+
 
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ### If you woud like to Support us Go to our [Discord](https://discord.gg/quenZthXgy) or [Patreon](https://www.patreon.com/landscapes_reimagined)
