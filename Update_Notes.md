@@ -16,13 +16,13 @@ Fabric loader 0.14.24 > 0.15.7
 - [amecs](https://modrinth.com/mod/amecs) Improves your keys & controls setup by providing modifier keys and making multi-functional keys a thing.
 
 ## Removals
-- Create Overhaul
-- Create Chunkloading
-- Xaero's Maps and Addons
-- Endertanks
-- Enderchests
-- Extended Gears (Not Updated and unofficial version removed)
-- Carpet Fixes (Breaks Game)
+- Create Sandpaper Overhaul: Has not updated, along with absense of creator
+- Create Chunkloading: Replaced by Create: Powerloaders
+- Xaero's Maps and Addons: Replaced by JourneyMaps
+- Endertanks: Most Features already covered by the Create Utilities Void Tanks
+- Enderchests: Most Features already covered by the Create Utilities Void Chest
+- Extended Gears: Not Updated and unofficial update removed
+- Carpet Fixes: Breaks Game
 
 ## Updates
 - 3D_Skin_Layers 1.5.4 > 1.6.2
