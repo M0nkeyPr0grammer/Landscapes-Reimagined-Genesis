@@ -54,11 +54,11 @@ ServerEvents.recipes(event => {
                     results: [
                         {
                             fluid: 'ad_astra:oil',
-                            amount: 5
+                            amount: 500
                         },
                         {
                             fluid: 'minecraft:water',
-                            amount: 2
+                            amount: 200
                         },
                         {
                             item: 'minecraft:charcoal',
@@ -84,11 +84,11 @@ ServerEvents.recipes(event => {
             results: [
                 {
                     fluid: 'ad_astra:oil',
-                    amount: 5
+                    amount: 500
                 },
                 {
                     fluid: 'minecraft:water',
-                    amount: 2
+                    amount: 200
                 },
                 {
                     item: 'minecraft:charcoal',
@@ -108,17 +108,17 @@ ServerEvents.recipes(event => {
             ingredients: [
                 {
                     fluid: 'createfoundry:molten_carbon',
-                    amount: 100
+                    amount: 8100
                 },
                 {
                     fluid: 'createaddition:bioethanol',
-                    amount: 100
+                    amount: 8100
                 }
             ],
             results: [
                 {
                     fluid: 'ad_astra:oil',
-                    amount: 100
+                    amount: 8100
                 }
             ],
             heatRequirement: "superheated"
