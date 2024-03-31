@@ -95,45 +95,45 @@ ServerEvents.recipes(event => {
         }
     });
 
-// Fixes Farmer's Delight Ethonal Fermenting Recipe {Update Needed}
-//event.custom({
-//    type: "createdieselgenerators:basin_fermenting",
-//    ingredients: [
-//        {
-//            tag: 'createdieselgenerators:fd_fermentable'
-//        },
-//        {
-//            item: 'minecraft:bone_meal'
-//        }
-//    ],
-//    processingTime: 400,
-//    results: [
-//        {
-//            fluid: 'createdieselgenerators:ethanol',
-//            amount: 4050
-//        },
-//    ],
-//}).id('kubejs:fd_basin_fermenting/ethanol');
+    // Fixes Farmer's Delight Ethonal Fermenting Recipe
+event.custom({
+    type: "createdieselgenerators:basin_fermenting",
+    ingredients: [
+        {
+            tag: 'createdieselgenerators:fd_fermentable'
+        },
+        {
+            item: 'minecraft:bone_meal'
+        }
+    ],
+    processingTime: 400,
+    results: [
+        {
+            fluid: 'createdieselgenerators:ethanol',
+            amount: 4050
+        },
+    ],
+}).id('kubejs:fd_basin_fermenting/ethanol');
 
     // Fixes Ethonal Fermenting Recipe {Update Needed}
-//    event.custom({
-//        type: "createdieselgenerators:basin_fermenting",
-//        ingredients: [
-//            {
-//                tag: 'c:fermentable'
-//            },
-//            {
-//                item: 'minecraft:bone_meal'
-//            }
-//        ],
-//        processingTime: 400,
-//        results: [
-//            {
-//                fluid: 'createdieselgenerators:ethanol',
-//                amount: 4050
-//            },
-//        ],
-//    }).id('kubejs:basin_fermenting/ethanol');
+    event.custom({
+        type: "createdieselgenerators:basin_fermenting",
+        ingredients: [
+            {
+                tag: 'c:fermentable'
+            },
+            {
+                item: 'minecraft:bone_meal'
+            }
+        ],
+        processingTime: 400,
+        results: [
+            {
+                fluid: 'createdieselgenerators:ethanol',
+                amount: 4050
+            },
+        ],
+    }).id('kubejs:basin_fermenting/ethanol');
 
     // Fixes Create Biodiesel Mixing Recipe
     event.custom({
@@ -199,17 +199,17 @@ ServerEvents.recipes(event => {
     }).id('kubejs:create/modular_diesel_engine');
     
     // Fixes Create Diesel Engine Piston Recipe  Update Needed:
-//    event.shaped(
-//        Item.of('createdieselgenerators:engine_piston', 2),
-//        [
-//            'A ',
-//            ' B'
-//        ],
-//        {
-//            A: 'create:andesite_alloy',
-//            B: 'create:shaft'
-//        }
-//    );
+    event.shaped(
+        Item.of('createdieselgenerators:engine_piston', 2),
+        [
+            'A ',
+            ' B'
+        ],
+        {
+            A: 'create:andesite_alloy',
+            B: 'create:shaft'
+        }
+    );
     
     // Fixes Slice and Dice Sprinkler Recipe
     event.shaped(
