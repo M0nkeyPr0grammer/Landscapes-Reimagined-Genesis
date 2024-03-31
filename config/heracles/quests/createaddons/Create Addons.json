@@ -1,27 +1,39 @@
 {
-  "dependencies": [
-    "Andesite Casing"
-  ],
+  "dependencies": [],
   "tasks": {
-    "casing": {
-      "block": "#create:casing",
-      "state": {},
-      "type": "heracles:block_interaction"
+    "c": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {
-    "xp": {
+    "x": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 100,
+      "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Here you will see all the create addons used in this pack!"
+      "text": ""
     },
     "description": [
-      ""
+      "Within the pack you have access to many different types of Create Addons"
     ],
     "groups": {
       "Create Addons": {
@@ -32,17 +44,22 @@
       }
     },
     "icon": {
-      "item": "create:schematic",
+      "item": {
+        "id": "create:cogwheel",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Create Addons"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

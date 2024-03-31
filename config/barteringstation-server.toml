@@ -8,4 +8,3 @@ horizontal_range = 12
 #Bartering manually in vanilla always takes 120 ticks, this option doesn't change that.
 #Range: > 20
 barter_delay = 300
-

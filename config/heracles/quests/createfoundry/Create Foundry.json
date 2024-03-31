@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Blaze Cake"
+  ],
+  "tasks": {
+    "Blaze Cake": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": "create:blaze_cake",
+      "title": "",
+      "type": "heracles:item_interaction"
+    }
+  },
+  "rewards": {
+    "1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 10,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Welcome to /6/Create Foundry/6/ Where all your molten Desires come to life!!!",
+      "",
+      "In this mod you can smelt down most types of ore or material, and get a molten version, if you are wanting to make an auto miner that gets the raw variants and turns them into even more processed materials."
+    ],
+    "groups": {
+      "Create Foundry": {
+        "position": [
+          -42,
+          -113
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createfoundry:molten_copper_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Create Foundry"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

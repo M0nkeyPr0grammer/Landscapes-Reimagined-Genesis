@@ -2,15 +2,31 @@
   "dependencies": [],
   "tasks": {
     "Kill Ender Dragon": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "entity": {
         "type": "minecraft:ender_dragon"
       },
       "amount": 1,
+      "title": "",
       "type": "heracles:kill_entity"
     }
   },
   "rewards": {
     "Give Dragons Breath": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:dragon_breath",
         "count": 16
@@ -18,8 +34,16 @@
       "type": "heracles:item"
     },
     "Ender Dragon xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 100,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -33,13 +57,16 @@
     "groups": {
       "Boss Mobs": {
         "position": [
-          -200,
-          -20
+          0,
+          40
         ]
       }
     },
     "icon": {
-      "item": "minecraft:dragon_egg",
+      "item": {
+        "id": "minecraft:dragon_egg",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -48,8 +75,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

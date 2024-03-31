@@ -408,5 +408,7 @@
   "imprinter/enchantment.farmersdelight.backstabbing": true,
   "imprinter/enchantment.supplementaries.stasis": true,
   "imprinter/enchantment.veinmining.vein_mining": true,
-  "modify_version": "6.0.4"
+  "modify_version": "6.0.4",
+  "imprinter/enchantment.charm.aerial_affinity": true,
+  "imprinter/enchantment.charm.collection": true
 }

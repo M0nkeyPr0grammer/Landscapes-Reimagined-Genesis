@@ -2,7 +2,6 @@
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "misc": {
     "creative_tab": false,
-    "stonecutter_damage": true,
     "disable_diamond_grindstone_depletion": false,
     "diamond_grindstone_deplete_chance": 20,
     "parachute_delay": 10,
@@ -22,10 +21,11 @@
   },
   "utilities": {
     "hammer_chisel_charge_time": 20,
-    "sculk_drops_with_shears": true,
+    "tuning_fork_range": 128,
     "echo_fork_range": 16,
     "echo_cooldown": 600,
     "echo_glow_durration": 1200,
+    "sculk_drops_with_shears": true,
     "magnet_range": 8,
     "magnetite_range": 64
   },
@@ -45,6 +45,7 @@
     "better_sculk_patches": false,
     "dark_forest_portabellas": true,
     "enable_mores": true,
-    "portal_fluid_ocean": false
+    "portal_fluid_ocean": false,
+    "end_ocean_bucketable": false
   }
 }

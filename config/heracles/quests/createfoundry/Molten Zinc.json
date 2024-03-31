@@ -1,17 +1,33 @@
 {
   "dependencies": [
-    "Blaze Cake"
+    "Create Foundry"
   ],
   "tasks": {
     "Zinc Bucket": {
       "type": "heracles:item",
+      "item": "createfoundry:molten_zinc_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_zinc_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "Zine": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "create:zinc_block",
         "count": 1
@@ -21,11 +37,10 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Gathering this, starts your journey into more ore automation"
+      "text": ""
     },
     "description": [
-      "In order to get a bucket of molten zinc, you need to mix zinc",
-      "ore or raw zinc in a mixer while super heated.",
+      "In order to get a bucket of molten zinc, you need to mix zinc ore or raw zinc in a mixer while super heated.",
       "",
       "This bucket can be converted into one block of zinc and",
       "one zinc."
@@ -33,13 +48,16 @@
     "groups": {
       "Create Foundry": {
         "position": [
-          -100,
-          -50
+          -98,
+          -22
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_zinc_bucket",
+      "item": {
+        "id": "createfoundry:molten_zinc_bucket",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -48,8 +66,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "IN_PROGRESS"
   }
 }

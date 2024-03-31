@@ -33,4 +33,3 @@ disable_interaction_sounds = true
 #Render a white overlay or the hotbar selected item frame over the slot the next item will be taken out of when right-clicking the container item.
 #Allowed Values: HOTBAR, HOVER
 slot_overlay = "HOVER"
-

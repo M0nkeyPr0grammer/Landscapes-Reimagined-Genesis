@@ -1,32 +1,71 @@
 {
   "dependencies": [
-    "Netherite Ingot"
+    "Smithing upgrade"
   ],
   "tasks": {
     "netherite tool": {
       "type": "heracles:item",
+      "item": "minecraft:netherite_pickaxe",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "minecraft:netherite_pickaxe"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
-    "Give scraps": {
+    "temp": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_upgrade_smithing_template",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "scr": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherite_scrap",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:netherite_scrap",
-        "count": 3
+        "count": 2
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Make a netherite pickaxe"
+      "text": ""
     },
     "description": [
       "Make a netherite pickaxe to give your tool extra durability"
@@ -34,13 +73,19 @@
     "groups": {
       "The Nether": {
         "position": [
-          -135,
-          -55
+          100,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "minecraft:netherite_pickaxe",
+      "item": {
+        "id": "minecraft:netherite_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -49,8 +94,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -15,4 +15,3 @@ scrolling_modifier_key = "ALT"
 #Choose when the cycle slots display is shown next to the hotbar: Always, never, or only when the modifier key for scrolling is held. Doesn't disable cycling itself though.
 #Allowed Values: ALWAYS, KEY, NEVER
 slots_display_state = "ALWAYS"
-

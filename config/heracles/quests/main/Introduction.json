@@ -4,13 +4,44 @@
     "Break a log": {
       "block": "#minecraft:completes_find_tree_tutorial",
       "state": {},
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "type": "heracles:block_interaction"
     }
   },
   "rewards": {
+    "logo": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "kubejs:genesis_logo",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
     "10xp starter": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
-      "amount": 10,
+      "amount": 1,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -19,7 +50,7 @@
       "translate": "Welcome to Landscapes Reimagined"
     },
     "description": [
-      "                                  /b/Welcome to Landscapes Reimagined/b/",
+      "          /b/Welcome to Landscapes Reimagined/b/",
       " ",
       "The questbook is here to help you throughout your journey through the modpack"
     ],
@@ -32,7 +63,10 @@
       }
     },
     "icon": {
-      "item": "minecraft:map",
+      "item": {
+        "id": "kubejs:genesis_logo",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -41,8 +75,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": true,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

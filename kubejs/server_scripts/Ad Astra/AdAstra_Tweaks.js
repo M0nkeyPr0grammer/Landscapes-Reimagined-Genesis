@@ -2,50 +2,105 @@ ServerEvents.recipes(event => {
 
     // Removes Old Recipes
     event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'}) // Removes Old Steel Blasting Recipe
-    event.remove({ id: 'ad_astra:recipes/coal_generator'}) // Removes Old Coal Generator Recipe
-    event.remove({ id: 'ad_astra:recipes/compressor'}) // Removes Old Compressor Recipe
-    event.remove({ id: 'ad_astra:recipes/nasa_workbench'}) // Removes Old Nasaworkbench Recipe
-    event.remove({ id: 'ad_astra:recipes/fuel_refinery'}) // Removes Old Fuel Refinery Recipe
-    event.remove({ id: 'ad_astra:recipes/water_pump'}) // Removes Old Water Pump Recipe
-    event.remove({ id: 'ad_astra:recipes/oxygen_sensor'}) // Removes Old Oxygen Sensor Recipe
-    event.remove({ id: 'ad_astra:recipes/oxygen_loader'}) // Removes Old Oxygen Loader Recipe
-    event.remove({ id: 'ad_astra:recipes/energizer'}) // Removes Old Energizer Recipe
-    event.remove({ id: 'ad_astra:recipes/solar_panel'}) // Removes Old Solar Panel Recipe
-    event.remove({ id: 'ad_astra:recipes/oxygen_distributor'}) // Removes Old Oxygen Distributor Recipe
-    event.remove({ id: 'ad_astra:recipes/cryo_freezer'}) // Removes Old Cryo Freezer Recipe
-    event.remove({ id: 'ad_astra:recipes/tier_1_rover'}) // Removes Old Tier 1 Rover Recipe
-    event.remove({ id: 'ad_astra:recipes/launch_pad'}) // Removes Old Launch Pad Recipe
-    event.remove({ id: 'ad_astra_giselle_addon:crafting/gravity_normalizer'}) // Removes Old Gravity Normalizer Recipe
+    event.remove({ id: 'ad_astra:coal_generator'}) // Removes Old Coal Generator Recipe
+    event.remove({ id: 'ad_astra:compressor'}) // Removes Old Compressor Recipe
+    event.remove({ id: 'ad_astra:nasa_workbench'}) // Removes Old Nasaworkbench Recipe
+    event.remove({ id: 'ad_astra:fuel_refinery'}) // Removes Old Fuel Refinery Recipe
+    event.remove({ id: 'ad_astra:water_pump'}) // Removes Old Water Pump Recipe
+    event.remove({ id: 'ad_astra:oxygen_sensor'}) // Removes Old Oxygen Sensor Recipe
+    event.remove({ id: 'ad_astra:oxygen_loader'}) // Removes Old Oxygen Loader Recipe
+    event.remove({ id: 'ad_astra:energizer'}) // Removes Old Energizer Recipe
+    event.remove({ id: 'ad_astra:solar_panel'}) // Removes Old Solar Panel Recipe
+    event.remove({ id: 'ad_astra:oxygen_distributor'}) // Removes Old Oxygen Distributor Recipe
+    event.remove({ id: 'ad_astra:cryo_freezer'}) // Removes Old Cryo Freezer Recipe
+    event.remove({ id: 'ad_astra:tier_1_rover'}) // Removes Old Tier 1 Rover Recipe
+    event.remove({ id: 'ad_astra:launch_pad'}) // Removes Old Launch Pad Recipe
+    event.remove({ id: 'ad_astra:etrionic_blast_furnace'}) // Removes Old Recipe
+    event.remove({ id: 'ad_astra:gravity_normalizer'}) // Removes Old Gravity Normalizer Recipe
     event.remove({ id: 'ad_astra_giselle_addon:crafting/rocket_sensor'}) // Removes Old Rocket Sensor Recipe
     event.remove({ id: 'ad_astra_giselle_addon:crafting/automation_nasa_workbench'}) // Removes Old Automation Nasa Workbench Recipe
     event.remove({ id: 'ad_astra_giselle_addon:crafting/fuel_loader'}) // Removes Old Fuel Loader Recipe
 
     // Creates Brand New Recipes for Ad Astra Machines
 
-        // Creates new Steel Ingot recipe
+        // Creates New Etrionic Blast Furnace Recipe
+        event.custom({
+            type: "create:mechanical_crafting",
+            pattern: [
+                'AAA',
+                'BCB',
+                'AAA'
+            ],
+            key: {
+                A: Ingredient.of('#forge:plates/iron').toJson(),
+                B: Ingredient.of('minecraft:redstone').toJson(),
+                C: Ingredient.of('create:blaze_burner').toJson()
+            },
+            result: Ingredient.of('ad_astra:etrionic_blast_furnace').toJson(),
+            acceptMirrored: false
+        }).id('kubejs:ad_astra/etrionic_blast_furnace');
+
+                //Creates Alternate Faster Oil Mixing Recipe by Voidmaster01
+        
+                event.custom({
+                    type: "create:mixing",
+                    ingredients: [
+                        {
+                            item: 'farmersdelight:tree_bark',
+                            nbt: {},
+                            amount: 1
+                        }
+                    ],
+                    results: [
+                        {
+                            fluid: 'ad_astra:oil',
+                            amount: 5
+                        },
+                        {
+                            fluid: 'minecraft:water',
+                            amount: 2
+                        },
+                        {
+                            item: 'minecraft:charcoal',
+                           nbt: {},
+                            amount: 1
+                        },
+                    ],
+                    processingTime: 100, 
+                    heatRequirement: "superheated"
+                }).id('voidmaster01:mixing/fast_oil') 
+
+        //Creates Alternate Oil Mixing Recipe by Voidmaster01
+        
         event.custom({
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'minecraft:iron_ingot',
-                    nbt: {},
-                    amount: 1
-                },
-                {
-                    item: 'betterend:thallasium_ingot',
+                    item: 'farmersdelight:tree_bark',
                     nbt: {},
                     amount: 1
                 }
             ],
             results: [
                 {
-                    item: 'ad_astra:steel_ingot',
-                    nbt: {},
+                    fluid: 'ad_astra:oil',
+                    amount: 5
+                },
+                {
+                    fluid: 'minecraft:water',
+                    amount: 2
+                },
+                {
+                    item: 'minecraft:charcoal',
+                   nbt: {},
                     amount: 1
-                }
+                },
             ],
-            heatRequirement: "superheated"
-        }).id('kubejs:mixing/steel_ingot');
+            processingTime: 500, 
+            heatRequirement: "heated"
+        }).id('voidmaster01:mixing/oil') 
+
+
 
         // Creates Oil Mixing Recipe
         event.custom({
@@ -53,17 +108,17 @@ ServerEvents.recipes(event => {
             ingredients: [
                 {
                     fluid: 'createfoundry:molten_carbon',
-                    amount: 8100
+                    amount: 100
                 },
                 {
                     fluid: 'createaddition:bioethanol',
-                    amount: 8100
+                    amount: 100
                 }
             ],
             results: [
                 {
                     fluid: 'ad_astra:oil',
-                    amount: 8100
+                    amount: 100
                 }
             ],
             heatRequirement: "superheated"
@@ -97,7 +152,7 @@ ServerEvents.recipes(event => {
                 'ABA'
             ],
             key: {
-                A: Ingredient.of('#c:iron_plates').toJson(),
+                A: Ingredient.of('#forge:plates/iron').toJson(),
                 B: Ingredient.of('minecraft:iron_ingot').toJson(),
                 C: Ingredient.of('create:blaze_burner').toJson()
             },
@@ -114,7 +169,7 @@ ServerEvents.recipes(event => {
                 'ABA'
             ],
             key: {
-                A: Ingredient.of('#c:iron_plates').toJson(),
+                A: Ingredient.of('#forge:plates/iron').toJson(),
                 B: Ingredient.of('create:mechanical_press').toJson()
             },
             result: Ingredient.of('ad_astra:compressor').toJson(),
@@ -185,7 +240,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:ostrum_plate').toJson(),
-                B: Ingredient.of('ad_astra:engine_fan').toJson(),
+                B: Ingredient.of('ad_astra:fan').toJson(),
                 C: Ingredient.of('ad_astra:ostrum_ingot').toJson(),
                 D: Ingredient.of('create:content_observer').toJson(),
                 E: Ingredient.of('create:electron_tube').toJson()
@@ -204,8 +259,8 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_plate').toJson(),
-                B: Ingredient.of('ad_astra:engine_fan').toJson(),
-                C: Ingredient.of('ad_astra:oxygen_tank').toJson(),
+                B: Ingredient.of('ad_astra:fan').toJson(),
+                C: Ingredient.of('ad_astra:gas_tank').toJson(),
                 D: Ingredient.of('createaddition:connector').toJson(),
                 E: Ingredient.of('minecraft:redstone_block').toJson()
             },
@@ -241,7 +296,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_ingot').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson(),
+                B: Ingredient.of('#forge:plates/iron').toJson(),
                 C: Ingredient.of('create:content_observer').toJson()
             },
             result: Ingredient.of('ad_astra_giselle_addon:rocket_sensor').toJson(),
@@ -276,7 +331,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_ingot').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson(),
+                B: Ingredient.of('#forge:plates/iron').toJson(),
                 C: Ingredient.of('create:mechanical_pump').toJson()
             },
             result: Ingredient.of('ad_astra_giselle_addon:fuel_loader').toJson(),
@@ -289,16 +344,16 @@ ServerEvents.recipes(event => {
         event.custom({
             type: "create:mechanical_crafting",
             pattern: [
-                'AAA',
-                'BCB',
-                'AAA'
+                'ABA',
+                'CCC',
+                
             ],
             key: {
-                A: Ingredient.of('ad_astra:steel_ingot').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson(),
-                C: Ingredient.of('ad_astra:space_boots').toJson()
+                A: Ingredient.of('ad_astra:etrionic_capacitor').toJson(),
+                B: Ingredient.of('minecraft:diamond_block').toJson(),
+                C: Ingredient.of('ad_astra:desh_plate').toJson()
             },
-            result: Ingredient.of('ad_astra_giselle_addon:gravity_normalizer').toJson(),
+            result: Ingredient.of('ad_astra:gravity_normalizer').toJson(),
             acceptMirrored: false
         }).id('kubejs:ad_astra/gravity_normalizer');
 
@@ -311,7 +366,7 @@ ServerEvents.recipes(event => {
                 'CCC'
             ],
             key: {
-                A: Ingredient.of('#chipped:blue_stained_glass').toJson(),
+                A: Ingredient.of('ad_astra:photovoltaic_etrium_cell').toJson(),
                 B: Ingredient.of('ad_astra:steel_plate').toJson(),
                 C: Ingredient.of('ad_astra:desh_plate').toJson()
             },
@@ -323,13 +378,13 @@ ServerEvents.recipes(event => {
         event.custom({
             type: "create:mechanical_crafting",
             pattern: [
-                'AAA',
-                'BCB',
+                'ABA',
+                'ACA',
                 'DED'
             ],
             key: {
-                A: Ingredient.of('ad_astra:engine_fan').toJson(),
-                B: Ingredient.of('ad_astra:oxygen_tank').toJson(),
+                A: Ingredient.of('ad_astra:fan').toJson(),
+                B: Ingredient.of('ad_astra:large_gas_tank').toJson(),
                 C: Ingredient.of('ad_astra:oxygen_loader').toJson(),
                 D: Ingredient.of('ad_astra:desh_plate').toJson(),
                 E: Ingredient.of('ad_astra:oxygen_gear').toJson(),
@@ -342,14 +397,14 @@ ServerEvents.recipes(event => {
         event.custom({
             type: "create:mechanical_crafting",
             pattern: [
-                'ABA',
+                'AAA',
                 'BCB',
-                'DBD'
+                'DAD'
             ],
             key: {
                 A: Ingredient.of('ad_astra:ostrum_plate').toJson(),
-                B: Ingredient.of('ad_astra:ostrum_ingot').toJson(),
-                C: Ingredient.of('ad_astra:ostrum_tank').toJson(),
+                B: Ingredient.of('minecraft:blue_ice').toJson(),
+                C: Ingredient.of('ad_astra:large_gas_tank').toJson(),
                 D: Ingredient.of('ad_astra:ostrum_block').toJson(),
             },
             result: Ingredient.of('ad_astra:cryo_freezer').toJson(),
@@ -361,16 +416,17 @@ ServerEvents.recipes(event => {
             type: "create:mechanical_crafting",
             pattern: [
                 'A B',
-                'CAD',
+                'CGD',
                 'EFE'
             ],
             key: {
                 A: Ingredient.of('ad_astra:desh_block').toJson(),
-                B: Ingredient.of('#c:iron_rods').toJson(),
-                C: Ingredient.of('ad_astra:steel_block').toJson(),
+                B: Ingredient.of('#forge:rods/steel').toJson(),
+                C: Ingredient.of('ad_astra:large_gas_tank').toJson(),
                 D: Ingredient.of('ad_astra:desh_engine').toJson(),
                 E: Ingredient.of('ad_astra:wheel').toJson(),
-                F: Ingredient.of('ad_astra:desh_plate').toJson()
+                F: Ingredient.of('ad_astra:desh_plate').toJson(),
+                G: Ingredient.of('ad_astra:radio').toJson(),
             },
             result: Ingredient.of('ad_astra:tier_1_rover').toJson(),
             acceptMirrored: false
@@ -386,7 +442,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 A: Ingredient.of('ad_astra:steel_plate').toJson(),
-                B: Ingredient.of('#c:iron_plates').toJson()
+                B: Ingredient.of('#forge:plates/iron').toJson()
             },
             result: Ingredient.of('ad_astra:launch_pad').toJson(),
             acceptMirrored: false

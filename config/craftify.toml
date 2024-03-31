@@ -5,10 +5,12 @@
 	link_mode = 1
 	send_the_essential_packets = false
 	first_time = false
-	mod_mode = 0
+	mod_mode = -1
 	notification_album_art_location = 1
 	send_the_packets = false
 	send_songs_to_servers = false
+	announcement_message = "&aCraftify > &7Now Playing: &b${song} by ${artists}"
+	music_service = "disabled"
 
 [rendering]
 	controls = false
@@ -24,4 +26,9 @@
 	login_button = "login"
 	ytmd_password = ""
 	service_port = 8880
+	ytmd_token = ""
+
+[servers]
+	send_songs_to_servers = false
+	allowed_servers = ""
 

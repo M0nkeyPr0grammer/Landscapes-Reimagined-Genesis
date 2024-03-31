@@ -1,37 +1,59 @@
 {
   "dependencies": [
-    "Craft a diamond pickaxe"
+    "Enter an Ancient City",
+    "End Remastered"
   ],
   "tasks": {
     "stronghold": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "#betterstrongholds:better_strongholds",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "translate": "Find the Stronghold"
+      "text": ""
     },
     "description": [
-      "Craft eyes of ender and locate the stronghold"
+      "Craft an eye of ender to locate the stronghold",
+      "",
+      "- Note you will need to complete the initial End Remastered quest first, as it will teach you how to open the end portal."
     ],
     "groups": {
       "Overworld": {
         "position": [
-          150,
-          -70
+          140,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "minecraft:ender_eye",
+      "item": {
+        "id": "minecraft:ender_eye",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -40,8 +62,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

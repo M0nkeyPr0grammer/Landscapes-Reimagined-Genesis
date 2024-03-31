@@ -4,14 +4,30 @@
   ],
   "tasks": {
     "Enter a Nether Fortress": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "#betterfortresses:better_fortresses",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "Fortress xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -25,13 +41,16 @@
     "groups": {
       "The Nether": {
         "position": [
-          -300,
-          5
+          -70,
+          -60
         ]
       }
     },
     "icon": {
-      "item": "minecraft:nether_bricks",
+      "item": {
+        "id": "minecraft:nether_bricks",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -40,8 +59,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,22 +1,46 @@
 {
   "dependencies": [
-    "Molten Gold"
+    "Create Foundry"
   ],
   "tasks": {
     "ancient debris": {
       "type": "heracles:item",
+      "item": "createfoundry:molten_ancient_debris_bucket",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "createfoundry:molten_ancient_debris_bucket"
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
     "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "POINTS",
       "amount": 10,
+      "title": "",
       "type": "heracles:xp"
     },
     "debris": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:ancient_debris",
         "count": 1
@@ -38,13 +62,16 @@
     "groups": {
       "Create Foundry": {
         "position": [
-          20,
-          -10
+          18,
+          -23
         ]
       }
     },
     "icon": {
-      "item": "createfoundry:molten_ancient_debris_bucket",
+      "item": {
+        "id": "createfoundry:molten_ancient_debris_bucket",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -53,8 +80,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false,
-    "unlockNotification": false
+    "hidden": "LOCKED"
   }
 }

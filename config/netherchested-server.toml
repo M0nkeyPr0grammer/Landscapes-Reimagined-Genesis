@@ -9,4 +9,3 @@ explode_in_nether = false
 stack_size_multiplier = 8
 #Prevent a nether chest from opening when a block is placed directly above.
 no_block_above = true
-

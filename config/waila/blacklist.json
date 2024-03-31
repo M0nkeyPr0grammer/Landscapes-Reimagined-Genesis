@@ -1,0 +1,37 @@
+{
+  "_comment": [
+    "Run /waila reload to apply changes server-wide.",
+    "Run /wailac reload to apply changes to only your client.",
+    "",
+    "Rule Operators:",
+    "@namespace - Filter objects based on their namespace location",
+    "#tag       - Filter objects based on data pack tags",
+    "/regex/    - Filter objects based on regular expression",
+    "default    - Filter objects with specific ID",
+    "",
+    "The #waila:blacklist tag rule can not be removed"
+  ],
+  "blocks": [
+    "#waila:blacklist",
+    "minecraft:barrier",
+    "minecraft:structure_void"
+  ],
+  "blockEntityTypes": [
+    "#waila:blacklist"
+  ],
+  "entityTypes": [
+    "#waila:blacklist",
+    "minecraft:area_effect_cloud",
+    "minecraft:experience_orb",
+    "minecraft:fireball",
+    "minecraft:firework_rocket",
+    "minecraft:interaction",
+    "minecraft:snowball"
+  ],
+  "configVersion": 0,
+  "pluginHash": [
+    -467861193,
+    0,
+    572254520
+  ]
+}

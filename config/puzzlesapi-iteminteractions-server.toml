@@ -5,4 +5,3 @@ allow_mouse_dragging = true
 #Allow extracting / inserting only a single item from a container item instead of all items from the selected slot while a modifier key is held.
 #In precision mode left-clicking inserts an item, and right-clicking extracts a single item, overriding vanilla mouse interactions. The scroll wheel can also be used for quickly moving items.
 allow_precision_mode = true
-

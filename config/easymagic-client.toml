@@ -16,4 +16,3 @@ offset_x = 0
 #Offset on y-axis for chiseled bookshelf book tooltips from original position.
 #Range: > -2147483648
 offset_y = 0
-

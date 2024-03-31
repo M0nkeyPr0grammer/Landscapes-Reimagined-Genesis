@@ -26,45 +26,114 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:milling/wilting_trilium' });
     event.remove({ id: 'createaddition:compat/ae2/charged_certus_quartz' });
 
-// Fixes Farmer's Delight Ethonal Fermenting Recipe
-event.custom({
-    type: "createdieselgenerators:basin_fermenting",
-    ingredients: [
-        {
-            tag: 'createdieselgenerators:fd_fermentable'
-        },
-        {
-            item: 'minecraft:bone_meal'
-        }
-    ],
-    processingTime: 400,
-    results: [
-        {
-            fluid: 'createdieselgenerators:ethanol',
-            amount: 4050
-        },
-    ],
-}).id('kubejs:fd_basin_fermenting/ethanol');
+    // Removes Failed Compatibility Related Recipes
+    event.remove({ id: 'railways:sequenced_assembly/track_tieless_narrow'});
 
-    // Fixes Ethonal Fermenting Recipe
+// Replaces Recipe for Narrow Tieless Tracks
     event.custom({
-        type: "createdieselgenerators:basin_fermenting",
-        ingredients: [
-            {
-                tag: 'c:fermentable'
-            },
-            {
-                item: 'minecraft:bone_meal'
-            }
-        ],
-        processingTime: 400,
+        type:'create:sequenced_assembly',
+        ingredient: {
+            item: 'railways:track_tieless'
+        },
+        loops: 1,
         results: [
             {
-                fluid: 'createdieselgenerators:ethanol',
-                amount: 4050
-            },
+                item: 'railways:track_tieless_narrow'
+            }
         ],
-    }).id('kubejs:basin_fermenting/ethanol');
+        sequence: [
+            {
+                type:'create:cutting',
+                ingredients: [
+                    {
+                        item: 'railways:track_incomplete_tieless_narrow'
+                    },
+                ],
+                results: [
+                    {
+                        item: 'railways:track_incomplete_tieless_narrow'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'railways:track_incomplete_tieless_narrow'
+                    },
+                    [                
+                        {
+                        tag: 'railways:internal/nuggets/iron_nuggets'
+                        },
+                        {
+                        tag: 'railways:internal/nuggets/zinc_nuggets'
+                        }
+                    ]
+                ],
+                results: [
+                    {
+                        item: 'railways:track_incomplete_tieless_narrow'
+                    }
+                ]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [
+                    {
+                        item: 'railways:track_incomplete_tieless_narrow'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'railways:track_incomplete_tieless_narrow'
+                    }
+                ]
+            }
+        ],
+        transitionalItem: {
+            item: 'railways:track_incomplete_tieless_narrow'
+        }
+    });
+
+// Fixes Farmer's Delight Ethonal Fermenting Recipe {Update Needed}
+//event.custom({
+//    type: "createdieselgenerators:basin_fermenting",
+//    ingredients: [
+//        {
+//            tag: 'createdieselgenerators:fd_fermentable'
+//        },
+//        {
+//            item: 'minecraft:bone_meal'
+//        }
+//    ],
+//    processingTime: 400,
+//    results: [
+//        {
+//            fluid: 'createdieselgenerators:ethanol',
+//            amount: 4050
+//        },
+//    ],
+//}).id('kubejs:fd_basin_fermenting/ethanol');
+
+    // Fixes Ethonal Fermenting Recipe {Update Needed}
+//    event.custom({
+//        type: "createdieselgenerators:basin_fermenting",
+//        ingredients: [
+//            {
+//                tag: 'c:fermentable'
+//            },
+//            {
+//                item: 'minecraft:bone_meal'
+//            }
+//        ],
+//        processingTime: 400,
+//        results: [
+//            {
+//                fluid: 'createdieselgenerators:ethanol',
+//                amount: 4050
+//            },
+//        ],
+//    }).id('kubejs:basin_fermenting/ethanol');
 
     // Fixes Create Biodiesel Mixing Recipe
     event.custom({
@@ -129,18 +198,18 @@ event.custom({
         acceptMirrored: false
     }).id('kubejs:create/modular_diesel_engine');
     
-    // Fixes Create Diesel Engine Piston Recipe
-    event.shaped(
-        Item.of('createdieselgenerators:engine_piston', 2),
-        [
-            'A ',
-            ' B'
-        ],
-        {
-            A: 'create:andesite_alloy',
-            B: 'create:shaft'
-        }
-    );
+    // Fixes Create Diesel Engine Piston Recipe  Update Needed:
+//    event.shaped(
+//        Item.of('createdieselgenerators:engine_piston', 2),
+//        [
+//            'A ',
+//            ' B'
+//        ],
+//        {
+//            A: 'create:andesite_alloy',
+//            B: 'create:shaft'
+//        }
+//    );
     
     // Fixes Slice and Dice Sprinkler Recipe
     event.shaped(

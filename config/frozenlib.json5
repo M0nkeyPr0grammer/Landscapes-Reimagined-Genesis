@@ -1,4 +1,8 @@
 {
+	/* The version of this JSON file
+	   Don't modify!
+	*/
+	"jankson:schema_version": 0,
 	// Mods may override any of these options, but the config file will not change.
 	useWindOnNonFrozenServers: true,
 	saveItemCooldowns: true,
