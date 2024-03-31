@@ -3,7 +3,7 @@
 
 This Update is (My)Voidmaster01's first time working with Modpack Development and I hope i can live up to your expectations, In this update I update any mods that have updated since December (the previous update) and add any quests and recipes that will fit into the pack that M0nkeyPr0grammer has made in [Landscapes Reimagined Forge Frontier](https://modrinth.com/modpack/landscapes-reimagined-forge-frontier) as well as adding a few mods that have been created since the previous update hoping for a bit more fun to be added! 
 
-##Updated Fabric Loader
+## Updated Fabric Loader
 Fabric loader 0.14.24 > 0.15.7
 
 ## Additions
