@@ -21,6 +21,7 @@ Fabric loader 0.14.24 > 0.15.7
 - Endertanks
 - Enderchests
 - Extended Gears (Not Updated and unofficial version removed)
+- Carpet Fixes (Breaks Game)
 
 ## Updates
 - 3D_Skin_Layers 1.5.4 > 1.6.2
