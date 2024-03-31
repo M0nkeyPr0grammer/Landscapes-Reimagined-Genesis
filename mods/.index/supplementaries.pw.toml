@@ -1,0 +1,13 @@
+filename = 'supplementaries-1.20-2.8.4-fabric.jar'
+name = 'Supplementaries'
+side = 'both'
+
+[download]
+hash = 'c4628b66b8562fc9afc4f3b8725fa0cee541dd9cfb69bd477a9753753ac43aaf7ca36cbae47e9ea01d33b475bbb842d023ba1658f338c9c0e184e38b795d3f5b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/qtARIsSl/supplementaries-1.20-2.8.4-fabric.jar'
+
+[update.modrinth]
+mod-id = 'fFEIiSDQ'
+version = 'qtARIsSl'

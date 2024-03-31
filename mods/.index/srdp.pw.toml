@@ -1,0 +1,13 @@
+filename = 'SimpleDiscordRichPresence-fabric-4.0.3-build.40+mc1.20.1.jar'
+name = 'Simple Discord Rich Presence'
+side = 'both'
+
+[download]
+hash = 'd0b3c2dc6148eb4c43417b6b75785b2f0d0465de4a7c7cd626b43a0b59136caf31331da8e31fe59e2d9d3ecd14a63e0dbb105448ee829ea1fb4a305de6bc172f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SCAopByd/versions/LwiSX3us/SimpleDiscordRichPresence-fabric-4.0.3-build.40%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'SCAopByd'
+version = 'LwiSX3us'

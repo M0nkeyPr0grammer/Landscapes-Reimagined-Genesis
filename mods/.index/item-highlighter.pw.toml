@@ -1,0 +1,13 @@
+filename = 'Highlighter-1.20.1-fabric-1.1.9.jar'
+name = 'Highlighter'
+side = 'both'
+
+[download]
+hash = '3f55e9c3a8a35e2aa0234e8cf6a34dc1303bf3fa2b9c2fc2b7f6cd86153017bc901d164d8cf7f413959422647e627ee36e2cc34a85be56d085b0807afefe1a62'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cVNW5lr6/versions/vyEyvJgV/Highlighter-1.20.1-fabric-1.1.9.jar'
+
+[update.modrinth]
+mod-id = 'cVNW5lr6'
+version = 'vyEyvJgV'

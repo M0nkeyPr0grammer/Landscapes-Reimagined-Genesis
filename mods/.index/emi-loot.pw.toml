@@ -1,0 +1,13 @@
+filename = 'emi_loot-0.6.5+1.20.1.jar'
+name = 'EMI Loot'
+side = 'both'
+
+[download]
+hash = 'd60a2f4410a6a2916f129e71328f181fab7c250024d313e5415b640594019d58a59016e670a2c075256707fe43b15697340f1879f8dae41aa697845f804455b9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qbbO7Jns/versions/7fjkgVEh/emi_loot-0.6.5%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'qbbO7Jns'
+version = '7fjkgVEh'

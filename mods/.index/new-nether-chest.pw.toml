@@ -1,0 +1,13 @@
+filename = 'NetherChested-v8.0.3-1.20.1-Fabric.jar'
+name = 'Nether Chested'
+side = 'both'
+
+[download]
+hash = '73626d9a240f0492417707ff4d650af412bc88b6643fedd4667595e65099806fe1dec5347039dceb6f76cdf1d7a0607834059fe229f69cfee33c432e431c6507'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bHJp2GRg/versions/ov250Qvk/NetherChested-v8.0.3-1.20.1-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'bHJp2GRg'
+version = 'ov250Qvk'

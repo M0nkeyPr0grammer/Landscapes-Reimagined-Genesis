@@ -1,0 +1,13 @@
+filename = 'modelfix-1.15-fabric.jar'
+name = 'Model Gap Fix'
+side = 'both'
+
+[download]
+hash = '887dd99fc3f8484ff82fa945dac82d935f53851bc11a4a7735e0c56a15ca66f9a92068f67af490c13f8e4d620a6e9317e44e8b95b7ed1d17e819d529fed2e337'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QdG47OkI/versions/BEeRgTMS/modelfix-1.15-fabric.jar'
+
+[update.modrinth]
+mod-id = 'QdG47OkI'
+version = 'BEeRgTMS'

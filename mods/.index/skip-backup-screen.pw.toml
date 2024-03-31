@@ -1,0 +1,13 @@
+filename = 'IKnowWhatImDoing-1.0.jar'
+name = 'Skip backup screen'
+side = 'client'
+
+[download]
+hash = '269d4121a330477747691df892198efaa02f7125dc1d17f29b8ac36bfb4feac31e3729f0576bb269f099949b5d108ec5fbd237cd2fffe502e850eb10dc6eb271'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uluMVcw5/versions/EVVIBc6z/SkipBackupScreen-1.0.jar'
+
+[update.modrinth]
+mod-id = 'uluMVcw5'
+version = 'EVVIBc6z'

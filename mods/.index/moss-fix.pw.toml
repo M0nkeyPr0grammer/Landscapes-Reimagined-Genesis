@@ -1,0 +1,13 @@
+filename = 'mossfix-1.6.1.jar'
+name = 'Moss Fix'
+side = 'server'
+
+[download]
+hash = '7efcc564eef20b849f19978a096f742a426fe44d7bf678a600580886e35eea99a69c2c59d1718ce933723c0af7a0560bbd718a141a82ba2c7bd97a8674cb449f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2xPm31lF/versions/nOnQSYoh/mossfix-1.6.1.jar'
+
+[update.modrinth]
+mod-id = '2xPm31lF'
+version = 'nOnQSYoh'

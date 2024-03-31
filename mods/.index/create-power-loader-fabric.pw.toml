@@ -1,0 +1,13 @@
+filename = 'create_power_loader-1.4.3-mc1.20.1-fabric.jar'
+name = 'Create: Power Loader (Fabric)'
+side = 'both'
+
+[download]
+hash = '49b661c9bc51d15cc5761795e153237ba62ef07b0fdc640cc1fc98648b4b9782f6297f59118046b3f2b3c575de35608819c6bcfe4332886a8764f1b7cd01617b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/E9MuZ1zB/versions/Q5q7SSeu/create_power_loader-1.4.3-mc1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'E9MuZ1zB'
+version = 'Q5q7SSeu'

@@ -1,0 +1,13 @@
+filename = 'MoreCraftingTables-1.2.2+1.20.4-Fabric.jar'
+name = 'More Crafting Tables'
+side = 'both'
+
+[download]
+hash = '28ba49a283d033df69da220620e9283b91d0b43bf503221a28d51d57ed85c0815a9fb88a6deb190cecf4b37460641139277441ac46c5d398ef34178dbba3d5ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/C5hwIsg1/versions/1uci4iy4/MoreCraftingTables-1.2.2%2B1.20.4-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'C5hwIsg1'
+version = '1uci4iy4'

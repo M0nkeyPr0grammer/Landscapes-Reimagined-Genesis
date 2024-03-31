@@ -1,0 +1,13 @@
+filename = 'smarterfarmers-1.20-1.8.2-fabric.jar'
+name = 'Smarter Farmers'
+side = 'both'
+
+[download]
+hash = 'c52f667309296bf4733c412824774894ba9d7c562a2cc8818c11b9d4bf2e055e35bbc8e045a8a90c5a8acec4af14f071f5d2c19641e370d9c31f95d8ffcec7df'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Bh6ZOMvp/versions/WUfoHYXG/smarterfarmers-1.20-1.8.2-fabric.jar'
+
+[update.modrinth]
+mod-id = 'Bh6ZOMvp'
+version = 'WUfoHYXG'

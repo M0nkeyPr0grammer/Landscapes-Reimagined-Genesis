@@ -1,0 +1,13 @@
+filename = 'fabric-language-kotlin-1.10.19+kotlin.1.9.23.jar'
+name = 'Fabric Language Kotlin'
+side = 'both'
+
+[download]
+hash = '0c31443b5061d85787de452d1dc0196a0e3391146aa5f030ef5fa95558b0f2b2bb9a0613fc0e5621e9d796d06e717fef0d0c98046f4ead04d150e0eb2d19abdc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ha28R6CL/versions/ZMokinzs/fabric-language-kotlin-1.10.19%2Bkotlin.1.9.23.jar'
+
+[update.modrinth]
+mod-id = 'Ha28R6CL'
+version = 'ZMokinzs'

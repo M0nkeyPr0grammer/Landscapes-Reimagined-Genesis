@@ -1,0 +1,13 @@
+filename = 'YungsApi-1.20-Fabric-4.0.4.jar'
+name = "YUNG's API"
+side = 'both'
+
+[download]
+hash = 'c1b25913db94bb1ac3e2c006356e994f4ab068ea68b16a17a19c3cf0b35f0547e79c00cf22635d0da9c9c034f13c0a486141fa393dc0db44657146f92cd149cb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ua7DFN59/versions/k1OTLc33/YungsApi-1.20-Fabric-4.0.4.jar'
+
+[update.modrinth]
+mod-id = 'Ua7DFN59'
+version = 'k1OTLc33'

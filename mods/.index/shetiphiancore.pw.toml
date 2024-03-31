@@ -1,0 +1,13 @@
+filename = 'shetiphiancore-fabric-1.20.1-1.2.jar'
+name = 'ShetiPhianCore'
+side = 'both'
+
+[download]
+hash = '7d228f9badb99178c490e7cee89637a37b61f9733ccd2f47eaae6fbedf7fd737492c7b2d9a1f44d458ba2802ebcd416e986cdb30f2c7003daa225d28d3588a8c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oX7uP2kS/versions/7smkt8eL/shetiphiancore-fabric-1.20.1-1.2.jar'
+
+[update.modrinth]
+mod-id = 'oX7uP2kS'
+version = '7smkt8eL'

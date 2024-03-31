@@ -1,0 +1,13 @@
+filename = 'ctov-farmers-delight-compat-2.1.jar'
+name = 'CTOV - Farmer Delight Compat'
+side = 'both'
+
+[download]
+hash = '79724964a5e8c31356b2efa4c8811c928d2f5095016e19162de90d7d4c4fbba3dcaa49db003a5f3d588d177d7c7008551af8f77677f52831ec62e05f69547441'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CdRC4fyI/versions/qWJ0YcQq/ctov-farmers-delight-compat-2.1.jar'
+
+[update.modrinth]
+mod-id = 'CdRC4fyI'
+version = 'qWJ0YcQq'

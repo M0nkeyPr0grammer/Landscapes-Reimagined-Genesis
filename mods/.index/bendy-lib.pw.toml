@@ -1,0 +1,13 @@
+filename = 'bendy-lib-fabric-4.0.0.jar'
+name = 'bendy-lib'
+side = 'client'
+
+[download]
+hash = 'e5323ccf897968f576ec0541a18d0a0522feab33be8dfa41601e78e6223287e8a109a7f63bdfa6006e32dfc6453b133cebc40ab5db07f0df6182b4d74335884e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aRnIEV0F/versions/DFxVCaiC/bendy-lib-fabric-4.0.0.jar'
+
+[update.modrinth]
+mod-id = 'aRnIEV0F'
+version = 'DFxVCaiC'

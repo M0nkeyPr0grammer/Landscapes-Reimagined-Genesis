@@ -1,0 +1,13 @@
+filename = 'JustEnoughResources-Fabric-1.20.1-1.4.0.247.jar'
+name = 'Just Enough Resources'
+side = 'both'
+
+[download]
+hash = 'd2b329c7771b668edc297f71718a42a484d965873937077acbc93fbd15d03881750e431d6f27732cfc3cd7687469b951c06bbf4f1563872b2e6a5e4a8010defe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uEfK2CXF/versions/9HWvOVzO/JustEnoughResources-Fabric-1.20.1-1.4.0.247.jar'
+
+[update.modrinth]
+mod-id = 'uEfK2CXF'
+version = '9HWvOVzO'

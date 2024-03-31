@@ -1,0 +1,13 @@
+filename = 'VillagersPlus_3.1_(FABRIC)_for_1.20.1.jar'
+name = 'Villagers Plus'
+side = 'both'
+
+[download]
+hash = '22f52954d5a4dd954bb675903fd4e51375157c10f79754dcf10ec6e8f1020f751d87e2aad1bf0a6f55400c8a58c42e27f497e20c822baef0fcca98c44113babb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oHGMwNDR/versions/Tl5Kx50I/VillagersPlus_3.1_%28FABRIC%29_for_1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'oHGMwNDR'
+version = 'Tl5Kx50I'

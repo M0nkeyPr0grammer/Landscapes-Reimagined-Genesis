@@ -1,0 +1,13 @@
+filename = 'Steam_Rails-1.5.3+fabric-mc1.20.1.jar'
+name = "Create: Steam 'n' Rails"
+side = 'both'
+
+[download]
+hash = 'eda642e6a326b451a4dceb74e538f439c71650213702f296ebe719cd411bc04f696cb9161039d86038cdd8cea52324afb0d56cc8bc93f04bfe999d7e13b5971e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZzjhlDgM/versions/HYfHPRG3/Steam_Rails-1.5.3%2Bfabric-mc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'ZzjhlDgM'
+version = 'HYfHPRG3'

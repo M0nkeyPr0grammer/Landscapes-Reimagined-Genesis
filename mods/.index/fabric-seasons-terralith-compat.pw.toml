@@ -1,0 +1,13 @@
+filename = 'fabric-seasons-terralith-2.3.7-compat-1.0.jar'
+name = 'Fabric Seasons: Terralith Compat'
+side = 'client'
+
+[download]
+hash = '7ef06a1e2e9328a9882c44ba44c4d92124ad1fd5872cec85d54a7558f68902298a31eeee9e2bb49fa3c631898f48ab33cf77bb2a911450fd0ac61fa57571f8d7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/D53qveoj/versions/MJ2OF7eg/fabric-seasons-terralith-2.3.7-compat-1.0.jar'
+
+[update.modrinth]
+mod-id = 'D53qveoj'
+version = 'MJ2OF7eg'

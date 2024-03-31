@@ -1,0 +1,13 @@
+filename = 'ubes-delight-0.1.5b.jar'
+name = "Ube's Delight"
+side = 'both'
+
+[download]
+hash = 'a054fae73ddd240a443c345538a9e051d81a39b05b02c01db62a803b1340f22e989e61e47c263ba0a41bff4db037f58d0997a04bce56a40e2fd399a78b8bf083'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PYjpoAys/versions/bUHd7nI4/ubes-delight-0.1.5b.jar'
+
+[update.modrinth]
+mod-id = 'PYjpoAys'
+version = 'bUHd7nI4'

@@ -1,0 +1,13 @@
+filename = 'moreculling-1.20.4-0.22.1.jar'
+name = 'More Culling'
+side = 'both'
+
+[download]
+hash = 'c562f4319c6aa13b84bb92ee63074792648af2a3d8711a2b49e865e25b2690cd26ad7b272d59dc228bb39315c035a32792755fb896d3d939ef23533fb80cbde5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/51shyZVL/versions/KpriJ15b/moreculling-1.20.4-0.22.1.jar'
+
+[update.modrinth]
+mod-id = '51shyZVL'
+version = 'KpriJ15b'

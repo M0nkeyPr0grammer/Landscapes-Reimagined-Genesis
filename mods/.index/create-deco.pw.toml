@@ -1,0 +1,13 @@
+filename = 'createdeco-2.0.1-1.20.1-fabric.jar'
+name = 'Create Deco'
+side = 'both'
+
+[download]
+hash = 'de8b7206ac2dbbca08a59b2b3dbe622c252ad801247bb58b79676979153b46a2be7b7548260810a0e3f56ef520f03db22d40916b0dccd88d0c60219166be8b33'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sMvUb4Rb/versions/TVEbvaBf/createdeco-2.0.1-1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'sMvUb4Rb'
+version = 'TVEbvaBf'

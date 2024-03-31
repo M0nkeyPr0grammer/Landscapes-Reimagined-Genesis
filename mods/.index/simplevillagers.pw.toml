@@ -1,0 +1,13 @@
+filename = 'simplevillagers-1.4.5.jar'
+name = 'SimpleVillagers'
+side = 'server'
+
+[download]
+hash = '6540816b3da7ffa7555e128c291a77c2f81cdf8a7c766ebaf4be14c8e9603f13b5b9db109cbb15abfe8c5515dc96258cf7c379219e71bfcd9500a0690d08fef4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uRSeGBg3/versions/qRjA8cMT/simplevillagers-1.4.5.jar'
+
+[update.modrinth]
+mod-id = 'uRSeGBg3'
+version = 'qRjA8cMT'

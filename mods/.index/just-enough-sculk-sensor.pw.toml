@@ -1,0 +1,13 @@
+filename = 'jess-1.20.1-fabric-1.1.0.jar'
+name = 'Just Enough Sculk Sensor'
+side = 'both'
+
+[download]
+hash = '6b1ab59c52dbb1af0633d61c46aeef4c1eb330d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4692372
+project-id = 848098

@@ -1,0 +1,13 @@
+filename = 'SimpleCopperPipes-1.20.1-1.16.1.jar'
+name = 'Simple Copper Pipes'
+side = 'both'
+
+[download]
+hash = 'ae7884b0008037fca303ef7b77cabd54e2f8444208fae4dca888add4f3f7d54f10ea4b1045828aec26f0e0279144fb9c0382ee1c9b21b7c08894bb102f31ad9c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9r4ZkgSN/versions/RMObPif0/SimpleCopperPipes-1.20.1-1.16.1.jar'
+
+[update.modrinth]
+mod-id = '9r4ZkgSN'
+version = 'RMObPif0'
