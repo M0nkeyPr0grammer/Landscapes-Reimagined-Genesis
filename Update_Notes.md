@@ -5,6 +5,8 @@ Good afternoon or morning,
 
 We would like to extend our sincere apologies for the prevalence of bugs encountered in the previous update. It has become apparent that insufficient proofreading was conducted during the bug-fixing process. However, we are pleased to announce the release of the new 3.1.1 update, aimed at addressing the prominent issues within the modpack. Regrettably, certain mod updates are irreversible, contributing to the challenges encountered. Nonetheless, we trust that this update will significantly enhance your experience. We hope you will enjoy the improvements and allow them to reimagine your landscapes.
 
+## As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modpack to ensure the preservation of your progress.
+
 ## Additions
 - Litho Stitched: Required by ChoiceTheorem's Overhauled Villages
 
