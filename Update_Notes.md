@@ -1,196 +1,55 @@
-# Modpack Patch Notes: Version 3.1.0 [Pack Revival]
-**Release Date**: March 31st, 2024
+# Modpack Patch Notes: Version 3.1.1 [Bug Fixes]
+**Release Date**: April 3rd, 2024
 
-This release signifies the initial foray of Voidmaster01 into the realm of modpack development, aiming to uphold and exceed the expectations set by our community. In this iteration, we've updated all mods to their latest iterations since our last update in December. We've also incorporated new quests and recipes to seamlessly integrate with the [Landscapes Reimagined Forge Frontier](https://modrinth.com/modpack/landscapes-reimagined-forge-frontier) by M0nkeyPr0grammer, enriching the pack with new mods that enhance the enjoyment and depth of the game.
+Good afternoon or morning,
 
+We would like to extend our sincere apologies for the prevalence of bugs encountered in the previous update. It has become apparent that insufficient proofreading was conducted during the bug-fixing process. However, we are pleased to announce the release of the new 3.1.1 update, aimed at addressing the prominent issues within the modpack. Regrettably, certain mod updates are irreversible, contributing to the challenges encountered. Nonetheless, we trust that this update will significantly enhance your experience. We hope you will enjoy the improvements and allow them to reimagine your landscapes.
 
-## Updated Fabric Loader
-Fabric loader 0.14.24 > 0.15.7
+## As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modpack to ensure the preservation of your progress.
 
 ## Additions
-- [Create Powerloader](https://modrinth.com/mod/create-power-loader-fabric) A Create mod add-on adding immersive chunk loaders.
-- [Create Deco](https://modrinth.com/mod/create-deco) Industrial decoration themed around the aesthetics of the Create mod.
-- [Copycats+](https://modrinth.com/mod/copycats/version/1.1.1-mc1.20.1-fabric) All the copycats you've ever wanted, combined into a single mod!
-- [Create New Age](https://modrinth.com/mod/create-new-age) Create: New Age is an addon for the Create mod that adds integration with electricity.
-- [Journeymap](https://modrinth.com/mod/journeymap) Real-time mapping in game or in a web browser as you explore.
-- [amecs](https://modrinth.com/mod/amecs) Improves your keys & controls setup by providing modifier keys and making multi-functional keys a thing.
+- [Litho Stitched](https://modrinth.com/mod/lithostitched): Required by ChoiceTheorem's Overhauled Villages
 
 ## Removals
-- Create Sandpaper Overhaul: Has not updated, along with absense of creator
-- Create Chunkloading: Replaced by Create: Powerloaders
-- Xaero's Maps and Addons: Replaced by JourneyMaps
-- Endertanks: Most Features already covered by the Create Utilities Void Tanks
-- Enderchests: Most Features already covered by the Create Utilities Void Chest
-- Extended Gears: Not Updated and unofficial update removed
-- Carpet Fixes: Breaks Game
+- Create Diesel Generators: Crashes the game, will add back once fixed
+- Wunderreich: Server Crashes, will add back once fixed
+- WTHIT: Does the same thing as jade
 
 ## Updates
-- 3D_Skin_Layers 1.5.4 > 1.6.2
-- Ad Astra 1.15.4 > 1.15.18
-- Ad Astra Giselle Addon 5.6 > 6.5
-- Adorn 5.0.0 > 5.0.1
-- Armor Statues 8.0.3 > 8.0.5
-- AmbientSounds 5.3.5 > 5.3.9 
-- Architectury API 9.1.12 > 9.2.14
-- Argonauts 1.0.6 > 1.0.8
-- Athena 3.1.1 > 3.1.2
-- BE Style Wither 1.6.0 > 1.6.1
-- Balm 7.1.4 > 7.2.2
-- Bookshelf 20.1.6 > 20.1.9
-- BotanyPots 13.0.17 > 13.0.25
-- Better Archeology 1.1.0 > 1.1.6
-- Better Statistics Collection 3.5.2 > 3.9.2
-- Better End 4.0.10 > 4.0.11
-- Better Nether 9.0.9 > 9.0.10
-- Better Trims 2.0.4 > 2.2.3
-- Botarium 2.2.1 > 2.3.3
-- Cadmus 1.0.2 > 1.0.7
-- Chat Heads 0.10.26 > 0.10.31
-- Chat Signing Hider 1.0.0 > 1.0.5
-- Chipped 3.0.1 > 3.0.4
-- COTV 3.3.6 > 3.4.2
-- Cloth Config API 11.1.106 > 11.1.118
-- Craftify 1.12.0 > 1.14.0
-- Collective 7.9 > 7.40
-- Comforts 6.3.4 > 6.3.5
-- Creative Core 2.11.10 > 2.11.24
-- Create Crafts and Additions 0.9.0 > 1.2.3
-- Create Air Fabric 1.0.15 > 1.0.18
-- Create Enchantment Industry 1.2.7 > 1.2.16
-- Create 0.5.1.d > 0.5.1.f
-- Create goggles 0.5.5.e > 0.5.5.g
-- Create Jetpack 4.0.0 > 4.2.0
-- Create ore Extraction 1.4.1 > 1.4.4
-- Create Diesel Generators 1.2.1h > 2.1.3
-- Create Utilities 0.1.3b > 0.2.0
-- Create Steam And Rails 1.5.1 > 1.5.3
-- CreativeCore 2.11.10 > 2.11.24
-- Creeper Overhaul 3.0.1 > 3.0.2
-- Deeper and Darker 1.2.3 > 1.2.6
-- Drippy Loading Screen 2.2.5 > 3.0.2
-- EMI 1.0.24 > 1.1.3
-- Easy Anvils 8.0.1 > 8.0.2
-- Enchantment Descriptions 17.0.9 > 17.0.14
-- Extended Drawers 2.0.8 > 2.1.1
-- Extra Mod Integrations 0.4.1 > 0.4.2
-- Easy Anvils 8.0.1 > 8.0.2
-- Eating animation 1.9.5 (CMD_FIX) > 1.9.5
-- Elytra Trims 1.4.4 > 2.0.3
-- Enchanted Shulkers 1.1.3 > 1.2.4
-- Enderman Overhaul 1.0.3 > 1.0.4
-- Expanded Delight 0.3.0.2 > 0.3.0.3
-- Extreme Sound Muffler 3.41 > 3.41
-- Fabric API 0.91.0 > 0.92.0
-- Fabric Language Kotlin 1.10.15+kotlin.1.9.20 > 1.10.19+kotlin.1.9.23
-- Fabric Seasons Extras 1.2-BETA > 1.2.1-BETA
-- Fancy Menu 2.14.10-2 > 3.1.2
-- Farmer's Delight 1.4.2 > 1.4.3
-- Farmer's Knives 3.0 > 3.0.2
-- Fish of thieves 3.0.2 > 3.0.4
-- Friends and foes 1.9.9 > 2.0.9
-- Fusion 1.1.0c > 1.1.1
-- Gecko Lib 4.2.4 > 4.4.2
-- Graves 3.0.0 > 3.0.1
-- Hercales 1.1.5 > 1.1.11
-- Highlighter 1.1.6 > 1.1.9
-- Iceberg 1.1.15 > 1.1.18
-- Immediately Fast 1.2.7 > 1.2.10
-- Incendium 5.3.3 > 5.3.4
-- Immersive Aircraft 0.6.2 > 0.7.5
-- Indium 1.0.27 > 1.0.30
-- IRIS shaders 1.6.10 > 1.6.17
-- Iris Flywheel Compat 1.6.10 > 1.6.17
-- Item Highlighter 1.1.6 > 1.1.9
-- Jade 11.6.2 > 11.8.0
-- Just Enough Breeding 1.0.10 > 1.0.12
-- JEI 15.2.0.27 > 15.3.0.4
-- JEED 2.1.6 > 2.1.12
-- Just enough Effect Descriptions 2.1.6 > 2.1.7
-- Just Enough Resources 1.4.0.238 > 1.4.0.247
-- Just Mob Heads 7.4 > 7.6
-- Just Player HEads 3.2 > .3.6
-- KonKrete 1.7.0-1.8.1
-- KubeJS 2001.6.4-build.95 > 2001.6.4-build.136
-- LootJS 2.10.3-2 > 2.11.0
-- Lootr 0.7.29.75 > 0.7.30.77
-- Magnum Torch 8.0.1 > 8.0.2
-- More Chest Variants 1.5.0 > 1.5.0-beta
-- More Crafting Tables 1.1.1 > 1.2.2
-- Memory Leak Fix 1.1.2 > 1.1.5
-- modern fix 5.9.3 > 5.14.0
-- Moonlight Lib 2.8.66 > 2.11.3
-- MoreCulling 0.19.0 > 0.22.1
-- More Music Discs V32 > V33
-- Netherchested 8.0.1 > 8.0.3
-- Nether Portal Fix 13.0.0 > 13.0.1
-- Not enough Animations 1.6.4 > 1.7.1
-- Not enough crashes 4.4.6 > 4.4.7
-- Null scape 1.2.3 > 1.2.4
-- Patchouli v83 > v84
-- polymer 0.5.18 > 0.5.19
-- Portable Crafting 1.4.0 > 2.2.1
-- Prometheus 1.2.1 > 1.2.4
-- PuzzlesLib 8.1.9 > 8.1.17
-- Quad 1.0.2 > 1.1.1
-- Rechiseled: Create 1.0.1 > 1.0.2
-- Reese's sodium options 1.6.5 > 1.7.2
-- Regions Unexplored 0.5.3 > 0.5.5
-- Repurposed Structures 7.1.11 > 7.1.13
-- Resourceful Config 2.1.0 > 2.1.2
-- Resourceful Lib 2.1.18 > 2.1.23
-- Rhino 2001.2.2-build.13 > 2001.2.2-build.18
-- simple copper pipes 1.15.5 > 1.16.1
-- Simple Rich Discord Presence 4.0.2 > 4.0.3
-- Simple Voice Chat 2.4.29 > 2.4.32
-- Smarter Farmer 1.7.3 > 1.8.2
-- sodium 0.5.3 > 0.5.8
-- sodium extra 0.5.1 > 0.5.4
-- Spelunkery 0.3.4 > 0.3.5
-- SuperMartijn642's Core Lib 1.1.15 > 1.1.17
-- Supplementaries 2.6.34 > 2.8.4
-- terrablender 3.0.0.169 > 3.0.1.4
-- terralith 2.4.8 > 2.4.11
-- Terrestria 6.0.12 > 6.0.13
-- Town and towers 1.11.1 > 1.12
-- Trading Post 8.0.1 > 8.0.2
-- Traveler's Backpack 9.1.8 > 9.1.9
-- Trinkets 3.7.1 > 3.7.2
-- Ube's Delight 0.1.4a > 0.1.5b
-- Universal Graves 3.0.0 > 3.0.1
-- Veinmining 1.2.1 > 1.3.1 
-- VillagersPlus 2.1 > 3.1
-- Wavey Capes 1.4.0 > 1.4.4
-- Waystone 14.0.2 > 14.1.3
-- Yung's API 4.0.2 > 4.0.4
-- YUNG's Beter ENd Island 2.0.4 > 2.0.5
-- Yet another config lib 3.2.1 > 3.2.2
-- Your reputation 0.2.4 > 0.2.5
-- Entity Texture Features 4.6.1 > 5.2.3
-- way2way 0.0.5 > 0.0.6
+- Botany Pots 13.0.25 > 13.0.26
+- Copycats+ 1.2.2 > 1.2.6
+- Hercales 1.1.11 > 1.1.12
+- ImmediatelyFast 1.2.10 > 1.2.11
+- More Crafting Tables 1.2.2 > 1.2.3
+- Quad 1.1.1 > 1.1.4
+- Argonauts 1.0.8 > 1.0.9
+- Better Stats 3.9.4 > 3.9.5
+- Create Ore Excavation 1.4.4 > 1.4.5
+- Create Utilities 0.2.0 > 0.3.0
+- Eating Animation 1.9.5 > 1.9.61
+- Elytra Trims 2.0.3 > 2.1.1
+- EMI 1.1.3 > 1.1.4
+- Journey Map 5.9.18p1 > 5.9.20
+- Just Enough Breeding 1.0.12 > 1.2.1
+- Modern Fix 5.14.0 > 5.15.0
+- Moonlight 2.11.4 > 2.11.9 
+- Polymorph 0.49.1 > 0.49.3
+- ProbeJS 6.0.0 > 6.0.1
+- Prometheus 1.2.4 > 1.2.5
+- Resourceful Lib 2.1.23 > 2.1.24
+- ServerCore 1.3.9 > 1.5.0
+- Status 1.0.5 > 1.0.6
+- Supplementaries 2.8.4 > 2.8.10
+- Tom's Simple Storage 1.6.5 > 1.6.6
+- Traveler's Backpack 9.1.9 > 9.1.10
+- Voice Chat 2.5.9 > 2.5.11
+- Your Reputation 0.2.5+WTHIT > 0.2.4+Jade
 
 ## KubeJS Tweaks:
-- Added Textures and Items for Create Netherite Processing
-- Added Templates for Advanced Netherite Tools and Armor
-- Added Tags for Advanced Netherite Tools and Armor
-- Fixed Ad Astra Formatting and Recipes for newer Items and recipe Updates
-- Added Resipes for Advanced Netherite smithing Templates
-- Removed Polishing Tweaks as there is no longer Create Sandpaper overhaul
-- Added seuenced assembly for Netherite
-- Added liquid forms of advanced netherite
-- Added the Genesis Logo as an Item (Currently Uncraftable [let us know if youd like it to be])
+Set aside Create Diesel Generator tweaks into another file to be added back when we add CDG back into the modpack
 
 ## Quest Tweaks
-- Added Boss Quests and Prettied up the quest screen
-- Added and Moved Create addon Quests
-- Fixed Broken Quests
-- Added more Deeper and Darker Quests
-- Added Advanced Netherite Quests
-- Added More Overworld Quests
-
-## Resource Updates
-- Create Immersive Aircrafts 1.2 > 2.0
-- Added Sparkles 1.0.5
-- Added Sparkles Alpha Island Addon 1.0.1
+Similar to KubeJS any Diesel Generator Related Quests have been set aside
 
 
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!

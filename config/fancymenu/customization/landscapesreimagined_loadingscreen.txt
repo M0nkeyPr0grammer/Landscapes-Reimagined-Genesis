@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1711642561473
+  last_edited_time = 1712198298197
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5f4f2a5a-8845-4e3a-a1a6-90343a42f87a-1711642280873] = [groups:][instances:]
+  [loading_requirement_container_meta:394b697d-1b67-4737-b2d1-bf4a0766ce47-1712198279748] = [groups:][instances:]
 }
 
 customization {
@@ -71,7 +71,7 @@ element {
 
 element {
   interactable = true
-  source = v3.1.0
+  source = v3.1.1
   source_mode = direct
   shadow = true
   scale = 2.0
@@ -160,7 +160,7 @@ vanilla_button {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = vanilla
-  x = 210
+  x = 195
   y = 394
   width = 480
   height = 10

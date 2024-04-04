@@ -72,6 +72,11 @@
   "supplementaries": {
     "hat_stand": true
   },
+  "reputation": {
+    "iron_golem": true,
+    "villager_snitch": true,
+    "villager_reputation": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
