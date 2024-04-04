@@ -1,4 +1,4 @@
-# Modpack Patch Notes: Version 3.1.1 [NO MORE CRASHES]
+# Modpack Patch Notes: Version 3.1.1 [Bug Fixes]
 **Release Date**: April 3rd, 2024
 
 Good afternoon or morning,
@@ -8,7 +8,7 @@ We would like to extend our sincere apologies for the prevalence of bugs encount
 ## As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modpack to ensure the preservation of your progress.
 
 ## Additions
-- Litho Stitched: Required by ChoiceTheorem's Overhauled Villages
+- [Litho Stitched](https://modrinth.com/mod/lithostitched): Required by ChoiceTheorem's Overhauled Villages
 
 ## Removals
 - Create Diesel Generators: Crashes the game, will add back once fixed
