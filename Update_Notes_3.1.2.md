@@ -46,9 +46,9 @@ Fabric loader 0.15.7 > 0.15.9
 - Reinstated Create Diesel Generators Quests
 
 ## Resource Updates
-Added [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) a resource pack that adds dynamic animated entities to freshen your Minecraft experience.
-{Optional} [Tom's Create Storage Alternate GUI](https://modrinth.com/resourcepack/toms-create-storage/version/Optional) Adds an alternate texture to the Storage GUI
-{Optional} [MrUltra's PBRs](https://modrinth.com/user/MrUltra) This adds PBR textures to Create Blocks, Stained Glass, and Metals enhancing the beauty of the smaller side of things.
+- Added [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) a resource pack that adds dynamic animated entities to freshen your Minecraft experience.
+- {Optional} [Tom's Create Storage Alternate GUI](https://modrinth.com/resourcepack/toms-create-storage/version/Optional) Adds an alternate texture to the Storage GUI
+- {Optional} [MrUltra's PBRs](https://modrinth.com/user/MrUltra) This adds PBR textures to Create Blocks, Stained Glass, and Metals enhancing the beauty of the smaller side of things.
 
 ## Main Issues Fixed
 - Traveler's Backpacks removing/Duplicating Items (Mod Update) Changelogs: [9.1.11 Apr 6](https://modrinth.com/mod/travelersbackpack/version/OZYAzeTR) [9.1.12 Apr 11](https://modrinth.com/mod/travelersbackpack/version/kf3NfFx1)
