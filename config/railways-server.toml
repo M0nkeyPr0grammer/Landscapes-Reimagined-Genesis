@@ -11,6 +11,13 @@
 	#Max distance between targeted track and placed switch stand
 	#Range: 16 ~ 128
 	switchPlacementRange = 64
+	#.
+	#Allow creepers and ghast fireballs to damage tracks
+	creeperTrackDamage = false
+	#.
+	#Multiplier used for calculating exhaustion from speed when a handcar is used.
+	#Range: 0.0 ~ 1.0
+	handcarHungerMultiplier = 0.009999999776482582
 #.
 #Semaphore settings
 [semaphores]
@@ -32,6 +39,10 @@
 	#Maximum length of conductor vents
 	#Range: > 1
 	maxConductorVentLength = 64
+	#.
+	#How often a conductor whistle updates the train of the bound conductor
+	#Range: 1 ~ 600
+	whistleRebindRate = 10
 #.
 #Journeymap compat settings
 [journeymap]
@@ -47,12 +58,12 @@
 	#Range: 1 ~ 600
 	nearTrainSyncTicks = 5
 #.
-#Optimization settings (may be experimental)
-[optimization]
+#Realism Settings
+[realism]
 	#.
 	#.
-	#Disable collisions between trains. May have significant performance impact if playing with many trains
-	disableTrainCollision = false
+	#Make trains require fuel to run (either from fuel tanks or solid fuels in chests/barrels)
+	realisticTrains = false
 	#.
-	#Optimizes belts placing items onto belts by skipping the calculation of an unused, but expensive, variable
-	optimizeFunnelBeltInteraction = false
+	#Make fuel tanks only accept proper liquid fuels (so water etc can't go into them)
+	realisticFuelTanks = true

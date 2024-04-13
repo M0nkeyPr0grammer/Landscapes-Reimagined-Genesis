@@ -425,6 +425,7 @@ mode = "fancy"
 				end_enderman = true
 				snowy_enderman = true
 				flower_fields_enderman = true
+				swamp_enderman = true
 
 			[light_sources.settings.entities.ad_astra]
 				tier_1_rocket = true
