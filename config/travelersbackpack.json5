@@ -41,6 +41,8 @@
 			"tankCapacity": 567000
 		},
 		"enableTierUpgrades": true,
+		// Unused - keep for compatibility only, will be removed in future versions
+		"disableCrafting": false,
 		"enableCraftingUpgrade": true,
 		// New backpacks will have crafting grid by default
 		"craftingUpgradeByDefault": false,
@@ -58,6 +60,14 @@
 		// Tool slots accept any item
 		"toolSlotsAcceptEverything": false,
 		"allowShulkerBoxes": false,
+		// Unused - keep for compatibility only, will be removed in future versions
+		"tanksCapacity": [
+			162000,
+			243000,
+			324000,
+			405000,
+			486000
+		],
 		// Prevents backpack disappearing in void
 		"voidProtection": true,
 		// Places backpack at place where player died
