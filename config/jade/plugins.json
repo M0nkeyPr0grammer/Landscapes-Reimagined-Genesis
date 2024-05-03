@@ -93,7 +93,7 @@
     "blaze_burner": true,
     "exact_block": true,
     "crafting_blueprint": true,
-    "goggles.detailed": false,
+    "goggles.detailed": true,
     "placard": true
   },
   "beautify": {

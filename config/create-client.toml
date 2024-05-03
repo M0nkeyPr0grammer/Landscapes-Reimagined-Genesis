@@ -114,11 +114,11 @@
 		#.
 		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
-		overlayOffsetY = 0
+		overlayOffsetY = -29
 		#.
 		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
-		overlayOffsetX = 20
+		overlayOffsetX = 9
 		#.
 		#The custom top color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
 		#[in Hex: #AaRrGgBb]
