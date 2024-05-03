@@ -1,7 +1,7 @@
 # Modpack Patch Notes: Version 3.1.3 [Maps, Fixes, Updates]
 **Release Date**: April 5th, 2024
 
-
+This update is to fix some issues with crashing, Change the Map mod to Xaero's Maps, and update the rest of the mods. 
 
 ## Updated Fabric Loader
 Fabric loader 0.15.9 > 0.15.11
@@ -95,6 +95,8 @@ Both of these mods are replacing Jouney Maps after community feedback, these mod
 - Create Diving Helmet Causing Crashes
 - Zinc from Create Deco did not have the '#c:zinc_plates' tag
 
+  
+### As a standard safety protocol, we advise creating a backup of your saved data prior to updating the modification package to ensure the preservation of your progress.
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
 ### If you woud like to Support us Go to our [Discord](https://discord.gg/quenZthXgy) or [Patreon](https://www.patreon.com/landscapes_reimagined)
 ### Want to setup a server using our official server host? click the banner below!
