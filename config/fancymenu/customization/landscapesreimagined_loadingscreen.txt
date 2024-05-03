@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1712198298197
+  last_edited_time = 1714775234785
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:394b697d-1b67-4737-b2d1-bf4a0766ce47-1712198279748] = [groups:][instances:]
+  [loading_requirement_container_meta:52369764-5ea3-44a9-972f-d0510d16d5bf-1714775149716] = [groups:][instances:]
 }
 
 customization {
@@ -71,7 +71,7 @@ element {
 
 element {
   interactable = true
-  source = v3.1.1
+  source = v3.1.3
   source_mode = direct
   shadow = true
   scale = 2.0
@@ -109,6 +109,33 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = ac77fdd9-4f55-464e-ae93-aaf18a97249b-1711642288197
   [loading_requirement_container_meta:ac77fdd9-4f55-464e-ae93-aaf18a97249b-1711642288197] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/splash_text.md
+  source_mode = text_file
+  scale = 3.0
+  shadow = true
+  rotation = -5.0
+  base_color = #66cc66
+  refresh = true
+  bouncing = true
+  element_type = splash_text
+  instance_identifier = b5161f91-017e-423e-a9ce-c1728b5350f3-1714775154404
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -212
+  y = -158
+  width = 100
+  height = 17
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1706d9a4-6dad-4fa7-a1a5-20a11ef7a802-1714775154404
+  [loading_requirement_container_meta:1706d9a4-6dad-4fa7-a1a5-20a11ef7a802-1714775154404] = [groups:][instances:]
 }
 
 vanilla_button {
