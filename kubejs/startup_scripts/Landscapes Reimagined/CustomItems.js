@@ -51,6 +51,7 @@ StartupEvents.registry('item', event => {
         .displayName('Netherite Diamond Smithing Template')
         .texture('kubejs:item/netherite_diamond_upgrade_smithing_template')
 
-
-
+    event.create('magnetite')
+        .displayName('Magnetite')
+        .texture('kubejs:item/magnetite')
     })
