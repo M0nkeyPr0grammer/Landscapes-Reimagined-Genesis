@@ -7,7 +7,9 @@
   },
   "conversion": {
     "max_entry_age": 12000,
-    "disable": false
+    "disable": false,
+    "elytra": true,
+    "world_border": false
   },
   "breaking": {
     "enable_break": false,
@@ -42,9 +44,11 @@
   },
   "notifications": {
     "notification_delay": 600,
-    "disable_notifications": false
+    "disable_notifications": false,
+    "disable_message_styles": false
   },
-  "vanilla": {
-    "vanilla_textures": false
+  "client": {
+    "vanilla_textures": false,
+    "old_textures": false
   }
 }
