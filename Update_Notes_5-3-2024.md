@@ -87,6 +87,7 @@ Fabric loader 0.15.11
 ## KubeJS Tweaks:
 - Added Void blocks from Create Utilities to the `is_obsidian` block tag
 - Created transitional item for Magnetite block, as well as smelting recipies for Raw magnetite from Splunkery to Magnetite from Create: New Age
+- Fixed Recipes for Zinc Sheets from Create Deco, by removing some recipes and adding tags to Zinc Sheets
 
 ## DataPack Updates
 - Remove Oil Well (no version Numbers)
@@ -101,6 +102,9 @@ Fabric loader 0.15.11
 
 ## Main Issues Fixed
 - Too Many Structures in the world, taking from the Exploration aspect of Landscapes Reimagined
+- Fixed an Enchant to break Void Blocks faster
+- Added New Magnetite items to help with Grindy Mesures
+- Fixed Zinc Sheets
 
 
 ### Note: If you encounter any issues, please request support on our [Discord](https://discord.gg/quenZthXgy). Enjoy the update!
