@@ -1,2 +1,0 @@
-#Sat Apr 13 17:06:23 EDT 2024
-RP_MODE=3

@@ -1,0 +1,40 @@
+ServerEvents.tags('block', event => {
+
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_steel_block'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_casing'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_chest'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_motor'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_tank'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_battery'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_steel_bars'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_steel_ladder'
+    )
+    event.add(
+        'c:is_obsidian',
+        'createutilities:void_steel_scaffolding'
+    )
+
+ })
