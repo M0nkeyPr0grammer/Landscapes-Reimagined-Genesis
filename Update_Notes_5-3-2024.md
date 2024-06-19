@@ -1,5 +1,5 @@
-# Modpack Patch Notes: Version 3.1.4 [Maps, Fixes, Updates]
-**Release Date**: TBD, 2024
+# Modpack Patch Notes: Version 3.1.4 [Spreading Out]
+**Release Date**: June 19th, 2024
 
 
 
@@ -82,8 +82,6 @@ Fabric loader 0.15.11
 - YetAnotherConfigLib 3.4.2 > 3.5.0
 - Yungs API 4.0.4 > 4.0.5
 - Yung's Better Jungle Temples 2.0.4 > 2.0.5
-
-## Removals
 
 
 ## KubeJS Tweaks:
