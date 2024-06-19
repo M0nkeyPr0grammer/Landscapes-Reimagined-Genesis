@@ -91,10 +91,14 @@ Fabric loader 0.15.11
 - Created transitional item for Magnetite block, as well as smelting recipies for Raw magnetite from Splunkery to Magnetite from Create: New Age
 
 ## DataPack Updates
-
-
+- Remove Oil Well (no version Numbers)
+- Repurposed Structures Villagers Plus v2 > v3
 ## Resource Pack Updates
+- Sparkles 1.0.5 > 1.0.7
 
+## Shader Updates
+- Complementary Unbound 5.0.1 > 5.1.1
+- Complementary Reimagined 5.1.1 > 5.2.1
 
 
 ## Main Issues Fixed
