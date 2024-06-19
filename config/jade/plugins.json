@@ -7,7 +7,6 @@
     "furnace": true,
     "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
-    "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
     "item_storage.normal_amount": 9,
     "item_storage": true,
@@ -16,7 +15,6 @@
     "fluid_storage.detailed": false,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
-    "trellis.pot_plant": true,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -98,12 +96,10 @@
   },
   "beautify": {
     "lamp_jar.glowstone_dust": true,
+    "trellis.pot_plant": true,
     "hanging_pot.pot_flower": true
   },
   "waystones": {
     "waystone": true
-  },
-  "lootr": {
-    "info": true
   }
 }
