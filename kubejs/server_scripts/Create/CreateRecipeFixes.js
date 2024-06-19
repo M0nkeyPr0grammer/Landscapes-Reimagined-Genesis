@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'createdeco:zinc_bars_overlay'}),
     event.remove({id: 'createdeco:zinc_mesh_fence'}),
     event.remove({id: 'createdeco:zinc_catwalk_forge'}),
-    event.remove({id: 'createdeco:zinc_catwalk_railing'}),
+    event.remove({id: 'createdeco:zinc_catwalk_railing_forge'}),
     event.remove({id: 'createdeco:zinc_support_wedge'}),
     event.remove({id: 'createdeco:zinc_hull'}),
     event.remove({id: 'createdeco:zinc_sheet_metal'}),
@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'createdeco:green_zinc_lamp'}),
     event.remove({id: 'createdeco:blue_zinc_lamp'}),
 
+   // Create Recipe for the Zinc Catwalk Railing
 
 
    // Creates Recipe for the Green Zinc Lamp using Tags
