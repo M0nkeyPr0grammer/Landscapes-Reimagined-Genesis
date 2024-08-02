@@ -101,5 +101,8 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "lootr": {
+    "info": true
   }
 }
