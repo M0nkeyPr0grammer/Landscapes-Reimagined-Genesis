@@ -1,7 +1,7 @@
 # Modpack Patch Notes: Version 3.2 [Finale]
 **Release Date**: August 2nd, 2024
 
-This update is the final update, with exception to major breakage/mistake on my (Voidmaster01) part, this update also brings mod updates, resource pack, data pack, and shader pack updates. and finally fixes an issue with the raw zinc block to molten zinc recipe which was shorting people around 16 ingots worth of zinc. Happy Friday, and We hope you have, continue to, and will enjoy this pack into the future! also see M0nkyPr0gramer's new pack [Forge Frontier](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier) currently in development!
+This update marks the final release, barring any significant errors or oversights on my part (Voidmaster01). It includes updates to mods, resource packs, data packs, and shader packs. Additionally, this update addresses an issue with the raw zinc block to molten zinc recipe, which previously resulted in a deficit of approximately 16 zinc ingots. We wish you a Happy Friday and hope you continue to enjoy this pack. Also, please check out M0nkyPr0gramer's new project [Forge Frontier](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier), which is currently under major development!
 
 ## Fabric Loader
 Fabric loader 0.15.11 > 0.16.0
